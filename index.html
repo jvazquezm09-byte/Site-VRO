@@ -1,0 +1,1039 @@
+<!DOCTYPE html><html class="light scroll-smooth" lang="es" style=""><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Metodología, gobernanza y playbook de proyectos de la Oficina de Proyectos VRO.">
+<title>Metodología y Herramientas | Executive Zenith PMO</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary-container": "#765c77",
+                        "primary-fixed": "#fed6ff",
+                        "on-tertiary-fixed-variant": "#4a4919",
+                        "on-secondary": "#ffffff",
+                        "surface": "#fff7fa",
+                        "on-primary-fixed": "#350040",
+                        "background": "#fff7fa",
+                        "secondary-container": "#f9d8f9",
+                        "on-primary-container": "#0e0013",
+                        "on-background": "#1f1a1e",
+                        "tertiary-fixed-dim": "#ccc98d",
+                        "on-tertiary-fixed": "#1d1d00",
+                        "on-tertiary-container": "#424112",
+                        "error-container": "#ffdad6",
+                        "secondary": "#6f5671",
+                        "tertiary": "#62612f",
+                        "surface-container-low": "#fbf1f7",
+                        "secondary-fixed-dim": "#dcbddc",
+                        "on-error": "#ffffff",
+                        "error": "#ba1a1a",
+                        "on-surface": "#1f1a1e",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#f9d8f9",
+                        "tertiary-container": "#b0ae74",
+                        "outline-variant": "#d1c2ce",
+                        "inverse-primary": "#f1b0f8",
+                        "on-primary-fixed-variant": "#66326f",
+                        "surface-variant": "#e9e0e5",
+                        "inverse-surface": "#342f33",
+                        "surface-container-highest": "#e9e0e5",
+                        "outline": "#7f737e",
+                        "primary-container": "#9b62a3",
+                        "primary": "#804988",
+                        "surface-container": "#f5ebf1",
+                        "surface-tint": "#804a89",
+                        "primary-fixed-dim": "#f1b0f8",
+                        "surface-container-high": "#efe5eb",
+                        "tertiary-fixed": "#e8e6a7",
+                        "on-error-container": "#93000a",
+                        "surface-dim": "#e1d7dd",
+                        "surface-bright": "#fff7fa",
+                        "on-secondary-fixed": "#28142b",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#4e444d",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#f8eef4",
+                        "on-secondary-fixed-variant": "#563f58"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    fontFamily: {
+                        headline: ["Inter"],
+                        body: ["Inter"],
+                        label: ["Inter"],
+                        display: ["Inter"]
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                        'stagger-1': 'fadeInUp 0.8s ease-out 0.2s forwards',
+                        'stagger-2': 'fadeInUp 0.8s ease-out 0.4s forwards',
+                        'pulse-subtle': 'pulseSubtle 2s infinite ease-in-out',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        pulseSubtle: {
+                            '0%, 100%': { transform: 'scale(1)' },
+                            '50%': { transform: 'scale(1.05)' },
+                        }
+                    }
+                },
+            },
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-body selection:bg-tertiary-fixed selection:text-on-tertiary-fixed font-['Inter']">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f7f9fb]/80 dark:bg-[#0f172a]/80 backdrop-blur-xl flex justify-between items-center px-8 py-4 max-w-full mx-auto border-b border-surface-container/60">
+<div class="text-xl font-bold text-[#131b2e] dark:text-white font-headline flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container inline-block"></span>
+  OFICINA DE PROYECTOS VRO
+</div>
+<div class="hidden md:flex space-x-8 items-center font-semibold tracking-tight">
+<a class="text-[#131b2e]/70 dark:text-white/70 hover:text-[#00687a] transition-all duration-300 scale-95 hover:scale-100 active:scale-90" href="#">Home</a>
+<a class="text-[#00687a] dark:text-[#6ffbbe] border-b-2 border-[#00687a] pb-1 transition-all duration-300" href="#playbook-fases">Metodología</a>
+<a class="text-[#131b2e]/70 dark:text-white/70 hover:text-[#00687a] transition-all duration-300 scale-95 hover:scale-100 active:scale-90" href="#ciclo-de-vida-section">Ciclo de Vida</a>
+<a class="text-[#131b2e]/70 dark:text-white/70 hover:text-[#00687a] transition-all duration-300 scale-95 hover:scale-100 active:scale-90" href="#">Plantillas</a>
+<a class="text-[#131b2e]/70 dark:text-white/70 hover:text-[#00687a] transition-all duration-300 scale-95 hover:scale-100 active:scale-90" href="#">Contacto</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="hidden sm:flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container text-primary-container text-xs font-bold hover:bg-primary-fixed transition-all shadow-sm" onclick="toggleFloatingPlaybookDrawer()">
+<span class="material-symbols-outlined text-sm">route</span> Selector de Fases
+</button>
+<button class="material-symbols-outlined text-[#00687a] dark:text-[#6ffbbe] p-2 hover:bg-surface-container rounded-full transition-colors active:scale-90">search</button>
+</div>
+</nav>
+<!-- SideNavBar (Quick Access) -->
+
+<main class="pt-24 pb-12 px-8 md:px-16 max-w-screen-2xl mx-auto">
+<!-- Hero Section -->
+<header class="mb-20 opacity-0 animate-fade-in-up">
+<div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+<div class="max-w-2xl">
+<span class="inline-block px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed font-bold text-[10px] uppercase tracking-[0.2em] rounded-full mb-6 opacity-0 animate-stagger-1">Framework Estratégico</span>
+<h1 class="font-headline text-5xl md:text-6xl font-extrabold text-primary-container leading-tight tracking-tight mb-6 opacity-0 animate-stagger-1">
+                        Metodología &amp; <br><span class="text-secondary">Gobernanza&nbsp;</span></h1>
+</div>
+<div class="max-w-xs text-right opacity-0 animate-stagger-2">
+<p class="text-on-primary-container text-lg font-light leading-relaxed"><span class="" style="font-size: 1.125rem;">Identificar los escenarios estratégicos fundamentales para estructurar el playbook institucional, garantizando una ejecución estandarizada y eficiente en la operación.</span></p>
+</div>
+</div>
+</header>
+<!-- Methodology Tabs Section -->
+<section class="mb-14 reveal active">
+
+</section>
+<!-- Project Lifecycle Diagram -->
+<section class="mb-28 reveal active" id="ciclo-de-vida-section">
+<div class="text-center mb-12">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/10 text-secondary text-xs font-bold mb-3">
+<span class="material-symbols-outlined text-sm animate-pulse">touch_app</span> Haz clic en cualquier etapa para desplegar Fase y Jugadas
+</div>
+<h2 class="font-headline text-4xl font-bold text-primary-container mb-4">Ciclo de Vida del Proyecto</h2>
+<p class="text-on-primary-container max-w-xl mx-auto">Visualizando la transición desde la chispa creativa hasta la entrega de valor sostenible. Haz clic para navegar directamente.</p>
+</div>
+<div class="relative px-4">
+<!-- Connector Line -->
+<div class="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-outline-variant to-transparent -z-10 hidden lg:block"></div>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6" id="lifecycle-cards-container">
+<!-- Step 1: Inicio -> Fase 1 -->
+<div class="lifecycle-card cursor-pointer bg-white p-6 rounded-3xl shadow-sm border-2 border-transparent border-b-4 border-b-secondary/20 hover:border-primary-container hover:shadow-xl transition-all hover:-translate-y-2 group flex flex-col justify-between active" id="lifecycle-step-1" onclick="selectLifecycleStep(1, '1.1')">
+<div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform group-hover:text-primary-container lifecycle-icon"><span class="material-symbols-outlined">lightbulb</span></div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-secondary uppercase tracking-widest">Etapa 01</span>
+<span class="text-[10px] bg-primary-fixed text-on-primary-fixed font-bold px-1.5 py-0.5 rounded">Fase 0-1</span>
+</div>
+<h3 class="font-headline text-lg font-bold mb-2 text-[#131b2e] group-hover:text-primary-container transition-colors">Inicio</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-4">Concepción, justificación y formalización de la iniciativa en donde se define el propósito del proyecto y su alineación estratégica.</p>
+</div>
+<div class="pt-4 border-t border-surface-container flex items-center justify-between text-[10px] font-bold text-secondary uppercase tracking-widest">
+<span class="">Punto de Contacto Humano</span>
+<span class="material-symbols-outlined text-xs group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Step 2: Planeación -> Fase 2 -->
+<div class="lifecycle-card cursor-pointer bg-white p-6 rounded-3xl shadow-sm border-2 border-transparent border-b-4 border-b-secondary/20 hover:border-primary-container hover:shadow-xl transition-all hover:-translate-y-2 group flex flex-col justify-between" id="lifecycle-step-2" onclick="selectLifecycleStep(2, '1.2')">
+<div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform group-hover:text-primary-container lifecycle-icon"><span class="material-symbols-outlined">architecture</span></div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-secondary uppercase tracking-widest">Etapa 02</span>
+<span class="text-[10px] bg-secondary/10 text-secondary font-bold px-1.5 py-0.5 rounded">Fase 2</span>
+</div>
+<h3 class="font-headline text-lg font-bold mb-2 text-[#131b2e] group-hover:text-primary-container transition-colors">Planeación</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-4">Estructuración detallada donde se establece el alcance total, cronograma de trabajo, presupuesto y los recursos necesarios.</p>
+</div>
+<div class="pt-4 border-t border-surface-container flex items-center justify-between text-[10px] font-bold text-secondary uppercase tracking-widest">
+<span class="">Estructuración Base</span>
+<span class="material-symbols-outlined text-xs group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Step 3: Ejecución -> Fase 3 -->
+<div class="lifecycle-card cursor-pointer bg-white p-6 rounded-3xl shadow-sm border-2 border-transparent border-b-4 border-b-secondary/20 hover:border-primary-container hover:shadow-xl transition-all hover:-translate-y-2 group flex flex-col justify-between" id="lifecycle-step-3" onclick="selectLifecycleStep(3, '1.1')">
+<div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform group-hover:text-primary-container lifecycle-icon"><span class="material-symbols-outlined">rocket_launch</span></div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-secondary uppercase tracking-widest">Etapa 03</span>
+<span class="text-[10px] bg-secondary/10 text-secondary font-bold px-1.5 py-0.5 rounded">Fase 3</span>
+</div>
+<h3 class="font-headline text-lg font-bold mb-2 text-[#131b2e] group-hover:text-primary-container transition-colors">Ejecución</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-4">Gestión proactiva enfocada en la entrega incremental de resultados de alto impacto y coordinación de squads técnicos.</p>
+</div>
+<div class="pt-4 border-t border-surface-container flex items-center justify-between text-[10px] font-bold text-secondary uppercase tracking-widest">
+<span class="">Gestión de Interacciones</span>
+<span class="material-symbols-outlined text-xs group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Step 4: Cierre -> Fase 4 -->
+<div class="lifecycle-card cursor-pointer bg-white p-6 rounded-3xl shadow-sm border-2 border-transparent border-b-4 border-b-secondary/20 hover:border-primary-container hover:shadow-xl transition-all hover:-translate-y-2 group flex flex-col justify-between" id="lifecycle-step-4" onclick="selectLifecycleStep(4, '1.1')">
+<div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform group-hover:text-primary-container lifecycle-icon"><span class="material-symbols-outlined">verified</span></div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-secondary uppercase tracking-widest">Etapa 04</span>
+<span class="text-[10px] bg-secondary/10 text-secondary font-bold px-1.5 py-0.5 rounded">Fase 4</span>
+</div>
+<h3 class="font-headline text-lg font-bold mb-2 text-[#131b2e] group-hover:text-primary-container transition-colors">Cierre</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-4">Aseguramiento de la continuidad de beneficios y transferencia de conocimiento estratégico a la operación continua.</p>
+</div>
+<div class="pt-4 border-t border-surface-container flex items-center justify-between text-[10px] font-bold text-secondary uppercase tracking-widest">
+<span class="">Gobernanza de Cierre</span>
+<span class="material-symbols-outlined text-xs group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Step 5: Captura de Valor -> Fase 4 Jugada 2 -->
+<div class="lifecycle-card cursor-pointer bg-white p-6 rounded-3xl shadow-sm border-2 border-transparent border-b-4 border-b-secondary/20 hover:border-primary-container hover:shadow-xl transition-all hover:-translate-y-2 group flex flex-col justify-between" id="lifecycle-step-5" onclick="selectLifecycleStep(4, '1.2')">
+<div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform group-hover:text-primary-container lifecycle-icon"><span class="material-symbols-outlined">trending_up</span></div>
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-secondary uppercase tracking-widest">Etapa 05</span>
+<span class="text-[10px] bg-secondary/10 text-secondary font-bold px-1.5 py-0.5 rounded">Fase 5</span>
+</div>
+<h3 class="font-headline text-lg font-bold mb-2 text-[#131b2e] group-hover:text-primary-container transition-colors">Captura de Valor</h3>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-4">Monitoreo continuo y cuantificación de beneficios tangibles e intangibles generados para el negocio y clientes.</p>
+</div>
+<div class="pt-4 border-t border-surface-container flex items-center justify-between text-[10px] font-bold text-secondary uppercase tracking-widest">
+<span class="">Medición y Sostenibilidad</span>
+<span class="material-symbols-outlined text-xs group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Templates Grid (Bento Style) -->
+<!-- Playbook de Jugadas por Fase Section -->
+<section class="mb-28 reveal active scroll-mt-24" id="playbook-fases"><div class="mb-10 text-center md:text-left md:flex md:items-end md:justify-between gap-8">
+<div>
+<span class="inline-block px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed font-bold text-[10px] uppercase tracking-[0.2em] rounded-full mb-4">
+        Metodología VRO &amp; Gobernanza Ágil
+      </span>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-primary-container tracking-tight mb-3">
+        Playbook de Jugadas por Fase
+      </h2>
+<p class="text-on-surface-variant max-w-2xl text-base leading-relaxed">
+        Guía táctica estandarizada con roles, entradas, salidas y reglas de oro para asegurar que cada iniciativa avance con disciplina y alineación estratégica.
+      </p>
+</div>
+<div class="mt-4 md:mt-0 flex items-center gap-2 text-xs text-secondary font-bold bg-secondary/10 px-4 py-2 rounded-full w-fit">
+<span class="material-symbols-outlined text-base">verified</span> Guía Oficial PMO VRO
+    </div>
+</div>
+<!-- 1. Navegación Principal por Fases -->
+<div class="space-y-4 mb-8">
+<div class="text-xs font-bold tracking-wider uppercase text-secondary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm">route</span> Selecciona la Fase del Ciclo de Vida
+  </div>
+<div class="flex flex-wrap gap-2 md:gap-3 p-1.5 bg-surface-container-low rounded-2xl w-fit border border-surface-container" id="fases-container">
+<button class="fase-btn px-5 py-3 rounded-xl bg-primary-container text-white font-bold text-xs md:text-sm shadow-md flex items-center gap-2 transition-all hover:scale-[1.02] cursor-pointer" id="fase-btn-1" onclick="selectFase(1)">
+<span class="material-symbols-outlined text-sm">flag</span>Etapa 1: Ideación &amp; Formalización 
+<span class="badge text-[10px] bg-white/20 px-2 py-0.5 rounded-full font-bold ml-1">Activa</span><span class="material-symbols-outlined text-sm ml-1 transition-transform duration-300 chevron-icon" style="transform: rotate(180deg);">keyboard_arrow_down</span>
+</button>
+<button class="fase-btn px-5 py-3 rounded-xl text-on-surface-variant font-semibold text-xs md:text-sm flex items-center gap-2 opacity-80 cursor-default" id="fase-btn-2" disabled="">
+<span class="material-symbols-outlined text-sm">tune</span>Etapa 2: Evaluación &amp; Priorización
+<span class="material-symbols-outlined text-sm ml-1 transition-transform duration-300 chevron-icon hidden" style="transform: rotate(0deg);">keyboard_arrow_down</span>
+</button>
+<button class="fase-btn px-5 py-3 rounded-xl text-on-surface-variant font-semibold text-xs md:text-sm flex items-center gap-2 opacity-80 cursor-default" id="fase-btn-3" disabled="">
+<span class="material-symbols-outlined text-sm">architecture</span>Etapa 3: Arquitectura &amp; Estimación
+<span class="material-symbols-outlined text-sm ml-1 transition-transform duration-300 chevron-icon hidden" style="transform: rotate(0deg);">keyboard_arrow_down</span>
+</button>
+<button class="fase-btn px-5 py-3 rounded-xl text-on-surface-variant font-semibold text-xs md:text-sm flex items-center gap-2 opacity-80 cursor-default" id="fase-btn-4" disabled="">
+<span class="material-symbols-outlined text-sm">rocket_launch</span>Etapa 4: Entrega &amp; Valor Sostenible
+<span class="material-symbols-outlined text-sm ml-1 transition-transform duration-300 chevron-icon hidden" style="transform: rotate(0deg);">keyboard_arrow_down</span>
+</button>
+</div>
+<!-- 2. Sub-tabs: Selector / Dropdown de Jugadas Dinámico -->
+<div class="bg-surface-container-high/60 p-3.5 rounded-2xl border border-surface-container flex flex-wrap items-center justify-between gap-4 transition-all duration-300" id="jugadas-bar">
+<div class="flex items-center gap-3 flex-wrap">
+<span class="text-xs font-bold text-secondary uppercase tracking-wider pl-2 flex items-center gap-1.5" id="jugadas-label"><span class="material-symbols-outlined text-sm">play_circle</span> Jugadas de Fase 1:</span>
+<div class="flex flex-wrap gap-2" id="jugadas-buttons-wrapper">
+                    <button id="jugada-btn-1-1" onclick="selectJugada('1.1')" class="jugada-btn px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 bg-white text-primary-container shadow-sm border border-primary-container/40 ring-2 ring-primary-container/20">
+                        <span class="">🏈</span> Jugada 1.1: Idea Formalizada 
+                        <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                    </button>
+                
+                    <button id="jugada-btn-1-2" onclick="selectJugada('1.2')" class="jugada-btn px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 text-on-surface-variant hover:bg-white/80 font-semibold border border-transparent hover:border-surface-container">
+                        <span class="">📋</span> Jugada 1.2: Idea Priorizada 
+                        <span class="text-[10px] text-secondary bg-secondary/10 px-2 py-0.5 rounded-full font-bold">Próxima</span>
+                    </button>
+                </div>
+</div>
+<!-- Breadcrumb Indicator -->
+<div class="flex items-center gap-1.5 text-xs text-on-surface-variant bg-white/80 px-3.5 py-1.5 rounded-xl border border-surface-container shadow-sm">
+<span class="material-symbols-outlined text-xs text-secondary">location_on</span>
+<span class="">Estás en:</span>
+<span class="font-bold text-secondary" id="breadcrumb-fase">Fase 1</span>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="font-bold text-primary-container" id="breadcrumb-jugada">Jugada 1.1: Idea Formalizada</span>
+</div>
+</div>
+</div>
+<!-- Ficha de Jugada 1.1 Master Container -->
+<div class="ficha-content bg-white rounded-[2.5rem] border border-surface-container shadow-xl shadow-primary-container/5 overflow-hidden p-6 md:p-10 space-y-8 playbook-card-transition block" id="ficha-jugada-1-1" style="opacity: 1; transform: translateY(0px);"><!-- Header de la Ficha con Badge de Pestaña Activa -->
+<div class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-surface-container gap-4">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-secondary text-2xl shadow-sm">
+  🏈
+</div>
+<div>
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary/10 text-secondary text-[11px] font-bold uppercase tracking-wider">Fase 1 / Ideación</span>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-[11px] font-bold uppercase tracking-wider">Pestaña Activa: Jugada 1.1</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed text-[11px] font-bold uppercase tracking-wider">Alineación Estratégica</span>
+<a href="#" class="px-3 py-1.5 rounded-xl bg-primary-fixed text-on-primary-fixed-variant border border-primary-container/40 text-xs font-bold flex items-center gap-1.5 shadow-sm hover:bg-primary-container hover:text-white transition-all"><span class="material-symbols-outlined text-sm">folder_special</span> Repositorio de Ideas</a></div>
+<h3 class="font-headline text-2xl md:text-3xl font-bold text-primary-container">Ficha de Jugada: 1.1 Idea Formalizada</h3>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-xs font-bold text-on-surface-variant bg-surface-container-high px-3 py-1.5 rounded-xl flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span> Jugada Activa en Ejecución
+</span>
+</div>
+</div>
+<!-- Resumen Ejecutivo para Onboarding -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-surface-container/80 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="space-y-1.5 max-w-3xl">
+<div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-primary-container">
+<span class="material-symbols-outlined text-base">help</span> ¿Qué es esta jugada y por qué existe?
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+  Es el <strong class="text-primary-container">primer filtro formal de la PMO</strong> para transformar una inquietud, dolor o idea dispersa de negocio en una propuesta estructurada sobre un Canvas estándar, garantizando que ninguna iniciativa gaste recursos de evaluación técnica antes de demostrar coherencia estratégica.
+</p>
+</div>
+</div>
+<!-- Regla de Oro (Golden Rule Callout) -->
+<div class="p-5 md:p-6 bg-gradient-to-r from-secondary-container/40 via-surface-container-low to-white border-l-4 border-primary-container rounded-2xl flex items-start gap-4 shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-3xl flex-shrink-0 mt-0.5">stars</span>
+<div>
+<h4 class="font-headline font-bold text-primary-container text-base mb-1">🎯 Regla de Oro Inquebrantable</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+  Ninguna iniciativa avanza a evaluación financiera o diseño técnico de solución sin haber plasmado claramente su necesidad estratégica en un <span class="font-bold text-primary-container">Canvas formalizado y firmado</span> por el Líder Funcional y el Portafolio Manager.
+</p>
+</div>
+</div>
+<!-- Grid Secciones A y B: OKRs y Jugadores Clave -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Columna A: Objetivos & Disparador (5 cols) -->
+<div class="lg:col-span-5 space-y-6 flex flex-col justify-between">
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-lg mb-4">
+<span class="material-symbols-outlined">crisis_alert</span>
+  Objetivos &amp; Impacto (OKRs de la Jugada)
+</div>
+<div class="space-y-3">
+<div class="p-3.5 bg-white rounded-2xl shadow-sm border border-surface-container/60">
+<span class="inline-block text-[10px] font-bold text-primary-container bg-primary-fixed px-2 py-0.5 rounded-md mb-1">OBJETIVO (O)</span>
+<p class="text-sm font-semibold text-[#131b2e]">Alinear todas las ideas a las prioridades estratégicas del negocio.</p>
+</div>
+<div class="p-3.5 bg-white rounded-2xl shadow-sm border border-surface-container/60">
+<span class="inline-block text-[10px] font-bold text-secondary bg-secondary-container px-2 py-0.5 rounded-md mb-1">KEY RESULT (KR)</span>
+<p class="text-sm font-semibold text-[#131b2e]">Estructurar el 100% de las ideas para su integración y evaluación.&nbsp;</p>
+</div>
+</div>
+</div>
+<!-- Cuándo ejecutar esta jugada (Trigger) -->
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80">
+<div class="flex items-center gap-2 text-[#ba1a1a] font-headline font-bold text-base mb-2">
+<span class="material-symbols-outlined">notifications_active</span>
+  ¿Cuándo ejecutar esta jugada? (Disparador)
+</div>
+<p class="text-xs md:text-sm text-on-surface-variant leading-relaxed">Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurar formalmente para someterla a una evaluación cuantitativa y estratégica preliminar.&nbsp;</p>
+</div>
+</div>
+<!-- Columna B: Jugadores Clave & Gobernanza (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-low p-6 md:p-7 rounded-3xl border border-surface-container/80">
+<div class="flex items-center justify-between mb-5">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-lg">
+<span class="material-symbols-outlined">groups</span>
+  Jugadores Clave &amp; Gobernanza
+</div>
+<span class="text-[11px] font-semibold text-secondary uppercase tracking-wider">Matriz RACI / Equipo Táctico</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+<!-- Rol 1 -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+<div class="flex items-center gap-2.5 mb-1.5">
+<div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-sm">person</span>
+</div>
+<h5 class="text-xs font-bold text-primary-container leading-tight">Líder Funcional / Director Promotor</h5>
+</div>
+<p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+<strong>(R - Responsable):</strong> Define y justifica la necesidad de negocio original. Es el principal interesado en el resultado</p>
+</div>
+<!-- Rol 2 -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+<div class="flex items-center gap-2.5 mb-1.5">
+<div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-sm">speed</span>
+</div>
+<h5 class="text-xs font-bold text-primary-container leading-tight">BP / BA (Business Partner / Analyst)</h5>
+</div>
+<p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+<strong>(Acelerador):</strong>&nbsp;Actúa como acelerador; traduce la necesidad del negocio en un contexto estructurado&nbsp;</p>
+</div>
+<!-- Rol 3 -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+<div class="flex items-center gap-2.5 mb-1.5">
+<div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-sm">account_tree</span>
+</div>
+<h5 class="text-xs font-bold text-primary-container leading-tight">Portafolio Manager</h5>
+</div>
+<p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+<strong>(Acelerador):</strong> Valida la alineación estratégica de la idea con los objetivos corporativos antes de que pase a priorización&nbsp;</p>
+</div>
+<!-- Rol 4 -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+<div class="flex items-center gap-2.5 mb-1.5">
+<div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-sm">architecture</span>
+</div>
+<h5 class="text-xs font-bold text-primary-container leading-tight">Arquitectura</h5>
+</div>
+<p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+<strong>(C - Consultado):</strong>&nbsp;Aportan una visión preliminar para asegurar que la idea hace sentido dentro del ecosistema actual (viabilidad a muy alto nivel)</p>
+</div>
+<!-- Rol 5 -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all md:col-span-2">
+<div class="flex items-center gap-2.5 mb-1.5">
+<div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-sm">handshake</span>
+</div>
+<h5 class="text-xs font-bold text-primary-container leading-tight">SE (Servicios Estratégicos)</h5>
+</div>
+<p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+<strong>(C - Consultado):</strong>&nbsp;Área responsable de estructurar la estategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa.</p>
+</div>
+<!-- Rol 6 -->
+
+</div>
+</div>
+</div>
+<!-- Paso a Paso para la Ejecución (Stepper Roadmap) -->
+<div class="pt-4">
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-xl">
+<span class="material-symbols-outlined">format_list_numbered</span>
+  Paso a Paso para la Ejecución (Roadmap Táctico)
+</div>
+<span class="text-xs text-on-surface-variant font-medium">4 Hitos Obligatorios</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative">
+<!-- Step 1 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-surface-container relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-primary-container text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  01
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 1&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Recepción de la Necesidad</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">- El Líder Funcional presentra la idea original o necesidad operativa/estratégica detallando el requerimiento en el canvas. El PM y BP realizan una sesión de descubirmiento inical para entender el dolor o la oportunidad.&nbsp;</p><p class=""></p><p class=""></p><p class=""></p><p class=""></p><p class=""></p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-surface-container relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-primary-container text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  02
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 2&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Evaluación Estratégica Inicial</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+  El Portafolio Manager cruza la necesidad contra los OKRs y pilares estratégicos vigentes de EPL para confirmar que hace sentido invertir tiempo en estructurarla.&nbsp;</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-surface-container relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-primary-container text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  03
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">PaSO 3</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Estructuración del Entregable</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+  Se define a muy alto nivel el alcance esperado, los impactos y los recursos preliminares.&nbsp;</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-primary-container/40 bg-gradient-to-b from-surface-container-low to-secondary-container/20 relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-secondary text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  04
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 4&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Validación de Formalización</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+  Se confirma que el Canvas está completo y es claro. Con esto, la idea pasa de ser un concepto abstracto a una "Idea Formalizada", lista para la&nbsp;&nbsp;<strong>Jugada 1.2 (Priorización)</strong>.
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Aceleradores, Entregables y Políticas -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+<!-- Aceleradores & Inputs -->
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80 space-y-4">
+<div>
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-sm mb-2">
+<span class="material-symbols-outlined text-base">speed</span> Aceleradores (Rol/Proceso)
+</div>
+<p class="text-xs text-on-surface-variant font-medium leading-relaxed">
+  Portafolio Manager, BP/BA y proceso de priorización.</p>
+</div>
+<div class="pt-3 border-t border-surface-container">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-sm mb-1">
+<span class="material-symbols-outlined text-base">input</span> Insumos / Entradas Requeridas
+</div>
+<p class="text-xs text-on-surface-variant font-medium leading-relaxed">
+  Idea original/ Necesidad.</p>
+</div>
+</div>
+<!-- Templates requeridos (Outcomes) -->
+<div class="bg-primary-container p-6 rounded-3xl text-white flex flex-col justify-between shadow-lg shadow-primary-container/10">
+<div>
+<div class="flex items-center gap-2 font-headline font-bold text-sm mb-2 text-tertiary-fixed">
+<span class="material-symbols-outlined text-base">description</span> Entregable Oficial Obligatorio (Outcomes)</div>
+<h4 class="text-xl font-bold font-headline mb-2">Canvas de Proyecto</h4>
+<p class="text-xs text-white/70 leading-relaxed">
+  Documento estándar para resumir valor, impacto en clientes, supuestos y pertinencia estratégica.
+</p>
+</div>
+<button class="mt-4 w-full py-2.5 px-4 bg-secondary text-white font-bold rounded-xl text-xs flex items-center justify-center gap-2 hover:bg-white hover:text-primary-container transition-all active:scale-95 shadow-sm">
+<span class="material-symbols-outlined text-sm">download</span> Descargar Template Canvas (.docx)
+</button>
+</div>
+<!-- Políticas y Procesos Asociados -->
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-sm mb-3">
+<span class="material-symbols-outlined text-base">policy</span> Políticas y Procesos Asociados
+</div>
+<p class="text-xs text-on-surface-variant mb-4 leading-relaxed">
+  Normativas de cumplimiento y gobernanza vigentes aplicables:
+</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 rounded-xl bg-white border border-secondary/20 text-secondary text-xs font-bold flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-sm text-secondary">verified_user</span> Pol_Gestión Portafolio TI
+</span>
+<span class="px-3 py-1.5 rounded-xl bg-white border border-secondary/20 text-secondary text-xs font-bold flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-sm text-secondary">account_tree</span> Proceso Fase 0</span>
+<a href="#" class="px-3 py-1.5 rounded-xl bg-primary-fixed text-on-primary-fixed-variant border border-primary-container/40 text-xs font-bold flex items-center gap-1.5 shadow-sm hover:bg-primary-container hover:text-white transition-all"><span class="material-symbols-outlined text-sm">folder_special</span> Repositorio de Ideas</a></div>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container text-[11px] text-on-surface-variant font-medium">
+  Gobernanza VRO • Versión Institucional Vigente
+</div>
+</div>
+</div>
+<!-- Pro-Tips y Trampas a Evitar -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2"><!-- Pro-Tip Callout -->
+<div class="p-5 rounded-2xl bg-[#6ffbbe]/10 border border-[#00687a]/20 flex items-start gap-3.5">
+<div class="w-9 h-9 rounded-xl bg-[#6ffbbe]/30 flex items-center justify-center text-[#00687a] flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-xl">lightbulb</span>
+</div>
+<div>
+<h5 class="font-headline font-bold text-xs uppercase tracking-wider text-[#00687a] mb-1">Pro-Tip (Agilidad en el Canvas)</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+  No busques el nivel de detalle de un "Caso de Negocio" completo en esta etapa. El objetivo del Canvas es dar claridad suficiente para decidir si la idea merece ser priorizada, no resolver cómo se va a ejecutar.
+</p>
+</div>
+</div>
+<!-- Trampa a evitar Callout -->
+<div class="p-5 rounded-2xl bg-error-container/40 border border-[#ba1a1a]/20 flex items-start gap-3.5">
+<div class="w-9 h-9 rounded-xl bg-error-container flex items-center justify-center text-[#ba1a1a] flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-xl">warning</span>
+</div>
+<div>
+<h5 class="font-headline font-bold text-xs uppercase tracking-wider text-[#ba1a1a] mb-1">Trampa a evitar (Parálisis por análisis)</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">
+  Involucrar a demasiados roles técnicos a profundidad. Arquitectura y SE solo deben dar un "visto bueno" conceptual; el diseño de solución real ocurre en la siguiente etapa de "EDS y Estimación".
+</p>
+</div>
+</div></div></div>
+<!-- Ficha de Jugada 1.2: Idea Priorizada (Dinámica) -->
+<div class="ficha-content bg-white rounded-[2.5rem] border border-surface-container shadow-xl shadow-primary-container/5 overflow-hidden p-6 md:p-10 space-y-8 playbook-card-transition hidden" id="ficha-jugada-1-2" style="opacity: 1; transform: translateY(0px);">
+<!-- Header de la Ficha con Badge de Pestaña Activa -->
+<div class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-surface-container gap-4">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary-container text-2xl shadow-sm">
+  📋
+</div>
+<div>
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary/10 text-secondary text-[11px] font-bold uppercase tracking-wider">Fase 1 / Ideación</span>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-[11px] font-bold uppercase tracking-wider">Pestaña Activa: Jugada 1.2</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed text-[11px] font-bold uppercase tracking-wider">Scoring de Priorización</span>
+</div>
+<h3 class="font-headline text-2xl md:text-3xl font-bold text-primary-container">Ficha de Jugada: 1.2 Idea Priorizada</h3>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-xs font-bold text-on-surface-variant bg-surface-container-high px-3 py-1.5 rounded-xl flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-[#00687a] animate-pulse"></span> Comité de Asignación de Recursos
+</span>
+</div>
+</div>
+<!-- Resumen Ejecutivo para Onboarding -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-surface-container/80 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="space-y-1.5 max-w-3xl">
+<div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-primary-container">
+<span class="material-symbols-outlined text-base">filter_alt</span> ¿Qué es esta jugada y por qué existe?
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.</p>
+</div>
+
+</div>
+<!-- Regla de Oro (Golden Rule Callout) -->
+<div class="p-5 md:p-6 bg-gradient-to-r from-secondary-container/40 via-surface-container-low to-white border-l-4 border-primary-container rounded-2xl flex items-start gap-4 shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-3xl flex-shrink-0 mt-0.5">balance</span>
+<div>
+<h4 class="font-headline font-bold text-primary-container text-base mb-1">⚖️ Regla de Oro de Priorización</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+  Ninguna idea formalizada avanza a la fase de evaluación y en caso de negocio sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica</p>
+</div>
+</div>
+<!-- Grid Secciones A y B: OKRs y Jugadores Clave -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Columna A: Objetivos & Disparador -->
+<div class="lg:col-span-5 space-y-6 flex flex-col justify-between">
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-lg mb-4">
+<span class="material-symbols-outlined">trending_up</span>
+  Objetivos &amp; Impacto (OKRs de la Priorización)
+</div>
+<div class="space-y-3">
+<div class="p-3.5 bg-white rounded-2xl shadow-sm border border-surface-container/60">
+<span class="inline-block text-[10px] font-bold text-primary-container bg-primary-fixed px-2 py-0.5 rounded-md mb-1">OBJETIVO (O)</span>
+<p class="text-sm font-semibold text-[#131b2e]">Alinear las ideas a las prioridades del negocio&nbsp;</p>
+</div>
+<div class="p-3.5 bg-white rounded-2xl shadow-sm border border-surface-container/60">
+<span class="inline-block text-[10px] font-bold text-secondary bg-secondary-container px-2 py-0.5 rounded-md mb-1">KEY RESULT (KR)</span>
+<p class="text-sm font-semibold text-[#131b2e]">Estructurar el 100% de la idea para su integración y evaluación</p>
+</div>
+</div>
+</div>
+<!-- Cuándo ejecutar esta jugada (Trigger) -->
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-base mb-2">
+<span class="material-symbols-outlined">event_available</span>
+  ¿Cuándo ejecutar esta jugada? (Disparador)
+</div>
+<p class="text-xs md:text-sm text-on-surface-variant leading-relaxed">Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.&nbsp;</p>
+</div>
+</div>
+<!-- Columna B: Jugadores Clave & Gobernanza -->
+<div class="lg:col-span-7 bg-surface-container-low p-6 md:p-7 rounded-3xl border border-surface-container/80">
+<div class="flex items-center justify-between mb-5">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-lg">
+<span class="material-symbols-outlined">supervised_user_circle</span>
+  Comité de Priorización &amp; Gobernanza
+</div>
+<span class="text-[11px] font-semibold text-secondary uppercase tracking-wider">Matriz RACI / Comité</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3.5"><!-- Rol 1: Portafolio Manager -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+  <div class="flex items-center gap-2.5 mb-1.5">
+    <div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+      <span class="material-symbols-outlined text-sm">analytics</span>
+    </div>
+    <h5 class="text-xs font-bold text-primary-container leading-tight">Portafolio Manager</h5>
+  </div>
+  <p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+    Lidera el ejercicio de priorización, asegurando que la idea se ubique correctamente en la pirámide del portafolio basándose en capacidad y estrategia.
+  </p>
+</div>
+
+<!-- Rol 2: Líder Funcional / Director Promotor -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+  <div class="flex items-center gap-2.5 mb-1.5">
+    <div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+      <span class="material-symbols-outlined text-sm">person</span>
+    </div>
+    <h5 class="text-xs font-bold text-primary-container leading-tight">Líder Funcional / Director Promotor</h5>
+  </div>
+  <p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+    Defiende el valor de la idea, aportando contexto sobre la urgencia y el impacto esperado en el negocio.
+  </p>
+</div>
+
+<!-- Rol 3: BP / BA (Business Partner / Analyst) -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+  <div class="flex items-center gap-2.5 mb-1.5">
+    <div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+      <span class="material-symbols-outlined text-sm">speed</span>
+    </div>
+    <h5 class="text-xs font-bold text-primary-container leading-tight">BP / BA (Business Partner / Analyst)</h5>
+  </div>
+  <p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+    Aporta el análisis cualitativo y cuantitativo preliminar para justificar el peso de la iniciativa.
+  </p>
+</div>
+
+<!-- Rol 4: Arquitectura -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all">
+  <div class="flex items-center gap-2.5 mb-1.5">
+    <div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+      <span class="material-symbols-outlined text-sm">architecture</span>
+    </div>
+    <h5 class="text-xs font-bold text-primary-container leading-tight">Arquitectura</h5>
+  </div>
+  <p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+    Validan posibles dependencias, restricciones técnicas o estratégicas que puedan afectar la prioridad de la iniciativa.
+  </p>
+</div>
+
+<!-- Rol 5: SE (Servicios Estratégicos) -->
+<div class="p-3.5 bg-white rounded-2xl border border-surface-container/60 shadow-sm hover:border-secondary/40 transition-all md:col-span-2">
+  <div class="flex items-center gap-2.5 mb-1.5">
+    <div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+      <span class="material-symbols-outlined text-sm">handshake</span>
+    </div>
+    <h5 class="text-xs font-bold text-primary-container leading-tight">SE (Servicios Estratégicos)</h5>
+  </div>
+  <p class="text-[11px] text-on-surface-variant leading-normal pl-10">
+    Área responsable de estructurar la estrategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa.
+  </p>
+</div></div>
+</div>
+</div>
+<!-- Paso a Paso para la Priorización (Roadmap Táctico) -->
+<div class="pt-4">
+<div class="flex items-center justify-between mb-6">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-xl">
+<span class="material-symbols-outlined">reorder</span>
+  Paso a Paso del Proceso de Priorización
+</div>
+<span class="text-xs text-on-surface-variant font-medium">4 Pasos de Calificación</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative">
+<!-- Step 1 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-surface-container relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-primary-container text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  01
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 1&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Recepción del Input (Canvas)</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">El Portafolio Manger recibe el Canvas validado en la jugada 1.1</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-surface-container relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-primary-container text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  02
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 2&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Sesión de priorización</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">Se evalua la idea utilizando los criterios de priorización definidos por la VRO (ej. valor estratégico, urgencia, impacto financiero a alto nivel y esfuerzo preliminar).</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-surface-container relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-primary-container text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  03
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 3&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Asignación en la pirámide (Outcome)</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">El Portafolio Manager, en conjunto con el comité clasifica la idea y le asigna un lugar dentro de la prirámide.&nbsp;</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="p-5 bg-surface-container-low rounded-3xl border border-primary-container/40 bg-gradient-to-b from-surface-container-low to-secondary-container/20 relative flex flex-col justify-between group hover:border-primary-container transition-all hover:shadow-md">
+<div>
+<div class="w-10 h-10 rounded-xl bg-secondary text-white font-bold text-sm flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+  04
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-secondary mb-1 block">Paso 4&nbsp;</span>
+<h5 class="font-headline font-bold text-base text-primary-container mb-2">Comunicación y siguientes pasos&nbsp;</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">Si la idea tiene prioridad alta o media, se detona el pase a la siguiente etapa "Evaluación/ Caso de Negocio".</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Aceleradores, Entregables y Políticas -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+<!-- Aceleradores & Inputs -->
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80 space-y-4">
+<div>
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-sm mb-2">
+<span class="material-symbols-outlined text-base">tune</span>Aceleradores (Rol/Proceso)</div>
+<p class="text-xs text-on-surface-variant font-medium leading-relaxed">Portafolio Manager, BP/ BA y proceso de priorización.</p>
+</div>
+<div class="pt-3 border-t border-surface-container">
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-sm mb-1">
+<span class="material-symbols-outlined text-base">input</span> Insumo / Entradas Requeridas&nbsp;</div>
+<p class="text-xs text-on-surface-variant font-medium leading-relaxed">Canvas(Idea formalizada)&nbsp;</p>
+</div>
+</div>
+<!-- Templates requeridos (Outcomes) -->
+<div class="bg-primary-container p-6 rounded-3xl text-white flex flex-col justify-between shadow-lg shadow-primary-container/10">
+<div>
+<div class="flex items-center gap-2 font-headline font-bold text-sm mb-2 text-tertiary-fixed">
+<span class="material-symbols-outlined text-base">table_chart</span> Entregable de Priorización
+</div>
+<h4 class="text-xl font-bold font-headline mb-2">Idea en pirámide</h4>
+<p class="text-xs text-white/70 leading-relaxed">Backlog priorizado actualizado</p>
+</div>
+
+</div>
+<!-- Políticas y Procesos Asociados -->
+<div class="bg-surface-container-low p-6 rounded-3xl border border-surface-container/80 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-primary-container font-headline font-bold text-sm mb-3">
+<span class="material-symbols-outlined text-base">policy</span> Normativa de Cartera
+</div>
+<p class="text-xs text-on-surface-variant mb-4 leading-relaxed">
+  Políticas de asignación de capacidad corporativa:
+</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 rounded-xl bg-white border border-secondary/20 text-secondary text-xs font-bold flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-sm text-secondary">verified_user</span> Política de priorización</span>
+<span class="px-3 py-1.5 rounded-xl bg-white border border-secondary/20 text-secondary text-xs font-bold flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-sm text-secondary">fact_check</span>Proceso Fase 0</span>
+</div>
+</div>
+<div class="mt-4 pt-3 border-t border-surface-container text-[11px] text-on-surface-variant font-medium">
+  PMO VRO • Sistema de Gestión de Demanda
+</div>
+</div>
+</div>
+<!-- Pro-Tips y Trampas a Evitar -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+<!-- Pro-Tip Callout -->
+<div class="p-5 rounded-2xl bg-[#6ffbbe]/10 border border-[#00687a]/20 flex items-start gap-3.5">
+<div class="w-9 h-9 rounded-xl bg-[#6ffbbe]/30 flex items-center justify-center text-[#00687a] flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-xl">insights</span>
+</div>
+<div>
+<h5 class="font-headline font-bold text-xs uppercase tracking-wider text-[#00687a] mb-1">Pro-Tip (Matriz de valor)</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">Utilizar un marco de referencia visual (como una matriz de valor vs efuerzo) durante las sesiones de priorización para mantener las discuciones objetivas y ágiles.&nbsp;</p>
+</div>
+</div>
+<!-- Trampa a evitar Callout -->
+<div class="p-5 rounded-2xl bg-error-container/40 border border-[#ba1a1a]/20 flex items-start gap-3.5">
+<div class="w-9 h-9 rounded-xl bg-error-container flex items-center justify-center text-[#ba1a1a] flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-xl">block</span>
+</div>
+<div>
+<h5 class="font-headline font-bold text-xs uppercase tracking-wider text-[#ba1a1a] mb-1">Trampa a evita (El síndrome de "TODO ES URGENTE")</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed">Ceder a la presión de priorizar basandose únicamente en la urgencia del área solicitante. La priorización debe ser holística, considerando la capacidad real de ejecución y los OKR´s globales de la compañía.&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</section><section class="mb-28 reveal active border border-surface-container bg-surface-container-low/50 rounded-3xl p-6 md:p-8 transition-all" id="section-plantillas-autor">
+  <button type="button" onclick="togglePlantillasDropdown()" class="w-full flex items-center justify-between text-left group focus:outline-none" id="plantillas-dropdown-trigger" aria-expanded="false">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-2xl bg-primary-container/10 flex items-center justify-center text-primary-container group-hover:bg-primary-container group-hover:text-white transition-all shadow-sm">
+        <span class="material-symbols-outlined text-2xl">folder_copy</span>
+      </div>
+      <div>
+        <div class="flex items-center gap-2 mb-1">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-secondary bg-secondary/10 px-2 py-0.5 rounded-full">Repositorio de Entregables</span>
+          <span class="text-[10px] text-primary-container font-bold bg-primary-fixed px-2 py-0.5 rounded-full">4 Plantillas Oficiales</span>
+        </div>
+        <h2 class="font-headline text-2xl md:text-3xl font-bold text-primary-container group-hover:text-primary transition-colors">Plantillas de Autor</h2>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="hidden sm:inline text-xs font-semibold text-secondary" id="plantillas-toggle-text">Mostrar plantillas</span>
+      <div class="w-10 h-10 rounded-full bg-white border border-surface-container flex items-center justify-center text-secondary group-hover:bg-primary-container group-hover:text-white group-hover:border-transparent transition-all shadow-sm">
+        <span class="material-symbols-outlined text-xl transition-transform duration-300" id="plantillas-chevron">expand_more</span>
+      </div>
+    </div>
+  </button>
+
+  <!-- Contenido Desplegable (Oculto por Defecto) -->
+  <div class="hidden mt-8 pt-6 border-t border-surface-container space-y-6 transition-all duration-300" id="plantillas-dropdown-content">
+    <div class="flex items-center justify-between mb-4">
+      <p class="text-xs md:text-sm text-on-surface-variant max-w-xl">Accede y descarga los artefactos estandarizados requeridos en el ciclo de vida metodológico.</p>
+      <button class="text-secondary text-xs md:text-sm font-bold flex items-center gap-1.5 hover:opacity-70 transition-all hover:translate-x-1 py-1 px-3 bg-white rounded-xl border border-secondary/20 shadow-sm">
+        Ver Repositorio Completo <span class="material-symbols-outlined text-sm">open_in_new</span>
+      </button>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Large Card -->
+      <div class="md:col-span-2 bg-primary-container rounded-[2.5rem] p-10 text-white relative overflow-hidden group hover:shadow-2xl hover:shadow-primary-container/20 transition-all hover:-translate-y-1">
+        <div class="relative z-10">
+          <span class="text-tertiary-fixed text-xs font-bold tracking-widest uppercase mb-4 block">Más Utilizado</span>
+          <h3 class="text-3xl font-headline font-bold mb-4">Business Case &amp; Value Proposition</h3>
+          <p class="text-white/70 max-w-md mb-8">El documento maestro que justifica la inversión basándose en el retorno de valor esperado.</p>
+          <button class="px-6 py-3 bg-secondary rounded-xl font-bold text-sm transition-all active:scale-95 hover:animate-pulse-subtle shadow-lg shadow-black/20">Descargar Assets (.docx)</button>
+        </div>
+        <div class="absolute -right-10 -bottom-10 opacity-20 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-700">
+          <span class="material-symbols-outlined text-[200px]" style="font-variation-settings: &quot;wght&quot; 200;">description</span>
+        </div>
+      </div>
+      <!-- Small Card 1 -->
+      <div class="bg-surface-container p-8 rounded-[2.5rem] flex flex-col justify-between hover:bg-surface-container-high transition-all hover:shadow-xl hover:-translate-y-1 group">
+        <div>
+          <span class="material-symbols-outlined text-secondary text-4xl mb-6 group-hover:scale-110 transition-transform block">calendar_month</span>
+          <h3 class="text-xl font-headline font-bold text-primary-container mb-2">Hoja de Ruta de Beneficios</h3>
+          <p class="text-xs text-on-surface-variant">Visualización estratégica de hitos de valor y cronograma de entrega.</p>
+        </div>
+        <button class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary-container shadow-sm mt-8 transition-all hover:scale-110 active:scale-90 hover:bg-primary-container hover:text-white">
+          <span class="material-symbols-outlined">download</span>
+        </button>
+      </div>
+      <!-- Small Card 2 -->
+      <div class="bg-surface-container p-8 rounded-[2.5rem] flex flex-col justify-between hover:bg-surface-container-high transition-all hover:shadow-xl hover:-translate-y-1 group">
+        <div>
+          <span class="material-symbols-outlined text-[#ba1a1a] text-4xl mb-6 group-hover:scale-110 transition-transform block">gpp_maybe</span>
+          <h3 class="text-xl font-headline font-bold text-primary-container mb-2">Matriz de Riesgos al Valor</h3>
+          <p class="text-xs text-on-surface-variant">Identificación de factores que podrían comprometer la realización de beneficios.</p>
+        </div>
+        <button class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary-container shadow-sm mt-8 transition-all hover:scale-110 active:scale-90 hover:bg-primary-container hover:text-white">
+          <span class="material-symbols-outlined">download</span>
+        </button>
+      </div>
+      <!-- Small Card 3 -->
+      <div class="md:col-span-2 bg-[#6ffbbe]/20 p-8 rounded-[2.5rem] flex items-center justify-between group hover:bg-[#6ffbbe]/30 transition-all hover:shadow-xl hover:-translate-y-1">
+        <div class="max-w-md">
+          <h3 class="text-xl font-headline font-bold text-primary-container mb-2">Certificación de Entrega de Valor</h3>
+          <p class="text-sm text-on-primary-container">Validación formal de que los objetivos estratégicos y el valor planeado han sido alcanzados.</p>
+        </div>
+        <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-secondary group-hover:rotate-12 transition-all shadow-lg shadow-secondary/5">
+          <span class="material-symbols-outlined text-3xl">task_alt</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+<!-- Glossary Section -->
+<section class="mb-12 reveal active">
+
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-20 bg-[#131b2e] dark:bg-[#020617] flex flex-col md:flex-row justify-between items-center px-12 py-16">
+<div class="mb-8 md:mb-0">
+<div class="text-[#ffffff] font-bold text-2xl font-headline mb-4">Executive Zenith PMO</div>
+<p class="font-body text-xs uppercase tracking-widest text-white/50 max-w-md leading-relaxed">
+                © 2024 Executive Zenith PMO. Gobernanza centrada en el humano para el éxito estratégico.
+            </p>
+</div>
+<div class="flex flex-wrap gap-8 font-body text-xs uppercase tracking-widest">
+<a class="text-white/50 hover:text-[#6ffbbe] transition-colors" href="#">Contacto</a>
+<a class="text-white/50 hover:text-[#6ffbbe] transition-colors" href="#">LinkedIn</a>
+<a class="text-white/50 hover:text-[#6ffbbe] transition-colors" href="#">Términos</a>
+<a class="text-white/50 hover:text-[#6ffbbe] transition-colors" href="#">Privacidad</a>
+</div>
+</footer>
+<!-- 1. SOLICITUD 1: BOTÓN FLOTANTE PRINCIPAL (Quick Playbook / Ciclo de Vida & Jugadas) -->
+<div class="fixed bottom-8 right-8 z-50 flex flex-col items-end gap-3" id="floating-actions-container">
+<!-- Popover / Menú Rápido Flotante para Fases & Jugadas -->
+<div class="hidden w-80 bg-white/95 backdrop-blur-2xl rounded-3xl shadow-2xl border border-surface-container p-5 transition-all duration-300 transform scale-95 origin-bottom-right" id="floating-playbook-menu">
+<div class="flex items-center justify-between pb-3 border-b border-surface-container mb-3">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="text-xs font-bold text-primary-container uppercase tracking-wider">Playbook Dinámico</span>
+</div>
+<button class="text-on-surface-variant hover:text-primary-container p-1 rounded-full hover:bg-surface-container" onclick="toggleFloatingPlaybookDrawer()">
+<span class="material-symbols-outlined text-sm">close</span>
+</button>
+</div>
+<!-- Acceso Rápido por Fases del Ciclo de Vida -->
+<div class="space-y-2 mb-3">
+<div class="text-[11px] font-bold text-secondary uppercase tracking-wider">Selecciona Fase &amp; Jugada:</div>
+<!-- Item Fase 1 -->
+<button class="w-full text-left p-2.5 rounded-2xl hover:bg-surface-container-low transition-all border border-transparent hover:border-surface-container flex items-center justify-between group" onclick="quickNav(1, '1.1')">
+<div class="flex items-center gap-2.5">
+<span class="w-7 h-7 rounded-lg bg-primary-fixed text-primary-container flex items-center justify-center text-xs font-bold">F1</span>
+<div>
+<div class="text-xs font-bold text-[#131b2e] group-hover:text-primary-container">Fase 1: Ideación</div>
+<div class="text-[10px] text-on-surface-variant">Jugada 1.1 Canvas Formalizado</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-xs text-secondary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<!-- Item Fase 2 -->
+<button class="w-full text-left p-2.5 rounded-2xl hover:bg-surface-container-low transition-all border border-transparent hover:border-surface-container flex items-center justify-between group" onclick="quickNav(2, '1.2')">
+<div class="flex items-center gap-2.5">
+<span class="w-7 h-7 rounded-lg bg-secondary-container text-secondary flex items-center justify-center text-xs font-bold">F2</span>
+<div>
+<div class="text-xs font-bold text-[#131b2e] group-hover:text-primary-container">Fase 2: Priorización</div>
+<div class="text-[10px] text-on-surface-variant">Jugada 1.2 Scoring y Matriz</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-xs text-secondary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<!-- Item Fase 3 -->
+<button class="w-full text-left p-2.5 rounded-2xl hover:bg-surface-container-low transition-all border border-transparent hover:border-surface-container flex items-center justify-between group" onclick="quickNav(3, '1.1')">
+<div class="flex items-center gap-2.5">
+<span class="w-7 h-7 rounded-lg bg-surface-container-high text-primary-container flex items-center justify-center text-xs font-bold">F3</span>
+<div>
+<div class="text-xs font-bold text-[#131b2e] group-hover:text-primary-container">Fase 3: Arquitectura</div>
+<div class="text-[10px] text-on-surface-variant">Jugada 3.1 EDS &amp; Arquitectura</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-xs text-secondary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<!-- Item Fase 4 -->
+<button class="w-full text-left p-2.5 rounded-2xl hover:bg-surface-container-low transition-all border border-transparent hover:border-surface-container flex items-center justify-between group" onclick="quickNav(4, '1.2')">
+<div class="flex items-center gap-2.5">
+<span class="w-7 h-7 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center text-xs font-bold">F4</span>
+<div>
+<div class="text-xs font-bold text-[#131b2e] group-hover:text-primary-container">Fase 4: Entrega &amp; Valor</div>
+<div class="text-[10px] text-on-surface-variant">Jugada 4.2 Captura de Beneficios</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-xs text-secondary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<!-- Templates Quick Link inside Drawer -->
+<div class="pt-3 border-t border-surface-container flex items-center justify-between">
+<span class="text-[11px] text-on-surface-variant font-medium">¿Necesitas plantillas?</span>
+<button class="text-xs font-bold text-primary-container hover:underline flex items-center gap-1" onclick="document.querySelector('aside.fixed.right-0.top-20').style.transform = 'translateX(0)'; toggleFloatingPlaybookDrawer();">
+<span class="material-symbols-outlined text-xs">folder_open</span> Abrir Repositorio
+      </button>
+</div>
+</div>
+<!-- Botón Flotante Principal Llamativo y Accesible -->
+<button class="flex items-center gap-3 px-5 py-3.5 bg-gradient-to-r from-primary-container to-primary text-white rounded-full shadow-2xl hover:shadow-primary-container/50 hover:scale-105 active:scale-95 transition-all duration-300 font-headline font-bold text-xs uppercase tracking-wider border-2 border-white/50 backdrop-blur-sm group" id="main-floating-action-button" onclick="toggleFloatingPlaybookDrawer()">
+<div class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:rotate-45 transition-transform duration-300">
+<span class="material-symbols-outlined text-sm">route</span>
+</div>
+<span class="">Ciclo de Vida &amp; Jugadas</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold">4 Fases</span>
+</button>
+</div>
+
+
+    <script src="script.js" defer></script>
+</body></html>

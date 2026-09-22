@@ -1,0 +1,86 @@
+/* =========================================================
+   Executive Zenith PMO / Oficina de Proyectos VRO
+   Custom styles separated from index.html
+   ========================================================= */
+
+.material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-effect {
+            backdrop-filter: blur(24px);
+        }
+        body {
+            background-color: #f7f9fb;
+            color: #131b2e;
+            overflow-x: hidden;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .tab-indicator {
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .content-fade {
+            transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+        }
+        .playbook-card-transition {
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .lifecycle-card.active {
+            border-color: #9b62a3 !important;
+            background: linear-gradient(180deg, #ffffff 0%, #fdf5fc 100%) !important;
+            box-shadow: 0 14px 30px -8px rgba(155, 98, 163, 0.25) !important;
+            transform: translateY(-6px) scale(1.02);
+        }
+        .lifecycle-card.active .lifecycle-icon {
+            background-color: #9b62a3 !important;
+            color: #ffffff !important;
+            transform: scale(1.1);
+        }
+
+/* Project-level refinements */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(128, 73, 136, 0.35);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #e8e6a7;
+  color: #1d1d00;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
