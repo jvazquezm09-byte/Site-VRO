@@ -39,4 +39,4 @@ Hoy `script.js` no hace llamadas externas. Cuando las haga:
 
 ### Datos que se necesitan de TI
 
-- Rango(s) de IP pública de salida (oficina y VPN) y el dominio exacto del sitio.
+- Rango(s) de IP pública de salida (oficina y VPN) y el dominio exacto del sitio. TODO luisfer
