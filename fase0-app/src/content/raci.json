@@ -1,0 +1,154 @@
+{
+  "porJugada": {
+    "1-1": {
+      "R": [
+        "LF",
+        "BP/BA"
+      ],
+      "A": [
+        "PfM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "1-2": {
+      "R": [
+        "LF",
+        "BP/BA"
+      ],
+      "A": [
+        "PfM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "2-1": {
+      "R": [
+        "LF",
+        "BP"
+      ],
+      "A": [
+        "PM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "2-2": {
+      "R": [
+        "LF",
+        "BP"
+      ],
+      "A": [
+        "PM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "3-1": {
+      "R": [
+        "LF",
+        "BP"
+      ],
+      "A": [
+        "PM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "3-2-v1": {
+      "R": [
+        "LF",
+        "BP"
+      ],
+      "A": [
+        "PM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "3-2-v2": {
+      "R": [
+        "LF",
+        "BP"
+      ],
+      "A": [
+        "PM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "4-1": {
+      "R": [
+        "LF",
+        "BP/BA"
+      ],
+      "A": [
+        "PfM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "4-2": {
+      "R": [
+        "LF",
+        "BP/BA"
+      ],
+      "A": [
+        "PfM"
+      ],
+      "C": [
+        "AR"
+      ],
+      "I": [
+        "SE"
+      ]
+    }
+  },
+  "rolPorSigla": {
+    "LF": "Líder Funcional",
+    "BP": "BP / BA",
+    "BP/BA": "BP / BA",
+    "PM": "Portafolio Manager",
+    "PfM": "Portafolio Manager",
+    "AR": "Arquitectura",
+    "SE": "SE (Servicios Estratégicos)"
+  },
+  "etiquetas": {
+    "R": "Responsable",
+    "A": "Aprobador",
+    "C": "Consultado",
+    "I": "Informado"
+  }
+}
