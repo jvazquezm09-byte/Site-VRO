@@ -1,0 +1,992 @@
+[
+  {
+    "id": "1-1",
+    "code": "1.1",
+    "titulo": "Idea Formalizada",
+    "etapa": "idea",
+    "objetivo": "Alinear las ideas a las prioridades del negocio.",
+    "kr": "Estructurar el 100% de las ideas para su integración y evaluación.",
+    "reglaDeOro": "Ninguna iniciativa avanza a evaluación financiera o diseño técnico sin haber plasmado claramente su necesidad estratégica en un Canvas formalizado.",
+    "cuando": "Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurarla formalmente para someterla a una evaluación cuantitativa y estratégica preliminar.",
+    "jugadores": [
+      {
+        "rol": "Líder Funcional / Director",
+        "responsabilidad": "Promotor. Define y justifica la necesidad de negocio original. Es el principal interesado en el resultado."
+      },
+      {
+        "rol": "BP / BA (Business Partner / Analyst)",
+        "responsabilidad": "Actúa como acelerador; traduce la necesidad del negocio en un contexto estructurado."
+      },
+      {
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Valida la alineación estratégica de la idea con los objetivos corporativos antes de que pase a priorización."
+      },
+      {
+        "rol": "Arquitectura",
+        "responsabilidad": "Aporta una visión preliminar para asegurar que la idea hace sentido dentro del ecosistema actual (viabilidad a muy alto nivel)."
+      },
+      {
+        "rol": "SE (Servicios Estratégicos)",
+        "responsabilidad": "Estructura la estrategia de procesos RFx y potencia la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Recepción de la necesidad (Input)",
+            "detalle": [
+              "El Líder Funcional presenta la idea original o necesidad operativa/estratégica, detallando el requerimiento en el Canvas.",
+              "El PM y el BP/BA realizan una sesión de descubrimiento inicial para entender el dolor o la oportunidad."
+            ]
+          },
+          {
+            "titulo": "Evaluación estratégica inicial",
+            "detalle": [
+              "Cruza la necesidad contra los OKRs y pilares estratégicos vigentes de EPL para confirmar que hace sentido invertir tiempo en estructurarla."
+            ]
+          },
+          {
+            "titulo": "Estructuración del entregable (Outcome)",
+            "detalle": [
+              "Se define a muy alto nivel el alcance esperado, los impactos y los recursos preliminares."
+            ]
+          },
+          {
+            "titulo": "Validación de formalización",
+            "detalle": [
+              "Se confirma que el Canvas está completo y es claro. La idea pasa de concepto abstracto a \"Idea Formalizada\", lista para la Jugada 1.2 (Idea Priorizada)."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Portafolio Manager, BP/BA asignado.",
+          "procesos": "Proceso de priorización.",
+          "inputs": "Idea original / necesidad.",
+          "outcomes": "Canvas."
+        }
+      }
+    ],
+    "politicas": [
+      "Pol_Gestión Portafolio TI",
+      "Proceso Fase 0 & 1"
+    ],
+    "templates": [
+      "Canvas de 1 Página (.docx)",
+      "Matriz RACI & Roles"
+    ],
+    "proTips": [
+      "Agilidad sobre Perfección: no redactes un Business Case exhaustivo de 30 páginas en este momento. El propósito del Canvas de 1 Página es dar evidencia suficiente al Portafolio Manager para responder una sola pregunta: ¿Vale la pena invertir tiempo en evaluarla a fondo?"
+    ],
+    "trampas": [
+      "Parálisis por Análisis Técnico: evita involucrar comités técnicos multitudinarios en esta fase. Si invitas a múltiples arquitectos e ingenieros antes de formalizar estratégicamente la idea, gastarás horas hombre debatiendo soluciones para problemas no prioritarios."
+    ]
+  },
+  {
+    "id": "1-2",
+    "code": "1.2",
+    "titulo": "Idea Priorizada",
+    "etapa": "idea",
+    "objetivo": "Alinear las ideas a las prioridades del negocio.",
+    "kr": "Estructurar el 100% de la idea para su integración y evaluación.",
+    "reglaDeOro": "Ninguna idea formalizada avanza a la fase de evaluación ni al caso de negocio sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica.",
+    "cuando": "Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.",
+    "jugadores": [
+      {
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Lidera el ejercicio de priorización, asegurando que la idea se ubique correctamente en la pirámide del portafolio según capacidad y estrategia."
+      },
+      {
+        "rol": "Líder Funcional / Director",
+        "responsabilidad": "Promotor. Defiende el valor de la idea, aportando contexto sobre la urgencia y el impacto esperado en el negocio."
+      },
+      {
+        "rol": "BP / BA",
+        "responsabilidad": "Aporta el análisis cualitativo y cuantitativo preliminar para justificar el peso de la iniciativa."
+      },
+      {
+        "rol": "Arquitectura",
+        "responsabilidad": "Valida posibles dependencias, restricciones técnicas o estratégicas que puedan afectar la prioridad de la iniciativa."
+      },
+      {
+        "rol": "SE (Servicios Estratégicos)",
+        "responsabilidad": "Estructura la estrategia de procesos RFx y potencia la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Recepción del input (Canvas)",
+            "detalle": [
+              "El Portafolio Manager recibe el Canvas validado de la Jugada 1.1."
+            ]
+          },
+          {
+            "titulo": "Sesión de priorización",
+            "detalle": [
+              "Se evalúa la idea con los criterios de priorización definidos por la PMO (p. ej. valor estratégico, urgencia, impacto financiero a alto nivel y esfuerzo preliminar)."
+            ]
+          },
+          {
+            "titulo": "Asignación en la pirámide (Outcome)",
+            "detalle": [
+              "Se clasifica la idea y se le asigna un lugar dentro de la pirámide."
+            ]
+          },
+          {
+            "titulo": "Comunicación y siguientes pasos",
+            "detalle": [
+              "Si la idea tiene prioridad alta o media, se detona el paso a la siguiente etapa: \"Evaluación / Caso de Negocio\"."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Portafolio Manager, BP/BA asignado.",
+          "procesos": "Proceso de priorización.",
+          "inputs": "Canvas (idea formalizada).",
+          "outcomes": "Idea en pirámide (backlog priorizado actualizado)."
+        }
+      }
+    ],
+    "politicas": [
+      "Pol_Gestión Portafolio TI",
+      "Proceso Fase 0 & 1"
+    ],
+    "templates": [
+      "Canvas de 1 Página (.docx)",
+      "Matriz RACI & Roles"
+    ],
+    "proTips": [
+      "Agilidad sobre Perfección: utiliza un marco de referencia visual (como una matriz de Valor vs. Esfuerzo) durante las sesiones de priorización para mantener las discusiones objetivas y ágiles."
+    ],
+    "trampas": [
+      "Parálisis por Análisis Técnico: ceder a la presión de priorizar basándose únicamente en la urgencia del área solicitante. La priorización debe ser holística, considerando la capacidad real de ejecución y los OKRs globales de la compañía."
+    ]
+  },
+  {
+    "id": "2-1",
+    "code": "2.1",
+    "titulo": "Determinar valor del proyecto",
+    "etapa": "caso",
+    "objetivo": "Garantizar la rentabilidad y alineación estratégica del caso de negocio.",
+    "kr": "100% de los casos de negocio respaldados por evaluación financiera cuantitativa y cualitativa.",
+    "reglaDeOro": "Ningún proyecto avanza a la fase de diseño técnico detallado ni a la estimación formal de esfuerzo sin contar con un caso de negocio estructurado (Business Case) o una hoja de costos validada que certifique la viabilidad financiera y el retorno de inversión.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Evaluación) una vez priorizada la iniciativa (Jugada 1.2). Se aplica cuando se requiere cuantificar los beneficios tangibles e intangibles frente a los costos proyectados para fundamentar la decisión del portafolio.",
+    "jugadores": [
+      {
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Lidera el proceso de evaluación, determina el escenario aplicable (A o B) y coordina las revisiones de viabilidad y rentabilidad."
+      },
+      {
+        "rol": "Líder Funcional / Director",
+        "responsabilidad": "Promotor. Define y defiende los beneficios esperados y el impacto comercial; justifica el ROI ante la dirección."
+      },
+      {
+        "rol": "BP / BA",
+        "responsabilidad": "Acelerador. Recopila información operativa, ayuda a cuantificar beneficios y consolida el documento final."
+      },
+      {
+        "rol": "Arquitectura",
+        "responsabilidad": "Valida que las Capacidades Nivel 0 sean viables y técnicamente alineadas a la estrategia corporativa, estimando impactos conceptuales de costo."
+      },
+      {
+        "rol": "Líder Técnico / Ing. SW / Infra / QA",
+        "responsabilidad": "Aportan estimaciones conceptuales de esfuerzo, infraestructura, licencias y calidad (orden de magnitud) para alimentar la estructura de costos."
+      },
+      {
+        "rol": "SE (Servicios Estratégicos)",
+        "responsabilidad": "Proporciona lineamientos preliminares sobre costos de terceros, modelos de licenciamiento y contratación de proveedores."
+      },
+      {
+        "rol": "Socios de Negocio / Especialista de procesos",
+        "responsabilidad": "Aportan visibilidad de las capacidades habilitadas en el negocio y previenen la duplicidad de capacidades."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": "Escenario A: Caso de negocio completo",
+        "descripcion": "Se ejecuta cuando la iniciativa requiere una inversión significativa, involucra alto impacto transversal o necesita justificar su rentabilidad mediante ROI / NPV / TIR formales.",
+        "pasos": [
+          {
+            "titulo": "Identificación e insumos (Input)",
+            "detalle": [
+              "Se parte de la Idea Priorizada (Canvas), la necesidad formalizada y la definición de las Capacidades Nivel 0, en conjunto con el especialista de procesos."
+            ]
+          },
+          {
+            "titulo": "Levantamiento y cuantificación de beneficios",
+            "detalle": [
+              "Se estructura la corrida financiera de beneficios tangibles (incremento de ingresos, ahorros operativos) e intangibles (mitigación de riesgos, compliance)."
+            ]
+          },
+          {
+            "titulo": "Estimación conceptual de solución y costos",
+            "detalle": [
+              "Se provee un diseño conceptual y un rango de esfuerzo preliminar para calcular el CAPEX / OPEX estimado. Para este paso es necesario ejecutar la Jugada 2.3 (Estimación de esfuerzo)."
+            ]
+          },
+          {
+            "titulo": "Consolidación del caso de negocio",
+            "detalle": [
+              "Se consolida la inversión proyectada (licenciamiento, nube, equipos e infraestructura) en el Caso de Negocio para su presentación al Sponsor."
+            ]
+          },
+          {
+            "titulo": "Dictamen (Outcome)",
+            "detalle": [
+              "Se expone el Caso de Negocio consolidado para demostrar su rentabilidad; el Sponsor emite el dictamen de viabilidad que autoriza el paso a la siguiente etapa."
+            ]
+          }
+        ],
+        "nota": "Pendiente definir evidencia para aprobación.",
+        "entregables": {
+          "aceleradores": "Portafolio Manager, BP/BA.",
+          "inputs": "Necesidad, Capacidades Nivel 0, diseño de solución y estimación del esfuerzo.",
+          "outcomes": "Caso de Negocio (Business Case) con beneficios."
+        }
+      },
+      {
+        "titulo": "Escenario B: Hoja de costos (sin caso de negocio)",
+        "descripcion": "Se ejecuta cuando solo se tienen identificados los desarrollos requeridos por el equipo de TI; la iniciativa acota y valida el alcance técnico, el esfuerzo y los costos directos.",
+        "pasos": [
+          {
+            "titulo": "Identificación y justificación de excepción (Input)",
+            "detalle": [
+              "Al recibir el requerimiento técnico y la estimación preliminar de desarrollos en la hoja de costos, se evalúa si es necesario involucrar a otras áreas clave para estructurar un Caso de Negocio integral."
+            ]
+          },
+          {
+            "titulo": "Levantamiento y cuantificación de beneficios",
+            "detalle": [
+              "Se estructura la corrida financiera de beneficios tangibles (incremento de ingresos, ahorros operativos) e intangibles (mitigación de riesgos, compliance)."
+            ]
+          },
+          {
+            "titulo": "Consolidación del caso de negocio",
+            "detalle": [
+              "Se consolida la inversión proyectada (licenciamiento, nube, equipos e infraestructura)."
+            ]
+          },
+          {
+            "titulo": "Dictamen (Outcome)",
+            "detalle": [
+              "Se expone el Caso de Negocio consolidado; el Sponsor emite el dictamen de viabilidad que autoriza el paso a la siguiente etapa."
+            ]
+          }
+        ],
+        "nota": "Pendiente definir evidencia para aprobación.",
+        "entregables": {
+          "aceleradores": "Portafolio Manager.",
+          "inputs": "Hoja de costos y requerimiento técnico.",
+          "outcomes": "Caso de Negocio (Business Case) con beneficios."
+        }
+      }
+    ],
+    "politicas": [
+      "Pol_Gestión Portafolio TI",
+      "Proceso Fase 0 & 1"
+    ],
+    "templates": [
+      "Caso de Negocio",
+      "Hoja de costos"
+    ],
+    "proTips": [
+      "Foco en el Valor y Estimación: para garantizar que la evaluación aporte valor real al portafolio, es recomendable aplicar criterios SMART: definir metas específicas para reducir los tiempos de dictaminación, asegurar que el 100% de las iniciativas tengan respaldo financiero claro y utilizar la Hoja de Costos para agilizar las decisiones sin caer en burocracia inútil. Es fundamental reconocer que en esta etapa los costos y números presentados constituyen un cálculo conceptual y preliminar, por lo que deben considerarse con un margen razonable de variación que se irá refinando en las etapas posteriores del proyecto (como en la fase de EDS y Estimación)."
+    ],
+    "trampas": [
+      "Omitir la actualización de la evaluación financiera cuando hay cambios: el riesgo es quedarse con el costo preliminar como si fuera la cifra final."
+    ]
+  },
+  {
+    "id": "2-2",
+    "code": "2.2",
+    "titulo": "Construir el Diseño de Solución",
+    "etapa": "caso",
+    "objetivo": "Garantizar la rentabilidad y alineación estratégica del caso de negocio.",
+    "kr": "100% de las iniciativas con diseño de solución y estimación de esfuerzo validados.",
+    "reglaDeOro": "Ningún proyecto avanza a la estimación formal de esfuerzo o adquisición técnica sin contar con un diseño de solución (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado y alineado a los estándares de arquitectura de negocio y tecnología.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación) y complementa la Jugada 2.1 (Determinar el valor del proyecto). Aplica cuando se requiere definir la arquitectura objetivo, las capacidades tecnológicas y/o el concepto ejecutivo detallado para fundamentar la estimación de esfuerzo.",
+    "jugadores": [
+      {
+        "rol": "BP / BA",
+        "responsabilidad": "Coordina a los equipos de TI requeridos para garantizar la construcción de la solución."
+      },
+      {
+        "rol": "Arquitectura",
+        "responsabilidad": "Gestiona y coordina al EDS (Equipo de Diseño) para la generación del Diseño de Solución."
+      },
+      {
+        "rol": "Líder Funcional",
+        "responsabilidad": "Aporta las necesidades de negocio para construir el diseño de la solución."
+      },
+      {
+        "rol": "Especialistas de Procesos",
+        "responsabilidad": "Mapean los procesos As-Is / To-Be, en conjunto con los participantes."
+      },
+      {
+        "rol": "Equipo TI (Líder Técnico / Ing. SW / Infra / BP-BA)",
+        "responsabilidad": "Validan la viabilidad técnica, componentes de software, requerimientos de infraestructura, calidad y seguridad de la información."
+      },
+      {
+        "rol": "Servicios Estratégicos",
+        "responsabilidad": "Consolidan la información generada por el equipo de TI."
+      },
+      {
+        "rol": "Equipo de soporte (Inmobiliaria, Marketing, Socios de negocio, Finanzas, Procesos, BP TI, CX)",
+        "responsabilidad": "Inmobiliaria aporta el diseño conceptual; Marketing, el branding; CX y Procesos, las implicaciones sobre elementos o sistemas existentes que pueden duplicarse o verse afectados."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": "Escenario A: Diseño de arquitectura TI",
+        "descripcion": "Se ejecuta cuando la solución requiere cambios o integraciones en componentes de software, datos e infraestructura tecnológica.",
+        "pasos": [
+          {
+            "titulo": "Levantamiento de arquitectura As-Is y capacidades (Input)",
+            "detalle": [
+              "Se analiza la situación tecnológica actual (As-Is) y se identifican las capacidades requeridas."
+            ]
+          },
+          {
+            "titulo": "Definición del diseño de arquitectura",
+            "detalle": [
+              "Revisión conjunta con el equipo de Arquitectura de Procesos para definir patrones, integraciones y seguridad de la información (OSI)."
+            ]
+          },
+          {
+            "titulo": "Definición del blueprint To-Be (Outcome)",
+            "detalle": [
+              "Se formaliza el documento de Arquitectura To-Be con los diagramas y componentes validados."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Revisar con el equipo de Arquitectura de Proceso.",
+          "inputs": "Capacidades, Arquitectura As-Is, EDS.",
+          "outcomes": "Arquitectura To-Be."
+        }
+      },
+      {
+        "titulo": "Escenario B: Proyecto ejecutivo / nuevo concepto",
+        "descripcion": "Se ejecuta para soluciones conceptuales, comerciales o de experiencia que requieren un Brief para despachos o terceros.",
+        "pasos": [
+          {
+            "titulo": "Mapeo de Customer Journey y layouts (Input)",
+            "detalle": [
+              "Se revisan las capacidades de negocio, layouts, mapas de experiencia y procesos As-Is / To-Be."
+            ]
+          },
+          {
+            "titulo": "Validación operativa y de negocio",
+            "detalle": [
+              "Sesión de trabajo para validar el alcance funcional."
+            ]
+          },
+          {
+            "titulo": "Emisión del Brief Ejecutivo (Outcome)",
+            "detalle": [
+              "Se consolida el Brief estructurado necesario para la contratación o cotización con despachos externos."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Validar proceso operativo / comercial.",
+          "inputs": "Capacidades, Customer Journey, Layouts, Procesos (As-Is / To-Be).",
+          "outcomes": "Brief para despachos."
+        }
+      }
+    ],
+    "politicas": [
+      "Política de Gobernanza de Arquitectura TI y Estándares Tecnológicos",
+      "Proceso de Evaluación y Diseño de Soluciones de Negocio (EDS)"
+    ],
+    "templates": [
+      "Diagramas de integración",
+      "Modelo de Datos y componente software"
+    ],
+    "proTips": [
+      "Diseño proporcional: el detalle técnico debe ser suficiente para estimar el esfuerzo, sin sobrediseñar componentes que puedan cambiar durante el desarrollo."
+    ],
+    "trampas": [
+      "Diseño en silos: construir la arquitectura sin la participación de las áreas operativas, QA y soporte (AMS) genera deuda técnica o impactos no previstos en producción."
+    ]
+  },
+  {
+    "id": "3-1",
+    "code": "3.1",
+    "titulo": "Construir el Diseño de Solución",
+    "etapa": "eds",
+    "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo.",
+    "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo formalmente respaldados.",
+    "reglaDeOro": "Ninguna iniciativa avanza a la estimación formal de costo, tiempo o adquisición técnica sin contar con un diseño de solución estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas técnicas o de procesos.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se detona una vez que se cuenta con el caso de negocio preliminar o la necesidad priorizada, y se requiere trazar la solución conceptual o técnica que servirá de base para cotizar y dimensionar el esfuerzo del proyecto.",
+    "jugadores": [
+      {
+        "rol": "Arquitectura TI",
+        "responsabilidad": "Conduce y gobierna el diseño de la solución técnica, garantizando la compatibilidad con el ecosistema y los lineamientos tecnológicos corporativos."
+      },
+      {
+        "rol": "Líder Funcional / Negocio",
+        "responsabilidad": "Proporciona la visión funcional y las reglas de negocio, y valida que el diseño cubra la necesidad operativa."
+      },
+      {
+        "rol": "BP / BA",
+        "responsabilidad": "Facilita la integración metodológica entre negocio, TI y proveedores; articula los requerimientos en el formato estándar de EDS."
+      },
+      {
+        "rol": "Especialista de Procesos",
+        "responsabilidad": "Mapea y valida el flujo operativo As-Is y To-Be, previniendo duplicidades operativas o colisiones con otros procesos."
+      },
+      {
+        "rol": "Equipo Técnico TI (Líder Técnico, Ing. SW, Infraestructura, QA, AMS)",
+        "responsabilidad": "Evalúan la factibilidad técnica, requerimientos de nube / servidores, seguridad de la información y criterios de mantenibilidad futura."
+      },
+      {
+        "rol": "Program Manager / Portafolio Manager",
+        "responsabilidad": "Monitorea el progreso del diseño dentro del calendario de la Fase 0 y valida el pase formal hacia la etapa de estimación."
+      },
+      {
+        "rol": "Servicios Estratégicos (SE)",
+        "responsabilidad": "Consolida los insumos técnicos para verificar requerimientos de licenciamiento o proveedores de fábrica de software."
+      },
+      {
+        "rol": "Socios de Negocio (Inmobiliaria, Marketing, CX, Operaciones)",
+        "responsabilidad": "Establecen las especificaciones comerciales, la experiencia de usuario (Customer Journey) y los layouts físicos o de marca."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": "Escenario A: Diseño de arquitectura TI",
+        "descripcion": "Aplica a iniciativas con impacto en software, integraciones, nube, microservicios o bases de datos.",
+        "pasos": [
+          {
+            "titulo": "Levantamiento y consolidación de capacidades (Input)",
+            "detalle": [
+              "Recaba el expediente de capacidades iniciales y coordina la sesión de arranque técnico, convocando al Líder Funcional y a Arquitectura para delimitar el alcance técnico."
+            ]
+          },
+          {
+            "titulo": "Diagnóstico de la arquitectura As-Is",
+            "detalle": [
+              "Examina los sistemas actuales, interfaces y diagramas de flujo existentes para identificar dependencias tecnológicas y brechas técnicas."
+            ]
+          },
+          {
+            "titulo": "Definición del modelo y seguridad de la solución",
+            "detalle": [
+              "Modela los requerimientos de servidores, almacenamiento, bases de datos y controles de seguridad informática aplicables."
+            ]
+          },
+          {
+            "titulo": "Validación con Arquitectura de Procesos",
+            "detalle": [
+              "Revisa junto con Arquitectura que la interacción técnica no altere las directrices del mapa de procesos corporativo."
+            ]
+          },
+          {
+            "titulo": "Emisión de la Arquitectura To-Be (Outcome)",
+            "detalle": [
+              "Publica y firma el Blueprint de Arquitectura To-Be, y lo entrega al Program Manager para detonar la jugada de estimación."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Sesiones de revisión con Arquitectura de Proceso.",
+          "inputs": "Capacidades funcionales, Arquitectura As-Is, Expediente EDS.",
+          "outcomes": "Arquitectura To-Be formalizada."
+        }
+      },
+      {
+        "titulo": "Escenario B: Diseño de proyecto ejecutivo / nuevo concepto",
+        "descripcion": "Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o aperturas que requieren especificaciones para terceros o despachos.",
+        "pasos": [
+          {
+            "titulo": "Compilación de experiencia y operación (Input)",
+            "detalle": [
+              "Entrega el Customer Journey preliminar, las necesidades operativas de tienda / centro logístico y los requerimientos de negocio."
+            ]
+          },
+          {
+            "titulo": "Análisis de flujo y layouts físicos / digitales",
+            "detalle": [
+              "Estructuran los planos preliminares, layouts de espacio y lineamientos de experiencia de usuario conforme a los estándares de marca."
+            ]
+          },
+          {
+            "titulo": "Alineación de impacto en procesos",
+            "detalle": [
+              "Contrasta los layouts y el modelo operativo To-Be contra las políticas vigentes de tienda y logística, formalizando los ajustes requeridos."
+            ]
+          },
+          {
+            "titulo": "Consolidación del Brief Ejecutivo (Outcome)",
+            "detalle": [
+              "Integra las especificaciones comerciales, operativas y de experiencia en el documento formal de Brief Ejecutivo, y lo entrega al Portafolio Manager para su cotización en mercado."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Mesas de validación de procesos operativos con Socios de Negocio.",
+          "inputs": "Capacidades, Customer Journey, Layouts, Procesos As-Is / To-Be.",
+          "outcomes": "Brief Ejecutivo para despachos / cotización."
+        }
+      }
+    ],
+    "politicas": [
+      "Política de Gobernanza de Arquitectura TI y Estándares de Tecnología",
+      "Procedimiento de Evaluación y Diseño de Soluciones (EDS)",
+      "Catálogo de Procesos Institucionales (CONOCE Liverpool)"
+    ],
+    "templates": [
+      "Template de Arquitectura de Solución (To-Be Architecture Blueprint)",
+      "Template de Brief Ejecutivo para Despachos / Terceros"
+    ],
+    "proTips": [
+      "Nivel de detalle balanceado: en Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. No retrases el caso de negocio por detalles menores."
+    ],
+    "trampas": [
+      "Diseño aislado: emitir una arquitectura sin retroalimentación de Infraestructura y QA / AMS. Omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes."
+    ]
+  },
+  {
+    "id": "3-2-v1",
+    "code": "3.2",
+    "titulo": "Estimar el Esfuerzo (requerimientos nuevos)",
+    "etapa": "eds",
+    "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
+    "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo alineados a los estándares de arquitectura y gobernanza.",
+    "reglaDeOro": "Ningún requerimiento nuevo avanza a la fase de formalización y autorización presupuestal sin contar con una estimación de costo y tiempo validada mediante el proceso RFx correspondiente y alineada a las políticas de Servicios Estratégicos (Abastecimiento y VMO).",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación) cuando una iniciativa identificada como requerimiento nuevo requiere salir al mercado o evaluar a terceros para investigar soluciones, solicitar propuestas técnico-metodológicas o cotizar con precisión el costo y tiempo.",
+    "jugadores": [
+      {
+        "rol": "Líder Funcional",
+        "responsabilidad": "Define las necesidades del negocio y valida que las propuestas de mercado / proveedores cubran las capacidades requeridas."
+      },
+      {
+        "rol": "BP / BA",
+        "responsabilidad": "Facilita el levantamiento de requerimientos y asegura la articulación entre el negocio y las áreas técnicas."
+      },
+      {
+        "rol": "SE (Servicios Estratégicos)",
+        "responsabilidad": "Lidera la estrategia de RFx (RFI, RFP, RFQ), administra la relación con proveedores y garantiza el cumplimiento normativo de Abastecimiento y VMO."
+      },
+      {
+        "rol": "Arquitectura",
+        "responsabilidad": "Evalúa la viabilidad técnica de las soluciones propuestas y asegura su acoplamiento con la Arquitectura To-Be."
+      },
+      {
+        "rol": "Líder Técnico / Ing. SW / Infra",
+        "responsabilidad": "Revisan y validan las estimaciones de esfuerzo técnico, infraestructura, licencias e integración."
+      },
+      {
+        "rol": "PM (Project Manager)",
+        "responsabilidad": "Coordina las sesiones de estimación, da seguimiento a la ruta crítica del proceso RFx y consolida la estimación final de tiempo y costo."
+      },
+      {
+        "rol": "QA / AMS",
+        "responsabilidad": "Dimensionan el impacto en pruebas de calidad, aseguramiento y modelo de soporte / mantenimiento posterior al despliegue."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Recepción de entradas y estrategia RFx (Input)",
+            "detalle": [
+              "Se recibe la iniciativa con la Idea Priorizada y los insumos del diseño de solución previo.",
+              "SE y BP TI determinan el instrumento de mercado según la madurez del requerimiento: RFI (investigar el mercado y conocer proveedores potenciales), RFP (los proveedores proponen la solución técnica, arquitectura y metodología) o RFQ (se conoce con exactitud el alcance y solo se busca cotizar costo y tiempo)."
+            ]
+          },
+          {
+            "titulo": "Evaluación técnico-metodológica de proveedores",
+            "detalle": [
+              "Evalúan las propuestas técnicas bajo los criterios de la Arquitectura To-Be.",
+              "QA y AMS revisan que las estimaciones contemplen los esfuerzos de pruebas, ambientes y transición operativa."
+            ]
+          },
+          {
+            "titulo": "Negociación y selección de proveedor",
+            "detalle": [
+              "Aplican las políticas corporativas para dictaminar la mejor oferta técnico-económica."
+            ]
+          },
+          {
+            "titulo": "Consolidación de estimación y dictamen (Outcome)",
+            "detalle": [
+              "Integran la solución definida, el proveedor seleccionado y el desglose de costo y tiempo en el expediente de la iniciativa para pasar a Formalización y Autorización."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "BP TI; alineación estricta a las políticas de SE (Abastecimiento y VMO).",
+          "inputs": "Requerimiento de proyecto priorizado; RFI, RFP o RFQ.",
+          "outcomes": "Solución definida, proveedor seleccionado y estimación formal de costo y tiempo."
+        }
+      }
+    ],
+    "politicas": [
+      "Política de Abastecimiento Estratégico y Gestión de Proveedores (VMO)",
+      "Política de Gestión de Portafolio TI y Gobernanza de Arquitectura",
+      "Proceso Fase 0 (en Miro)"
+    ],
+    "templates": [
+      "Template de Pliego RFx (RFI / RFP / RFQ)",
+      "Matriz Técnico-Económica de Evaluación de Proveedores",
+      "Plantilla Estándar de Estimación de Costo, Tiempo y Esfuerzo (PMO)"
+    ],
+    "proTips": [
+      "Claridad en el alcance RFx: antes de enviar un RFP, haz un taller breve de alineación entre BP/BA, Arquitectura y el Líder Funcional. Un alcance difuso genera estimaciones con contingencias de precio elevadas."
+    ],
+    "trampas": [
+      "Involucramiento tardío de VMO / Abastecimiento: negociar o comprometer informalmente con proveedores sin acompañamiento de Servicios Estratégicos invalida la estimación y provoca retrocesos en la aprobación."
+    ]
+  },
+  {
+    "id": "3-2-v2",
+    "code": "3.2",
+    "titulo": "Estimar el Esfuerzo (escenarios A, B y C)",
+    "etapa": "eds",
+    "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
+    "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo debidamente sustentados.",
+    "reglaDeOro": "Ninguna iniciativa avanza a la formalización presupuestal sin una estimación de costo, tiempo y recursos validada formalmente bajo las políticas corporativas de Servicios Estratégicos (Abastecimiento y VMO) o por el equipo técnico correspondiente.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se aplica para traducir el diseño de solución en números concretos (tiempo, costo, recursos humanos y licencias / hardware) mediante el mecanismo adecuado: licitación al mercado, dimensionamiento interno o asignación directa autorizada.",
+    "jugadores": [
+      {
+        "rol": "Servicios Estratégicos (SE) / Abastecimiento / VMO",
+        "responsabilidad": "Normar, liderar y auditar la interlocución con proveedores externos, pliegos licitatorios y cumplimiento de contratos."
+      },
+      {
+        "rol": "Program Manager",
+        "responsabilidad": "Estructura la matriz consolidada de esfuerzo, consolida las cotizaciones de terceros y valida la ventana de tiempo esperada."
+      },
+      {
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Confirma que el volumen de esfuerzo y el presupuesto estimado sean coherentes con la capacidad y el retorno esperado del portafolio."
+      },
+      {
+        "rol": "BP / BA",
+        "responsabilidad": "Asegura que el pliego de requerimientos y el alcance evaluado correspondan íntegramente a la solución pactada con el negocio."
+      },
+      {
+        "rol": "Equipo Técnico TI (Líder Técnico, Infraestructura, QA, AMS)",
+        "responsabilidad": "Evalúa técnicamente las propuestas de mercado y calcula el esfuerzo de horas / hombre internas, ambientes y pruebas."
+      },
+      {
+        "rol": "Líder Funcional",
+        "responsabilidad": "Valida que las propuestas económicas y de alcance de los proveedores atiendan satisfactoriamente las necesidades planteadas."
+      },
+      {
+        "rol": "Socios de Negocio (Inmobiliaria / Especialistas de Obra)",
+        "responsabilidad": "Proporcionan y validan los catálogos de conceptos y las matrices de costos paramétricos en iniciativas físicas."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": "Escenario A: Requerimientos nuevos (proceso RFx)",
+        "descripcion": "Aplica cuando se requiere contratar un nuevo servicio, producto o proveedor externo que no existe en el catálogo homologado.",
+        "pasos": [
+          {
+            "titulo": "Definición del instrumento de mercado (Input)",
+            "detalle": [
+              "Evalúan la madurez del requerimiento y determinan la herramienta: RFI (exploración preliminar de mercado), RFP (licitación donde el proveedor propone solución técnica, metodología y costo) o RFQ (cotización directa sobre un alcance totalmente cerrado)."
+            ]
+          },
+          {
+            "titulo": "Publicación y gestión del pliego RFx",
+            "detalle": [
+              "Emite formalmente el pliego a los proveedores participantes, administra las rondas de preguntas y respuestas y resguarda las propuestas."
+            ]
+          },
+          {
+            "titulo": "Evaluación técnica y metodológica",
+            "detalle": [
+              "Califica las propuestas bajo criterios homogéneos (matriz técnica) alineados al diseño de solución previamente construido."
+            ]
+          },
+          {
+            "titulo": "Dictamen técnico-económico y negociación",
+            "detalle": [
+              "Concluye la negociación de tarifas comerciales y condiciones contractuales, y emite el cuadro comparativo final."
+            ]
+          },
+          {
+            "titulo": "Consolidación de estimación final (Outcome)",
+            "detalle": [
+              "Integra la solución seleccionada, el costo consolidado (CAPEX / OPEX) y el cronograma maestro en la plantilla de estimación de Fase 0."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "BP TI; alineación estricta a las políticas de SE (VMO).",
+          "inputs": "Iniciativa priorizada; pliegos RFI / RFP / RFQ.",
+          "outcomes": "Solución definida, proveedor asignado y costo / tiempo formal."
+        }
+      },
+      {
+        "titulo": "Escenario B: Requerimientos existentes (mejora / catálogo)",
+        "descripcion": "Aplica cuando la solución se apoya en contratos marco vigentes, mejoras sobre plataformas existentes o conceptos paramétricos estandarizados.",
+        "pasos": [
+          {
+            "titulo": "Identificación de conceptos y capacidades existentes (Input)",
+            "detalle": [
+              "Identifica los componentes a reutilizar o ampliar con base en la solución técnica y solicita los catálogos tarifarios vigentes a Abastecimiento o Socios de Negocio."
+            ]
+          },
+          {
+            "titulo": "Dimensionamiento paramétrico y de detalle",
+            "detalle": [
+              "Aplican las tarifas unitarias aprobadas sobre los volúmenes requeridos (catálogo de conceptos de obra o bolsas de horas homologadas)."
+            ]
+          },
+          {
+            "titulo": "Validación de capacidades y ambientes operativos",
+            "detalle": [
+              "Verifica si la actualización tecnológica o mejora requiere ampliación de servidores, balanceadores o ventanas especiales de mantenimiento."
+            ]
+          },
+          {
+            "titulo": "Cierre del expediente de estimación (Outcome)",
+            "detalle": [
+              "Documenta la cuantificación final basada en catálogos y horas aprobadas, dejándola lista para la evaluación financiera definitiva."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Validación de procesos operativos y catálogos de socios de negocio.",
+          "inputs": "Catálogos de conceptos, acuerdos marco, requerimiento de actualización.",
+          "outcomes": "Catálogo de conceptos dimensionado e ingeniería de detalle."
+        }
+      },
+      {
+        "titulo": "Escenario C: Asignación directa excepcional",
+        "descripcion": "Aplica cuando un proveedor cuenta con exclusividad tecnológica comprobada, patente o justificación estratégica autorizada por la Dirección / Abastecimiento.",
+        "pasos": [
+          {
+            "titulo": "Presentación de justificación y solicitud (Input)",
+            "detalle": [
+              "Elabora el documento formal que sustenta técnica y operativamente por qué no es viable una licitación abierta."
+            ]
+          },
+          {
+            "titulo": "Validación normativa y dictamen de excepción",
+            "detalle": [
+              "Revisa la procedencia legal y corporativa del caso conforme a las políticas de compras, y emite la aprobación correspondiente."
+            ]
+          },
+          {
+            "titulo": "Cotización y negociación bajo condiciones especiales",
+            "detalle": [
+              "Negocia tarifas y condiciones contractuales con el proveedor único seleccionado, garantizando precios de mercado razonables."
+            ]
+          },
+          {
+            "titulo": "Carta de asignación y alta de proveedor (Outcome)",
+            "detalle": [
+              "Formalizan la carta de asignación directa, validan el estatus del proveedor en el padrón y consolidan la estimación de costo y tiempo en el expediente del proyecto."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Acompañamiento prioritario con VMO y Abastecimiento.",
+          "inputs": "Iniciativa priorizada, justificación de exclusividad, proveedor definido.",
+          "outcomes": "Carta de asignación formal, contrato / alta y solución costeada."
+        }
+      }
+    ],
+    "politicas": [
+      "Política de Abastecimiento Estratégico y Compras Corporativas",
+      "Normativa de Gestión y Homologación de Proveedores (VMO)",
+      "Procedimiento de Gestión de Portafolio de Inversión y TI"
+    ],
+    "templates": [
+      "Formato de Pliego RFx (RFI, RFP, RFQ)",
+      "Matriz de Evaluación Técnico-Económica de Proveedores",
+      "Formato Oficial de Asignación Directa y Justificación de Excepción",
+      "Plantilla Estándar de Estimación de Esfuerzo, Costo y Cronograma"
+    ],
+    "proTips": [
+      "Tiempos de mercado realistas: considera en el cronograma de la Fase 0 los tiempos legales y contractuales de Abastecimiento; forzar fechas irreales genera pliegos incompletos y sobrecostos."
+    ],
+    "trampas": [
+      "Compromisos informales sin SE: nunca acuerdes contrataciones o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos."
+    ]
+  },
+  {
+    "id": "4-1",
+    "code": "4.1",
+    "titulo": "Autorización Formal",
+    "etapa": "formal",
+    "objetivo": "Asegurar la asignación de recursos y el respaldo ejecutivo del proyecto.",
+    "kr": "Confirmar el 100% de los beneficios esperados con la Dirección General y habilitar las partidas presupuestales.",
+    "reglaDeOro": "Ningún proyecto arranca su ejecución (Fase 1 en adelante) ni compromete órdenes de compra sin la aprobación firmada de su Project Charter, la confirmación de beneficios y la activación de su elemento PEP presupuestal en Finanzas / SAP.",
+    "cuando": "Se ejecuta al cierre de la Fase 0 (Formalización y Autorización). Se detona una vez concluido el caso de negocio, el diseño de la solución y la estimación formal de costo y tiempo, buscando el dictamen ejecutivo final del Comité de Inversión / Dirección.",
+    "jugadores": [
+      {
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Presenta la iniciativa ante los comités de decisión y verifica el cumplimiento de los filtros de gobernanza de portafolio."
+      },
+      {
+        "rol": "Program Manager",
+        "responsabilidad": "Integra el expediente final de la iniciativa (Charter consolidado, cronograma y costos aprobados)."
+      },
+      {
+        "rol": "Líder Funcional / Director Promotor",
+        "responsabilidad": "Defiende y ratifica el caso de negocio, asumiendo la corresponsabilidad de los beneficios ante el comité directivo."
+      },
+      {
+        "rol": "Finanzas / Finanzas SE TI",
+        "responsabilidad": "Validan la suficiencia presupuestal y el ROI, y tramitan la apertura del elemento PEP en los sistemas financieros corporativos."
+      },
+      {
+        "rol": "Servicios Estratégicos (SE)",
+        "responsabilidad": "Validan la congruencia de los montos de contratos y compras contra el presupuesto solicitado."
+      },
+      {
+        "rol": "Comité Directivo / Sponsor",
+        "responsabilidad": "Emite el dictamen final de aprobación, autorizando formalmente el uso de recursos y el arranque del proyecto."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Integración del expediente de decisión (Input)",
+            "detalle": [
+              "Consolida el Project Charter, el Caso de Negocio actualizado con los costos reales de estimación y los dictámenes técnicos de arquitectura y abastecimiento."
+            ]
+          },
+          {
+            "titulo": "Validación financiera y presupuestal",
+            "detalle": [
+              "Revisa la corrida financiera final, comprueba la disponibilidad de saldo en el portafolio de inversión (CAPEX / OPEX) y da el visto bueno al esquema de amortización."
+            ]
+          },
+          {
+            "titulo": "Presentación al comité de autorización",
+            "detalle": [
+              "Exponen el proyecto ante el comité de portafolio o dirección general, evidenciando el retorno, la alineación estratégica y los riesgos mitigados."
+            ]
+          },
+          {
+            "titulo": "Firma del Project Charter",
+            "detalle": [
+              "Formalizan su compromiso mediante firma digital o física del Charter, aceptando las metas de entrega y los beneficios comprometidos."
+            ]
+          },
+          {
+            "titulo": "Apertura del elemento PEP y entrega a ejecución (Outcome)",
+            "detalle": [
+              "Da de alta y habilita la estructura de imputación financiera (PEP / CECO) en SAP, marcando formalmente el cierre de la Fase 0 y el paso a la Fase 1."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Portafolio Manager, sesiones ordinarias de Comités de Inversión, pre-validación con Finanzas TI.",
+          "inputs": "Caso de Negocio definitivo, Project Charter, estimación de esfuerzo validada, dictamen de proveedores.",
+          "outcomes": "Project Charter firmado, Caso de Negocio finalizado, PEP / clave de presupuesto activa en SAP."
+        }
+      }
+    ],
+    "politicas": [
+      "Política de Inversiones de Capital y Gestión Presupuestal",
+      "Procedimiento de Gobernanza del Portafolio de Proyectos"
+    ],
+    "templates": [],
+    "proTips": [
+      "Pre-aprobación financiera: haz una revisión previa informal con Finanzas antes de la sesión oficial del comité directivo; el 80% de los rechazos en comité se originan por dudas en la imputación contable del gasto."
+    ],
+    "trampas": [
+      "Iniciar antes del PEP: iniciar compromisos operativos con proveedores sin tener el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos."
+    ]
+  },
+  {
+    "id": "4-2",
+    "code": "4.2",
+    "titulo": "Ejecutar en un momento posterior (Acuerdo Hold)",
+    "etapa": "formal",
+    "objetivo": "Asegurar la correcta gestión y custodia de los recursos y prioridades del portafolio.",
+    "kr": "Suspender de manera controlada el 100% de las iniciativas viables no prioritarias, garantizando su trazabilidad para una reactivación oportuna.",
+    "reglaDeOro": "Ninguna iniciativa que sea pospuesta o pausada debe quedar en el limbo; debe contar con una justificación formalizada, criterios explícitos de reactivación y el resguardo de sus entregables para evitar reprocesos futuros.",
+    "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambios en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
+    "jugadores": [
+      {
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Gestiona el catálogo de iniciativas en reserva (backlog estratégico) y propone la fecha de reevaluación."
+      },
+      {
+        "rol": "Program Manager",
+        "responsabilidad": "Resguarda formalmente el expediente técnico y financiero desarrollado en Fase 0 para evitar su pérdida."
+      },
+      {
+        "rol": "Líder Funcional / Sponsor",
+        "responsabilidad": "Acepta la postergación temporal y define las condiciones operativas mínimas que detonarán su reactivación."
+      },
+      {
+        "rol": "Finanzas SE TI",
+        "responsabilidad": "Libera el compromiso preventivo de presupuesto para que pueda reasignarse a iniciativas activas."
+      },
+      {
+        "rol": "Servicios Estratégicos (SE)",
+        "responsabilidad": "Notifica a los proveedores involucrados en cotizaciones sobre la suspensión temporal, sin incurrir en penalizaciones."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Identificación y solicitud de postergación (Input)",
+            "detalle": [
+              "Detecta en el balance del portafolio la restricción (capacidad, presupuesto o prelación) y notifica al Líder Funcional la necesidad de pausar la iniciativa."
+            ]
+          },
+          {
+            "titulo": "Formalización de criterios de reactivación",
+            "detalle": [
+              "Documentan las condiciones exactas bajo las cuales el proyecto volverá a evaluación (p. ej. inicio del siguiente año fiscal, liberación de capacidad del equipo)."
+            ]
+          },
+          {
+            "titulo": "Cierre temporal con proveedores y terceros",
+            "detalle": [
+              "Gestiona con los proveedores participantes el cierre ordenado de la vigencia de las cotizaciones, evitando compromisos comerciales vigentes."
+            ]
+          },
+          {
+            "titulo": "Resguardo del expediente de Fase 0",
+            "detalle": [
+              "Archiva en el repositorio central de PMO el Caso de Negocio, la Arquitectura To-Be y el Charter no firmado, en estatus \"Hold\"."
+            ]
+          },
+          {
+            "titulo": "Emisión del Acuerdo Hold y registro en portafolio (Outcome)",
+            "detalle": [
+              "Genera la minuta ejecutiva del Acuerdo Hold, actualiza el estatus de la iniciativa en el tablero del portafolio y libera la reserva presupuestal en Finanzas."
+            ]
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Sesión de revisión trimestral de portafolio; proceso de gestión de backlog de PMO.",
+          "inputs": "Expediente de Fase 0 incompleto o pospuesto; dictamen de restricciones de portafolio.",
+          "outcomes": "Minuta de Acuerdo Hold (con fecha de revisión y gatillos de reactivación); tablero de portafolio actualizado."
+        }
+      }
+    ],
+    "politicas": [
+      "Política de Gestión de Portafolio TI y Asignación de Capacidad",
+      "Procedimientos de Gobernanza PMO (CONOCE Liverpool)"
+    ],
+    "templates": [],
+    "proTips": [
+      "Vigencia de cotizaciones: al poner una iniciativa en \"Hold\", registra claramente la vigencia de las cotizaciones técnicas. Si la pausa supera 6 meses, las cotizaciones y la arquitectura requerirán una actualización rápida antes de arrancar."
+    ],
+    "trampas": [
+      "Iniciativas huérfanas: nunca dejes una iniciativa en pausa sin fecha de revisión o sin un gatillo claro de reactivación; de lo contrario, consume tiempo de gestión recurrente en cada ciclo de planeación."
+    ]
+  }
+]

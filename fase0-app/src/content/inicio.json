@@ -1,0 +1,105 @@
+{
+  "fase0": {
+    "titulo": "Fase 0. Preproyecto",
+    "pasos": [
+      {
+        "label": "1. Idea",
+        "icon": "lightbulb"
+      },
+      {
+        "label": "2. Evaluación",
+        "icon": "track_changes"
+      },
+      {
+        "label": "3. EDS y Estimación",
+        "icon": "assignment_turned_in"
+      },
+      {
+        "label": "4. Formalización y Autorización",
+        "icon": "verified"
+      }
+    ]
+  },
+  "fase5": {
+    "titulo": "Fase 5. Captura de valor",
+    "medicion": {
+      "titulo": "Medición y cierre del ciclo:",
+      "texto": "Evaluación final de",
+      "resaltado": "resultados",
+      "cierre": "frente a KPI's y OKR's para validar el impacto y rentabilidad."
+    },
+    "cta": "Validar retorno ROI"
+  },
+  "nodos": [
+    {
+      "lineas": [
+        "Alcance y",
+        "cronograma"
+      ],
+      "caption": "Alcance y cronograma: Hitos críticos, sprints y roadmap entregable.",
+      "color": "#802973",
+      "fill": "#802973"
+    },
+    {
+      "lineas": [
+        "Recursos"
+      ],
+      "caption": "Recursos: Capacidad instalada, perfiles clave y talento asignado.",
+      "color": "#bd4a96",
+      "fill": "#bd4a96"
+    },
+    {
+      "lineas": [
+        "Finanzas"
+      ],
+      "caption": "Finanzas: Capex, Opex, retorno de inversión proyectado y presupuesto.",
+      "color": "#d63489",
+      "fill": "#d63489"
+    },
+    {
+      "lineas": [
+        "Riesgos"
+      ],
+      "caption": "Riesgos: Matriz de calor, mitigaciones tempranas y contingencias operativas.",
+      "color": "#d63489",
+      "fill": "#d63489"
+    },
+    {
+      "lineas": [
+        "Gobernanza"
+      ],
+      "caption": "Gobernanza: Comités de cartera, estándares de arquitectura y cumplimiento VRO.",
+      "color": "#802973",
+      "fill": "#802973"
+    }
+  ],
+  "captionDefault": "Ciclo continuo de entrega de valor en 5 dimensiones clave",
+  "changeManagement": [
+    "Preparando el cambio",
+    "Gestionando y viviendo el cambio",
+    "Reforzando el cambio"
+  ],
+  "valor": [
+    "Identificación",
+    "Construcción",
+    "Captura"
+  ],
+  "pilares": [
+    {
+      "label": "Alineación estratégica y priorización de proyectos",
+      "icon": "change_history"
+    },
+    {
+      "label": "Road map anual",
+      "icon": "calendar_today"
+    },
+    {
+      "label": "Mediciones y reportes centrados en resultados",
+      "icon": "assignment"
+    },
+    {
+      "label": "Gobernanza VRO",
+      "icon": "account_balance"
+    }
+  ]
+}
