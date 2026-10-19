@@ -11,10 +11,10 @@
     "jugadores": [
       {
         "rol": "Líder Funcional / Director",
-        "responsabilidad": "Promotor. Define y justifica la necesidad de negocio original. Es el principal interesado en el resultado."
+        "responsabilidad": "Define y justifica la necesidad del negocio original. Es el principal interesado en el resultado"
       },
       {
-        "rol": "BP / BA (Business Partner / Analyst)",
+        "rol": "Business Partner / Business Analyst",
         "responsabilidad": "Actúa como acelerador; traduce la necesidad del negocio en un contexto estructurado."
       },
       {
@@ -26,8 +26,8 @@
         "responsabilidad": "Aporta una visión preliminar para asegurar que la idea hace sentido dentro del ecosistema actual (viabilidad a muy alto nivel)."
       },
       {
-        "rol": "SE (Servicios Estratégicos)",
-        "responsabilidad": "Estructura la estrategia de procesos RFx y potencia la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
+        "rol": "Servicios Estratégicos",
+        "responsabilidad": "Área responsable de estructurar la estrategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
       }
     ],
     "escenarios": [
@@ -99,10 +99,10 @@
       },
       {
         "rol": "Líder Funcional / Director",
-        "responsabilidad": "Promotor. Defiende el valor de la idea, aportando contexto sobre la urgencia y el impacto esperado en el negocio."
+        "responsabilidad": "Defiende el valor de la idea, aportando contexto sobre la urgencia y el impacto esperado en el negocio."
       },
       {
-        "rol": "BP / BA",
+        "rol": "Business Partner/ Business Analyst",
         "responsabilidad": "Aporta el análisis cualitativo y cuantitativo preliminar para justificar el peso de la iniciativa."
       },
       {
@@ -111,7 +111,7 @@
       },
       {
         "rol": "SE (Servicios Estratégicos)",
-        "responsabilidad": "Estructura la estrategia de procesos RFx y potencia la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
+        "responsabilidad": "Área responsable de estructurar la estrategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
       }
     ],
     "escenarios": [
@@ -566,11 +566,11 @@
         "responsabilidad": "Define las necesidades del negocio y valida que las propuestas de mercado / proveedores cubran las capacidades requeridas."
       },
       {
-        "rol": "BP / BA",
+        "rol": "Business Partner/ Business Analyst",
         "responsabilidad": "Facilita el levantamiento de requerimientos y asegura la articulación entre el negocio y las áreas técnicas."
       },
       {
-        "rol": "SE (Servicios Estratégicos)",
+        "rol": "Servicios Estratégicos",
         "responsabilidad": "Lidera la estrategia de RFx (RFI, RFP, RFQ), administra la relación con proveedores y garantiza el cumplimiento normativo de Abastecimiento y VMO."
       },
       {
@@ -578,16 +578,16 @@
         "responsabilidad": "Evalúa la viabilidad técnica de las soluciones propuestas y asegura su acoplamiento con la Arquitectura To-Be."
       },
       {
-        "rol": "Líder Técnico / Ing. SW / Infra",
-        "responsabilidad": "Revisan y validan las estimaciones de esfuerzo técnico, infraestructura, licencias e integración."
+        "rol": "Líder Técnico",
+        "responsabilidad": "Evaluar técnicamente las propuestas de mercado y calcular el esfuerzo de horas/hombre internas, ambientes y pruebas."
       },
       {
-        "rol": "PM (Project Manager)",
-        "responsabilidad": "Coordina las sesiones de estimación, da seguimiento a la ruta crítica del proceso RFx y consolida la estimación final de tiempo y costo."
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Estructurar la matriz consolidada de esfuerzo, consolidar cotizaciones y validar “razonablemente” la alineación con base en el alcance esperado."
       },
       {
-        "rol": "QA / AMS",
-        "responsabilidad": "Dimensionan el impacto en pruebas de calidad, aseguramiento y modelo de soporte / mantenimiento posterior al despliegue."
+        "rol": "Servicios Estratégicos",
+        "responsabilidad": "Proporcionar y validar los catálogos de conceptos y matrices de costos paramétricos en iniciativas físicas."
       }
     ],
     "escenarios": [
@@ -655,33 +655,33 @@
     "reglaDeOro": "Ninguna iniciativa avanza a la formalización presupuestal sin una estimación de costo, tiempo y recursos validada formalmente bajo las políticas corporativas de Servicios Estratégicos (Abastecimiento y VMO) o por el equipo técnico correspondiente.",
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se aplica para traducir el diseño de solución en números concretos (tiempo, costo, recursos humanos y licencias / hardware) mediante el mecanismo adecuado: licitación al mercado, dimensionamiento interno o asignación directa autorizada.",
     "jugadores": [
-      {
-        "rol": "Servicios Estratégicos (SE) / Abastecimiento / VMO",
-        "responsabilidad": "Normar, liderar y auditar la interlocución con proveedores externos, pliegos licitatorios y cumplimiento de contratos."
+       {
+        "rol": "Líder Funcional",
+        "responsabilidad": "Define las necesidades del negocio y valida que las propuestas de mercado / proveedores cubran las capacidades requeridas."
       },
       {
-        "rol": "Program Manager",
-        "responsabilidad": "Estructura la matriz consolidada de esfuerzo, consolida las cotizaciones de terceros y valida la ventana de tiempo esperada."
+        "rol": "Business Partner/ Business Analyst",
+        "responsabilidad": "Facilita el levantamiento de requerimientos y asegura la articulación entre el negocio y las áreas técnicas."
+      },
+      {
+        "rol": "Servicios Estratégicos",
+        "responsabilidad": "Lidera la estrategia de RFx (RFI, RFP, RFQ), administra la relación con proveedores y garantiza el cumplimiento normativo de Abastecimiento y VMO."
+      },
+      {
+        "rol": "Arquitectura",
+        "responsabilidad": "Evalúa la viabilidad técnica de las soluciones propuestas y asegura su acoplamiento con la Arquitectura To-Be."
+      },
+      {
+        "rol": "Líder Técnico",
+        "responsabilidad": "Evaluar técnicamente las propuestas de mercado y calcular el esfuerzo de horas/hombre internas, ambientes y pruebas."
       },
       {
         "rol": "Portafolio Manager",
-        "responsabilidad": "Confirma que el volumen de esfuerzo y el presupuesto estimado sean coherentes con la capacidad y el retorno esperado del portafolio."
+        "responsabilidad": "Estructurar la matriz consolidada de esfuerzo, consolidar cotizaciones y validar “razonablemente” la alineación con base en el alcance esperado."
       },
       {
-        "rol": "BP / BA",
-        "responsabilidad": "Asegura que el pliego de requerimientos y el alcance evaluado correspondan íntegramente a la solución pactada con el negocio."
-      },
-      {
-        "rol": "Equipo Técnico TI (Líder Técnico, Infraestructura, QA, AMS)",
-        "responsabilidad": "Evalúa técnicamente las propuestas de mercado y calcula el esfuerzo de horas / hombre internas, ambientes y pruebas."
-      },
-      {
-        "rol": "Líder Funcional",
-        "responsabilidad": "Valida que las propuestas económicas y de alcance de los proveedores atiendan satisfactoriamente las necesidades planteadas."
-      },
-      {
-        "rol": "Socios de Negocio (Inmobiliaria / Especialistas de Obra)",
-        "responsabilidad": "Proporcionan y validan los catálogos de conceptos y las matrices de costos paramétricos en iniciativas físicas."
+        "rol": "Servicios Estratégicos",
+        "responsabilidad": "Proporcionar y validar los catálogos de conceptos y matrices de costos paramétricos en iniciativas físicas."
       }
     ],
     "escenarios": [
