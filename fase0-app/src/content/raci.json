@@ -145,7 +145,13 @@
     "PM": "PM - Project Manager",
     "PfM": "PfM - Portafolio Manager",
     "AR": "AR - Arquitectura",
-    "SE": "SE - Servicios Estratégico"
+    "SE": "SE - Servicios Estratégicos",
+    "TI": "TI - Líder Técnico",
+    "SdN": "SdN - Socios de Negocio",
+    "PgM": "PgM - Program Manager",
+    "FI": "FI - Finanzas",
+    "S": "S - Sponsor",
+    "CM": "CM - Comité de Portafolio"
   },
   "etiquetas": {
     "R": "Responsable",
