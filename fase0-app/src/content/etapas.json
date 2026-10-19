@@ -1,22 +1,22 @@
 [
   {
     "id": "idea",
-    "label": "Etapa 1: Ideación & Formalización",
+    "label": "Etapa 1: Idea",
     "icon": "flag"
   },
   {
     "id": "caso",
-    "label": "Etapa 2: Evaluación & Priorización",
+    "label": "Etapa 2: Evaluación",
     "icon": "tune"
   },
   {
     "id": "eds",
-    "label": "Etapa 3: Arquitectura & Estimación",
+    "label": "Etapa 3: EDS y Estimación",
     "icon": "architecture"
   },
   {
     "id": "formal",
-    "label": "Etapa 4: Entrega & Valor Sostenible",
+    "label": "Etapa 4: Formalización y Autorización",
     "icon": "rocket_launch"
   }
 ]
