@@ -2,7 +2,7 @@
   "porJugada": {
     "1-1": {
       "R": [
-        "LI",
+        "LF",
         "PfM",
         "SE"
       ],
@@ -25,7 +25,7 @@
         "-"
       ],
       "C": [
-        "LI",
+        "LF",
         "AR"
       ],
       "I": [
@@ -80,16 +80,18 @@
     "3-2-v1": {
       "R": [
         "LF",
-        "BP"
-      ],
-      "A": [
-        "PM"
-      ],
-      "C": [
+        "SE",
         "AR"
       ],
+      "A": [
+        "SdN",
+        "TI"
+      ],
+      "C": [
+        "PfM"
+      ],
       "I": [
-        "SE"
+        "BP/BA"
       ]
     },
     "3-2-v2": {
@@ -109,32 +111,61 @@
     },
     "4-1": {
       "R": [
+        "PgM",
+        "FI",
+        "PM",
         "LF",
-        "BP/BA"
+        "SP"
       ],
       "A": [
-        "PfM"
+        "SP",
+        "DP",
+        "LF",
+        "CM",
+        "DG",
+        "BP"
       ],
       "C": [
-        "AR"
+        "FI",
+        "PgM",
+        "BP",
+        "PgM",
+        "SP",
+        "LT",
+        "LF"
       ],
       "I": [
-        "SE"
+        "PgM",
+        "SE",
+        "AE",
+        "SP",
+        "BP"
       ]
     },
     "4-2": {
       "R": [
+        "PgM",
         "LF",
-        "BP/BA"
+        "SE",
+        "PgM",
       ],
       "A": [
-        "PfM"
+        "CD",
+        "DP",
+        "LF",
+        
       ],
       "C": [
-        "AR"
+        "BP",
+        "PgM",
+        "LF"
       ],
       "I": [
-        "SE"
+        "LF",
+        "PgM",
+        "P",
+        "BP",
+        "DP"
       ]
     }
   },
@@ -144,18 +175,19 @@
     "BP/BA": "Business Partner / Business Analyst ",
     "PM": "Project Manager",
     "PfM": "Portafolio Manager",
+    "P": "Proveedor",
     "AR": "Arquitectura",
     "SE": "Servicios Estratégicos",
-    "TI": "Líder Técnico",
+    "LT": "Líder Técnico",
     "SdN": "Socios de Negocio",
     "PgM": "Program Manager",
     "FI": "Finanzas",
     "SP": "Sponsor",
     "CM": "Comité de Portafolio",
+    "CD": "Comité de Diseño",
     "DG": "Direccipon General",
     "AE": "Planeación estratégica",
     "DP": "Director de proyecto",
-    
   },
   "etiquetas": {
     "R": "Responsable",
