@@ -191,9 +191,9 @@
     "TI": "TI (nombre por confirmar)"
   },
   "etiquetas": {
-    "R": "Responsable",
-    "A": "Aprobador",
-    "C": "Consultado",
-    "I": "Informado"
+    "R": "Responsible",
+    "A": "Accountable",
+    "C": "Consulted",
+    "I": "Informed"
   }
 }
