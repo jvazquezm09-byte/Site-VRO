@@ -147,13 +147,12 @@
         "PgM",
         "LF",
         "SE",
-        "PgM",
+        "PgM"
       ],
       "A": [
         "CD",
         "DP",
-        "LF",
-        
+        "LF"
       ],
       "C": [
         "BP",
@@ -187,7 +186,7 @@
     "CD": "Comité de Diseño",
     "DG": "Direccipon General",
     "AE": "Planeación estratégica",
-    "DP": "Director de proyecto",
+    "DP": "Director de proyecto"
   },
   "etiquetas": {
     "R": "Responsable",
