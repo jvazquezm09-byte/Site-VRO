@@ -186,7 +186,9 @@
     "CD": "Comité de Diseño",
     "DG": "Direccipon General",
     "AE": "Planeación estratégica",
-    "DP": "Director de proyecto"
+    "DP": "Director de proyecto",
+    "-": "Sin aprobador asignado",
+    "TI": "TI (nombre por confirmar)"
   },
   "etiquetas": {
     "R": "Responsable",
