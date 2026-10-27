@@ -96,6 +96,12 @@
     "etapa": "idea",
     "objetivo": "Alinear las ideas a las prioridades del negocio.",
     "kr": "Estructurar el 100% de la idea para su integración y evaluación.",
+    "criteriosSalida": [
+      { "titulo": "Prioridad asignada", "detalle": "Lugar definido en la pirámide estratégica." },
+      { "titulo": "Urgencia, valor e impacto", "detalle": "Evaluados frente al portafolio." },
+      { "titulo": "Canvas vigente", "detalle": "Base formal de la evaluación." },
+      { "titulo": "Registrado y comunicado", "detalle": "Listo para Jugada 2.1 Valor del proyecto." }
+    ],
     "reglaDeOro": "Ninguna idea formalizada avanza a la fase de evaluación ni al caso de negocio sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica.",
     "cuando": "Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.",
     "jugadores": [
@@ -179,6 +185,12 @@
     "etapa": "caso",
     "objetivo": "Garantizar la rentabilidad y alineación estratégica del caso de negocio.",
     "kr": "100% de los casos de negocio respaldados por evaluación financiera cuantitativa y cualitativa.",
+    "criteriosSalida": [
+      { "titulo": "Caso de negocio o hoja de costos", "detalle": "Según el escenario elegido." },
+      { "titulo": "Beneficios cuantificados", "detalle": "Tangibles e intangibles frente a costos." },
+      { "titulo": "Viabilidad financiera validada", "detalle": "Dictamen de evaluación cuantitativa y cualitativa." },
+      { "titulo": "Dictamen registrado", "detalle": "Listo para Jugada 2.2 Diseño de solución." }
+    ],
     "reglaDeOro": "Ningún proyecto avanza a la fase de diseño técnico detallado ni a la estimación formal de esfuerzo sin contar con un caso de negocio estructurado (Business Case) o una hoja de costos validada que certifique la viabilidad financiera y el retorno de inversión.",
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Evaluación) una vez priorizada la iniciativa (Jugada 1.2). Se aplica cuando se requiere cuantificar los beneficios tangibles e intangibles frente a los costos proyectados para fundamentar la decisión del portafolio.",
     "jugadores": [
@@ -313,6 +325,12 @@
     "etapa": "caso",
     "objetivo": "Garantizar la rentabilidad y alineación estratégica del caso de negocio.",
     "kr": "100% de las iniciativas con diseño de solución y estimación de esfuerzo validados.",
+    "criteriosSalida": [
+      { "titulo": "Arquitectura To-Be o Brief", "detalle": "Blueprint o concepto ejecutivo, según escenario." },
+      { "titulo": "Capacidades definidas", "detalle": "Tecnológicas o de experiencia, según aplique." },
+      { "titulo": "Estándares revisados", "detalle": "Alineado a arquitectura de negocio y TI." },
+      { "titulo": "Listo para estimar", "detalle": "Insumo validado para estimación de esfuerzo." }
+    ],
     "reglaDeOro": "Ningún proyecto avanza a la estimación formal de esfuerzo o adquisición técnica sin contar con un diseño de solución (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado y alineado a los estándares de arquitectura de negocio y tecnología.",
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación) y complementa la Jugada 2.1 (Determinar el valor del proyecto). Aplica cuando se requiere definir la arquitectura objetivo, las capacidades tecnológicas y/o el concepto ejecutivo detallado para fundamentar la estimación de esfuerzo.",
     "jugadores": [
@@ -427,6 +445,12 @@
     "etapa": "eds",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo formalmente respaldados.",
+    "criteriosSalida": [
+      { "titulo": "Solución trazada", "detalle": "Arquitectura To-Be o Brief Ejecutivo." },
+      { "titulo": "Diseño revisado", "detalle": "Validado por mesas técnicas o de procesos." },
+      { "titulo": "Impacto en procesos alineado", "detalle": "Validación con Arquitectura de Procesos." },
+      { "titulo": "Listo para cotizar", "detalle": "Base para Jugada 3.2 Estimar el esfuerzo." }
+    ],
     "reglaDeOro": "Ninguna iniciativa avanza a la estimación formal de costo, tiempo o adquisición técnica sin contar con un diseño de solución estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas técnicas o de procesos.",
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se detona una vez que se cuenta con el caso de negocio preliminar o la necesidad priorizada, y se requiere trazar la solución conceptual o técnica que servirá de base para cotizar y dimensionar el esfuerzo del proyecto.",
     "jugadores": [
@@ -564,6 +588,12 @@
     "etapa": "eds",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo alineados a los estándares de arquitectura y gobernanza.",
+    "criteriosSalida": [
+      { "titulo": "Estrategia RFx definida", "detalle": "Instrumento de mercado acordado." },
+      { "titulo": "Proveedores evaluados", "detalle": "Criterios técnico-metodológicos aplicados." },
+      { "titulo": "Proveedor seleccionado", "detalle": "Negociación cerrada con el proveedor." },
+      { "titulo": "Estimación validada", "detalle": "Costo y tiempo listos para Jugada 4.1." }
+    ],
     "reglaDeOro": "Ningún requerimiento nuevo avanza a la fase de formalización y autorización presupuestal sin contar con una estimación de costo y tiempo validada mediante el proceso RFx correspondiente y alineada a las políticas de Servicios Estratégicos (Abastecimiento y VMO).",
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación) cuando una iniciativa identificada como requerimiento nuevo requiere salir al mercado o evaluar a terceros para investigar soluciones, solicitar propuestas técnico-metodológicas o cotizar con precisión el costo y tiempo.",
     "jugadores": [
@@ -658,6 +688,12 @@
     "etapa": "eds",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo debidamente sustentados.",
+    "criteriosSalida": [
+      { "titulo": "Costo y tiempo estimados", "detalle": "Incluye recursos humanos y licencias / hardware." },
+      { "titulo": "Mecanismo elegido", "detalle": "Licitación, dimensionamiento interno o asignación directa." },
+      { "titulo": "Expediente cerrado", "detalle": "Dictamen técnico-económico emitido." },
+      { "titulo": "Validada por Servicios Estratégicos", "detalle": "Listo para Jugada 4.1 Autorización." }
+    ],
     "reglaDeOro": "Ninguna iniciativa avanza a la formalización presupuestal sin una estimación de costo, tiempo y recursos validada formalmente bajo las políticas corporativas de Servicios Estratégicos (Abastecimiento y VMO) o por el equipo técnico correspondiente.",
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se aplica para traducir el diseño de solución en números concretos (tiempo, costo, recursos humanos y licencias / hardware) mediante el mecanismo adecuado: licitación al mercado, dimensionamiento interno o asignación directa autorizada.",
     "jugadores": [
@@ -828,6 +864,12 @@
     "etapa": "formal",
     "objetivo": "Asegurar la asignación de recursos y el respaldo ejecutivo del proyecto.",
     "kr": "Confirmar el 100% de los beneficios esperados con la Dirección General y habilitar las partidas presupuestales.",
+    "criteriosSalida": [
+      { "titulo": "Project Charter firmado", "detalle": "Aprobación formal del comité / Dirección." },
+      { "titulo": "Beneficios confirmados", "detalle": "Acordados con la Dirección General." },
+      { "titulo": "Presupuesto habilitado", "detalle": "Elemento PEP activo en Finanzas / SAP." },
+      { "titulo": "Entregado a ejecución", "detalle": "Inicio de Fase 1 autorizado." }
+    ],
     "reglaDeOro": "Ningún proyecto arranca su ejecución (Fase 1 en adelante) ni compromete órdenes de compra sin la aprobación firmada de su Project Charter, la confirmación de beneficios y la activación de su elemento PEP presupuestal en Finanzas / SAP.",
     "cuando": "Se ejecuta al cierre de la Fase 0 (Formalización y Autorización). Se detona una vez concluido el caso de negocio, el diseño de la solución y la estimación formal de costo y tiempo, buscando el dictamen ejecutivo final del Comité de Inversión / Dirección.",
     "jugadores": [
@@ -917,6 +959,12 @@
     "etapa": "formal",
     "objetivo": "Asegurar la correcta gestión y custodia de los recursos y prioridades del portafolio.",
     "kr": "Suspender de manera controlada el 100% de las iniciativas viables no prioritarias, garantizando su trazabilidad para una reactivación oportuna.",
+    "criteriosSalida": [
+      { "titulo": "Acuerdo Hold emitido", "detalle": "Con justificación formal de postergación." },
+      { "titulo": "Criterios de reactivación", "detalle": "Explícitos y acordados." },
+      { "titulo": "Expediente resguardado", "detalle": "Entregables de Fase 0 guardados." },
+      { "titulo": "Registrado en portafolio", "detalle": "Trazable para reactivación oportuna." }
+    ],
     "reglaDeOro": "Ninguna iniciativa que sea pospuesta o pausada debe quedar en el limbo; debe contar con una justificación formalizada, criterios explícitos de reactivación y el resguardo de sus entregables para evitar reprocesos futuros.",
     "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambios en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
     "jugadores": [
