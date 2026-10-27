@@ -1,9 +1,9 @@
 // Color de cada escenario (A, B, C), tomado del diseño de Stitch.
-const colores = ['#802973', '#fd6f21', '#bd4a96', '#d63489'];
+export const colores = ['#802973', '#fd6f21', '#bd4a96', '#d63489'];
 const letras = ['A', 'B', 'C', 'D'];
 
 // Disparador de la jugada y botones de escenario. Sin escenarios, solo muestra el disparador.
-export default function EscenarioSelector({ cuando, escenarios, index, onSelect }) {
+export default function EscenarioSelector({ cuando, escenarios, index, onSelect, detalleCambio }) {
   const conSelector = escenarios.some((e) => e.titulo);
   const elegido = conSelector && index !== null ? escenarios[index] : null;
   const accent = elegido ? colores[index] : colores[0];
@@ -44,7 +44,7 @@ export default function EscenarioSelector({ cuando, escenarios, index, onSelect 
       </div>
 
       {elegido && (
-        <div className="esc-detalle">
+        <div key={index} className={`esc-detalle${detalleCambio ? ' glow' : ''}`}>
           <strong>{elegido.titulo}</strong>
           {elegido.descripcion && <p>{elegido.descripcion}</p>}
         </div>

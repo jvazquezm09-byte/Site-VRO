@@ -1,5 +1,5 @@
 // Aceleradores del escenario activo, templates y políticas de la jugada.
-export default function RecursosPanel({ aceleradores, procesos, templates, politicas }) {
+export default function RecursosPanel({ aceleradores, procesos, templates, politicas, cambios }) {
   return (
     <section className="recursos">
       <div className="panel">
@@ -13,12 +13,12 @@ export default function RecursosPanel({ aceleradores, procesos, templates, polit
         </p>
         {aceleradores ? (
           <div className="acel-list">
-            <div className="recurso-item">
+            <div className={`recurso-item${cambios.aceleradores ? ' glow' : ''}`}>
               <span className="kpi-label">Aceleradores rol</span>
               <p>{aceleradores}</p>
             </div>
             {procesos && (
-              <div className="recurso-item">
+              <div className={`recurso-item${cambios.procesos ? ' glow' : ''}`}>
                 <span className="kpi-label">Procesos</span>
                 <p>{procesos}</p>
               </div>

@@ -3,18 +3,21 @@ import QuienParticipa from './QuienParticipa.jsx';
 
 // Pasos del escenario activo: tarjetas para elegir paso, y detalle del paso seleccionado.
 // Se monta con key por escenario, así el paso vuelve al primero al cambiar de escenario.
-export default function StepsExplorer({ escenario, raci, jugadores, onDeselect }) {
+export default function StepsExplorer({ escenario, anterior, raci, jugadores, onDeselect }) {
   const { index, select } = useSelectedStep();
   const paso = escenario.pasos[index];
   const esOutcome = /outcome/i.test(paso.titulo);
   const entregable = escenario.entregables?.outcomes;
+  // Solo se marca lo que difiere del escenario anterior; sin anterior (primera elección) no brilla nada.
+  const cambioPaso = (p, i) => Boolean(anterior) && JSON.stringify(anterior.pasos[i]) !== JSON.stringify(p);
+  const detalleCambio = cambioPaso(paso, index) && JSON.stringify(anterior.pasos[index]?.detalle) !== JSON.stringify(paso.detalle);
 
   return (
     <div className="steps">
       <div className="steps-head">
         <div>
           {escenario.titulo && (
-            <span className="route-pill">
+            <span className={`route-pill${anterior && anterior.titulo !== escenario.titulo ? ' glow' : ''}`}>
               <span className="material-symbols-outlined">alt_route</span> Ruta activa: {escenario.titulo}
             </span>
           )}
@@ -40,7 +43,7 @@ export default function StepsExplorer({ escenario, raci, jugadores, onDeselect }
               type="button"
               role="tab"
               aria-selected={active}
-              className={`step-tab${active ? ' active' : ''}`}
+              className={`step-tab${active ? ' active' : ''}${cambioPaso(p, i) ? ' glow' : ''}`}
               onClick={() => select(i)}
             >
               <span className="step-num">Paso {i + 1}</span>
@@ -51,7 +54,7 @@ export default function StepsExplorer({ escenario, raci, jugadores, onDeselect }
       </div>
 
       <div className="step-grid">
-        <div className="step-card">
+        <div key={index} className={`step-card${detalleCambio ? ' glow' : ''}`}>
           <div className="step-card-head">
             <span className="icon-box material-symbols-outlined">tune</span>
             <div>
@@ -65,7 +68,7 @@ export default function StepsExplorer({ escenario, raci, jugadores, onDeselect }
             ))}
           </div>
           {esOutcome && entregable && (
-            <span className="outcome-chip">
+            <span className={`outcome-chip${anterior && anterior.entregables?.outcomes !== entregable ? ' glow' : ''}`}>
               <span className="material-symbols-outlined">description</span>
               <span>
                 <strong>Entregable:</strong> {entregable}

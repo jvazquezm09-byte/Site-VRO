@@ -1,6 +1,7 @@
 import { useSelectedEscenario } from '../hooks/useSelectedEscenario.js';
+import { usePrevious } from '../hooks/usePrevious.js';
 import raci from '../content/raci.json';
-import EscenarioSelector from './EscenarioSelector.jsx';
+import EscenarioSelector, { colores } from './EscenarioSelector.jsx';
 import EscenarioVacio from './EscenarioVacio.jsx';
 import StepsExplorer from './StepsExplorer.jsx';
 import RecursosPanel from './RecursosPanel.jsx';
@@ -12,9 +13,12 @@ export default function JugadaCard({ jugada, siguiente, onSelect }) {
   const conSelector = jugada.escenarios.some((e) => e.titulo);
   // Sin selector, la jugada tiene un solo flujo; con selector, el escenario elegido (si hay).
   const escenario = conSelector ? (index === null ? null : jugada.escenarios[index]) : jugada.escenarios[0];
+  // Al cambiar de escenario, lo que cambió brilla con el color del escenario elegido (--glow).
+  const anterior = usePrevious(escenario);
+  const cambio = (campo) => Boolean(anterior && escenario) && JSON.stringify(campo(anterior)) !== JSON.stringify(campo(escenario));
 
   return (
-    <article className="jugada-card anim-fade-up">
+    <article className="jugada-card anim-fade-up" style={{ '--glow': colores[index ?? 0] }}>
       <div className="pill-row">
         <span className="pill">Fase 0: Preproyecto</span>
         <span className="pill pill-soft">Ficha Táctica Oficial</span>
@@ -33,6 +37,7 @@ export default function JugadaCard({ jugada, siguiente, onSelect }) {
         escenarios={jugada.escenarios}
         index={index}
         onSelect={select}
+        detalleCambio={cambio((e) => [e.titulo, e.descripcion])}
       />
 
       <div className="ficha-grid">
@@ -45,7 +50,7 @@ export default function JugadaCard({ jugada, siguiente, onSelect }) {
             </div>
           </div>
           {escenario?.entregables?.inputs && (
-            <div className="insumos">
+            <div key={index} className={`insumos${cambio((e) => e.entregables?.inputs) ? ' glow' : ''}`}>
               <div className="insumos-main">
                 <span className="icon-box material-symbols-outlined">inbox</span>
                 <div>
@@ -82,6 +87,7 @@ export default function JugadaCard({ jugada, siguiente, onSelect }) {
         <StepsExplorer
           key={`${jugada.id}-${index}`}
           escenario={escenario}
+          anterior={anterior}
           raci={raci.porJugada[jugada.id]}
           jugadores={jugada.jugadores}
           onDeselect={conSelector ? () => select(null) : undefined}
@@ -91,8 +97,13 @@ export default function JugadaCard({ jugada, siguiente, onSelect }) {
       )}
 
       <RecursosPanel
+        key={index}
         aceleradores={escenario?.entregables?.aceleradores}
         procesos={escenario?.entregables?.procesos}
+        cambios={{
+          aceleradores: cambio((e) => e.entregables?.aceleradores),
+          procesos: cambio((e) => e.entregables?.procesos),
+        }}
         templates={jugada.templates}
         politicas={jugada.politicas}
       />
