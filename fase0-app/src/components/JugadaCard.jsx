@@ -7,6 +7,7 @@ import StepsExplorer from './StepsExplorer.jsx';
 import RecursosPanel from './RecursosPanel.jsx';
 import Tips from './Tips.jsx';
 import Siguiente from './Siguiente.jsx';
+import CriteriosSalida from './CriteriosSalida.jsx';
 
 export default function JugadaCard({ jugada, siguiente, onSelect }) {
   const { index, select } = useSelectedEscenario();
@@ -82,6 +83,8 @@ export default function JugadaCard({ jugada, siguiente, onSelect }) {
           </div>
         </aside>
       </div>
+
+      {jugada.criteriosSalida && <CriteriosSalida items={jugada.criteriosSalida} />}
 
       {escenario ? (
         <StepsExplorer

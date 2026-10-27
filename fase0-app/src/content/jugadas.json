@@ -6,6 +6,12 @@
     "etapa": "idea",
     "objetivo": "Alinear las ideas a las prioridades del negocio.",
     "kr": "Estructurar el 100% de las ideas para su integración y evaluación.",
+    "criteriosSalida": [
+      { "titulo": "Canvas 1-Pág. firmado", "detalle": "Aprobación formal de LF y PM." },
+      { "titulo": "Problema claro y acotado", "detalle": "Causa raíz sin sesgos técnicos." },
+      { "titulo": "Alineación OKRs validada", "detalle": "Sintonía con pilares VRO." },
+      { "titulo": "Registrado en Pipeline", "detalle": "Listo para Jugada 1.2 Priorización." }
+    ],
     "reglaDeOro": "Ninguna iniciativa avanza a evaluación financiera o diseño técnico sin haber plasmado claramente su necesidad estratégica en un Canvas formalizado.",
     "cuando": "Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurarla formalmente para someterla a una evaluación cuantitativa y estratégica preliminar.",
     "jugadores": [
