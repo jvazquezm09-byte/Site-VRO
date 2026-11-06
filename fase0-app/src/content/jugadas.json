@@ -70,7 +70,7 @@
             "titulo": "Registro de la necesidad",
             "detalle": [
               "El Líder Funcional captura la iniciativa en el módulo \"Registro\".",
-              "Ver: Manual de construcción de OKR's."
+              "Ver: Manual de construcción de OKRs."
             ],
             "raci": {
               "R": [
@@ -110,7 +110,8 @@
           }
         ],
         "entregables": {
-          "aceleradores": "Portafolio Manager, BP/BA.",
+          "aceleradores": "Portafolio Manager, BP/BA: traducir la necesidad de negocio en una idea formal.",
+          "inputs": "Idea de proyecto, necesidad.",
           "outcomes": "Ficha Canvas (Monday)."
         }
       }
@@ -260,7 +261,7 @@
     "id": "2",
     "code": "2",
     "titulo": "Estimar el Esfuerzo",
-    "etapa": "caso",
+    "etapa": "estimacion",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo debidamente sustentados.",
     "criteriosSalida": [
@@ -498,7 +499,7 @@
     "proTips": [
       "Tiempos de mercado realistas: considera dentro del cronograma de la Fase 0 los tiempos de respuesta legales y contractuales de Abastecimiento que no están considerados en las propuestas técnico-económicas; forzar fechas irreales genera riesgos y sobrecostos.",
       "Capitaliza las lecciones aprendidas: al definir la complejidad (T-shirt sizing) y validar la estimación preliminar, aplica el historial de riesgos y lecciones aprendidas de implementaciones previas para retar los supuestos de la iniciativa. Una estimación realista hoy es el cimiento para una ejecución sin desviaciones mañana.",
-      "Estimación progresiva: las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinarán la estimación definitiva antes de iniciar la construcción."
+      "Estimación progresiva: las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinará la estimación definitiva antes de iniciar la construcción."
     ],
     "trampas": [
       "Compromisos informales sin SE: nunca acuerdes compromisos de contratación o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos."
@@ -508,7 +509,7 @@
     "id": "3",
     "code": "3",
     "titulo": "Capacidades de negocio",
-    "etapa": "caso",
+    "etapa": "capacidades",
     "objetivo": "Identificar, estructurar y cerrar las brechas de capacidades operativas y tecnológicas para garantizar la viabilidad y entrega de valor del proyecto.",
     "kr": "Mapear el 100% de las capacidades de negocio As-Is y To-Be requeridas antes del diseño de solución final.",
     "criteriosSalida": [
@@ -618,7 +619,8 @@
         ],
         "entregables": {
           "aceleradores": "Talleres de co-creación de capacidades con el equipo de Procesos.",
-          "outcomes": "Matriz de Capacidades As-Is / To-Be nivel 1."
+          "outcomes": "Matriz de Capacidades As-Is / To-Be nivel 1.",
+          "inputs": "Ficha Canvas, priorización de la iniciativa."
         }
       }
     ],
@@ -641,7 +643,7 @@
     "id": "4",
     "code": "4",
     "titulo": "Construir el Diseño de Solución",
-    "etapa": "eds",
+    "etapa": "diseno",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo formalmente respaldados.",
     "criteriosSalida": [
@@ -659,7 +661,7 @@
       }
     ],
     "reglaDeOro": "Ninguna iniciativa avanza a la estimación formal de costo, tiempo o adquisición técnica sin contar con un diseño de solución estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas técnicas o de procesos.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se detona una vez que se cuenta con el caso de negocio preliminar o la necesidad priorizada, y se requiere trazar la solución conceptual o técnica que servirá como base para cotizar y dimensionar el esfuerzo del proyecto.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Diseño). Se detona una vez que se cuenta con la necesidad priorizada y la definición de capacidades de negocio a habilitar, y se requiere trazar la solución conceptual o técnica que servirá como base para cotizar y dimensionar el esfuerzo del proyecto.",
     "jugadores": [
       {
         "sigla": "AR",
@@ -916,7 +918,7 @@
     "templates": [
       "Template de Arquitectura de Solución (To-Be Architecture Blueprint)",
       "Template de Brief Ejecutivo para Despachos / Terceros",
-      "Registro en Monday"
+      "Diseño (Monday)"
     ],
     "proTips": [
       "Nivel de detalle balanceado: en Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. Evita retrasar el caso de negocio por detalles menores."
@@ -929,25 +931,21 @@
     "id": "5",
     "code": "5",
     "titulo": "Autorización Formal",
-    "etapa": "formal",
+    "etapa": "autorizacion",
     "objetivo": "Asegurar la asignación de recursos y el respaldo ejecutivo del proyecto.",
     "kr": "Confirmar el 100% de los beneficios esperados con la Dirección General y habilitar las partidas presupuestales.",
     "criteriosSalida": [
       {
+        "titulo": "Iniciativa autorizada con PEP",
+        "detalle": "Carga del presupuesto autorizado en SAP."
+      },
+      {
         "titulo": "Project Charter firmado",
-        "detalle": "Aprobación formal del comité / Dirección."
+        "detalle": "Evidencia formal de la autorización por parte del negocio."
       },
       {
-        "titulo": "Beneficios confirmados",
-        "detalle": "Acordados con la Dirección General."
-      },
-      {
-        "titulo": "Presupuesto habilitado",
-        "detalle": "Elemento PEP activo en Finanzas / SAP."
-      },
-      {
-        "titulo": "Entregado a ejecución",
-        "detalle": "Inicio de Fase 1 autorizado."
+        "titulo": "Iniciativa \"Autorizada\" en Monday",
+        "detalle": "Portafolio de proyectos actualizado y soportado por la documentación necesaria (Project Charter, caso de negocio, Canvas, estimaciones, diseño, etc.)."
       }
     ],
     "reglaDeOro": "Ningún proyecto arranca su ejecución (Fase 1 en adelante) ni compromete órdenes de compra sin la aprobación firmada de su Project Charter, la confirmación de beneficios y la activación de su elemento PEP presupuestal en Finanzas / SAP.",
@@ -957,11 +955,6 @@
         "sigla": "PfM",
         "rol": "Portafolio Manager",
         "responsabilidad": "Presenta la iniciativa ante los comités de decisión y verifica el cumplimiento de los filtros de gobernanza de portafolio."
-      },
-      {
-        "sigla": "PgM",
-        "rol": "Program Manager",
-        "responsabilidad": "Integra el expediente final de la iniciativa (Charter consolidado, cronograma y costos aprobados)."
       },
       {
         "sigla": "LF",
@@ -989,31 +982,9 @@
         "titulo": null,
         "pasos": [
           {
-            "titulo": "Integración del expediente de decisión (Input)",
-            "detalle": [
-              "Responsable: Program Manager / Líder Funcional.",
-              "Consolida el Project Charter, el Caso de Negocio actualizado con los costos reales de estimación y los dictámenes técnicos de arquitectura y abastecimiento. En la página de Captura de iniciativa se debe llenar la información solicitada de estos documentos."
-            ],
-            "raci": {
-              "R": [
-                "PgM"
-              ],
-              "A": [
-                "LF"
-              ],
-              "C": [
-                "FI"
-              ],
-              "I": [
-                "BP"
-              ]
-            }
-          },
-          {
             "titulo": "Validación financiera y presupuestal",
             "detalle": [
-              "Responsable: Finanzas SE TI.",
-              "Revisa la corrida financiera final, comprueba la disponibilidad de saldo en el portafolio de inversión (CAPEX / OPEX) y da el visto bueno al esquema de amortización. En la ventana de gestión de iniciativas se coloca el CAPEX y OPEX previamente revisado."
+              "Con base en el caso de negocio generado por Monday, Finanzas SE revisa la corrida financiera final, comprueba la disponibilidad de saldo en el portafolio de inversión (CAPEX / OPEX) y da el visto bueno al esquema de amortización."
             ],
             "raci": {
               "R": [
@@ -1033,8 +1004,7 @@
           {
             "titulo": "Presentación al comité de autorización",
             "detalle": [
-              "Responsable: Portafolio Manager en conjunto con el Líder Funcional.",
-              "Exponen el proyecto ante el comité de portafolio o dirección general, evidenciando el retorno, la alineación estratégica y los riesgos mitigados."
+              "El Portafolio Manager, en conjunto con el Líder Funcional, expone el proyecto ante el comité de portafolio o dirección general, evidenciando el retorno, la alineación estratégica y los riesgos mitigados."
             ],
             "raci": {
               "R": [
@@ -1056,8 +1026,8 @@
           {
             "titulo": "Firma del Project Charter",
             "detalle": [
-              "Responsable: Líder Funcional / Sponsor (Servicios Estratégicos).",
-              "Formalizan su compromiso mediante firma digital / física del Charter (vía WEBDOX), aceptando las metas de entrega y los beneficios comprometidos."
+              "Formalizan su compromiso mediante firma digital / física del Charter, aceptando las metas de entrega y los beneficios comprometidos.",
+              "El Líder Funcional sube a Monday el Charter firmado, el VoBo de dirección general y el caso de negocio dentro de \"Documentos de la autorización\" y los envía."
             ],
             "raci": {
               "R": [
@@ -1081,8 +1051,7 @@
           {
             "titulo": "Apertura del elemento PEP y entrega a ejecución (Outcome)",
             "detalle": [
-              "Responsable: Finanzas SE TI.",
-              "Da de alta y habilita la estructura de imputación financiera (PEP / CECO) en SAP, marcando formalmente el cierre de la Fase 0 y el pase a la Fase 1."
+              "Finanzas SE TI da de alta y habilita la estructura de imputación financiera (PEP / CECO) en SAP, marcando formalmente el cierre de la Fase 0 y el pase a la Fase 1."
             ],
             "raci": {
               "R": [
@@ -1116,17 +1085,45 @@
     ],
     "templates": [],
     "proTips": [
-      "Pre-aprobación financiera: realiza una revisión previa informal con Finanzas antes de la sesión oficial del comité directivo; el 80% de los rechazos en comité se originan por dudas en la imputación contable del gasto. Realiza el vaciado del Canvas dentro de la página de Fase 0 en Monday."
+      "Pre-aprobación financiera: realiza una revisión en SAP con el número del PEP para asegurar que el monto sea el que firmaron el Sponsor y los directivos que aprobaron el proyecto."
     ],
     "trampas": [
       "Iniciar antes del PEP: iniciar compromisos operativos con proveedores antes de contar con el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos."
     ]
   },
   {
+    "id": "5-1",
+    "code": "5.1",
+    "titulo": "Autorización",
+    "etapa": "autorizacion",
+    "objetivo": "Por definir.",
+    "kr": "Por definir.",
+    "reglaDeOro": "Por definir.",
+    "cuando": "Por definir.",
+    "jugadores": [],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Por definir",
+            "detalle": [
+              "Contenido pendiente."
+            ]
+          }
+        ]
+      }
+    ],
+    "politicas": [],
+    "templates": [],
+    "proTips": [],
+    "trampas": []
+  },
+  {
     "id": "5-2",
     "code": "5.2",
     "titulo": "Ejecutar en un momento posterior (Acuerdo Hold)",
-    "etapa": "formal",
+    "etapa": "autorizacion",
     "objetivo": "Asegurar la correcta gestión y custodia de los recursos y prioridades del portafolio.",
     "kr": "Suspender de manera controlada el 100% de las iniciativas viables no prioritarias, garantizando su trazabilidad para una reactivación oportuna.",
     "criteriosSalida": [
@@ -1306,33 +1303,5 @@
     "trampas": [
       "Iniciativas huérfanas: nunca dejes una iniciativa en pausa sin fecha de revisión o sin gatillo claro de reactivación; de lo contrario, consume tiempo de gestión recurrente en cada ciclo de planeación."
     ]
-  },
-  {
-    "id": "5-1",
-    "code": "5.1",
-    "titulo": "Autorización",
-    "etapa": "autorizacion",
-    "objetivo": "Por definir.",
-    "kr": "Por definir.",
-    "reglaDeOro": "Por definir.",
-    "cuando": "Por definir.",
-    "jugadores": [],
-    "escenarios": [
-      {
-        "titulo": null,
-        "pasos": [
-          {
-            "titulo": "Por definir",
-            "detalle": [
-              "Contenido pendiente."
-            ]
-          }
-        ]
-      }
-    ],
-    "politicas": [],
-    "templates": [],
-    "proTips": [],
-    "trampas": []
   }
 ]

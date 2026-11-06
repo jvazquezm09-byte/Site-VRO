@@ -5,19 +5,19 @@
     "icon": "flag"
   },
   {
-    "id": "caso",
-    "label": "Etapa 2: Evaluación",
-    "icon": "tune"
+    "id": "estimacion",
+    "label": "Etapa 2: Estimación",
+    "icon": "calculate"
   },
   {
-    "id": "eds",
-    "label": "Etapa 3: EDS y Estimación",
+    "id": "capacidades",
+    "label": "Etapa 3: Capacidades",
+    "icon": "account_tree"
+  },
+  {
+    "id": "diseno",
+    "label": "Etapa 4: Diseño",
     "icon": "architecture"
-  },
-  {
-    "id": "formal",
-    "label": "Etapa 4: Formalización y Autorización",
-    "icon": "rocket_launch"
   },
   {
     "id": "autorizacion",

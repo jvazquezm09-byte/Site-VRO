@@ -7,16 +7,16 @@
         "icon": "lightbulb"
       },
       {
-        "label": "2. Evaluación",
-        "icon": "track_changes"
+        "label": "2. Estimación",
+        "icon": "calculate"
       },
       {
-        "label": "3. EDS y Estimación",
-        "icon": "assignment_turned_in"
+        "label": "3. Capacidades",
+        "icon": "account_tree"
       },
       {
-        "label": "4. Formalización y Autorización",
-        "icon": "verified"
+        "label": "4. Diseño",
+        "icon": "architecture"
       },
       {
         "label": "5. Autorización",
