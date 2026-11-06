@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Enlace from './Enlace.jsx';
 
 // Plantillas y políticas de la jugada, desplegables como en el diseño.
 export default function Plantillas({ jugada }) {
@@ -25,7 +26,7 @@ export default function Plantillas({ jugada }) {
             {jugada.templates.length ? (
               <ul>
                 {jugada.templates.map((t) => (
-                  <li key={t}>{t}</li>
+                  <li key={t}><Enlace texto={t}>{t}</Enlace></li>
                 ))}
               </ul>
             ) : (
@@ -36,7 +37,7 @@ export default function Plantillas({ jugada }) {
             <h4>Políticas y procesos asociados</h4>
             <ul>
               {jugada.politicas.map((p) => (
-                <li key={p}>{p}</li>
+                <li key={p}><Enlace texto={p}>{p}</Enlace></li>
               ))}
             </ul>
           </div>

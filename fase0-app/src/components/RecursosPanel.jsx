@@ -1,3 +1,5 @@
+import Enlace from './Enlace.jsx';
+
 // Aceleradores del escenario activo, templates y políticas de la jugada.
 export default function RecursosPanel({ aceleradores, procesos, templates, politicas, cambios }) {
   return (
@@ -39,10 +41,10 @@ export default function RecursosPanel({ aceleradores, procesos, templates, polit
             <p className="muted">Artefactos operativos y formatos oficiales requeridos:</p>
             <div className="chips">
               {templates.map((t) => (
-                <span key={t} className="chip-template">
+                <Enlace key={t} texto={t} className="chip-template">
                   <span className="material-symbols-outlined">description</span>
                   {t}
-                </span>
+                </Enlace>
               ))}
             </div>
           </>
@@ -58,10 +60,10 @@ export default function RecursosPanel({ aceleradores, procesos, templates, polit
         </div>
         <div className="chips">
           {politicas.map((p) => (
-            <span key={p} className="chip-policy">
+            <Enlace key={p} texto={p} className="chip-policy">
               <span className="material-symbols-outlined">verified_user</span>
               {p}
-            </span>
+            </Enlace>
           ))}
         </div>
       </div>

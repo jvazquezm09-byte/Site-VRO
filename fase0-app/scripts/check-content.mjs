@@ -7,6 +7,7 @@ const jugadas = leer('jugadas.json');
 const etapas = leer('etapas.json');
 const inicio = leer('inicio.json');
 const raci = leer('raci.json');
+const links = leer('links.json');
 const errores = [];
 const error = (donde, msg) => errores.push(`${donde}: ${msg}`);
 
@@ -36,6 +37,12 @@ for (const j of jugadas) {
     if (!Array.isArray(r[letra])) error(donde, `RACI ${letra} debe ser una lista`);
     for (const sigla of r[letra] ?? []) if (!raci.rolPorSigla[sigla]) error(donde, `sigla RACI "${sigla}" no está en rolPorSigla`);
   }
+}
+
+const textos = new Set(jugadas.flatMap((j) => [...(j.politicas ?? []), ...(j.templates ?? [])]));
+for (const [texto, url] of Object.entries(links)) {
+  if (!textos.has(texto)) error('links.json', `"${texto}" no coincide con ningún template o política`);
+  if (!/^https:\/\//.test(url)) error('links.json', `"${texto}" necesita una URL https://`);
 }
 
 if (inicio.nodos?.length !== 5) error('inicio.json', 'nodos debe tener 5 elementos (el anillo tiene 5 posiciones)');
