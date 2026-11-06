@@ -161,9 +161,8 @@
         "responsabilidad": "Define la idea en la Ficha Canvas y recibe comentarios (en caso de existir) sobre la iniciativa."
       },
       {
-        "sigla": "SE",
         "rol": "Servicios Estratégicos",
-        "responsabilidad": "Asesora al Portafolio Manager ante dudas sobre dependencias con terceros, identifica contratos vigentes que puedan acelerar la entrega de la solución y define los coordinadores de abastecimiento y presupuesto requeridos para la iniciativa."
+        "responsabilidad": "Área responsable de estructurar la estrategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
       }
     ],
     "escenarios": [
