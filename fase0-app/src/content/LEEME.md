@@ -7,6 +7,7 @@ Todo el texto que se muestra en el sitio vive en esta carpeta. Para cambiar algo
 | `jugadas.json` | Las fichas de cada jugada (objetivo, KR, regla de oro, escenarios, pasos, pro-tips, trampas, políticas, templates). |
 | `etapas.json` | Las 5 etapas (pestañas) y sus íconos. |
 | `inicio.json` | El diagrama "Big Picture": fases, nodos del anillo, change management, valor y pilares. |
+| `links.json` | Enlaces de templates y políticas: el texto exacto como aparece en `jugadas.json` y su URL. |
 | `raci.json` | Quién es R, A, C e I en cada jugada (`porJugada`), el nombre de cada sigla (`rolPorSigla`) y las etiquetas. |
 
 ## Reglas para editar
