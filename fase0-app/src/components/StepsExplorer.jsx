@@ -82,10 +82,10 @@ export default function StepsExplorer({ escenario, anterior, raci, jugadores, on
             <span className="icon-box material-symbols-outlined">group</span>
             <div>
               <h4>¿Quién participa?</h4>
-              <p className="muted">Asignación RACI de la jugada</p>
+              <p className="muted">Asignación RACI {paso.raci ? 'del paso' : 'de la jugada'}</p>
             </div>
           </div>
-          <QuienParticipa raci={raci} jugadores={jugadores} />
+          <QuienParticipa raci={paso.raci ?? raci} jugadores={jugadores} />
         </div>
       </div>
     </div>

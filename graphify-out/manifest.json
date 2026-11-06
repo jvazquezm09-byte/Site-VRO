@@ -132,9 +132,9 @@
     "semantic_hash": ""
   },
   "fase0-app/src/components/StepsExplorer.jsx": {
-    "mtime": 1793105984.7951124,
-    "seen": 1793121861.888941,
-    "ast_hash": "5e173cda2998996890ac9900f6019088",
+    "mtime": 1793969624.3430924,
+    "seen": 1793969681.5718021,
+    "ast_hash": "a673895d8062e4f16efda9e0fbe1b97d",
     "semantic_hash": ""
   },
   "fase0-app/src/components/Tips.jsx": {
@@ -174,15 +174,15 @@
     "semantic_hash": ""
   },
   "fase0-app/src/components/QuienParticipa.jsx": {
-    "mtime": 1792174944.8886313,
-    "seen": 1792174968.619371,
-    "ast_hash": "929acdc391cf5b446949f1d787b10a15",
+    "mtime": 1793969624.343856,
+    "seen": 1793969681.5718012,
+    "ast_hash": "12f09dd08808faf4bb5579d596d43f3e",
     "semantic_hash": ""
   },
   "fase0-app/scripts/check-content.mjs": {
-    "mtime": 1792174960.1055758,
-    "seen": 1792174968.619358,
-    "ast_hash": "e8fdfd527049ad3ff7fc7cd2b2179916",
+    "mtime": 1793969624.3443036,
+    "seen": 1793969681.571789,
+    "ast_hash": "1ba5168667d99d64980f740a41f2d8da",
     "semantic_hash": ""
   },
   "fase0-app/src/content/etapas.json": {
@@ -198,21 +198,21 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/jugadas.json": {
-    "mtime": 1793121830.6725624,
-    "seen": 1793121861.8889441,
-    "ast_hash": "e25f8119ef94efdf0c1fd025cb68e64c",
+    "mtime": 1793969609.0729125,
+    "seen": 1793969681.571805,
+    "ast_hash": "b87d93d9a4cc335d58b2c4a1daf01239",
     "semantic_hash": ""
   },
   "fase0-app/src/content/raci.json": {
-    "mtime": 1792502901.6471906,
-    "seen": 1793121861.8889441,
-    "ast_hash": "80e02686b1558cf343bd7f60592b4263",
+    "mtime": 1793969616.981617,
+    "seen": 1793969681.571806,
+    "ast_hash": "8d42052d1ebfbf56aef59a2ab64a226a",
     "semantic_hash": ""
   },
   "fase0-app/src/content/LEEME.md": {
-    "mtime": 1792174951.5275471,
-    "seen": 1792174968.619384,
-    "ast_hash": "3cab287f494615724a33bb971c3a7dad",
+    "mtime": 1793969630.0923402,
+    "seen": 1793969681.571813,
+    "ast_hash": "567d9e31aa980c19f4d660c0f5c07281",
     "semantic_hash": ""
   },
   "fase0-app/src/components/CriteriosSalida.jsx": {
@@ -225,6 +225,12 @@
     "mtime": 1793105980.403294,
     "seen": 1793121861.8889458,
     "ast_hash": "9105268794ef74bf708c721a9db8a88c",
+    "semantic_hash": ""
+  },
+  ".claude/launch.json": {
+    "mtime": 1793969635.399615,
+    "seen": 1793969681.5717828,
+    "ast_hash": "2c9247ab1033d66b226aa43a17cdec46",
     "semantic_hash": ""
   }
 }

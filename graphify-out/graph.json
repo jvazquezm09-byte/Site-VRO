@@ -1077,7 +1077,7 @@
       "node_kind": "heading",
       "norm_label": "antes de publicar",
       "source_file": "fase0-app/src/content/LEEME.md",
-      "source_location": "L21"
+      "source_location": "L22"
     },
     {
       "id": "fase0_app_src_content_leeme_contenido_del_sitio",
@@ -2909,7 +2909,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/LEEME.md",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -3200,5 +3200,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "012590972d5ce6bd16a6100093a97d6d53da6dde"
+  "built_at_commit": "8f37fe3ff161fa27ea779b3fdb95b42a7d6f34cd"
 }

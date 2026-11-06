@@ -7,31 +7,35 @@
     "objetivo": "Alinear las ideas a las prioridades del negocio.",
     "kr": "Estructurar el 100% de las ideas para su integración y evaluación.",
     "criteriosSalida": [
-      { "titulo": "Canvas 1-Pág. firmado", "detalle": "Aprobación formal de LF y PM." },
-      { "titulo": "Problema claro y acotado", "detalle": "Causa raíz sin sesgos técnicos." },
-      { "titulo": "Alineación OKRs validada", "detalle": "Sintonía con pilares VRO." },
-      { "titulo": "Registrado en Pipeline", "detalle": "Listo para Jugada 1.2 Priorización." }
+      {
+        "titulo": "Claridad estratégica",
+        "detalle": "Concretar la idea definiendo la necesidad, el alcance y los beneficios esperados para el negocio sin supuestos."
+      },
+      {
+        "titulo": "Ficha Canvas completa",
+        "detalle": "El registro oficial y estandarizado de la iniciativa en Monday."
+      }
     ],
-    "reglaDeOro": "Ninguna iniciativa avanza a evaluación financiera o diseño técnico sin haber plasmado claramente su necesidad estratégica en un Canvas formalizado.",
+    "reglaDeOro": "Ninguna iniciativa es priorizada si no es registrada en la herramienta.",
     "cuando": "Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurarla formalmente para someterla a una evaluación cuantitativa y estratégica preliminar.",
     "jugadores": [
       {
-        "rol": "Líder Funcional / Director",
-        "responsabilidad": "Define y justifica la necesidad del negocio original. Es el principal interesado en el resultado"
+        "sigla": "LF",
+        "rol": "Líder Funcional / Director Promotor",
+        "responsabilidad": "Define y justifica la necesidad del negocio original. Es el principal interesado en el resultado."
       },
       {
+        "sigla": "BP/BA",
         "rol": "Business Partner / Business Analyst",
         "responsabilidad": "Actúa como acelerador; traduce la necesidad del negocio en un contexto estructurado."
       },
       {
+        "sigla": "PfM",
         "rol": "Portafolio Manager",
-        "responsabilidad": "Valida la alineación estratégica de la idea con los objetivos corporativos antes de que pase a priorización."
+        "responsabilidad": "Acompaña al líder funcional en el registro de la iniciativa, actuando como un facilitador estratégico para estructurar la necesidad de negocio."
       },
       {
-        "rol": "Arquitectura",
-        "responsabilidad": "Aporta una visión preliminar para asegurar que la idea hace sentido dentro del ecosistema actual (viabilidad a muy alto nivel)."
-      },
-      {
+        "sigla": "SE",
         "rol": "Servicios Estratégicos",
         "responsabilidad": "Área responsable de estructurar la estrategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
       }
@@ -41,52 +45,89 @@
         "titulo": null,
         "pasos": [
           {
-            "titulo": "Recepción de la necesidad (Input)",
+            "titulo": "Entendimiento de la necesidad",
             "detalle": [
-              "El Líder Funcional presenta la idea original o necesidad operativa/estratégica, detallando el requerimiento en el Canvas.",
-              "El PM y el BP/BA realizan una sesión de descubrimiento inicial para entender el dolor o la oportunidad."
-            ]
+              "Presentar la idea original o necesidad estratégica en una sesión de entendimiento para profundizar en la problemática u oportunidad de negocio. Esta tarea debe ser realizada por el Líder Funcional, asegurándose de convocar a los roles aceleradores PfM y BP/BA.",
+              "Nota: validar que el Líder Funcional tenga acceso a Monday."
+            ],
+            "raci": {
+              "R": [
+                "LF"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "PfM",
+                "BP/BA"
+              ],
+              "I": [
+                "SE"
+              ]
+            }
           },
           {
-            "titulo": "Evaluación estratégica inicial",
+            "titulo": "Registro de la necesidad",
             "detalle": [
-              "Cruza la necesidad contra los OKRs y pilares estratégicos vigentes de EPL para confirmar que hace sentido invertir tiempo en estructurarla."
-            ]
+              "El Líder Funcional captura la iniciativa en el módulo \"Registro\".",
+              "Ver: Manual de construcción de OKR's."
+            ],
+            "raci": {
+              "R": [
+                "LF"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "PfM",
+                "BP/BA"
+              ],
+              "I": [
+                "SE"
+              ]
+            }
           },
           {
-            "titulo": "Estructuración del entregable (Outcome)",
+            "titulo": "Enviar solicitud",
             "detalle": [
-              "Se define a muy alto nivel el alcance esperado, los impactos y los recursos preliminares."
-            ]
-          },
-          {
-            "titulo": "Validación de formalización",
-            "detalle": [
-              "Se confirma que el Canvas está completo y es claro. La idea pasa de concepto abstracto a \"Idea Formalizada\", lista para la Jugada 1.2 (Idea Priorizada)."
-            ]
+              "El Líder Funcional, al completar el registro, envía la solicitud a revisión en Monday."
+            ],
+            "raci": {
+              "R": [
+                "LF"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "BP/BA"
+              ],
+              "I": [
+                "SE"
+              ]
+            }
           }
         ],
         "entregables": {
-          "aceleradores": "Portafolio Manager, BP/BA asignado.",
-          "procesos": "Proceso de priorización.",
-          "inputs": "Idea original / necesidad.",
-          "outcomes": "Canvas."
+          "aceleradores": "Portafolio Manager, BP/BA.",
+          "outcomes": "Ficha Canvas (Monday)."
         }
       }
     ],
     "politicas": [
-      "Pol_Gestión Portafolio TI",
-      "Proceso Fase 0 & 1"
+      "Pol_Gestión de Portafolio TI_Publicado",
+      "Proceso Fase 0",
+      "7. Manual de construcción de OKR's · RDV"
     ],
     "templates": [
-      "Canvas de 1 Página (.docx)",
-      "Matriz RACI & Roles"
+      "Gestión de la iniciativa (Monday)"
     ],
     "proTips": [
-      "Agilidad sobre Perfección: no redactes un Business Case exhaustivo de 30 páginas en este momento. El propósito del Canvas de 1 Página es dar evidencia suficiente al Portafolio Manager para responder una sola pregunta: ¿Vale la pena invertir tiempo en evaluarla a fondo?"
+      "Agilidad en el Canvas: no busques el nivel de detalle de un \"Caso de Negocio\" completo en esta etapa. El objetivo del Canvas es dar claridad suficiente para decidir si la idea merece ser priorizada, no resolver cómo se va a ejecutar."
     ],
     "trampas": [
-      "Parálisis por Análisis Técnico: evita involucrar comités técnicos multitudinarios en esta fase. Si invitas a múltiples arquitectos e ingenieros antes de formalizar estratégicamente la idea, gastarás horas hombre debatiendo soluciones para problemas no prioritarios."
+      "Parálisis por análisis: involucrar a demasiados roles técnicos a profundidad. Arquitectura y SE solo deben dar un \"visto bueno\" conceptual; el diseño de solución real ocurre en la siguiente etapa de \"EDS y Estimación\"."
     ]
   },
   {
@@ -95,35 +136,34 @@
     "titulo": "Idea Priorizada",
     "etapa": "idea",
     "objetivo": "Alinear las ideas a las prioridades del negocio.",
-    "kr": "Estructurar el 100% de la idea para su integración y evaluación.",
+    "kr": "Estructurar el 100% de la idea para su revisión y priorización.",
     "criteriosSalida": [
-      { "titulo": "Prioridad asignada", "detalle": "Lugar definido en la pirámide estratégica." },
-      { "titulo": "Urgencia, valor e impacto", "detalle": "Evaluados frente al portafolio." },
-      { "titulo": "Canvas vigente", "detalle": "Base formal de la evaluación." },
-      { "titulo": "Registrado y comunicado", "detalle": "Listo para Jugada 2.1 Valor del proyecto." }
+      {
+        "titulo": "Backlog único y priorizado",
+        "detalle": "Inventario unificado en Monday donde cada iniciativa tiene una posición clara dentro de la Pirámide de Portafolio (Prioritarios, Habilitadores/Regulatorios y Mejora continua)."
+      },
+      {
+        "titulo": "Filtro de viabilidad y alineación",
+        "detalle": "Cada iniciativa priorizada cuenta con una justificación objetiva vinculada a los OKRs de la empresa, lo que da transparencia y soporte a las decisiones de los Directores de Negocio."
+      }
     ],
-    "reglaDeOro": "Ninguna idea formalizada avanza a la fase de evaluación ni al caso de negocio sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica.",
+    "reglaDeOro": "Ninguna idea formalizada avanza a la fase de estimación preliminar sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica.",
     "cuando": "Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.",
     "jugadores": [
       {
+        "sigla": "PfM",
         "rol": "Portafolio Manager",
-        "responsabilidad": "Lidera el ejercicio de priorización, asegurando que la idea se ubique correctamente en la pirámide del portafolio según capacidad y estrategia."
+        "responsabilidad": "Realiza la revisión de la iniciativa e identifica el impacto al mapa estratégico, el impacto tecnológico y la metodología a utilizar. Lidera el ejercicio de priorización y confirma la alineación a la pirámide basándose en capacidad y estrategia."
       },
       {
-        "rol": "Líder Funcional / Director",
-        "responsabilidad": "Defiende el valor de la idea, aportando contexto sobre la urgencia y el impacto esperado en el negocio."
+        "sigla": "LF",
+        "rol": "Líder Funcional / Director Promotor",
+        "responsabilidad": "Define la idea en la Ficha Canvas y recibe comentarios (en caso de existir) sobre la iniciativa."
       },
       {
-        "rol": "Business Partner/ Business Analyst",
-        "responsabilidad": "Aporta el análisis cualitativo y cuantitativo preliminar para justificar el peso de la iniciativa."
-      },
-      {
-        "rol": "Arquitectura",
-        "responsabilidad": "Valida posibles dependencias, restricciones técnicas o estratégicas que puedan afectar la prioridad de la iniciativa."
-      },
-      {
-        "rol": "SE (Servicios Estratégicos)",
-        "responsabilidad": "Área responsable de estructurar la estrategia de procesos RFx y potenciar la relación con proveedores, garantizando la eficiencia en la entrega de productos y servicios alineados a los intereses de la empresa."
+        "sigla": "SE",
+        "rol": "Servicios Estratégicos",
+        "responsabilidad": "Asesora al Portafolio Manager ante dudas sobre dependencias con terceros, identifica contratos vigentes que puedan acelerar la entrega de la solución y define los coordinadores de abastecimiento y presupuesto requeridos para la iniciativa."
       }
     ],
     "escenarios": [
@@ -131,360 +171,536 @@
         "titulo": null,
         "pasos": [
           {
-            "titulo": "Recepción del input (Canvas)",
+            "titulo": "Identifica ideas a priorizar",
             "detalle": [
-              "El Portafolio Manager recibe el Canvas validado de la Jugada 1.1."
-            ]
+              "Dentro de Monday, el Portafolio Manager visualiza las ideas pendientes por revisar (\"Backlog a priorizar\") para efectuar la priorización con el negocio."
+            ],
+            "raci": {
+              "R": [
+                "PfM"
+              ],
+              "A": [
+                "PfM"
+              ],
+              "C": [
+                "SE"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
-            "titulo": "Sesión de priorización",
+            "titulo": "Filtro de viabilidad y alineación",
             "detalle": [
-              "Se evalúa la idea con los criterios de priorización definidos por la PMO (p. ej. valor estratégico, urgencia, impacto financiero a alto nivel y esfuerzo preliminar)."
-            ]
+              "Seleccionar si la iniciativa impacta a un objetivo del Mapa Estratégico y a cuáles objetivos cree impactar (con base en el alcance, objetivos y capacidades definidas en el Canvas).",
+              "Con base en las capacidades definidas, ¿se visualiza impacto tecnológico? De ser así, identifica BP, arquitectos por dominio y coordinadores de SE (presupuesto).",
+              "Confirmar la alineación estratégica con el negocio; con base en la necesidad expuesta, presenta la idea para evaluar incluirla en la pirámide.",
+              "Predefine el tipo de metodología a utilizar en el desarrollo del proyecto."
+            ],
+            "raci": {
+              "R": [
+                "PfM"
+              ],
+              "A": [
+                "PfM"
+              ],
+              "C": [
+                "SE"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
-            "titulo": "Asignación en la pirámide (Outcome)",
+            "titulo": "Priorización (Outcome)",
             "detalle": [
-              "Se clasifica la idea y se le asigna un lugar dentro de la pirámide."
-            ]
-          },
-          {
-            "titulo": "Comunicación y siguientes pasos",
-            "detalle": [
-              "Si la idea tiene prioridad alta o media, se detona el paso a la siguiente etapa: \"Evaluación / Caso de Negocio\"."
-            ]
+              "En caso de presentarse alguna recomendación o comentario, registrarlo en \"Comentarios de la revisión\".",
+              "En caso de no existir comentarios, \"Confirmar y priorizar\"."
+            ],
+            "raci": {
+              "R": [
+                "PfM"
+              ],
+              "A": [
+                "PfM"
+              ],
+              "C": [
+                "SE"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           }
         ],
         "entregables": {
-          "aceleradores": "Portafolio Manager, BP/BA asignado.",
-          "procesos": "Proceso de priorización.",
-          "inputs": "Canvas (idea formalizada).",
-          "outcomes": "Idea en pirámide (backlog priorizado actualizado)."
+          "aceleradores": "Sesión con Directores de Negocio: clasificar y posicionar la iniciativa dentro de la Pirámide de Portafolio con base en su impacto estratégico y alcance.",
+          "inputs": "Ficha Canvas (Monday).",
+          "outcomes": "Idea priorizada en pirámide (backlog priorizado actualizado)."
         }
       }
     ],
     "politicas": [
-      "Pol_Gestión Portafolio TI",
-      "Proceso Fase 0 & 1"
+      "Pirámide de proyectos",
+      "Proceso Fase 0"
     ],
     "templates": [
-      "Canvas de 1 Página (.docx)",
-      "Matriz RACI & Roles"
+      "Ideas priorizadas en Monday"
     ],
     "proTips": [
-      "Agilidad sobre Perfección: utiliza un marco de referencia visual (como una matriz de Valor vs. Esfuerzo) durante las sesiones de priorización para mantener las discusiones objetivas y ágiles."
+      "Entendimiento y valor: nunca llegues a la sesión de priorización con Directores sin haber consultado y tener un contexto claro de la iniciativa; así la sesión pasa de una discusión de opiniones a una decisión estratégica basada en hechos y capacidad real.",
+      "Entendimiento y valor: si en la revisión no se identifica un impacto claro y medible a al menos un objetivo del Mapa Estratégico, como Portafolio Manager puedes emitir comentarios y rechazar la iniciativa antes de subirla a la Pirámide. La prioridad no se negocia por jerarquía, sino por alineación demostrada en la Ficha Canvas."
     ],
     "trampas": [
-      "Parálisis por Análisis Técnico: ceder a la presión de priorizar basándose únicamente en la urgencia del área solicitante. La priorización debe ser holística, considerando la capacidad real de ejecución y los OKRs globales de la compañía."
+      "El síndrome de \"Todo es urgente\": ceder a la presión de priorizar basándose únicamente en la urgencia del área solicitante. La priorización debe ser holística, considerando la capacidad real de ejecución y la alineación comprobada a las prioridades del negocio."
     ]
   },
   {
-    "id": "2-1",
-    "code": "2.1",
-    "titulo": "Determinar valor del proyecto",
+    "id": "2",
+    "code": "2",
+    "titulo": "Estimar el Esfuerzo",
     "etapa": "caso",
-    "objetivo": "Garantizar la rentabilidad y alineación estratégica del caso de negocio.",
-    "kr": "100% de los casos de negocio respaldados por evaluación financiera cuantitativa y cualitativa.",
+    "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
+    "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo debidamente sustentados.",
     "criteriosSalida": [
-      { "titulo": "Caso de negocio o hoja de costos", "detalle": "Según el escenario elegido." },
-      { "titulo": "Beneficios cuantificados", "detalle": "Tangibles e intangibles frente a costos." },
-      { "titulo": "Viabilidad financiera validada", "detalle": "Dictamen de evaluación cuantitativa y cualitativa." },
-      { "titulo": "Dictamen registrado", "detalle": "Listo para Jugada 2.2 Diseño de solución." }
-    ],
-    "reglaDeOro": "Ningún proyecto avanza a la fase de diseño técnico detallado ni a la estimación formal de esfuerzo sin contar con un caso de negocio estructurado (Business Case) o una hoja de costos validada que certifique la viabilidad financiera y el retorno de inversión.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Evaluación) una vez priorizada la iniciativa (Jugada 1.2). Se aplica cuando se requiere cuantificar los beneficios tangibles e intangibles frente a los costos proyectados para fundamentar la decisión del portafolio.",
-    "jugadores": [
       {
-        "rol": "Portafolio Manager",
-        "responsabilidad": "Lidera el proceso de evaluación, determina el escenario aplicable (A o B) y coordina las revisiones de viabilidad y rentabilidad."
+        "titulo": "Rango de inversión y esfuerzo (Go / No-Go)",
+        "detalle": "Estimación de costo, tiempo y recursos basada en rangos paramétricos (T-shirt sizing: S, M, L, XL)."
       },
       {
-        "rol": "Líder Funcional / Director",
-        "responsabilidad": "Promotor. Define y defiende los beneficios esperados y el impacto comercial; justifica el ROI ante la dirección."
+        "titulo": "Visibilidad de impacto tecnológico",
+        "detalle": "Confirmación inicial de qué sistemas core de Liverpool se verán afectados por la iniciativa en caso de autorizarse."
       },
       {
-        "rol": "BP / BA",
-        "responsabilidad": "Acelerador. Recopila información operativa, ayuda a cuantificar beneficios y consolida el documento final."
-      },
-      {
-        "rol": "Arquitectura",
-        "responsabilidad": "Valida que las Capacidades Nivel 0 sean viables y técnicamente alineadas a la estrategia corporativa, estimando impactos conceptuales de costo."
-      },
-      {
-        "rol": "Líder Técnico / Ing. SW / Infra / QA",
-        "responsabilidad": "Aportan estimaciones conceptuales de esfuerzo, infraestructura, licencias y calidad (orden de magnitud) para alimentar la estructura de costos."
-      },
-      {
-        "rol": "SE (Servicios Estratégicos)",
-        "responsabilidad": "Proporciona lineamientos preliminares sobre costos de terceros, modelos de licenciamiento y contratación de proveedores."
-      },
-      {
-        "rol": "Socios de Negocio / Especialista de procesos",
-        "responsabilidad": "Aportan visibilidad de las capacidades habilitadas en el negocio y previenen la duplicidad de capacidades."
+        "titulo": "Conocimiento de la PMO capitalizado",
+        "detalle": "Estimación preliminar retada por el Portfolio Manager con el historial de riesgos de proyectos pasados (evitando el sesgo de optimismo)."
       }
     ],
-    "escenarios": [
-      {
-        "titulo": "Escenario A: Caso de negocio completo",
-        "descripcion": "Se ejecuta cuando la iniciativa requiere una inversión significativa, involucra alto impacto transversal o necesita justificar su rentabilidad mediante ROI / NPV / TIR formales.",
-        "pasos": [
-          {
-            "titulo": "Identificación e insumos (Input)",
-            "detalle": [
-              "Se parte de la Idea Priorizada (Canvas), la necesidad formalizada y la definición de las Capacidades Nivel 0, en conjunto con el especialista de procesos."
-            ]
-          },
-          {
-            "titulo": "Levantamiento y cuantificación de beneficios",
-            "detalle": [
-              "Se estructura la corrida financiera de beneficios tangibles (incremento de ingresos, ahorros operativos) e intangibles (mitigación de riesgos, compliance)."
-            ]
-          },
-          {
-            "titulo": "Estimación conceptual de solución y costos",
-            "detalle": [
-              "Se provee un diseño conceptual y un rango de esfuerzo preliminar para calcular el CAPEX / OPEX estimado. Para este paso es necesario ejecutar la Jugada 2.3 (Estimación de esfuerzo)."
-            ]
-          },
-          {
-            "titulo": "Consolidación del caso de negocio",
-            "detalle": [
-              "Se consolida la inversión proyectada (licenciamiento, nube, equipos e infraestructura) en el Caso de Negocio para su presentación al Sponsor."
-            ]
-          },
-          {
-            "titulo": "Dictamen (Outcome)",
-            "detalle": [
-              "Se expone el Caso de Negocio consolidado para demostrar su rentabilidad; el Sponsor emite el dictamen de viabilidad que autoriza el paso a la siguiente etapa."
-            ]
-          }
-        ],
-        "nota": "Pendiente definir evidencia para aprobación.",
-        "entregables": {
-          "aceleradores": "Portafolio Manager, BP/BA.",
-          "inputs": "Necesidad, Capacidades Nivel 0, diseño de solución y estimación del esfuerzo.",
-          "outcomes": "Caso de Negocio (Business Case) con beneficios."
-        }
-      },
-      {
-        "titulo": "Escenario B: Hoja de costos (sin caso de negocio)",
-        "descripcion": "Se ejecuta cuando solo se tienen identificados los desarrollos requeridos por el equipo de TI; la iniciativa acota y valida el alcance técnico, el esfuerzo y los costos directos.",
-        "pasos": [
-          {
-            "titulo": "Identificación y justificación de excepción (Input)",
-            "detalle": [
-              "Al recibir el requerimiento técnico y la estimación preliminar de desarrollos en la hoja de costos, se evalúa si es necesario involucrar a otras áreas clave para estructurar un Caso de Negocio integral."
-            ]
-          },
-          {
-            "titulo": "Levantamiento y cuantificación de beneficios",
-            "detalle": [
-              "Se estructura la corrida financiera de beneficios tangibles (incremento de ingresos, ahorros operativos) e intangibles (mitigación de riesgos, compliance)."
-            ]
-          },
-          {
-            "titulo": "Consolidación del caso de negocio",
-            "detalle": [
-              "Se consolida la inversión proyectada (licenciamiento, nube, equipos e infraestructura)."
-            ]
-          },
-          {
-            "titulo": "Dictamen (Outcome)",
-            "detalle": [
-              "Se expone el Caso de Negocio consolidado; el Sponsor emite el dictamen de viabilidad que autoriza el paso a la siguiente etapa."
-            ]
-          }
-        ],
-        "nota": "Pendiente definir evidencia para aprobación.",
-        "entregables": {
-          "aceleradores": "Portafolio Manager.",
-          "inputs": "Hoja de costos y requerimiento técnico.",
-          "outcomes": "Caso de Negocio (Business Case) con beneficios."
-        }
-      }
-    ],
-    "politicas": [
-      "Pol_Gestión Portafolio TI",
-      "Proceso Fase 0 & 1"
-    ],
-    "templates": [
-      "Caso de Negocio",
-      "Hoja de costos"
-    ],
-    "proTips": [
-      "Foco en el Valor y Estimación: para garantizar que la evaluación aporte valor real al portafolio, es recomendable aplicar criterios SMART: definir metas específicas para reducir los tiempos de dictaminación, asegurar que el 100% de las iniciativas tengan respaldo financiero claro y utilizar la Hoja de Costos para agilizar las decisiones sin caer en burocracia inútil. Es fundamental reconocer que en esta etapa los costos y números presentados constituyen un cálculo conceptual y preliminar, por lo que deben considerarse con un margen razonable de variación que se irá refinando en las etapas posteriores del proyecto (como en la fase de EDS y Estimación)."
-    ],
-    "trampas": [
-      "Omitir la actualización de la evaluación financiera cuando hay cambios: el riesgo es quedarse con el costo preliminar como si fuera la cifra final."
-    ]
-  },
-  {
-    "id": "2-2",
-    "code": "2.2",
-    "titulo": "Construir el Diseño de Solución",
-    "etapa": "caso",
-    "objetivo": "Garantizar la rentabilidad y alineación estratégica del caso de negocio.",
-    "kr": "100% de las iniciativas con diseño de solución y estimación de esfuerzo validados.",
-    "criteriosSalida": [
-      { "titulo": "Arquitectura To-Be o Brief", "detalle": "Blueprint o concepto ejecutivo, según escenario." },
-      { "titulo": "Capacidades definidas", "detalle": "Tecnológicas o de experiencia, según aplique." },
-      { "titulo": "Estándares revisados", "detalle": "Alineado a arquitectura de negocio y TI." },
-      { "titulo": "Listo para estimar", "detalle": "Insumo validado para estimación de esfuerzo." }
-    ],
-    "reglaDeOro": "Ningún proyecto avanza a la estimación formal de esfuerzo o adquisición técnica sin contar con un diseño de solución (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado y alineado a los estándares de arquitectura de negocio y tecnología.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación) y complementa la Jugada 2.1 (Determinar el valor del proyecto). Aplica cuando se requiere definir la arquitectura objetivo, las capacidades tecnológicas y/o el concepto ejecutivo detallado para fundamentar la estimación de esfuerzo.",
+    "reglaDeOro": "Ninguna iniciativa avanza a la formalización sin una estimación preliminar de tiempo, recursos y sistemas impactados.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Estimación preliminar). Se aplica para definir de manera preliminar (previo a las capacidades y diseño) los recursos necesarios para desarrollar la iniciativa (tiempo, costo, recursos y sistemas) a través de una estimación \"automática\" o una estimación manual.",
     "jugadores": [
       {
-        "rol": "BP / BA",
-        "responsabilidad": "Coordina a los equipos de TI requeridos para garantizar la construcción de la solución."
-      },
-      {
-        "rol": "Arquitectura",
-        "responsabilidad": "Gestiona y coordina al EDS (Equipo de Diseño) para la generación del Diseño de Solución."
-      },
-      {
+        "sigla": "LF",
         "rol": "Líder Funcional",
-        "responsabilidad": "Aporta las necesidades de negocio para construir el diseño de la solución."
+        "responsabilidad": "Valida que las propuestas cubran las capacidades requeridas."
       },
       {
-        "rol": "Especialistas de Procesos",
-        "responsabilidad": "Mapean los procesos As-Is / To-Be, en conjunto con los participantes."
+        "sigla": "BP/BA",
+        "rol": "Business Partner / Business Analyst",
+        "responsabilidad": "Captura estimaciones de tiempo, costo e impactos en sistemas con base en los requerimientos."
       },
       {
-        "rol": "Equipo TI (Líder Técnico / Ing. SW / Infra / BP-BA)",
-        "responsabilidad": "Validan la viabilidad técnica, componentes de software, requerimientos de infraestructura, calidad y seguridad de la información."
-      },
-      {
+        "sigla": "SE",
         "rol": "Servicios Estratégicos",
-        "responsabilidad": "Consolidan la información generada por el equipo de TI."
+        "responsabilidad": "Administra la relación con proveedores y garantiza el cumplimiento normativo de Abastecimiento y VMO. Comparte propuestas técnico-económicas con el BP/BA."
       },
       {
-        "rol": "Equipo de soporte (Inmobiliaria, Marketing, Socios de negocio, Finanzas, Procesos, BP TI, CX)",
-        "responsabilidad": "Inmobiliaria aporta el diseño conceptual; Marketing, el branding; CX y Procesos, las implicaciones sobre elementos o sistemas existentes que pueden duplicarse o verse afectados."
+        "sigla": "AR",
+        "rol": "Arquitectura",
+        "responsabilidad": "Identifica los sistemas impactados por la iniciativa para determinar el impacto tecnológico."
+      },
+      {
+        "sigla": "PfM",
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Consolida estimaciones y valida \"razonablemente\" la alineación con base en el alcance esperado. Proporciona lecciones aprendidas para decidir aprobar o no una estimación a alto nivel."
       }
     ],
     "escenarios": [
       {
-        "titulo": "Escenario A: Diseño de arquitectura TI",
-        "descripcion": "Se ejecuta cuando la solución requiere cambios o integraciones en componentes de software, datos e infraestructura tecnológica.",
+        "titulo": "Escenario A: Estimación con calculadora de proyecto (T-shirt sizing)",
+        "descripcion": "Se ejecuta cuando una iniciativa se estimará con base en la calculadora definida en la herramienta; considera aspectos generales para la estimación.",
         "pasos": [
           {
-            "titulo": "Levantamiento de arquitectura As-Is y capacidades (Input)",
+            "titulo": "Seleccionar estimación con calculadora",
             "detalle": [
-              "Se analiza la situación tecnológica actual (As-Is) y se identifican las capacidades requeridas."
-            ]
+              "BP/BA, en conjunto con el equipo de Arquitectura, dentro de Monday en el apartado \"Estimación preliminar\", selecciona la opción de abrir calculadora."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA",
+                "AR"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "SE",
+                "PfM"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
-            "titulo": "Definición del diseño de arquitectura",
+            "titulo": "Captura de datos",
             "detalle": [
-              "Revisión conjunta con el equipo de Arquitectura de Procesos para definir patrones, integraciones y seguridad de la información (OSI)."
-            ]
+              "BP/BA, en conjunto con el equipo de Arquitectura, captura datos generales para saber si la iniciativa se puede estimar a alto nivel (T-shirt sizing):",
+              "¿El alcance es claro y acotado? Ojo: si la respuesta es \"No\", no se puede estimar a alto nivel y es necesario seguir los pasos del Escenario B.",
+              "¿Requiere nuevo proveedor?",
+              "Áreas o equipos involucrados: con base en el alcance, identifica las partes involucradas de la iniciativa.",
+              "Complejidad estimada: con base en el alcance e impacto, determina la complejidad (Baja, Media, Alta, Muy Alta). Tip: como Portafolio Manager es importante cuestionar la complejidad determinada por el equipo, revisar antecedentes de otros proyectos y anticipar riesgos.",
+              "Selección de sistemas impactados."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA",
+                "AR"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "SE",
+                "PfM"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
-            "titulo": "Definición del blueprint To-Be (Outcome)",
+            "titulo": "Estimación preliminar",
             "detalle": [
-              "Se formaliza el documento de Arquitectura To-Be con los diagramas y componentes validados."
-            ]
+              "Con base en los datos capturados, el sistema determina una estimación preliminar con una matriz complejidad × impacto, definiendo la talla del proyecto (S, M, L, XL), el monto de inversión, el tiempo de ejecución y la relación de sistemas impactados."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA",
+                "AR"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "SE",
+                "PfM"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
+          },
+          {
+            "titulo": "Aceptación de la estimación (Outcome)",
+            "detalle": [
+              "Con apoyo del Portafolio Manager, el BP/BA y el equipo de Arquitectura deciden si la estimación generada es correcta.",
+              "Si se acepta la estimación preliminar, la iniciativa avanza automáticamente a la Jugada 5. Autorización.",
+              "Si no se acepta, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue la Jugada 3. Capacidades de negocio."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "SE",
+                "PfM"
+              ],
+              "I": []
+            }
           }
         ],
         "entregables": {
-          "aceleradores": "Revisar con el equipo de Arquitectura de Proceso.",
-          "inputs": "Capacidades, Arquitectura As-Is, EDS.",
-          "outcomes": "Arquitectura To-Be."
+          "aceleradores": "PfM: lecciones aprendidas como input para el T-shirt sizing y la aprobación de la estimación.",
+          "inputs": "Ficha Canvas; idea priorizada en Monday.",
+          "outcomes": "Estimación preliminar (aprobada o no aprobada)."
         }
       },
       {
-        "titulo": "Escenario B: Proyecto ejecutivo / nuevo concepto",
-        "descripcion": "Se ejecuta para soluciones conceptuales, comerciales o de experiencia que requieren un Brief para despachos o terceros.",
+        "titulo": "Escenario B: Estimación manual",
+        "descripcion": "Se establece el esfuerzo, duración y presupuesto base para la ejecución de la iniciativa, asegurando que el dimensionamiento técnico y financiero cuente con respaldo formal antes de la autorización del proyecto.",
         "pasos": [
           {
-            "titulo": "Mapeo de Customer Journey y layouts (Input)",
+            "titulo": "Definir inversión",
             "detalle": [
-              "Se revisan las capacidades de negocio, layouts, mapas de experiencia y procesos As-Is / To-Be."
-            ]
+              "BP/BA captura en el sistema el monto total de inversión.",
+              "El PfM solicita al BP/BA las evidencias que respaldan la estimación capturada (propuestas técnico-económicas).",
+              "El PfM integra la solución seleccionada y el costo consolidado (CAPEX / OPEX)."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA",
+                "AR",
+                "PfM"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "SE"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
-            "titulo": "Validación operativa y de negocio",
+            "titulo": "Definir tiempo e inicio de ejecución",
             "detalle": [
-              "Sesión de trabajo para validar el alcance funcional."
-            ]
+              "BP/BA captura en el sistema el tiempo estimado de ejecución.",
+              "BP/BA captura el trimestre planeado para iniciar la ejecución del proyecto."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA",
+                "AR"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "SE",
+                "PfM"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
-            "titulo": "Emisión del Brief Ejecutivo (Outcome)",
+            "titulo": "Aceptación de la estimación (Outcome)",
             "detalle": [
-              "Se consolida el Brief estructurado necesario para la contratación o cotización con despachos externos."
-            ]
+              "Con apoyo del Portafolio Manager, el BP/BA y el equipo de Arquitectura deciden si la estimación generada es correcta.",
+              "Si se acepta la estimación preliminar manual, la iniciativa avanza automáticamente a la Jugada 5. Autorización.",
+              "Si no se acepta, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue la Jugada 3. Capacidades de negocio."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "SE",
+                "PfM"
+              ],
+              "I": []
+            }
           }
         ],
         "entregables": {
-          "aceleradores": "Validar proceso operativo / comercial.",
-          "inputs": "Capacidades, Customer Journey, Layouts, Procesos (As-Is / To-Be).",
-          "outcomes": "Brief para despachos."
+          "aceleradores": "PfM: lecciones aprendidas como input para la aprobación de la estimación.",
+          "inputs": "Ficha Canvas; idea priorizada en Monday.",
+          "outcomes": "Estimación preliminar (aprobada o no aprobada)."
+        }
+      }
+    ],
+    "politicas": [],
+    "templates": [
+      "Hoja de costos",
+      "Estimación preliminar"
+    ],
+    "proTips": [
+      "Tiempos de mercado realistas: considera dentro del cronograma de la Fase 0 los tiempos de respuesta legales y contractuales de Abastecimiento que no están considerados en las propuestas técnico-económicas; forzar fechas irreales genera riesgos y sobrecostos.",
+      "Capitaliza las lecciones aprendidas: al definir la complejidad (T-shirt sizing) y validar la estimación preliminar, aplica el historial de riesgos y lecciones aprendidas de implementaciones previas para retar los supuestos de la iniciativa. Una estimación realista hoy es el cimiento para una ejecución sin desviaciones mañana.",
+      "Estimación progresiva: las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinarán la estimación definitiva antes de iniciar la construcción."
+    ],
+    "trampas": [
+      "Compromisos informales sin SE: nunca acuerdes compromisos de contratación o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos."
+    ]
+  },
+  {
+    "id": "3",
+    "code": "3",
+    "titulo": "Capacidades de negocio",
+    "etapa": "caso",
+    "objetivo": "Identificar, estructurar y cerrar las brechas de capacidades operativas y tecnológicas para garantizar la viabilidad y entrega de valor del proyecto.",
+    "kr": "Mapear el 100% de las capacidades de negocio As-Is y To-Be requeridas antes del diseño de solución final.",
+    "criteriosSalida": [
+      {
+        "titulo": "Matriz de capacidades",
+        "detalle": "Definición con base en las capacidades de negocio actuales; evita duplicidad e inversión sin valor al negocio."
+      },
+      {
+        "titulo": "Insumo para el diseño de solución (BRDs y ERFs)",
+        "detalle": "Consolidar los documentos de requerimientos de negocio (BRD) y de ingeniería (ERF) como el insumo de entrada oficial para el diseño técnico."
+      }
+    ],
+    "reglaDeOro": "Ningún proyecto avanza al diseño detallado sin un mapa de capacidades formalmente validado por Ingeniería de Procesos y Arquitectura.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y antes de formalizar el Diseño de la Solución.",
+    "jugadores": [
+      {
+        "sigla": "LF",
+        "rol": "Líder Funcional",
+        "responsabilidad": "Valida que las propuestas cubran las capacidades requeridas."
+      },
+      {
+        "sigla": "IP",
+        "rol": "Ingeniería de Procesos",
+        "responsabilidad": "Lidera el levantamiento de procesos As-Is / To-Be y, en conjunto con el LF y el BP/BA, define las capacidades operativas requeridas."
+      },
+      {
+        "sigla": "BP/BA",
+        "rol": "Business Partner / Business Analyst",
+        "responsabilidad": "Articula las necesidades del negocio con las capacidades y asegura la aprobación del entregable funcional."
+      },
+      {
+        "sigla": "AR",
+        "rol": "Arquitectura TI / No TI",
+        "responsabilidad": "Valida el soporte tecnológico e infraestructura necesaria para habilitar las nuevas capacidades."
+      },
+      {
+        "sigla": "PfM",
+        "rol": "Portafolio Manager",
+        "responsabilidad": "Supervisa la alineación estratégica del backlog de capacidades con la pirámide de proyectos."
+      }
+    ],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Análisis de brechas (Gap Analysis)",
+            "detalle": [
+              "El BP/BA junto con Ingeniería de Procesos identifican las capacidades faltantes o a modificar (gaps de Nivel 0 y 1) para responder al objetivo del negocio."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA",
+                "PfM"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [],
+              "I": [
+                "SE"
+              ]
+            }
+          },
+          {
+            "titulo": "Capturar capacidades (Outcome)",
+            "detalle": [
+              "BP/BA captura en el sistema las capacidades definidas por el LF."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "LF"
+              ],
+              "I": [
+                "SE"
+              ]
+            }
+          },
+          {
+            "titulo": "Insumo para diseño",
+            "detalle": [
+              "BP/BA captura los insumos para el diseño (BRDs, ERFs)."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [
+                "SE",
+                "PfM",
+                "LF"
+              ],
+              "I": [
+                "AR"
+              ]
+            }
+          }
+        ],
+        "entregables": {
+          "aceleradores": "Talleres de co-creación de capacidades con el equipo de Procesos.",
+          "outcomes": "Matriz de Capacidades As-Is / To-Be nivel 1."
         }
       }
     ],
     "politicas": [
-      "Política de Gobernanza de Arquitectura TI y Estándares Tecnológicos",
-      "Proceso de Evaluación y Diseño de Soluciones de Negocio (EDS)"
+      "EPL-FIN-P&C-Capacidades-V001"
     ],
     "templates": [
-      "Diagramas de integración",
-      "Modelo de Datos y componente software"
+      "Capacidades de negocio (Monday)",
+      "Plantilla Matriz de Capacidades.xlsx",
+      "Plantilla Matriz de capacidades (Miro)"
     ],
     "proTips": [
-      "Diseño proporcional: el detalle técnico debe ser suficiente para estimar el esfuerzo, sin sobrediseñar componentes que puedan cambiar durante el desarrollo."
+      "Enfoque en valor: mapea solo las capacidades esenciales para el Key Result (N1); evita la captura de capacidades a detalle (N2), ya que diluye la discusión técnica y hace que el negocio pierda visibilidad sobre el valor y el retorno real de la propuesta."
     ],
     "trampas": [
-      "Diseño en silos: construir la arquitectura sin la participación de las áreas operativas, QA y soporte (AMS) genera deuda técnica o impactos no previstos en producción."
+      "Silos de trabajo: evita definir las capacidades de negocio como capacidades tecnológicas (solo desde la perspectiva de TI) sin la validación del Líder Funcional (Negocio) y de Ingeniería de Procesos."
     ]
   },
   {
-    "id": "3-1",
-    "code": "3.1",
+    "id": "4",
+    "code": "4",
     "titulo": "Construir el Diseño de Solución",
     "etapa": "eds",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo formalmente respaldados.",
     "criteriosSalida": [
-      { "titulo": "Solución trazada", "detalle": "Arquitectura To-Be o Brief Ejecutivo." },
-      { "titulo": "Diseño revisado", "detalle": "Validado por mesas técnicas o de procesos." },
-      { "titulo": "Impacto en procesos alineado", "detalle": "Validación con Arquitectura de Procesos." },
-      { "titulo": "Listo para cotizar", "detalle": "Base para Jugada 3.2 Estimar el esfuerzo." }
+      {
+        "titulo": "Viabilidad y sustento técnico / operativo",
+        "detalle": "Pasar de una necesidad de negocio abstracta o un Canvas general a un modelo estructurado: Arquitectura To-Be para temas de TI o Brief Ejecutivo para proyectos comerciales / inmobiliarios."
+      },
+      {
+        "titulo": "El \"cómo\" definido",
+        "detalle": "Componentes tecnológicos, de infraestructura, de procesos o de experiencia de usuario (Customer Journey) necesarios para hacer realidad la iniciativa, sin entrar al detalle."
+      },
+      {
+        "titulo": "Base para estimación y contratación",
+        "detalle": "Insumos y alcances claros para cotizar y dimensionar con precisión esfuerzo, costos y tiempos antes de buscar la autorización formal."
+      }
     ],
     "reglaDeOro": "Ninguna iniciativa avanza a la estimación formal de costo, tiempo o adquisición técnica sin contar con un diseño de solución estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas técnicas o de procesos.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se detona una vez que se cuenta con el caso de negocio preliminar o la necesidad priorizada, y se requiere trazar la solución conceptual o técnica que servirá de base para cotizar y dimensionar el esfuerzo del proyecto.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se detona una vez que se cuenta con el caso de negocio preliminar o la necesidad priorizada, y se requiere trazar la solución conceptual o técnica que servirá como base para cotizar y dimensionar el esfuerzo del proyecto.",
     "jugadores": [
       {
+        "sigla": "AR",
         "rol": "Arquitectura TI",
         "responsabilidad": "Conduce y gobierna el diseño de la solución técnica, garantizando la compatibilidad con el ecosistema y los lineamientos tecnológicos corporativos."
       },
       {
+        "sigla": "LF",
         "rol": "Líder Funcional / Negocio",
         "responsabilidad": "Proporciona la visión funcional y las reglas de negocio, y valida que el diseño cubra la necesidad operativa."
       },
       {
-        "rol": "BP / BA",
+        "sigla": "BP/BA",
+        "rol": "Business Partner / Business Analyst",
         "responsabilidad": "Facilita la integración metodológica entre negocio, TI y proveedores; articula los requerimientos en el formato estándar de EDS."
       },
       {
+        "sigla": "EP",
         "rol": "Especialista de Procesos",
-        "responsabilidad": "Mapea y valida el flujo operativo As-Is y To-Be, previniendo duplicidades operativas o colisiones con otros procesos."
+        "responsabilidad": "Mapea y valida el flujo operativo As-Is y To-Be, previniendo duplicidades operativas o colisiones con otros procesos de Liverpool."
       },
       {
+        "sigla": "LT",
         "rol": "Equipo Técnico TI (Líder Técnico, Ing. SW, Infraestructura, QA, AMS)",
-        "responsabilidad": "Evalúan la factibilidad técnica, requerimientos de nube / servidores, seguridad de la información y criterios de mantenibilidad futura."
+        "responsabilidad": "Evalúa la factibilidad técnica, requerimientos de nube / servidores, seguridad de la información y criterios de mantenibilidad futura."
       },
       {
+        "sigla": "PfM",
         "rol": "Program Manager / Portafolio Manager",
         "responsabilidad": "Monitorea el progreso del diseño dentro del calendario de la Fase 0 y valida el pase formal hacia la etapa de estimación."
       },
       {
+        "sigla": "SE",
         "rol": "Servicios Estratégicos (SE)",
-        "responsabilidad": "Consolida los insumos técnicos para verificar requerimientos de licenciamiento o proveedores de fábrica de software."
+        "responsabilidad": "Consolida insumos técnicos para verificar requerimientos de licenciamiento o proveedores de fábrica de software."
       },
       {
+        "sigla": "SN",
         "rol": "Socios de Negocio (Inmobiliaria, Marketing, CX, Operaciones)",
-        "responsabilidad": "Establecen las especificaciones comerciales, la experiencia de usuario (Customer Journey) y los layouts físicos o de marca."
+        "responsabilidad": "Establecen especificaciones comerciales, experiencia de usuario (Customer Journey) y layouts físicos o de marca."
       }
     ],
     "escenarios": [
@@ -493,34 +709,108 @@
         "descripcion": "Aplica a iniciativas con impacto en software, integraciones, nube, microservicios o bases de datos.",
         "pasos": [
           {
-            "titulo": "Levantamiento y consolidación de capacidades (Input)",
+            "titulo": "Consolidación de capacidades (Input)",
             "detalle": [
-              "Recaba el expediente de capacidades iniciales y coordina la sesión de arranque técnico, convocando al Líder Funcional y a Arquitectura para delimitar el alcance técnico."
-            ]
+              "Las capacidades y BRDs se convierten en los insumos necesarios para realizar el diseño del área de Arquitectura. El arquitecto debe establecer en Monday la fecha compromiso y los porcentajes de avance conforme avance su proceso."
+            ],
+            "raci": {
+              "R": [
+                "BP/BA"
+              ],
+              "A": [
+                "AR"
+              ],
+              "C": [
+                "LT",
+                "LF"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Diagnóstico de la arquitectura As-Is",
             "detalle": [
               "Examina los sistemas actuales, interfaces y diagramas de flujo existentes para identificar dependencias tecnológicas y brechas técnicas."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "AR"
+              ],
+              "A": [
+                "AR"
+              ],
+              "C": [
+                "LT",
+                "LF"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Definición del modelo y seguridad de la solución",
             "detalle": [
               "Modela los requerimientos de servidores, almacenamiento, bases de datos y controles de seguridad informática aplicables."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "LT"
+              ],
+              "A": [
+                "AR"
+              ],
+              "C": [
+                "LT",
+                "SE"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Validación con Arquitectura de Procesos",
             "detalle": [
-              "Revisa junto con Arquitectura que la interacción técnica no altere las directrices del mapa de procesos corporativo."
-            ]
+              "El equipo de Arquitectura asocia en su registro de Monday los posibles impactos visualizados a un responsable técnico, quien identifica si el impacto es real y provee una estimación a alto nivel en tiempo y costos."
+            ],
+            "raci": {
+              "R": [
+                "AR"
+              ],
+              "A": [
+                "AR",
+                "LT"
+              ],
+              "C": [
+                "SE"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Emisión de la Arquitectura To-Be (Outcome)",
             "detalle": [
-              "Publica y firma el Blueprint de Arquitectura To-Be, y lo entrega al Program Manager para detonar la jugada de estimación."
-            ]
+              "Como resultado de su diseño, el arquitecto genera el mapeo técnico en Mega Hopex y el documento de impactos en PDF; ambos archivos se cargan directamente en Monday."
+            ],
+            "raci": {
+              "R": [
+                "AR"
+              ],
+              "A": [
+                "AR"
+              ],
+              "C": [
+                "LT"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           }
         ],
         "entregables": {
@@ -530,32 +820,86 @@
         }
       },
       {
-        "titulo": "Escenario B: Diseño de proyecto ejecutivo / nuevo concepto",
+        "titulo": "Escenario B: Diseño proyecto ejecutivo / nuevo concepto",
         "descripcion": "Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o aperturas que requieren especificaciones para terceros o despachos.",
         "pasos": [
           {
             "titulo": "Compilación de experiencia y operación (Input)",
             "detalle": [
               "Entrega el Customer Journey preliminar, las necesidades operativas de tienda / centro logístico y los requerimientos de negocio."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "LF"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "EP"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Análisis de flujo y layouts físicos / digitales",
             "detalle": [
               "Estructuran los planos preliminares, layouts de espacio y lineamientos de experiencia de usuario conforme a los estándares de marca."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "SN"
+              ],
+              "A": [
+                "SN"
+              ],
+              "C": [
+                "LF"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Alineación de impacto en procesos",
             "detalle": [
               "Contrasta los layouts y el modelo operativo To-Be contra las políticas vigentes de tienda y logística, formalizando los ajustes requeridos."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "EP"
+              ],
+              "A": [
+                "EP"
+              ],
+              "C": [
+                "LF"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
           },
           {
             "titulo": "Consolidación del Brief Ejecutivo (Outcome)",
             "detalle": [
               "Integra las especificaciones comerciales, operativas y de experiencia en el documento formal de Brief Ejecutivo, y lo entrega al Portafolio Manager para su cotización en mercado."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "BP/BA"
+              ],
+              "A": [
+                "BP/BA"
+              ],
+              "C": [],
+              "I": [
+                "PfM"
+              ]
+            }
           }
         ],
         "entregables": {
@@ -572,328 +916,71 @@
     ],
     "templates": [
       "Template de Arquitectura de Solución (To-Be Architecture Blueprint)",
-      "Template de Brief Ejecutivo para Despachos / Terceros"
+      "Template de Brief Ejecutivo para Despachos / Terceros",
+      "Registro en Monday"
     ],
     "proTips": [
-      "Nivel de detalle balanceado: en Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. No retrases el caso de negocio por detalles menores."
+      "Nivel de detalle balanceado: en Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. Evita retrasar el caso de negocio por detalles menores."
     ],
     "trampas": [
-      "Diseño aislado: emitir una arquitectura sin retroalimentación de Infraestructura y QA / AMS. Omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes."
+      "Diseño aislado: evita emitir una arquitectura sin la retroalimentación de Infraestructura y QA / AMS; omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes."
     ]
   },
   {
-    "id": "3-2-v1",
-    "code": "3.2",
-    "titulo": "Estimar el Esfuerzo (requerimientos nuevos)",
-    "etapa": "eds",
-    "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
-    "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo alineados a los estándares de arquitectura y gobernanza.",
-    "criteriosSalida": [
-      { "titulo": "Estrategia RFx definida", "detalle": "Instrumento de mercado acordado." },
-      { "titulo": "Proveedores evaluados", "detalle": "Criterios técnico-metodológicos aplicados." },
-      { "titulo": "Proveedor seleccionado", "detalle": "Negociación cerrada con el proveedor." },
-      { "titulo": "Estimación validada", "detalle": "Costo y tiempo listos para Jugada 4.1." }
-    ],
-    "reglaDeOro": "Ningún requerimiento nuevo avanza a la fase de formalización y autorización presupuestal sin contar con una estimación de costo y tiempo validada mediante el proceso RFx correspondiente y alineada a las políticas de Servicios Estratégicos (Abastecimiento y VMO).",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación) cuando una iniciativa identificada como requerimiento nuevo requiere salir al mercado o evaluar a terceros para investigar soluciones, solicitar propuestas técnico-metodológicas o cotizar con precisión el costo y tiempo.",
-    "jugadores": [
-      {
-        "rol": "Líder Funcional",
-        "responsabilidad": "Define las necesidades del negocio y valida que las propuestas de mercado / proveedores cubran las capacidades requeridas."
-      },
-      {
-        "rol": "Business Partner/ Business Analyst",
-        "responsabilidad": "Facilita el levantamiento de requerimientos y asegura la articulación entre el negocio y las áreas técnicas."
-      },
-      {
-        "rol": "Servicios Estratégicos",
-        "responsabilidad": "Lidera la estrategia de RFx (RFI, RFP, RFQ), administra la relación con proveedores y garantiza el cumplimiento normativo de Abastecimiento y VMO."
-      },
-      {
-        "rol": "Arquitectura",
-        "responsabilidad": "Evalúa la viabilidad técnica de las soluciones propuestas y asegura su acoplamiento con la Arquitectura To-Be."
-      },
-      {
-        "rol": "Líder Técnico",
-        "responsabilidad": "Evaluar técnicamente las propuestas de mercado y calcular el esfuerzo de horas/hombre internas, ambientes y pruebas."
-      },
-      {
-        "rol": "Portafolio Manager",
-        "responsabilidad": "Estructurar la matriz consolidada de esfuerzo, consolidar cotizaciones y validar “razonablemente” la alineación con base en el alcance esperado."
-      },
-      {
-        "rol": "Servicios Estratégicos",
-        "responsabilidad": "Proporcionar y validar los catálogos de conceptos y matrices de costos paramétricos en iniciativas físicas."
-      }
-    ],
-    "escenarios": [
-      {
-        "titulo": null,
-        "pasos": [
-          {
-            "titulo": "Recepción de entradas y estrategia RFx (Input)",
-            "detalle": [
-              "Se recibe la iniciativa con la Idea Priorizada y los insumos del diseño de solución previo.",
-              "SE y BP TI determinan el instrumento de mercado según la madurez del requerimiento: RFI (investigar el mercado y conocer proveedores potenciales), RFP (los proveedores proponen la solución técnica, arquitectura y metodología) o RFQ (se conoce con exactitud el alcance y solo se busca cotizar costo y tiempo)."
-            ]
-          },
-          {
-            "titulo": "Evaluación técnico-metodológica de proveedores",
-            "detalle": [
-              "Evalúan las propuestas técnicas bajo los criterios de la Arquitectura To-Be.",
-              "QA y AMS revisan que las estimaciones contemplen los esfuerzos de pruebas, ambientes y transición operativa."
-            ]
-          },
-          {
-            "titulo": "Negociación y selección de proveedor",
-            "detalle": [
-              "Aplican las políticas corporativas para dictaminar la mejor oferta técnico-económica."
-            ]
-          },
-          {
-            "titulo": "Consolidación de estimación y dictamen (Outcome)",
-            "detalle": [
-              "Integran la solución definida, el proveedor seleccionado y el desglose de costo y tiempo en el expediente de la iniciativa para pasar a Formalización y Autorización."
-            ]
-          }
-        ],
-        "entregables": {
-          "aceleradores": "BP TI; alineación estricta a las políticas de SE (Abastecimiento y VMO).",
-          "inputs": "Requerimiento de proyecto priorizado; RFI, RFP o RFQ.",
-          "outcomes": "Solución definida, proveedor seleccionado y estimación formal de costo y tiempo."
-        }
-      }
-    ],
-    "politicas": [
-      "Política de Abastecimiento Estratégico y Gestión de Proveedores (VMO)",
-      "Política de Gestión de Portafolio TI y Gobernanza de Arquitectura",
-      "Proceso Fase 0 (en Miro)"
-    ],
-    "templates": [
-      "Template de Pliego RFx (RFI / RFP / RFQ)",
-      "Matriz Técnico-Económica de Evaluación de Proveedores",
-      "Plantilla Estándar de Estimación de Costo, Tiempo y Esfuerzo (PMO)"
-    ],
-    "proTips": [
-      "Claridad en el alcance RFx: antes de enviar un RFP, haz un taller breve de alineación entre BP/BA, Arquitectura y el Líder Funcional. Un alcance difuso genera estimaciones con contingencias de precio elevadas."
-    ],
-    "trampas": [
-      "Involucramiento tardío de VMO / Abastecimiento: negociar o comprometer informalmente con proveedores sin acompañamiento de Servicios Estratégicos invalida la estimación y provoca retrocesos en la aprobación."
-    ]
-  },
-  {
-    "id": "3-2-v2",
-    "code": "3.2",
-    "titulo": "Estimar el Esfuerzo (escenarios A, B y C)",
-    "etapa": "eds",
-    "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
-    "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo debidamente sustentados.",
-    "criteriosSalida": [
-      { "titulo": "Costo y tiempo estimados", "detalle": "Incluye recursos humanos y licencias / hardware." },
-      { "titulo": "Mecanismo elegido", "detalle": "Licitación, dimensionamiento interno o asignación directa." },
-      { "titulo": "Expediente cerrado", "detalle": "Dictamen técnico-económico emitido." },
-      { "titulo": "Validada por Servicios Estratégicos", "detalle": "Listo para Jugada 4.1 Autorización." }
-    ],
-    "reglaDeOro": "Ninguna iniciativa avanza a la formalización presupuestal sin una estimación de costo, tiempo y recursos validada formalmente bajo las políticas corporativas de Servicios Estratégicos (Abastecimiento y VMO) o por el equipo técnico correspondiente.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / EDS y Estimación). Se aplica para traducir el diseño de solución en números concretos (tiempo, costo, recursos humanos y licencias / hardware) mediante el mecanismo adecuado: licitación al mercado, dimensionamiento interno o asignación directa autorizada.",
-    "jugadores": [
-       {
-        "rol": "Líder Funcional",
-        "responsabilidad": "Define las necesidades del negocio y valida que las propuestas de mercado / proveedores cubran las capacidades requeridas."
-      },
-      {
-        "rol": "Business Partner/ Business Analyst",
-        "responsabilidad": "Facilita el levantamiento de requerimientos y asegura la articulación entre el negocio y las áreas técnicas."
-      },
-      {
-        "rol": "Servicios Estratégicos",
-        "responsabilidad": "Lidera la estrategia de RFx (RFI, RFP, RFQ), administra la relación con proveedores y garantiza el cumplimiento normativo de Abastecimiento y VMO."
-      },
-      {
-        "rol": "Arquitectura",
-        "responsabilidad": "Evalúa la viabilidad técnica de las soluciones propuestas y asegura su acoplamiento con la Arquitectura To-Be."
-      },
-      {
-        "rol": "Líder Técnico",
-        "responsabilidad": "Evaluar técnicamente las propuestas de mercado y calcular el esfuerzo de horas/hombre internas, ambientes y pruebas."
-      },
-      {
-        "rol": "Portafolio Manager",
-        "responsabilidad": "Estructurar la matriz consolidada de esfuerzo, consolidar cotizaciones y validar “razonablemente” la alineación con base en el alcance esperado."
-      },
-      {
-        "rol": "Servicios Estratégicos",
-        "responsabilidad": "Proporcionar y validar los catálogos de conceptos y matrices de costos paramétricos en iniciativas físicas."
-      }
-    ],
-    "escenarios": [
-      {
-        "titulo": "Escenario A: Requerimientos nuevos (proceso RFx)",
-        "descripcion": "Aplica cuando se requiere contratar un nuevo servicio, producto o proveedor externo que no existe en el catálogo homologado.",
-        "pasos": [
-          {
-            "titulo": "Definición del instrumento de mercado (Input)",
-            "detalle": [
-              "Evalúan la madurez del requerimiento y determinan la herramienta: RFI (exploración preliminar de mercado), RFP (licitación donde el proveedor propone solución técnica, metodología y costo) o RFQ (cotización directa sobre un alcance totalmente cerrado)."
-            ]
-          },
-          {
-            "titulo": "Publicación y gestión del pliego RFx",
-            "detalle": [
-              "Emite formalmente el pliego a los proveedores participantes, administra las rondas de preguntas y respuestas y resguarda las propuestas."
-            ]
-          },
-          {
-            "titulo": "Evaluación técnica y metodológica",
-            "detalle": [
-              "Califica las propuestas bajo criterios homogéneos (matriz técnica) alineados al diseño de solución previamente construido."
-            ]
-          },
-          {
-            "titulo": "Dictamen técnico-económico y negociación",
-            "detalle": [
-              "Concluye la negociación de tarifas comerciales y condiciones contractuales, y emite el cuadro comparativo final."
-            ]
-          },
-          {
-            "titulo": "Consolidación de estimación final (Outcome)",
-            "detalle": [
-              "Integra la solución seleccionada, el costo consolidado (CAPEX / OPEX) y el cronograma maestro en la plantilla de estimación de Fase 0."
-            ]
-          }
-        ],
-        "entregables": {
-          "aceleradores": "BP TI; alineación estricta a las políticas de SE (VMO).",
-          "inputs": "Iniciativa priorizada; pliegos RFI / RFP / RFQ.",
-          "outcomes": "Solución definida, proveedor asignado y costo / tiempo formal."
-        }
-      },
-      {
-        "titulo": "Escenario B: Requerimientos existentes (mejora / catálogo)",
-        "descripcion": "Aplica cuando la solución se apoya en contratos marco vigentes, mejoras sobre plataformas existentes o conceptos paramétricos estandarizados.",
-        "pasos": [
-          {
-            "titulo": "Identificación de conceptos y capacidades existentes (Input)",
-            "detalle": [
-              "Identifica los componentes a reutilizar o ampliar con base en la solución técnica y solicita los catálogos tarifarios vigentes a Abastecimiento o Socios de Negocio."
-            ]
-          },
-          {
-            "titulo": "Dimensionamiento paramétrico y de detalle",
-            "detalle": [
-              "Aplican las tarifas unitarias aprobadas sobre los volúmenes requeridos (catálogo de conceptos de obra o bolsas de horas homologadas)."
-            ]
-          },
-          {
-            "titulo": "Validación de capacidades y ambientes operativos",
-            "detalle": [
-              "Verifica si la actualización tecnológica o mejora requiere ampliación de servidores, balanceadores o ventanas especiales de mantenimiento."
-            ]
-          },
-          {
-            "titulo": "Cierre del expediente de estimación (Outcome)",
-            "detalle": [
-              "Documenta la cuantificación final basada en catálogos y horas aprobadas, dejándola lista para la evaluación financiera definitiva."
-            ]
-          }
-        ],
-        "entregables": {
-          "aceleradores": "Validación de procesos operativos y catálogos de socios de negocio.",
-          "inputs": "Catálogos de conceptos, acuerdos marco, requerimiento de actualización.",
-          "outcomes": "Catálogo de conceptos dimensionado e ingeniería de detalle."
-        }
-      },
-      {
-        "titulo": "Escenario C: Asignación directa excepcional",
-        "descripcion": "Aplica cuando un proveedor cuenta con exclusividad tecnológica comprobada, patente o justificación estratégica autorizada por la Dirección / Abastecimiento.",
-        "pasos": [
-          {
-            "titulo": "Presentación de justificación y solicitud (Input)",
-            "detalle": [
-              "Elabora el documento formal que sustenta técnica y operativamente por qué no es viable una licitación abierta."
-            ]
-          },
-          {
-            "titulo": "Validación normativa y dictamen de excepción",
-            "detalle": [
-              "Revisa la procedencia legal y corporativa del caso conforme a las políticas de compras, y emite la aprobación correspondiente."
-            ]
-          },
-          {
-            "titulo": "Cotización y negociación bajo condiciones especiales",
-            "detalle": [
-              "Negocia tarifas y condiciones contractuales con el proveedor único seleccionado, garantizando precios de mercado razonables."
-            ]
-          },
-          {
-            "titulo": "Carta de asignación y alta de proveedor (Outcome)",
-            "detalle": [
-              "Formalizan la carta de asignación directa, validan el estatus del proveedor en el padrón y consolidan la estimación de costo y tiempo en el expediente del proyecto."
-            ]
-          }
-        ],
-        "entregables": {
-          "aceleradores": "Acompañamiento prioritario con VMO y Abastecimiento.",
-          "inputs": "Iniciativa priorizada, justificación de exclusividad, proveedor definido.",
-          "outcomes": "Carta de asignación formal, contrato / alta y solución costeada."
-        }
-      }
-    ],
-    "politicas": [
-      "Política de Abastecimiento Estratégico y Compras Corporativas",
-      "Normativa de Gestión y Homologación de Proveedores (VMO)",
-      "Procedimiento de Gestión de Portafolio de Inversión y TI"
-    ],
-    "templates": [
-      "Formato de Pliego RFx (RFI, RFP, RFQ)",
-      "Matriz de Evaluación Técnico-Económica de Proveedores",
-      "Formato Oficial de Asignación Directa y Justificación de Excepción",
-      "Plantilla Estándar de Estimación de Esfuerzo, Costo y Cronograma"
-    ],
-    "proTips": [
-      "Tiempos de mercado realistas: considera en el cronograma de la Fase 0 los tiempos legales y contractuales de Abastecimiento; forzar fechas irreales genera pliegos incompletos y sobrecostos."
-    ],
-    "trampas": [
-      "Compromisos informales sin SE: nunca acuerdes contrataciones o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos."
-    ]
-  },
-  {
-    "id": "4-1",
-    "code": "4.1",
+    "id": "5",
+    "code": "5",
     "titulo": "Autorización Formal",
     "etapa": "formal",
     "objetivo": "Asegurar la asignación de recursos y el respaldo ejecutivo del proyecto.",
     "kr": "Confirmar el 100% de los beneficios esperados con la Dirección General y habilitar las partidas presupuestales.",
     "criteriosSalida": [
-      { "titulo": "Project Charter firmado", "detalle": "Aprobación formal del comité / Dirección." },
-      { "titulo": "Beneficios confirmados", "detalle": "Acordados con la Dirección General." },
-      { "titulo": "Presupuesto habilitado", "detalle": "Elemento PEP activo en Finanzas / SAP." },
-      { "titulo": "Entregado a ejecución", "detalle": "Inicio de Fase 1 autorizado." }
+      {
+        "titulo": "Project Charter firmado",
+        "detalle": "Aprobación formal del comité / Dirección."
+      },
+      {
+        "titulo": "Beneficios confirmados",
+        "detalle": "Acordados con la Dirección General."
+      },
+      {
+        "titulo": "Presupuesto habilitado",
+        "detalle": "Elemento PEP activo en Finanzas / SAP."
+      },
+      {
+        "titulo": "Entregado a ejecución",
+        "detalle": "Inicio de Fase 1 autorizado."
+      }
     ],
     "reglaDeOro": "Ningún proyecto arranca su ejecución (Fase 1 en adelante) ni compromete órdenes de compra sin la aprobación firmada de su Project Charter, la confirmación de beneficios y la activación de su elemento PEP presupuestal en Finanzas / SAP.",
-    "cuando": "Se ejecuta al cierre de la Fase 0 (Formalización y Autorización). Se detona una vez concluido el caso de negocio, el diseño de la solución y la estimación formal de costo y tiempo, buscando el dictamen ejecutivo final del Comité de Inversión / Dirección.",
+    "cuando": "Se ejecuta al cierre de la Fase 0 (Autorización). Se detona una vez concluido el caso de negocio, el diseño de la solución y la estimación formal de costo y tiempo, buscando el dictamen ejecutivo final del Comité de Inversión / Dirección.",
     "jugadores": [
       {
+        "sigla": "PfM",
         "rol": "Portafolio Manager",
         "responsabilidad": "Presenta la iniciativa ante los comités de decisión y verifica el cumplimiento de los filtros de gobernanza de portafolio."
       },
       {
+        "sigla": "PgM",
         "rol": "Program Manager",
         "responsabilidad": "Integra el expediente final de la iniciativa (Charter consolidado, cronograma y costos aprobados)."
       },
       {
+        "sigla": "LF",
         "rol": "Líder Funcional / Director Promotor",
         "responsabilidad": "Defiende y ratifica el caso de negocio, asumiendo la corresponsabilidad de los beneficios ante el comité directivo."
       },
       {
+        "sigla": "FI",
         "rol": "Finanzas / Finanzas SE TI",
-        "responsabilidad": "Validan la suficiencia presupuestal y el ROI, y tramitan la apertura del elemento PEP en los sistemas financieros corporativos."
+        "responsabilidad": "Valida la suficiencia presupuestal y el ROI, y tramita la apertura del elemento PEP en los sistemas financieros corporativos."
       },
       {
+        "sigla": "SE",
         "rol": "Servicios Estratégicos (SE)",
-        "responsabilidad": "Validan la congruencia de los montos de contratos y compras contra el presupuesto solicitado."
+        "responsabilidad": "Valida la congruencia de los montos de contratos y compras contra el presupuesto solicitado."
       },
       {
+        "sigla": "SP",
         "rol": "Comité Directivo / Sponsor",
         "responsabilidad": "Emite el dictamen final de aprobación, autorizando formalmente el uso de recursos y el arranque del proyecto."
       }
@@ -905,86 +992,187 @@
           {
             "titulo": "Integración del expediente de decisión (Input)",
             "detalle": [
-              "Consolida el Project Charter, el Caso de Negocio actualizado con los costos reales de estimación y los dictámenes técnicos de arquitectura y abastecimiento."
-            ]
+              "Responsable: Program Manager / Líder Funcional.",
+              "Consolida el Project Charter, el Caso de Negocio actualizado con los costos reales de estimación y los dictámenes técnicos de arquitectura y abastecimiento. En la página de Captura de iniciativa se debe llenar la información solicitada de estos documentos."
+            ],
+            "raci": {
+              "R": [
+                "PgM"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "FI"
+              ],
+              "I": [
+                "BP"
+              ]
+            }
           },
           {
             "titulo": "Validación financiera y presupuestal",
             "detalle": [
-              "Revisa la corrida financiera final, comprueba la disponibilidad de saldo en el portafolio de inversión (CAPEX / OPEX) y da el visto bueno al esquema de amortización."
-            ]
+              "Responsable: Finanzas SE TI.",
+              "Revisa la corrida financiera final, comprueba la disponibilidad de saldo en el portafolio de inversión (CAPEX / OPEX) y da el visto bueno al esquema de amortización. En la ventana de gestión de iniciativas se coloca el CAPEX y OPEX previamente revisado."
+            ],
+            "raci": {
+              "R": [
+                "FI"
+              ],
+              "A": [
+                "BP"
+              ],
+              "C": [
+                "PgM"
+              ],
+              "I": [
+                "SP"
+              ]
+            }
           },
           {
             "titulo": "Presentación al comité de autorización",
             "detalle": [
+              "Responsable: Portafolio Manager en conjunto con el Líder Funcional.",
               "Exponen el proyecto ante el comité de portafolio o dirección general, evidenciando el retorno, la alineación estratégica y los riesgos mitigados."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "PfM",
+                "LF"
+              ],
+              "A": [
+                "CM",
+                "DG"
+              ],
+              "C": [
+                "BP"
+              ],
+              "I": [
+                "AE"
+              ]
+            }
           },
           {
             "titulo": "Firma del Project Charter",
             "detalle": [
-              "Formalizan su compromiso mediante firma digital o física del Charter, aceptando las metas de entrega y los beneficios comprometidos."
-            ]
+              "Responsable: Líder Funcional / Sponsor (Servicios Estratégicos).",
+              "Formalizan su compromiso mediante firma digital / física del Charter (vía WEBDOX), aceptando las metas de entrega y los beneficios comprometidos."
+            ],
+            "raci": {
+              "R": [
+                "LF",
+                "SP"
+              ],
+              "A": [
+                "BRM",
+                "DP",
+                "LF",
+                "SP"
+              ],
+              "C": [
+                "PgM"
+              ],
+              "I": [
+                "SE"
+              ]
+            }
           },
           {
             "titulo": "Apertura del elemento PEP y entrega a ejecución (Outcome)",
             "detalle": [
-              "Da de alta y habilita la estructura de imputación financiera (PEP / CECO) en SAP, marcando formalmente el cierre de la Fase 0 y el paso a la Fase 1."
-            ]
+              "Responsable: Finanzas SE TI.",
+              "Da de alta y habilita la estructura de imputación financiera (PEP / CECO) en SAP, marcando formalmente el cierre de la Fase 0 y el pase a la Fase 1."
+            ],
+            "raci": {
+              "R": [
+                "FI"
+              ],
+              "A": [
+                "SP"
+              ],
+              "C": [
+                "SP",
+                "BP",
+                "LT",
+                "LF"
+              ],
+              "I": [
+                "PgM"
+              ]
+            }
           }
         ],
         "entregables": {
           "aceleradores": "Portafolio Manager, sesiones ordinarias de Comités de Inversión, pre-validación con Finanzas TI.",
           "inputs": "Caso de Negocio definitivo, Project Charter, estimación de esfuerzo validada, dictamen de proveedores.",
-          "outcomes": "Project Charter firmado, Caso de Negocio finalizado, PEP / clave de presupuesto activa en SAP."
+          "outcomes": "Project Charter firmado, autorización de la iniciativa en Monday, PEP / clave de presupuesto activa en SAP."
         }
       }
     ],
     "politicas": [
-      "Política de Inversiones de Capital y Gestión Presupuestal",
+      "Política de Inversiones de Capital y Gestión Presupuestal (Liverpool / CONOCE)",
       "Procedimiento de Gobernanza del Portafolio de Proyectos"
     ],
     "templates": [],
     "proTips": [
-      "Pre-aprobación financiera: haz una revisión previa informal con Finanzas antes de la sesión oficial del comité directivo; el 80% de los rechazos en comité se originan por dudas en la imputación contable del gasto."
+      "Pre-aprobación financiera: realiza una revisión previa informal con Finanzas antes de la sesión oficial del comité directivo; el 80% de los rechazos en comité se originan por dudas en la imputación contable del gasto. Realiza el vaciado del Canvas dentro de la página de Fase 0 en Monday."
     ],
     "trampas": [
-      "Iniciar antes del PEP: iniciar compromisos operativos con proveedores sin tener el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos."
+      "Iniciar antes del PEP: iniciar compromisos operativos con proveedores antes de contar con el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos."
     ]
   },
   {
-    "id": "4-2",
-    "code": "4.2",
+    "id": "5-2",
+    "code": "5.2",
     "titulo": "Ejecutar en un momento posterior (Acuerdo Hold)",
     "etapa": "formal",
     "objetivo": "Asegurar la correcta gestión y custodia de los recursos y prioridades del portafolio.",
     "kr": "Suspender de manera controlada el 100% de las iniciativas viables no prioritarias, garantizando su trazabilidad para una reactivación oportuna.",
     "criteriosSalida": [
-      { "titulo": "Acuerdo Hold emitido", "detalle": "Con justificación formal de postergación." },
-      { "titulo": "Criterios de reactivación", "detalle": "Explícitos y acordados." },
-      { "titulo": "Expediente resguardado", "detalle": "Entregables de Fase 0 guardados." },
-      { "titulo": "Registrado en portafolio", "detalle": "Trazable para reactivación oportuna." }
+      {
+        "titulo": "Acuerdo Hold emitido",
+        "detalle": "Con justificación formal de postergación."
+      },
+      {
+        "titulo": "Criterios de reactivación",
+        "detalle": "Explícitos y acordados."
+      },
+      {
+        "titulo": "Expediente resguardado",
+        "detalle": "Entregables de Fase 0 guardados."
+      },
+      {
+        "titulo": "Registrado en portafolio",
+        "detalle": "Trazable para reactivación oportuna."
+      }
     ],
     "reglaDeOro": "Ninguna iniciativa que sea pospuesta o pausada debe quedar en el limbo; debe contar con una justificación formalizada, criterios explícitos de reactivación y el resguardo de sus entregables para evitar reprocesos futuros.",
-    "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambios en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
+    "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambio en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
     "jugadores": [
       {
+        "sigla": "PfM",
         "rol": "Portafolio Manager",
         "responsabilidad": "Gestiona el catálogo de iniciativas en reserva (backlog estratégico) y propone la fecha de reevaluación."
       },
       {
+        "sigla": "PgM",
         "rol": "Program Manager",
         "responsabilidad": "Resguarda formalmente el expediente técnico y financiero desarrollado en Fase 0 para evitar su pérdida."
       },
       {
+        "sigla": "LF",
         "rol": "Líder Funcional / Sponsor",
         "responsabilidad": "Acepta la postergación temporal y define las condiciones operativas mínimas que detonarán su reactivación."
       },
       {
+        "sigla": "FI",
         "rol": "Finanzas SE TI",
         "responsabilidad": "Libera el compromiso preventivo de presupuesto para que pueda reasignarse a iniciativas activas."
       },
       {
+        "sigla": "SE",
         "rol": "Servicios Estratégicos (SE)",
         "responsabilidad": "Notifica a los proveedores involucrados en cotizaciones sobre la suspensión temporal, sin incurrir en penalizaciones."
       }
@@ -996,37 +1184,114 @@
           {
             "titulo": "Identificación y solicitud de postergación (Input)",
             "detalle": [
-              "Detecta en el balance del portafolio la restricción (capacidad, presupuesto o prelación) y notifica al Líder Funcional la necesidad de pausar la iniciativa."
-            ]
+              "Responsable: Portafolio Manager.",
+              "Detecta en el balance del portafolio la restricción (capacidad, presupuesto o prelación) y notifica dentro de la página de Fase 0 al Líder Funcional la necesidad de pausar la iniciativa, o de modificar o agregar algún campo pendiente o idea no clara."
+            ],
+            "raci": {
+              "R": [
+                "PgM"
+              ],
+              "A": [
+                "CD"
+              ],
+              "C": [
+                "BP",
+                "SE"
+              ],
+              "I": [
+                "LF"
+              ]
+            }
           },
           {
             "titulo": "Formalización de criterios de reactivación",
             "detalle": [
-              "Documentan las condiciones exactas bajo las cuales el proyecto volverá a evaluación (p. ej. inicio del siguiente año fiscal, liberación de capacidad del equipo)."
-            ]
+              "Responsable: Líder Funcional en acuerdo con el Portafolio Manager.",
+              "Documentan las condiciones exactas bajo las cuales el proyecto volverá a evaluación (p. ej. inicio del siguiente año fiscal, liberación de capacidad del equipo) dentro del campo \"Rechazadas\" en el apartado \"Mi portafolio\" de la página de Fase 0."
+            ],
+            "raci": {
+              "R": [
+                "LF"
+              ],
+              "A": [
+                "DP"
+              ],
+              "C": [
+                "BP"
+              ],
+              "I": [
+                "PgM"
+              ]
+            }
           },
           {
             "titulo": "Cierre temporal con proveedores y terceros",
             "detalle": [
-              "Gestiona con los proveedores participantes el cierre ordenado de la vigencia de las cotizaciones, evitando compromisos comerciales vigentes."
-            ]
+              "Responsable: Servicios Estratégicos (SE / VMO).",
+              "Gestiona con los proveedores participantes el cierre de la vigencia de cotizaciones de manera ordenada, evitando compromisos comerciales vigentes."
+            ],
+            "raci": {
+              "R": [
+                "SE"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "PgM"
+              ],
+              "I": [
+                "P"
+              ]
+            }
           },
           {
             "titulo": "Resguardo del expediente de Fase 0",
             "detalle": [
-              "Archiva en el repositorio central de PMO el Caso de Negocio, la Arquitectura To-Be y el Charter no firmado, en estatus \"Hold\"."
-            ]
+              "Responsable: Program Manager.",
+              "Archiva la idea que abarca el Caso de Negocio, la Arquitectura To-Be y el Charter no firmado (estatus \"Hold\") dentro de la página de Fase 0."
+            ],
+            "raci": {
+              "R": [
+                "PgM"
+              ],
+              "A": [
+                "DP"
+              ],
+              "C": [
+                "LF"
+              ],
+              "I": [
+                "BP"
+              ]
+            }
           },
           {
             "titulo": "Emisión del Acuerdo Hold y registro en portafolio (Outcome)",
             "detalle": [
+              "Responsable: Portafolio Manager.",
               "Genera la minuta ejecutiva del Acuerdo Hold, actualiza el estatus de la iniciativa en el tablero del portafolio y libera la reserva presupuestal en Finanzas."
-            ]
+            ],
+            "raci": {
+              "R": [
+                "PgM"
+              ],
+              "A": [
+                "LF"
+              ],
+              "C": [
+                "FI"
+              ],
+              "I": [
+                "DP",
+                "SP"
+              ]
+            }
           }
         ],
         "entregables": {
           "aceleradores": "Sesión de revisión trimestral de portafolio; proceso de gestión de backlog de PMO.",
-          "inputs": "Expediente de Fase 0 incompleto o pospuesto; dictamen de restricciones de portafolio.",
+          "inputs": "Expediente de Fase 0 incompleto o pospuesto (apartado de Rechazados); dictamen de restricciones de portafolio.",
           "outcomes": "Minuta de Acuerdo Hold (con fecha de revisión y gatillos de reactivación); tablero de portafolio actualizado."
         }
       }
@@ -1037,10 +1302,38 @@
     ],
     "templates": [],
     "proTips": [
-      "Vigencia de cotizaciones: al poner una iniciativa en \"Hold\", registra claramente la vigencia de las cotizaciones técnicas. Si la pausa supera 6 meses, las cotizaciones y la arquitectura requerirán una actualización rápida antes de arrancar."
+      "Vigencia de cotizaciones: al poner una iniciativa en \"Hold\", registra claramente la vigencia de las cotizaciones técnicas. Si la pausa supera 6 meses, las cotizaciones y la arquitectura requerirán una actualización rápida antes de arrancar. Al rechazar una iniciativa, quedará registrada y guardada para evitar posibles duplicidades por parte de otros Líderes Funcionales."
     ],
     "trampas": [
-      "Iniciativas huérfanas: nunca dejes una iniciativa en pausa sin fecha de revisión o sin un gatillo claro de reactivación; de lo contrario, consume tiempo de gestión recurrente en cada ciclo de planeación."
+      "Iniciativas huérfanas: nunca dejes una iniciativa en pausa sin fecha de revisión o sin gatillo claro de reactivación; de lo contrario, consume tiempo de gestión recurrente en cada ciclo de planeación."
     ]
+  },
+  {
+    "id": "5-1",
+    "code": "5.1",
+    "titulo": "Autorización",
+    "etapa": "autorizacion",
+    "objetivo": "Por definir.",
+    "kr": "Por definir.",
+    "reglaDeOro": "Por definir.",
+    "cuando": "Por definir.",
+    "jugadores": [],
+    "escenarios": [
+      {
+        "titulo": null,
+        "pasos": [
+          {
+            "titulo": "Por definir",
+            "detalle": [
+              "Contenido pendiente."
+            ]
+          }
+        ]
+      }
+    ],
+    "politicas": [],
+    "templates": [],
+    "proTips": [],
+    "trampas": []
   }
 ]

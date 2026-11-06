@@ -17,6 +17,10 @@
       {
         "label": "4. Formalización y Autorización",
         "icon": "verified"
+      },
+      {
+        "label": "5. Autorización",
+        "icon": "approval"
       }
     ]
   },

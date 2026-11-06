@@ -1,153 +1,142 @@
 {
   "porJugada": {
-    "1-1": {
+    "2": {
       "R": [
-        "LF",
-        "PfM",
-        "SE"
+        "BP/BA",
+        "AR",
+        "PfM"
       ],
       "A": [
-        "-"
+        "BP/BA",
+        "LF"
       ],
       "C": [
-        "AR"
-      ],
-      "I": [
-        "BP/BA"
-      ]
-    },
-    "1-2": {
-      "R": [
-        "PfM",
-        "BP/BA"
-      ],
-      "A": [
-        "-"
-      ],
-      "C": [
-        "LF",
-        "AR"
-      ],
-      "I": [
-        "SE"
-      ]
-    },
-    "2-1": {
-      "R": [
-        "LF",
-        "BP"
-      ],
-      "A": [
-        "PM"
-      ],
-      "C": [
-        "AR"
-      ],
-      "I": [
-        "SE"
-      ]
-    },
-    "2-2": {
-      "R": [
-        "LF",
-        "BP"
-      ],
-      "A": [
-        "PM"
-      ],
-      "C": [
-        "AR"
-      ],
-      "I": [
-        "SE"
-      ]
-    },
-    "3-1": {
-      "R": [
-        "LF",
-        "BP"
-      ],
-      "A": [
-        "PM"
-      ],
-      "C": [
-        "AR"
-      ],
-      "I": [
-        "SE"
-      ]
-    },
-    "3-2-v1": {
-      "R": [
-        "LF",
         "SE",
-        "AR"
-      ],
-      "A": [
-        "SdN",
-        "TI"
-      ],
-      "C": [
         "PfM"
       ],
       "I": [
-        "BP/BA"
+        "LF"
       ]
     },
-    "3-2-v2": {
+    "3": {
       "R": [
-        "LF",
-        "BP"
+        "BP/BA",
+        "PfM"
       ],
       "A": [
-        "PM"
+        "LF",
+        "BP/BA"
       ],
       "C": [
-        "AR"
+        "LF",
+        "SE",
+        "PfM"
       ],
       "I": [
-        "SE"
+        "SE",
+        "AR"
       ]
     },
-    "4-1": {
+    "4": {
+      "R": [
+        "BP/BA",
+        "AR",
+        "LT",
+        "LF",
+        "SN",
+        "EP"
+      ],
+      "A": [
+        "AR",
+        "LT",
+        "LF",
+        "SN",
+        "EP",
+        "BP/BA"
+      ],
+      "C": [
+        "LT",
+        "LF",
+        "SE",
+        "EP"
+      ],
+      "I": [
+        "PfM"
+      ]
+    },
+    "5": {
       "R": [
         "PgM",
         "FI",
-        "PM",
+        "PfM",
         "LF",
         "SP"
       ],
       "A": [
-        "SP",
-        "DP",
         "LF",
+        "BP",
         "CM",
         "DG",
-        "BP"
+        "BRM",
+        "DP",
+        "SP"
       ],
       "C": [
         "FI",
         "PgM",
         "BP",
-        "PgM",
         "SP",
         "LT",
         "LF"
       ],
       "I": [
-        "PgM",
-        "SE",
-        "AE",
+        "BP",
         "SP",
-        "BP"
+        "AE",
+        "SE",
+        "PgM"
       ]
     },
-    "4-2": {
+    "5-1": {
+      "R": [],
+      "A": [],
+      "C": [],
+      "I": []
+    },
+    "1-1": {
+      "R": [
+        "LF"
+      ],
+      "A": [
+        "LF"
+      ],
+      "C": [
+        "PfM",
+        "BP/BA"
+      ],
+      "I": [
+        "SE"
+      ]
+    },
+    "1-2": {
+      "R": [
+        "PfM"
+      ],
+      "A": [
+        "PfM"
+      ],
+      "C": [
+        "SE"
+      ],
+      "I": [
+        "LF"
+      ]
+    },
+    "5-2": {
       "R": [
         "PgM",
         "LF",
-        "SE",
-        "PgM"
+        "SE"
       ],
       "A": [
         "CD",
@@ -156,15 +145,18 @@
       ],
       "C": [
         "BP",
+        "SE",
         "PgM",
-        "LF"
+        "LF",
+        "FI"
       ],
       "I": [
         "LF",
         "PgM",
         "P",
         "BP",
-        "DP"
+        "DP",
+        "SP"
       ]
     }
   },
@@ -184,11 +176,15 @@
     "SP": "Sponsor",
     "CM": "Comité de Portafolio",
     "CD": "Comité de Diseño",
-    "DG": "Direccipon General",
+    "DG": "Dirección General",
     "AE": "Planeación estratégica",
     "DP": "Director de proyecto",
     "-": "Sin aprobador asignado",
-    "TI": "TI (nombre por confirmar)"
+    "TI": "TI (nombre por confirmar)",
+    "IP": "Ingeniería de Procesos",
+    "EP": "Especialista de Procesos",
+    "SN": "Socios de Negocio",
+    "BRM": "Business Relationship Manager"
   },
   "etiquetas": {
     "R": "Responsable",

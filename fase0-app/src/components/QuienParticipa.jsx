@@ -5,7 +5,7 @@ const { rolPorSigla, etiquetas } = raciDatos;
 // Busca la descripción del jugador clave que corresponde a una sigla RACI.
 function descripcion(sigla, jugadores) {
   const rol = rolPorSigla[sigla];
-  return jugadores.find((j) => j.rol.startsWith(rol.split(' (')[0].split(' / ')[0]))?.responsabilidad;
+  return jugadores.find((j) => j.sigla === sigla || j.rol.startsWith(rol.split(' (')[0].split(' / ')[0]))?.responsabilidad;
 }
 
 // Matriz RACI de la jugada. Cada sigla muestra su rol y descripción en hover.

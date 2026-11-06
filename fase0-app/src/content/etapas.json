@@ -18,5 +18,10 @@
     "id": "formal",
     "label": "Etapa 4: Formalización y Autorización",
     "icon": "rocket_launch"
+  },
+  {
+    "id": "autorizacion",
+    "label": "Etapa 5: Autorización",
+    "icon": "approval"
   }
 ]
