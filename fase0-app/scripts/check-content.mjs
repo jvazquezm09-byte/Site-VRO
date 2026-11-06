@@ -25,7 +25,10 @@ for (const j of jugadas) {
   if (!j.escenarios?.length) error(donde, 'necesita al menos un escenario (con "titulo": null si no tiene escenarios)');
   for (const e of j.escenarios ?? []) {
     if (!e.pasos?.length) error(donde, `escenario "${e.titulo ?? 'sin título'}" sin pasos`);
-    for (const p of e.pasos ?? []) if (!p.titulo || !Array.isArray(p.detalle)) error(donde, `paso "${p.titulo ?? '?'}" necesita "titulo" y "detalle" (lista)`);
+    for (const p of e.pasos ?? []) {
+      if (!p.titulo || !Array.isArray(p.detalle)) error(donde, `paso "${p.titulo ?? '?'}" necesita "titulo" y "detalle" (lista)`);
+      for (const letra of ['R', 'A', 'C', 'I']) for (const sigla of p.raci?.[letra] ?? []) if (!raci.rolPorSigla[sigla]) error(donde, `paso "${p.titulo}": sigla RACI "${sigla}" no está en rolPorSigla`);
+    }
   }
   const r = raci.porJugada[j.id];
   if (!r) error(donde, 'sin RACI en raci.json (porJugada)');
