@@ -70,7 +70,8 @@
             "titulo": "Registro de la necesidad",
             "detalle": [
               "El Líder Funcional captura la iniciativa en el módulo \"Registro\".",
-              "Ver: Manual de construcción de OKRs."
+              <a href="https://docs.google.com/document/d/1kJJW3zxiWtThizoTa-JXg9N3DKnPM15Eo6xpfHeYqLo/edit?usp=drive_link">"Ver: Manual de construcción de OKRs."</a>
+        
             ],
             "raci": {
               "R": [
