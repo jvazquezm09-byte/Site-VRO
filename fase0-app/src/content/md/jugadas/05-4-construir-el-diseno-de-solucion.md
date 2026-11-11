@@ -119,7 +119,6 @@ Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o ap
 
 ## Templates
 
-- Template de Arquitectura de Solución (To-Be Architecture Blueprint)
 - Template de Brief Ejecutivo para Despachos / Terceros
 - Diseño (Monday)
 
