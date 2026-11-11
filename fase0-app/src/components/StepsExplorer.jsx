@@ -1,5 +1,6 @@
 import { useSelectedStep } from '../hooks/useSelectedStep.js';
 import QuienParticipa from './QuienParticipa.jsx';
+import { Texto } from './Enlace.jsx';
 
 // Pasos del escenario activo: tarjetas para elegir paso, y detalle del paso seleccionado.
 // Se monta con key por escenario, así el paso vuelve al primero al cambiar de escenario.
@@ -64,7 +65,9 @@ export default function StepsExplorer({ escenario, anterior, raci, jugadores, on
           </div>
           <div className="step-body">
             {paso.detalle.map((linea, k) => (
-              <p key={k}>{linea}</p>
+              <p key={k}>
+                <Texto texto={linea} />
+              </p>
             ))}
           </div>
           {esOutcome && entregable && (

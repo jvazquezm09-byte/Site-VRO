@@ -17,7 +17,7 @@ const irAPlaybook = (e) => {
   document.getElementById('playbook')?.scrollIntoView({ behavior: 'smooth' });
 };
 
-export default function BigPicture() {
+export default function BigPicture({ onSelectEtapa }) {
   const { index, select } = useSelectedNode();
   const caption = index === null ? captionDefault : nodos[index].caption;
 
@@ -32,7 +32,15 @@ export default function BigPicture() {
           <div className="bp-head bp-head-plum">{fase0.titulo}</div>
           <div className="bp-steps">
             {fase0.pasos.map((p) => (
-              <a key={p.label} className="bp-step" href="#playbook" onClick={irAPlaybook}>
+              <a
+                key={p.label}
+                className="bp-step"
+                href="#playbook"
+                onClick={(e) => {
+                  e.preventDefault();
+                  onSelectEtapa(p.etapa);
+                }}
+              >
                 <span className="icon-box material-symbols-outlined">{p.icon}</span>
                 <span>{p.label}</span>
               </a>

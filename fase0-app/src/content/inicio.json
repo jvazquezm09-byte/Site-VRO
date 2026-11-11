@@ -4,23 +4,28 @@
     "pasos": [
       {
         "label": "1. Idea",
-        "icon": "lightbulb"
+        "icon": "lightbulb",
+        "etapa": "idea"
       },
       {
         "label": "2. Estimación",
-        "icon": "calculate"
+        "icon": "calculate",
+        "etapa": "estimacion"
       },
       {
         "label": "3. Capacidades",
-        "icon": "account_tree"
+        "icon": "account_tree",
+        "etapa": "capacidades"
       },
       {
         "label": "4. Diseño",
-        "icon": "architecture"
+        "icon": "architecture",
+        "etapa": "diseno"
       },
       {
         "label": "5. Autorización",
-        "icon": "approval"
+        "icon": "approval",
+        "etapa": "autorizacion"
       }
     ]
   },

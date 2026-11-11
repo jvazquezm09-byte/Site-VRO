@@ -179,6 +179,7 @@ a { color: inherit; text-decoration: none; }
 .playbook { margin-top: 56px; display: flex; flex-direction: column; gap: 16px; }
 .playbook > h2 { font-size: 36px; font-weight: 800; color: var(--plum); }
 .playbook > .eyebrow { margin-top: 8px; }
+.etapa-detalle { display: flex; flex-direction: column; gap: 16px; scroll-margin-top: 96px; }
 
 .etapa-tabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; padding: 6px; background: var(--neutral); border: 1px solid var(--line); border-radius: 16px; }
 .etapa-tab { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 10px; border: 0; border-radius: 12px; background: transparent; color: var(--muted); font-weight: 600; font-size: 13px; cursor: pointer; transition: all 0.2s; }

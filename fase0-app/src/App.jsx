@@ -15,15 +15,18 @@ export default function App() {
   const etapaJugadas = jugadas.filter((j) => j.etapa === selected.etapa);
   const siguiente = jugadas[jugadas.indexOf(selected) + 1];
 
-  // Al elegir una etapa se abre su primera jugada.
-  const selectEtapa = (etapaId) => select(jugadas.find((j) => j.etapa === etapaId).id);
+  // Al elegir una etapa se abre su primera jugada y la vista baja a su detalle (útil en móvil, donde las etapas quedan apiladas).
+  const selectEtapa = (etapaId) => {
+    select(jugadas.find((j) => j.etapa === etapaId).id);
+    document.getElementById('etapa-detalle')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  };
 
   return (
     <>
       <Navbar />
       <main className="container">
         <Hero />
-        <BigPicture />
+        <BigPicture onSelectEtapa={selectEtapa} />
 
         <section className="playbook anim-fade-up delay-3" id="playbook">
           <h2>Playbook de Jugadas por Fase</h2>
@@ -31,8 +34,10 @@ export default function App() {
             <span className="material-symbols-outlined">route</span> Selecciona la etapa
           </p>
           <EtapaTabs etapas={etapas} activeId={selected.etapa} onSelect={selectEtapa} />
-          <JugadaChips jugadas={etapaJugadas} selectedId={selected.id} onSelect={select} />
-          <JugadaCard key={selected.id} jugada={selected} siguiente={siguiente} onSelect={select} />
+          <div id="etapa-detalle" className="etapa-detalle">
+            <JugadaChips jugadas={etapaJugadas} selectedId={selected.id} onSelect={select} />
+            <JugadaCard key={selected.id} jugada={selected} siguiente={siguiente} onSelect={select} />
+          </div>
           <Calificacion key={`cal-${selected.id}`} />
           <Plantillas key={`pl-${selected.id}`} jugada={selected} />
         </section>

@@ -11,3 +11,17 @@ export default function Enlace({ texto, className, children }) {
     </a>
   );
 }
+
+// Texto libre: convierte en enlace el primer nombre de links.json que aparezca dentro del texto.
+export function Texto({ texto }) {
+  const clave = Object.keys(links).filter((k) => texto.includes(k)).sort((a, b) => b.length - a.length)[0];
+  if (!clave) return texto;
+  const i = texto.indexOf(clave);
+  return (
+    <>
+      {texto.slice(0, i)}
+      <Enlace texto={clave}>{clave}</Enlace>
+      {texto.slice(i + clave.length)}
+    </>
+  );
+}
