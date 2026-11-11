@@ -6,6 +6,8 @@
     "etapa": "idea",
     "objetivo": "Alinear las ideas a las prioridades del negocio.",
     "kr": "Estructurar el 100% de las ideas para su integración y evaluación.",
+    "reglaDeOro": "Ninguna iniciativa es priorizada si no es registrada en la herramienta.",
+    "cuando": "Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurarla formalmente para someterla a una evaluación cuantitativa y estratégica preliminar.",
     "criteriosSalida": [
       {
         "titulo": "Claridad estratégica",
@@ -16,8 +18,6 @@
         "detalle": "El registro oficial y estandarizado de la iniciativa en Monday."
       }
     ],
-    "reglaDeOro": "Ninguna iniciativa es priorizada si no es registrada en la herramienta.",
-    "cuando": "Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurarla formalmente para someterla a una evaluación cuantitativa y estratégica preliminar.",
     "jugadores": [
       {
         "sigla": "LF",
@@ -138,6 +138,8 @@
     "etapa": "idea",
     "objetivo": "Alinear las ideas a las prioridades del negocio.",
     "kr": "Estructurar el 100% de la idea para su revisión y priorización.",
+    "reglaDeOro": "Ninguna idea formalizada avanza a la fase de estimación preliminar sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica.",
+    "cuando": "Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.",
     "criteriosSalida": [
       {
         "titulo": "Backlog único y priorizado",
@@ -148,8 +150,6 @@
         "detalle": "Cada iniciativa priorizada cuenta con una justificación objetiva vinculada a los OKRs de la empresa, lo que da transparencia y soporte a las decisiones tomadas por los Directores de Negocio y su priorización."
       }
     ],
-    "reglaDeOro": "Ninguna idea formalizada avanza a la fase de estimación preliminar sin haber pasado por un filtro de priorización que defina su lugar en la pirámide estratégica.",
-    "cuando": "Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara.",
     "jugadores": [
       {
         "sigla": "PfM",
@@ -264,6 +264,8 @@
     "etapa": "estimacion",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo de las iniciativas del portafolio.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo debidamente sustentados.",
+    "reglaDeOro": "Ninguna iniciativa avanza a la formalización sin una estimación preliminar de tiempo, recursos y sistemas impactados.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Estimación preliminar). Se aplica para definir de manera preliminar (previo a las capacidades y diseño) los recursos necesarios para desarrollar la iniciativa (tiempo, costo, recursos y sistemas) a través de una estimación \"automática\" o una estimación manual.",
     "criteriosSalida": [
       {
         "titulo": "Rango de inversión y esfuerzo (Go / No-Go)",
@@ -278,8 +280,6 @@
         "detalle": "Estimación preliminar retada por el Portfolio Manager con el historial de riesgos de proyectos pasados (evitando el sesgo de optimismo)."
       }
     ],
-    "reglaDeOro": "Ninguna iniciativa avanza a la formalización sin una estimación preliminar de tiempo, recursos y sistemas impactados.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Estimación preliminar). Se aplica para definir de manera preliminar (previo a las capacidades y diseño) los recursos necesarios para desarrollar la iniciativa (tiempo, costo, recursos y sistemas) a través de una estimación \"automática\" o una estimación manual.",
     "jugadores": [
       {
         "sigla": "LF",
@@ -310,7 +310,6 @@
     "escenarios": [
       {
         "titulo": "Escenario A: Estimación con calculadora de proyecto (T-shirt sizing)",
-        "descripcion": "Se ejecuta cuando una iniciativa se estimará con base en la calculadora definida en la herramienta; considera aspectos generales para la estimación.",
         "pasos": [
           {
             "titulo": "Seleccionar estimación con calculadora",
@@ -409,11 +408,11 @@
           "aceleradores": "PfM: lecciones aprendidas como input para el T-shirt sizing y la aprobación de la estimación.",
           "inputs": "Ficha Canvas; idea priorizada en Monday.",
           "outcomes": "Estimación preliminar (aprobada o no aprobada)."
-        }
+        },
+        "descripcion": "Se ejecuta cuando una iniciativa se estimará con base en la calculadora definida en la herramienta; considera aspectos generales para la estimación."
       },
       {
         "titulo": "Escenario B: Estimación manual",
-        "descripcion": "Se establece el esfuerzo, duración y presupuesto base para la ejecución de la iniciativa, asegurando que el dimensionamiento técnico y financiero cuente con respaldo formal antes de la autorización del proyecto.",
         "pasos": [
           {
             "titulo": "Definir inversión",
@@ -488,7 +487,8 @@
           "aceleradores": "PfM: lecciones aprendidas como input para la aprobación de la estimación.",
           "inputs": "Ficha Canvas; idea priorizada en Monday.",
           "outcomes": "Estimación preliminar (aprobada o no aprobada)."
-        }
+        },
+        "descripcion": "Se establece el esfuerzo, duración y presupuesto base para la ejecución de la iniciativa, asegurando que el dimensionamiento técnico y financiero cuente con respaldo formal antes de la autorización del proyecto."
       }
     ],
     "politicas": [],
@@ -512,6 +512,8 @@
     "etapa": "capacidades",
     "objetivo": "Identificar, estructurar y cerrar las brechas de capacidades operativas y tecnológicas para garantizar la viabilidad y entrega de valor del proyecto.",
     "kr": "Mapear el 100% de las capacidades de negocio As-Is y To-Be requeridas antes del diseño de solución final.",
+    "reglaDeOro": "Ningún proyecto avanza al diseño detallado sin un mapa de capacidades formalmente validado por Ingeniería de Procesos y Arquitectura.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y antes de formalizar el Diseño de la Solución.",
     "criteriosSalida": [
       {
         "titulo": "Matriz de capacidades",
@@ -522,8 +524,6 @@
         "detalle": "Consolidar los documentos de requerimientos de negocio (BRD) y de ingeniería (ERF) como el insumo de entrada oficial para el diseño técnico."
       }
     ],
-    "reglaDeOro": "Ningún proyecto avanza al diseño detallado sin un mapa de capacidades formalmente validado por Ingeniería de Procesos y Arquitectura.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y antes de formalizar el Diseño de la Solución.",
     "jugadores": [
       {
         "sigla": "LF",
@@ -619,8 +619,8 @@
         ],
         "entregables": {
           "aceleradores": "Talleres de co-creación de capacidades con el equipo de Procesos.",
-          "outcomes": "Matriz de Capacidades As-Is / To-Be nivel 1.",
-          "inputs": "Ficha Canvas, priorización de la iniciativa."
+          "inputs": "Ficha Canvas, priorización de la iniciativa.",
+          "outcomes": "Matriz de Capacidades As-Is / To-Be nivel 1."
         }
       }
     ],
@@ -646,6 +646,8 @@
     "etapa": "diseno",
     "objetivo": "Asegurar la viabilidad técnica y precisión en la estimación del esfuerzo.",
     "kr": "Validar el 100% de las iniciativas con diseño de solución y estimación de esfuerzo formalmente respaldados.",
+    "reglaDeOro": "Ninguna iniciativa avanza a la estimación formal de costo, tiempo o adquisición técnica sin contar con un diseño de solución estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas técnicas o de procesos.",
+    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Diseño). Se detona una vez que se cuenta con la necesidad priorizada y la definición de capacidades de negocio a habilitar, y se requiere trazar la solución conceptual o técnica que servirá como base para cotizar y dimensionar el esfuerzo del proyecto.",
     "criteriosSalida": [
       {
         "titulo": "Viabilidad y sustento técnico / operativo",
@@ -660,8 +662,6 @@
         "detalle": "Insumos y alcances claros para cotizar y dimensionar con precisión esfuerzo, costos y tiempos antes de buscar la autorización formal."
       }
     ],
-    "reglaDeOro": "Ninguna iniciativa avanza a la estimación formal de costo, tiempo o adquisición técnica sin contar con un diseño de solución estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas técnicas o de procesos.",
-    "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Diseño). Se detona una vez que se cuenta con la necesidad priorizada y la definición de capacidades de negocio a habilitar, y se requiere trazar la solución conceptual o técnica que servirá como base para cotizar y dimensionar el esfuerzo del proyecto.",
     "jugadores": [
       {
         "sigla": "AR",
@@ -707,7 +707,6 @@
     "escenarios": [
       {
         "titulo": "Escenario A: Diseño de arquitectura TI",
-        "descripcion": "Aplica a iniciativas con impacto en software, integraciones, nube, microservicios o bases de datos.",
         "pasos": [
           {
             "titulo": "Consolidación de capacidades (Input)",
@@ -818,11 +817,11 @@
           "aceleradores": "Sesiones de revisión con Arquitectura de Proceso.",
           "inputs": "Capacidades funcionales, Arquitectura As-Is, Expediente EDS.",
           "outcomes": "Arquitectura To-Be formalizada."
-        }
+        },
+        "descripcion": "Aplica a iniciativas con impacto en software, integraciones, nube, microservicios o bases de datos."
       },
       {
         "titulo": "Escenario B: Diseño proyecto ejecutivo / nuevo concepto",
-        "descripcion": "Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o aperturas que requieren especificaciones para terceros o despachos.",
         "pasos": [
           {
             "titulo": "Compilación de experiencia y operación (Input)",
@@ -907,7 +906,8 @@
           "aceleradores": "Mesas de validación de procesos operativos con Socios de Negocio.",
           "inputs": "Capacidades, Customer Journey, Layouts, Procesos As-Is / To-Be.",
           "outcomes": "Brief Ejecutivo para despachos / cotización."
-        }
+        },
+        "descripcion": "Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o aperturas que requieren especificaciones para terceros o despachos."
       }
     ],
     "politicas": [
@@ -934,6 +934,8 @@
     "etapa": "autorizacion",
     "objetivo": "Asegurar la asignación de recursos y el respaldo ejecutivo del proyecto.",
     "kr": "Confirmar el 100% de los beneficios esperados con la Dirección General y habilitar las partidas presupuestales.",
+    "reglaDeOro": "Ningún proyecto arranca su ejecución (Fase 1 en adelante) ni compromete órdenes de compra sin la aprobación firmada de su Project Charter, la confirmación de beneficios y la activación de su elemento PEP presupuestal en Finanzas / SAP.",
+    "cuando": "Se ejecuta al cierre de la Fase 0 (Autorización). Se detona una vez concluido el caso de negocio, el diseño de la solución y la estimación formal de costo y tiempo, buscando el dictamen ejecutivo final del Comité de Inversión / Dirección.",
     "criteriosSalida": [
       {
         "titulo": "Iniciativa autorizada con PEP",
@@ -948,8 +950,6 @@
         "detalle": "Portafolio de proyectos actualizado y soportado por la documentación necesaria (Project Charter, caso de negocio, Canvas, estimaciones, diseño, etc.)."
       }
     ],
-    "reglaDeOro": "Ningún proyecto arranca su ejecución (Fase 1 en adelante) ni compromete órdenes de compra sin la aprobación firmada de su Project Charter, la confirmación de beneficios y la activación de su elemento PEP presupuestal en Finanzas / SAP.",
-    "cuando": "Se ejecuta al cierre de la Fase 0 (Autorización). Se detona una vez concluido el caso de negocio, el diseño de la solución y la estimación formal de costo y tiempo, buscando el dictamen ejecutivo final del Comité de Inversión / Dirección.",
     "jugadores": [
       {
         "sigla": "PfM",
@@ -1126,6 +1126,8 @@
     "etapa": "autorizacion",
     "objetivo": "Asegurar la correcta gestión y custodia de los recursos y prioridades del portafolio.",
     "kr": "Suspender de manera controlada el 100% de las iniciativas viables no prioritarias, garantizando su trazabilidad para una reactivación oportuna.",
+    "reglaDeOro": "Ninguna iniciativa que sea pospuesta o pausada debe quedar en el limbo; debe contar con una justificación formalizada, criterios explícitos de reactivación y el resguardo de sus entregables para evitar reprocesos futuros.",
+    "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambio en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
     "criteriosSalida": [
       {
         "titulo": "Acuerdo Hold emitido",
@@ -1144,8 +1146,6 @@
         "detalle": "Trazable para reactivación oportuna."
       }
     ],
-    "reglaDeOro": "Ninguna iniciativa que sea pospuesta o pausada debe quedar en el limbo; debe contar con una justificación formalizada, criterios explícitos de reactivación y el resguardo de sus entregables para evitar reprocesos futuros.",
-    "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambio en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
     "jugadores": [
       {
         "sigla": "PfM",
