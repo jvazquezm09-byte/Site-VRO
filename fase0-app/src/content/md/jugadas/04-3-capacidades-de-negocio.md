@@ -71,8 +71,8 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y ante
 
 ## Pro-tips
 
-- Enfoque en valor: mapea solo las capacidades esenciales para el Key Result (N1); evita la captura de capacidades a detalle (N2), ya que diluye la discusión técnica y hace que el negocio pierda visibilidad sobre el valor y el retorno real de la propuesta.
+- Enfoque en valor: Mapea solo las capacidades esenciales para el Key Result (N1); evita la captura de capacidades a detalle (N2), ya que diluye la discusión técnica y hace que el negocio pierda visibilidad sobre el valor y el retorno real de la propuesta.
 
 ## Trampas
 
-- Silos de trabajo: evita definir las capacidades de negocio como capacidades tecnológicas (solo desde la perspectiva de TI) sin la validación del Líder Funcional (Negocio) y de Ingeniería de Procesos.
+- Silos de trabajo: Evita definir las capacidades de negocio como capacidades tecnológicas (solo desde la perspectiva de TI) sin la validación del Líder Funcional (Negocio) y de Ingeniería de Procesos.
