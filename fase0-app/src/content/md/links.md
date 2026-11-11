@@ -1,7 +1,7 @@
 # Enlaces
 
 - [Pol_Gestión de Portafolio TI_Publicado](https://docs.google.com/document/d/1zo4G-HfPSRwkUvK-Oao_EtxBv0DcIFnlG77MPF5YPY0/edit?tab=t.0)
-- [Proceso Fase 0](https://miro.com/app/board/uXjVG-Sx4XE=/?share_link_id=610868614858)
+- [Proceso Fase 0](https://miro.com/app/board/uXjVHRupv8A=/?share_link_id=919180840754)
 - [7. Manual de construcción de OKR's · RDV](https://docs.google.com/document/d/1kJJW3zxiWtThizoTa-JXg9N3DKnPM15Eo6xpfHeYqLo/edit?usp=drive_link)
 - [Gestión de la iniciativa (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
 - [Pirámide de proyectos](https://docs.google.com/presentation/d/10Jn11gydm4Tki0NtK7CtdMdnfLBD7JvoJC2c14kP_yY/edit?usp=sharing)
