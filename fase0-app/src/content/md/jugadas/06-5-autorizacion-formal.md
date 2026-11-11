@@ -76,8 +76,8 @@ cuando: Se ejecuta al cierre de la Fase 0 (Autorización). Se detona una vez con
 
 ## Pro-tips
 
-- Pre-aprobación financiera: realiza una revisión en SAP con el número del PEP para asegurar que el monto sea el que firmaron el Sponsor y los directivos que aprobaron el proyecto.
+- Pre-aprobación financiera: Realiza una revisión en SAP con el número del PEP para asegurar que el monto sea el que firmaron el Sponsor y los directivos que aprobaron el proyecto.
 
 ## Trampas
 
-- Iniciar antes del PEP: iniciar compromisos operativos con proveedores antes de contar con el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos.
+- Iniciar antes del PEP: Iniciar compromisos operativos con proveedores antes de contar con el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos.
