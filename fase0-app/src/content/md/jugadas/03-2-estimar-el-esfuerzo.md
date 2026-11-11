@@ -117,10 +117,10 @@ Se establece el esfuerzo, duración y presupuesto base para la ejecución de la 
 
 ## Pro-tips
 
-- Tiempos de mercado realistas: considera dentro del cronograma de la Fase 0 los tiempos de respuesta legales y contractuales de Abastecimiento que no están considerados en las propuestas técnico-económicas; forzar fechas irreales genera riesgos y sobrecostos.
+- Tiempos de mercado realistas: Considera dentro del cronograma de la Fase 0 los tiempos de respuesta legales y contractuales de Abastecimiento que no están considerados en las propuestas técnico-económicas; forzar fechas irreales genera riesgos y sobrecostos.
 - Capitaliza las lecciones aprendidas: al definir la complejidad (T-shirt sizing) y validar la estimación preliminar, aplica el historial de riesgos y lecciones aprendidas de implementaciones previas para retar los supuestos de la iniciativa. Una estimación realista hoy es el cimiento para una ejecución sin desviaciones mañana.
-- Estimación progresiva: las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinará la estimación definitiva antes de iniciar la construcción.
+- Estimación progresiva: Las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinará la estimación definitiva antes de iniciar la construcción.
 
 ## Trampas
 
-- Compromisos informales sin SE: nunca acuerdes compromisos de contratación o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos.
+- Compromisos informales sin SE: Nunca acuerdes compromisos de contratación o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos.
