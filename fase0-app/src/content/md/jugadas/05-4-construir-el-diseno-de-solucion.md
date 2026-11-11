@@ -124,8 +124,8 @@ Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o ap
 
 ## Pro-tips
 
-- Nivel de detalle balanceado: en Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. Evita retrasar el caso de negocio por detalles menores.
+- Nivel de detalle balanceado: En Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. Evita retrasar el caso de negocio por detalles menores.
 
 ## Trampas
 
-- Diseño aislado: evita emitir una arquitectura sin la retroalimentación de Infraestructura y QA / AMS; omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes.
+- Diseño aislado: Evita emitir una arquitectura sin la retroalimentación de Infraestructura y QA / AMS; omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes.
