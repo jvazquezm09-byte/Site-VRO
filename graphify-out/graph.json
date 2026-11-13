@@ -4,6 +4,19 @@
   "graph": {},
   "nodes": [
     {
+      "id": "fase0_app_scripts_build_content_errorcontenido",
+      "label": "ErrorContenido",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "errorcontenido",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L11"
+    },
+    {
       "id": "fase0_app_src_components_criteriossalida_criteriossalida",
       "label": "CriteriosSalida()",
       "_callable": true,
@@ -50,18 +63,6 @@
       "norm_label": "jugadacard()",
       "source_file": "fase0-app/src/components/JugadaCard.jsx",
       "source_location": "L12"
-    },
-    {
-      "id": "fase0_app_src_components_recursospanel_recursospanel",
-      "label": "RecursosPanel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "JugadaCard.jsx",
-      "file_type": "code",
-      "norm_label": "recursospanel()",
-      "source_file": "fase0-app/src/components/RecursosPanel.jsx",
-      "source_location": "L2"
     },
     {
       "id": "fase0_app_src_components_siguiente_siguiente",
@@ -124,6 +125,42 @@
       "source_location": "L4"
     },
     {
+      "id": "fase0_app_src_components_enlace_enlace",
+      "label": "Enlace()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "enlace()",
+      "source_file": "fase0-app/src/components/Enlace.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "fase0_app_src_components_enlace_texto",
+      "label": "Texto()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "texto()",
+      "source_file": "fase0-app/src/components/Enlace.jsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "fase0_app_src_components_plantillas_plantillas",
+      "label": "Plantillas()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "plantillas()",
+      "source_file": "fase0-app/src/components/Plantillas.jsx",
+      "source_location": "L5"
+    },
+    {
       "id": "fase0_app_src_components_quienparticipa_descripcion",
       "label": "descripcion()",
       "_callable": true,
@@ -148,6 +185,18 @@
       "source_location": "L12"
     },
     {
+      "id": "fase0_app_src_components_recursospanel_recursospanel",
+      "label": "RecursosPanel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "recursospanel()",
+      "source_file": "fase0-app/src/components/RecursosPanel.jsx",
+      "source_location": "L4"
+    },
+    {
       "id": "fase0_app_src_components_stepsexplorer_stepsexplorer",
       "label": "StepsExplorer()",
       "_callable": true,
@@ -157,7 +206,7 @@
       "file_type": "code",
       "norm_label": "stepsexplorer()",
       "source_file": "fase0-app/src/components/StepsExplorer.jsx",
-      "source_location": "L6"
+      "source_location": "L7"
     },
     {
       "id": "fase0_app_src_hooks_useselectedstep_useselectedstep",
@@ -170,6 +219,138 @@
       "norm_label": "useselectedstep()",
       "source_file": "fase0-app/src/hooks/useSelectedStep.js",
       "source_location": "L4"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_build",
+      "label": "build()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "build()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L191"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_fail",
+      "label": "fail()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "fail()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_frontmatter",
+      "label": "frontmatter()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "frontmatter()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L31"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_leer",
+      "label": "leer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "leer()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L17"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_parseescenarios",
+      "label": "parseEscenarios()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "parseescenarios()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L110"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_parseetapas",
+      "label": "parseEtapas()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "parseetapas()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L170"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_parseglosario",
+      "label": "parseGlosario()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "parseglosario()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L154"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_parsejugada",
+      "label": "parseJugada()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "parsejugada()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L47"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_parselinks",
+      "label": "parseLinks()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "parselinks()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L180"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_secciones",
+      "label": "secciones()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "secciones()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L21"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_utiles",
+      "label": "utiles()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "utiles()",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L18"
     },
     {
       "id": "script_handleraciclick",
@@ -325,7 +506,7 @@
       "file_type": "code",
       "norm_label": "error()",
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "fase0_app_scripts_check_content_leer",
@@ -350,6 +531,30 @@
       "norm_label": "app()",
       "source_file": "fase0-app/src/App.jsx",
       "source_location": "L13"
+    },
+    {
+      "id": "fase0_app_src_components_bigpicture_bigpicture",
+      "label": "BigPicture()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "bigpicture()",
+      "source_file": "fase0-app/src/components/BigPicture.jsx",
+      "source_location": "L20"
+    },
+    {
+      "id": "fase0_app_src_components_bigpicture_iraplaybook",
+      "label": "irAPlaybook()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "iraplaybook()",
+      "source_file": "fase0-app/src/components/BigPicture.jsx",
+      "source_location": "L15"
     },
     {
       "id": "fase0_app_src_components_calificacion_calificacion",
@@ -421,19 +626,7 @@
       "file_type": "code",
       "norm_label": "navbar()",
       "source_file": "fase0-app/src/components/Navbar.jsx",
-      "source_location": "L9"
-    },
-    {
-      "id": "fase0_app_src_components_plantillas_plantillas",
-      "label": "Plantillas()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "App.jsx",
-      "file_type": "code",
-      "norm_label": "plantillas()",
-      "source_file": "fase0-app/src/components/Plantillas.jsx",
-      "source_location": "L4"
+      "source_location": "L7"
     },
     {
       "id": "fase0_app_src_hooks_useselectedjugada_useselectedjugada",
@@ -448,36 +641,12 @@
       "source_location": "L4"
     },
     {
-      "id": "fase0_app_src_components_bigpicture_bigpicture",
-      "label": "BigPicture()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "BigPicture.jsx",
-      "file_type": "code",
-      "norm_label": "bigpicture()",
-      "source_file": "fase0-app/src/components/BigPicture.jsx",
-      "source_location": "L20"
-    },
-    {
-      "id": "fase0_app_src_components_bigpicture_iraplaybook",
-      "label": "irAPlaybook()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "BigPicture.jsx",
-      "file_type": "code",
-      "norm_label": "iraplaybook()",
-      "source_file": "fase0-app/src/components/BigPicture.jsx",
-      "source_location": "L15"
-    },
-    {
       "id": "fase0_app_src_hooks_useselectednode_useselectednode",
       "label": "useSelectedNode()",
       "_callable": true,
       "_origin": "ast",
-      "community": 8,
-      "community_name": "BigPicture.jsx",
+      "community": 7,
+      "community_name": "App.jsx",
       "file_type": "code",
       "norm_label": "useselectednode()",
       "source_file": "fase0-app/src/hooks/useSelectedNode.js",
@@ -503,7 +672,7 @@
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "fase0-app/package.json",
-      "source_location": "L12"
+      "source_location": "L15"
     },
     {
       "id": "fase0_app_package_dependencies_react",
@@ -514,7 +683,7 @@
       "file_type": "code",
       "norm_label": "react",
       "source_file": "fase0-app/package.json",
-      "source_location": "L13"
+      "source_location": "L16"
     },
     {
       "id": "fase0_app_package_dependencies_react_dom",
@@ -525,7 +694,7 @@
       "file_type": "code",
       "norm_label": "react-dom",
       "source_file": "fase0-app/package.json",
-      "source_location": "L14"
+      "source_location": "L17"
     },
     {
       "id": "fase0_app_package_devdependencies",
@@ -536,7 +705,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "fase0-app/package.json",
-      "source_location": "L16"
+      "source_location": "L19"
     },
     {
       "id": "fase0_app_package_devdependencies_vite",
@@ -547,7 +716,7 @@
       "file_type": "code",
       "norm_label": "vite",
       "source_file": "fase0-app/package.json",
-      "source_location": "L18"
+      "source_location": "L21"
     },
     {
       "id": "fase0_app_package_devdependencies_vitejs_plugin_react",
@@ -558,7 +727,7 @@
       "file_type": "code",
       "norm_label": "@vitejs/plugin-react",
       "source_file": "fase0-app/package.json",
-      "source_location": "L17"
+      "source_location": "L20"
     },
     {
       "id": "fase0_app_package_name",
@@ -602,7 +771,7 @@
       "file_type": "code",
       "norm_label": "build",
       "source_file": "fase0-app/package.json",
-      "source_location": "L8"
+      "source_location": "L11"
     },
     {
       "id": "fase0_app_package_scripts_check",
@@ -613,7 +782,18 @@
       "file_type": "code",
       "norm_label": "check",
       "source_file": "fase0-app/package.json",
-      "source_location": "L10"
+      "source_location": "L13"
+    },
+    {
+      "id": "fase0_app_package_scripts_content",
+      "label": "content",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "content",
+      "source_file": "fase0-app/package.json",
+      "source_location": "L7"
     },
     {
       "id": "fase0_app_package_scripts_dev",
@@ -624,7 +804,29 @@
       "file_type": "code",
       "norm_label": "dev",
       "source_file": "fase0-app/package.json",
-      "source_location": "L7"
+      "source_location": "L9"
+    },
+    {
+      "id": "fase0_app_package_scripts_prebuild",
+      "label": "prebuild",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "prebuild",
+      "source_file": "fase0-app/package.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "fase0_app_package_scripts_predev",
+      "label": "predev",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "predev",
+      "source_file": "fase0-app/package.json",
+      "source_location": "L8"
     },
     {
       "id": "fase0_app_package_scripts_start",
@@ -635,7 +837,7 @@
       "file_type": "code",
       "norm_label": "start",
       "source_file": "fase0-app/package.json",
-      "source_location": "L9"
+      "source_location": "L12"
     },
     {
       "id": "fase0_app_package_type",
@@ -679,7 +881,7 @@
       "file_type": "concept",
       "norm_label": "react-dom",
       "source_file": "fase0-app/package.json",
-      "source_location": "L14"
+      "source_location": "L17"
     },
     {
       "id": "ref_vite",
@@ -690,7 +892,7 @@
       "file_type": "concept",
       "norm_label": "vite",
       "source_file": "fase0-app/package.json",
-      "source_location": "L18"
+      "source_location": "L21"
     },
     {
       "id": "ref_vitejs_plugin_react",
@@ -701,7 +903,7 @@
       "file_type": "concept",
       "norm_label": "@vitejs/plugin-react",
       "source_file": "fase0-app/package.json",
-      "source_location": "L17"
+      "source_location": "L20"
     },
     {
       "id": "fase0_app_src_components_criteriossalida",
@@ -770,17 +972,6 @@
       "source_location": "L1"
     },
     {
-      "id": "fase0_app_src_components_recursospanel",
-      "label": "RecursosPanel.jsx",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "JugadaCard.jsx",
-      "file_type": "code",
-      "norm_label": "recursospanel.jsx",
-      "source_file": "fase0-app/src/components/RecursosPanel.jsx",
-      "source_location": "L1"
-    },
-    {
       "id": "fase0_app_src_components_siguiente",
       "label": "Siguiente.jsx",
       "_origin": "ast",
@@ -825,6 +1016,28 @@
       "source_location": "L1"
     },
     {
+      "id": "fase0_app_src_components_enlace",
+      "label": "Enlace.jsx",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "enlace.jsx",
+      "source_file": "fase0-app/src/components/Enlace.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_components_plantillas",
+      "label": "Plantillas.jsx",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "plantillas.jsx",
+      "source_file": "fase0-app/src/components/Plantillas.jsx",
+      "source_location": "L1"
+    },
+    {
       "id": "fase0_app_src_components_quienparticipa",
       "label": "QuienParticipa.jsx",
       "_origin": "ast",
@@ -833,6 +1046,17 @@
       "file_type": "code",
       "norm_label": "quienparticipa.jsx",
       "source_file": "fase0-app/src/components/QuienParticipa.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_components_recursospanel",
+      "label": "RecursosPanel.jsx",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "StepsExplorer.jsx",
+      "file_type": "code",
+      "norm_label": "recursospanel.jsx",
+      "source_file": "fase0-app/src/components/RecursosPanel.jsx",
       "source_location": "L1"
     },
     {
@@ -855,6 +1079,1143 @@
       "file_type": "code",
       "norm_label": "useselectedstep.js",
       "source_file": "fase0-app/src/hooks/useSelectedStep.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_scripts_build_content",
+      "label": "build-content.mjs",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "build-content.mjs",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_content",
+      "label": "CONTENT",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "content",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L7"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_letras",
+      "label": "LETRAS",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "letras",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L9"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_md",
+      "label": "MD",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "md",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L8"
+    },
+    {
+      "id": "fase0_app_scripts_build_content_requeridos",
+      "label": "requeridos",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "build-content.mjs",
+      "file_type": "code",
+      "norm_label": "requeridos",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L45"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto",
+      "label": "07-6-arranque-oficial-de-proyecto.md",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "frontmatter": {
+        "id": 6,
+        "code": 6,
+        "titulo": "Arranque oficial de proyecto",
+        "etapa": "autorizacion",
+        "objetivo": "Estructurar y alinear todos los elementos t\u00e9cnicos, financieros y operativos necesarios para habilitar la ejecuci\u00f3n formal del proyecto.",
+        "kr": "Asegurar que el 100% de las iniciativas en estatus de \u201caprobada\u201d tengan un PEP asignado y un inicio oficial (Kickoff).",
+        "reglaDeOro": "Sin Project Charter firmado por el Sponsor, no existe proyecto; queda estrictamente prohibido comprometer gastos, emitir \u00f3rdenes de compra o arrancar sprints de desarrollo formal.",
+        "cuando": "Se ejecuta una vez que se cuenta con el Project Charter firmado, al concluir la Jugada 5."
+      },
+      "node_kind": "page",
+      "norm_label": "07-6-arranque-oficial-de-proyecto.md",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "label": "6 Arranque oficial de proyecto",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6 arranque oficial de proyecto",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_asignaci\u00f3n_del_project_manager",
+      "label": "Asignaci\u00f3n del Project Manager",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "asignacion del project manager",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_ejecuci\u00f3n_del_kick_off",
+      "label": "Ejecuci\u00f3n del Kick Off",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ejecucion del kick off",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_elaboraci\u00f3n_y_alineaci\u00f3n_del_kick_off",
+      "label": "Elaboraci\u00f3n y Alineaci\u00f3n del Kick Off",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "elaboracion y alineacion del kick off",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_estructuraci\u00f3n_y_habilitaci\u00f3n_del_equipo_de_trabajo",
+      "label": "Estructuraci\u00f3n y Habilitaci\u00f3n del Equipo de Trabajo",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "estructuracion y habilitacion del equipo de trabajo",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_habilitaci\u00f3n_y_activaci\u00f3n_del_elemento_pep",
+      "label": "Habilitaci\u00f3n y Activaci\u00f3n del Elemento PEP",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "habilitacion y activacion del elemento pep",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L87"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L94"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "label": "(sin t\u00edtulo)",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "(sin titulo)",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L89"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "6 Arranque oficial de proyecto",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal",
+      "label": "06-5-autorizacion-formal.md",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "frontmatter": {
+        "id": 5,
+        "code": 5,
+        "titulo": "Autorizaci\u00f3n Formal",
+        "etapa": "autorizacion",
+        "objetivo": "Asegurar la asignaci\u00f3n de recursos y el respaldo ejecutivo del proyecto.",
+        "kr": "Confirmar el 100% de los beneficios esperados con la Direcci\u00f3n General y habilitar las partidas presupuestales.",
+        "reglaDeOro": "Ning\u00fan proyecto arranca su ejecuci\u00f3n (Fase 1 en adelante) ni compromete \u00f3rdenes de compra sin la aprobaci\u00f3n firmada de su Project Charter, la confirmaci\u00f3n de beneficios y la activaci\u00f3n de su elemento PEP presupuestal en Finanzas / SAP.",
+        "cuando": "Se ejecuta al cierre de la Fase 0 (Autorizaci\u00f3n). Se detona una vez concluido el caso de negocio, el dise\u00f1o de la soluci\u00f3n y la estimaci\u00f3n formal de costo y tiempo, buscando el dictamen ejecutivo final del Comit\u00e9 de Inversi\u00f3n / Direcci\u00f3n."
+      },
+      "node_kind": "page",
+      "norm_label": "06-5-autorizacion-formal.md",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "label": "5 Autorizaci\u00f3n Formal",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5 autorizacion formal",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_apertura_del_elemento_pep_y_entrega_a_ejecuci\u00f3n_outcome",
+      "label": "Apertura del elemento PEP y entrega a ejecuci\u00f3n (Outcome)",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "apertura del elemento pep y entrega a ejecucion (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_firma_del_project_charter",
+      "label": "Firma del Project Charter",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "firma del project charter",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_presentaci\u00f3n_al_comit\u00e9_de_autorizaci\u00f3n",
+      "label": "Presentaci\u00f3n al comit\u00e9 de autorizaci\u00f3n",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "presentacion al comite de autorizacion",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "label": "(sin t\u00edtulo)",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "(sin titulo)",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L75"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L81"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_validaci\u00f3n_financiera_y_presupuestal",
+      "label": "Validaci\u00f3n financiera y presupuestal",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "5 Autorizaci\u00f3n Formal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "validacion financiera y presupuestal",
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada",
+      "label": "01-1.1-idea-formalizada.md",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "frontmatter": {
+        "id": "1-1",
+        "code": 1.1,
+        "titulo": "Idea Formalizada",
+        "etapa": "idea",
+        "objetivo": "Alinear las ideas a las prioridades del negocio.",
+        "kr": "Estructurar el 100% de las ideas para su integraci\u00f3n y evaluaci\u00f3n.",
+        "reglaDeOro": "Ninguna iniciativa es priorizada si no es registrada en la herramienta.",
+        "cuando": "Cuando se identifica una idea original o una nueva necesidad de negocio y se requiere estructurarla formalmente para someterla a una evaluaci\u00f3n cuantitativa y estrat\u00e9gica preliminar."
+      },
+      "node_kind": "page",
+      "norm_label": "01-1.1-idea-formalizada.md",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "label": "1.1 Idea Formalizada",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.1 idea formalizada",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_entendimiento_de_la_necesidad",
+      "label": "Entendimiento de la necesidad",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entendimiento de la necesidad",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_enviar_solicitud",
+      "label": "Enviar solicitud",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "enviar solicitud",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_registro_de_la_necesidad",
+      "label": "Registro de la necesidad",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "registro de la necesidad",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_sin_t\u00edtulo",
+      "label": "(sin t\u00edtulo)",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "(sin titulo)",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L69"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "1.1 Idea Formalizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L77"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada",
+      "label": "02-1.2-idea-priorizada.md",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "frontmatter": {
+        "id": "1-2",
+        "code": 1.2,
+        "titulo": "Idea Priorizada",
+        "etapa": "idea",
+        "objetivo": "Alinear las ideas a las prioridades del negocio.",
+        "kr": "Estructurar el 100% de la idea para su revisi\u00f3n y priorizaci\u00f3n.",
+        "reglaDeOro": "Ninguna idea formalizada avanza a la fase de estimaci\u00f3n preliminar sin haber pasado por un filtro de priorizaci\u00f3n que defina su lugar en la pir\u00e1mide estrat\u00e9gica.",
+        "cuando": "Una vez que la idea ha sido formalizada (Canvas completado) y se requiere evaluar su urgencia, valor e impacto frente al resto de las iniciativas del portafolio para asignarle una prioridad clara."
+      },
+      "node_kind": "page",
+      "norm_label": "02-1.2-idea-priorizada.md",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "label": "1.2 Idea Priorizada",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1.2 idea priorizada",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_filtro_de_viabilidad_y_alineaci\u00f3n",
+      "label": "Filtro de viabilidad y alineaci\u00f3n",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "filtro de viabilidad y alineacion",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_identifica_ideas_a_priorizar",
+      "label": "Identifica ideas a priorizar",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "identifica ideas a priorizar",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_priorizaci\u00f3n_outcome",
+      "label": "Priorizaci\u00f3n (Outcome)",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "priorizacion (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_sin_t\u00edtulo",
+      "label": "(sin t\u00edtulo)",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "(sin titulo)",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L69"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "1.2 Idea Priorizada",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio",
+      "label": "04-3-capacidades-de-negocio.md",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "frontmatter": {
+        "id": 3,
+        "code": 3,
+        "titulo": "Capacidades de negocio",
+        "etapa": "capacidades",
+        "objetivo": "Identificar, estructurar y cerrar las brechas de capacidades operativas y tecnol\u00f3gicas para garantizar la viabilidad y entrega de valor del proyecto.",
+        "kr": "Mapear el 100% de las capacidades de negocio As-Is y To-Be requeridas antes del dise\u00f1o de soluci\u00f3n final.",
+        "reglaDeOro": "Ning\u00fan proyecto avanza al dise\u00f1o detallado sin un mapa de capacidades formalmente validado por Ingenier\u00eda de Procesos y Arquitectura.",
+        "cuando": "Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y antes de formalizar el Dise\u00f1o de la Soluci\u00f3n."
+      },
+      "node_kind": "page",
+      "norm_label": "04-3-capacidades-de-negocio.md",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "label": "3 Capacidades de negocio",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3 capacidades de negocio",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_an\u00e1lisis_de_brechas_gap_analysis",
+      "label": "An\u00e1lisis de brechas (Gap Analysis)",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "analisis de brechas (gap analysis)",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_capturar_capacidades_outcome",
+      "label": "Capturar capacidades (Outcome)",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "capturar capacidades (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L34"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_insumo_para_dise\u00f1o",
+      "label": "Insumo para dise\u00f1o",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "insumo para diseno",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L72"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_sin_t\u00edtulo",
+      "label": "(sin t\u00edtulo)",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "(sin titulo)",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L66"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "3 Capacidades de negocio",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "fase0_app_src_content_md_glosario",
+      "label": "glosario.md",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Glosario",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "glosario.md",
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_glosario_etiquetas_raci",
+      "label": "Etiquetas RACI",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Glosario",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "etiquetas raci",
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "fase0_app_src_content_md_glosario_glosario",
+      "label": "Glosario",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Glosario",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "glosario",
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_glosario_roles",
+      "label": "Roles",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Glosario",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "roles",
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "fase0_app_src_content_md_etapas",
+      "label": "etapas.md",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "etapas.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "etapas.md",
+      "source_file": "fase0-app/src/content/md/etapas.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_etapas_etapas",
+      "label": "Etapas",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "etapas.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "etapas",
+      "source_file": "fase0-app/src/content/md/etapas.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_links",
+      "label": "links.md",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "links.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "links.md",
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_links_enlaces",
+      "label": "Enlaces",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "links.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "enlaces",
+      "source_file": "fase0-app/src/content/md/links.md",
       "source_location": "L1"
     },
     {
@@ -965,7 +2326,7 @@
       "file_type": "code",
       "norm_label": "errores",
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L10"
+      "source_location": "L11"
     },
     {
       "id": "fase0_app_scripts_check_content_etapas",
@@ -987,7 +2348,7 @@
       "file_type": "code",
       "norm_label": "ids",
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L14"
+      "source_location": "L15"
     },
     {
       "id": "fase0_app_scripts_check_content_idsetapas",
@@ -998,7 +2359,7 @@
       "file_type": "code",
       "norm_label": "idsetapas",
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L13"
+      "source_location": "L14"
     },
     {
       "id": "fase0_app_scripts_check_content_inicio",
@@ -1023,6 +2384,17 @@
       "source_location": "L6"
     },
     {
+      "id": "fase0_app_scripts_check_content_links",
+      "label": "links",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "check-content.mjs",
+      "file_type": "code",
+      "norm_label": "links",
+      "source_file": "fase0-app/scripts/check-content.mjs",
+      "source_location": "L10"
+    },
+    {
       "id": "fase0_app_scripts_check_content_listas",
       "label": "listas",
       "_origin": "ast",
@@ -1031,7 +2403,7 @@
       "file_type": "code",
       "norm_label": "listas",
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L16"
+      "source_location": "L17"
     },
     {
       "id": "fase0_app_scripts_check_content_raci",
@@ -1053,7 +2425,18 @@
       "file_type": "code",
       "norm_label": "requeridos",
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L15"
+      "source_location": "L16"
+    },
+    {
+      "id": "fase0_app_scripts_check_content_textos",
+      "label": "textos",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "check-content.mjs",
+      "file_type": "code",
+      "norm_label": "textos",
+      "source_file": "fase0-app/scripts/check-content.mjs",
+      "source_location": "L42"
     },
     {
       "id": "fase0_app_src_content_leeme",
@@ -1077,7 +2460,7 @@
       "node_kind": "heading",
       "norm_label": "antes de publicar",
       "source_file": "fase0-app/src/content/LEEME.md",
-      "source_location": "L22"
+      "source_location": "L31"
     },
     {
       "id": "fase0_app_src_content_leeme_contenido_del_sitio",
@@ -1092,16 +2475,16 @@
       "source_location": "L1"
     },
     {
-      "id": "fase0_app_src_content_leeme_reglas_para_editar",
-      "label": "Reglas para editar",
+      "id": "fase0_app_src_content_leeme_c\u00f3mo_escribir_una_ficha",
+      "label": "C\u00f3mo escribir una ficha",
       "_origin": "ast",
       "community": 4,
       "community_name": "Contenido del sitio",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "reglas para editar",
+      "norm_label": "como escribir una ficha",
       "source_file": "fase0-app/src/content/LEEME.md",
-      "source_location": "L12"
+      "source_location": "L15"
     },
     {
       "id": "readme",
@@ -1158,6 +2541,28 @@
       "norm_label": "app.jsx",
       "source_file": "fase0-app/src/App.jsx",
       "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_components_bigpicture",
+      "label": "BigPicture.jsx",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "bigpicture.jsx",
+      "source_file": "fase0-app/src/components/BigPicture.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_components_bigpicture_posiciones",
+      "label": "posiciones",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "posiciones",
+      "source_file": "fase0-app/src/components/BigPicture.jsx",
+      "source_location": "L7"
     },
     {
       "id": "fase0_app_src_components_calificacion",
@@ -1237,17 +2642,6 @@
       "source_location": "L1"
     },
     {
-      "id": "fase0_app_src_components_plantillas",
-      "label": "Plantillas.jsx",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "App.jsx",
-      "file_type": "code",
-      "norm_label": "plantillas.jsx",
-      "source_file": "fase0-app/src/components/Plantillas.jsx",
-      "source_location": "L1"
-    },
-    {
       "id": "fase0_app_src_data_index",
       "label": "index.js",
       "_origin": "ast",
@@ -1292,6 +2686,17 @@
       "source_location": "L1"
     },
     {
+      "id": "fase0_app_src_hooks_useselectednode",
+      "label": "useSelectedNode.js",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "useselectednode.js",
+      "source_file": "fase0-app/src/hooks/useSelectedNode.js",
+      "source_location": "L1"
+    },
+    {
       "id": "fase0_app_src_main",
       "label": "main.jsx",
       "_origin": "ast",
@@ -1311,43 +2716,834 @@
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "fase0-app/package.json",
-      "source_location": "L13"
+      "source_location": "L16"
     },
     {
-      "id": "fase0_app_src_components_bigpicture",
-      "label": "BigPicture.jsx",
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion",
+      "label": "05-4-construir-el-diseno-de-solucion.md",
       "_origin": "ast",
       "community": 8,
-      "community_name": "BigPicture.jsx",
-      "file_type": "code",
-      "norm_label": "bigpicture.jsx",
-      "source_file": "fase0-app/src/components/BigPicture.jsx",
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "frontmatter": {
+        "id": 4,
+        "code": 4,
+        "titulo": "Construir el Dise\u00f1o de Soluci\u00f3n",
+        "etapa": "diseno",
+        "objetivo": "Asegurar la viabilidad t\u00e9cnica y precisi\u00f3n en la estimaci\u00f3n del esfuerzo.",
+        "kr": "Validar el 100% de las iniciativas con dise\u00f1o de soluci\u00f3n y estimaci\u00f3n de esfuerzo formalmente respaldados.",
+        "reglaDeOro": "Ninguna iniciativa avanza a la estimaci\u00f3n formal de costo, tiempo o adquisici\u00f3n t\u00e9cnica sin contar con un dise\u00f1o de soluci\u00f3n estructurado (Arquitectura To-Be o Brief Ejecutivo) formalmente revisado por las mesas t\u00e9cnicas o de procesos.",
+        "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Dise\u00f1o). Se detona una vez que se cuenta con la necesidad priorizada y la definici\u00f3n de capacidades de negocio a habilitar, y se requiere trazar la soluci\u00f3n conceptual o t\u00e9cnica que servir\u00e1 como base para cotizar y dimensionar el esfuerzo del proyecto."
+      },
+      "node_kind": "page",
+      "norm_label": "05-4-construir-el-diseno-de-solucion.md",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
       "source_location": "L1"
     },
     {
-      "id": "fase0_app_src_components_bigpicture_posiciones",
-      "label": "posiciones",
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "label": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
       "_origin": "ast",
       "community": 8,
-      "community_name": "BigPicture.jsx",
-      "file_type": "code",
-      "norm_label": "posiciones",
-      "source_file": "fase0-app/src/components/BigPicture.jsx",
-      "source_location": "L7"
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4 construir el diseno de solucion",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L12"
     },
     {
-      "id": "fase0_app_src_hooks_useselectednode",
-      "label": "useSelectedNode.js",
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_alineaci\u00f3n_de_impacto_en_procesos",
+      "label": "Alineaci\u00f3n de impacto en procesos",
       "_origin": "ast",
       "community": 8,
-      "community_name": "BigPicture.jsx",
-      "file_type": "code",
-      "norm_label": "useselectednode.js",
-      "source_file": "fase0-app/src/hooks/useSelectedNode.js",
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "alineacion de impacto en procesos",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L102"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_an\u00e1lisis_de_flujo_y_layouts_f\u00edsicos_digitales",
+      "label": "An\u00e1lisis de flujo y layouts f\u00edsicos / digitales",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "analisis de flujo y layouts fisicos / digitales",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L96"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_compilaci\u00f3n_de_experiencia_y_operaci\u00f3n_input",
+      "label": "Compilaci\u00f3n de experiencia y operaci\u00f3n (Input)",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "compilacion de experiencia y operacion (input)",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_consolidaci\u00f3n_de_capacidades_input",
+      "label": "Consolidaci\u00f3n de capacidades (Input)",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "consolidacion de capacidades (input)",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_consolidaci\u00f3n_del_brief_ejecutivo_outcome",
+      "label": "Consolidaci\u00f3n del Brief Ejecutivo (Outcome)",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "consolidacion del brief ejecutivo (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_definici\u00f3n_del_modelo_y_seguridad_de_la_soluci\u00f3n",
+      "label": "Definici\u00f3n del modelo y seguridad de la soluci\u00f3n",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "definicion del modelo y seguridad de la solucion",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_diagn\u00f3stico_de_la_arquitectura_as_is",
+      "label": "Diagn\u00f3stico de la arquitectura As-Is",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "diagnostico de la arquitectura as-is",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_emisi\u00f3n_de_la_arquitectura_to_be_outcome",
+      "label": "Emisi\u00f3n de la Arquitectura To-Be (Outcome)",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "emision de la arquitectura to-be (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_entregables_84",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "label": "Escenario A: Dise\u00f1o de arquitectura TI",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenario a: diseno de arquitectura ti",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "label": "Escenario B: Dise\u00f1o proyecto ejecutivo / nuevo concepto",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenario b: diseno proyecto ejecutivo / nuevo concepto",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L80"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L114"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L125"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L120"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L129"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_validaci\u00f3n_con_arquitectura_de_procesos",
+      "label": "Validaci\u00f3n con Arquitectura de Procesos",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "4 Construir el Dise\u00f1o de Soluci\u00f3n",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "validacion con arquitectura de procesos",
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo",
+      "label": "03-2-estimar-el-esfuerzo.md",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "frontmatter": {
+        "id": 2,
+        "code": 2,
+        "titulo": "Estimar el Esfuerzo",
+        "etapa": "estimacion",
+        "objetivo": "Asegurar la viabilidad t\u00e9cnica y precisi\u00f3n en la estimaci\u00f3n del esfuerzo de las iniciativas del portafolio.",
+        "kr": "Validar el 100% de las iniciativas con dise\u00f1o de soluci\u00f3n y estimaci\u00f3n de esfuerzo debidamente sustentados.",
+        "reglaDeOro": "Ninguna iniciativa avanza a la formalizaci\u00f3n sin una estimaci\u00f3n preliminar de tiempo, recursos y sistemas impactados.",
+        "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Estimaci\u00f3n preliminar). Se aplica para definir de manera preliminar (previo a las capacidades y dise\u00f1o) los recursos necesarios para desarrollar la iniciativa (tiempo, costo, recursos y sistemas) a trav\u00e9s de una estimaci\u00f3n &quot;autom\u00e1tica&quot; o una estimaci\u00f3n manual."
+      },
+      "node_kind": "page",
+      "norm_label": "03-2-estimar-el-esfuerzo.md",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
       "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "label": "2 Estimar el Esfuerzo",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2 estimar el esfuerzo",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome",
+      "label": "Aceptaci\u00f3n de la estimaci\u00f3n (Outcome)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "aceptacion de la estimacion (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome_103",
+      "label": "Aceptaci\u00f3n de la estimaci\u00f3n (Outcome)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "aceptacion de la estimacion (outcome)",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L103"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_captura_de_datos",
+      "label": "Captura de datos",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "captura de datos",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_criterios_de_salida",
+      "label": "Criterios de salida",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "criterios de salida",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_definir_inversi\u00f3n",
+      "label": "Definir inversi\u00f3n",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "definir inversion",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L88"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_definir_tiempo_e_inicio_de_ejecuci\u00f3n",
+      "label": "Definir tiempo e inicio de ejecuci\u00f3n",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "definir tiempo e inicio de ejecucion",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L96"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables_82",
+      "label": "Entregables",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entregables",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "label": "Escenario A: Estimaci\u00f3n con calculadora de proyecto (T-shirt sizing)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenario a: estimacion con calculadora de proyecto (t-shirt sizing)",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
+      "label": "Escenario B: Estimaci\u00f3n manual",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenario b: estimacion manual",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenarios",
+      "label": "Escenarios",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "escenarios",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_estimaci\u00f3n_preliminar",
+      "label": "Estimaci\u00f3n preliminar",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "estimacion preliminar",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_jugadores",
+      "label": "Jugadores",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jugadores",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_pol\u00edticas",
+      "label": "Pol\u00edticas",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L111"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_pro_tips",
+      "label": "Pro-tips",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pro-tips",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L118"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_raci",
+      "label": "RACI",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "raci",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_seleccionar_estimaci\u00f3n_con_calculadora",
+      "label": "Seleccionar estimaci\u00f3n con calculadora",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "seleccionar estimacion con calculadora",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L47"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_templates",
+      "label": "Templates",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_trampas",
+      "label": "Trampas",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "2 Estimar el Esfuerzo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "trampas",
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L124"
     }
   ],
   "links": [
+    {
+      "source": "fase0_app_scripts_build_content_build",
+      "target": "fase0_app_scripts_build_content_parsejugada",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_build",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_build",
+      "target": "fase0_app_scripts_build_content_parseglosario",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_build",
+      "target": "fase0_app_scripts_build_content_parseetapas",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_build",
+      "target": "fase0_app_scripts_build_content_parselinks",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_fail",
+      "target": "fase0_app_scripts_build_content_errorcontenido",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_frontmatter",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseescenarios",
+      "target": "fase0_app_scripts_build_content_secciones",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseescenarios",
+      "target": "fase0_app_scripts_build_content_utiles",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseescenarios",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseetapas",
+      "target": "fase0_app_scripts_build_content_leer",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseetapas",
+      "target": "fase0_app_scripts_build_content_utiles",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseetapas",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseglosario",
+      "target": "fase0_app_scripts_build_content_leer",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parseglosario",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parsejugada",
+      "target": "fase0_app_scripts_build_content_frontmatter",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parsejugada",
+      "target": "fase0_app_scripts_build_content_leer",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parsejugada",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parsejugada",
+      "target": "fase0_app_scripts_build_content_secciones",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parsejugada",
+      "target": "fase0_app_scripts_build_content_utiles",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parsejugada",
+      "target": "fase0_app_scripts_build_content_parseescenarios",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parselinks",
+      "target": "fase0_app_scripts_build_content_leer",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_parselinks",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L185",
+      "weight": 1.0
+    },
     {
       "source": "fase0_app_src_app_app",
       "target": "fase0_app_src_hooks_useselectedjugada_useselectedjugada",
@@ -1417,7 +3613,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/src/components/StepsExplorer.jsx",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -1537,7 +3733,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "fase0-app/package.json",
-      "source_location": "L13",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -1549,7 +3745,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "fase0-app/package.json",
-      "source_location": "L14",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -1561,7 +3757,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "fase0-app/package.json",
-      "source_location": "L17",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -1573,7 +3769,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "fase0-app/package.json",
-      "source_location": "L18",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -1853,6 +4049,30 @@
       "weight": 1.0
     },
     {
+      "source": "fase0_app_src_components_plantillas",
+      "target": "fase0_app_src_components_enlace_enlace",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/Plantillas.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_recursospanel",
+      "target": "fase0_app_src_components_enlace_enlace",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/RecursosPanel.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "fase0_app_src_components_stepsexplorer",
       "target": "fase0_app_src_hooks_useselectedstep_useselectedstep",
       "relation": "imports",
@@ -1874,6 +4094,18 @@
       "context": "import",
       "source_file": "fase0-app/src/components/StepsExplorer.jsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_stepsexplorer",
+      "target": "fase0_app_src_components_enlace_texto",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/StepsExplorer.jsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2165,6 +4397,30 @@
       "weight": 1.0
     },
     {
+      "source": "fase0_app_src_components_plantillas",
+      "target": "fase0_app_src_components_enlace",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/Plantillas.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_recursospanel",
+      "target": "fase0_app_src_components_enlace",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/RecursosPanel.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "fase0_app_src_components_stepsexplorer",
       "target": "fase0_app_src_hooks_useselectedstep",
       "relation": "imports_from",
@@ -2186,6 +4442,18 @@
       "context": "import",
       "source_file": "fase0-app/src/components/StepsExplorer.jsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_stepsexplorer",
+      "target": "fase0_app_src_components_enlace",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/StepsExplorer.jsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2304,7 +4572,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -2315,7 +4583,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L16",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -2381,7 +4649,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L13",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -2392,7 +4660,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L14",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -2403,7 +4671,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L17",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -2414,29 +4682,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L18",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
       "source": "fase0_app_package_scripts",
-      "target": "fase0_app_package_scripts_check",
+      "target": "fase0_app_package_scripts_prebuild",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
       "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "fase0_app_package_scripts",
-      "target": "fase0_app_package_scripts_dev",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "fase0-app/package.json",
-      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2447,7 +4704,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
-      "source_location": "L8",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -2458,12 +4715,232 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_package_scripts",
+      "target": "fase0_app_package_scripts_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/package.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_package_scripts",
+      "target": "fase0_app_package_scripts_content",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_package_scripts",
+      "target": "fase0_app_package_scripts_predev",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_package_scripts",
+      "target": "fase0_app_package_scripts_dev",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_errorcontenido",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_parseescenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_fail",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_parseglosario",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_leer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_parseetapas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_utiles",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_parselinks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_build",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_secciones",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_frontmatter",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_requeridos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_parsejugada",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_content",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_md",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content",
+      "target": "fase0_app_scripts_build_content_letras",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/build-content.mjs",
       "source_location": "L9",
       "weight": 1.0
     },
     {
       "source": "fase0_app_scripts_check_content",
-      "target": "fase0_app_scripts_check_content_errores",
+      "target": "fase0_app_scripts_check_content_links",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2474,7 +4951,7 @@
     },
     {
       "source": "fase0_app_scripts_check_content",
-      "target": "fase0_app_scripts_check_content_error",
+      "target": "fase0_app_scripts_check_content_errores",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2485,18 +4962,18 @@
     },
     {
       "source": "fase0_app_scripts_check_content",
-      "target": "fase0_app_scripts_check_content_idsetapas",
+      "target": "fase0_app_scripts_check_content_error",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/scripts/check-content.mjs",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
       "source": "fase0_app_scripts_check_content",
-      "target": "fase0_app_scripts_check_content_ids",
+      "target": "fase0_app_scripts_check_content_idsetapas",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2507,7 +4984,7 @@
     },
     {
       "source": "fase0_app_scripts_check_content",
-      "target": "fase0_app_scripts_check_content_requeridos",
+      "target": "fase0_app_scripts_check_content_ids",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2518,13 +4995,35 @@
     },
     {
       "source": "fase0_app_scripts_check_content",
-      "target": "fase0_app_scripts_check_content_listas",
+      "target": "fase0_app_scripts_check_content_requeridos",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/scripts/check-content.mjs",
       "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_check_content",
+      "target": "fase0_app_scripts_check_content_listas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/check-content.mjs",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_check_content",
+      "target": "fase0_app_scripts_check_content_textos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/scripts/check-content.mjs",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -2671,6 +5170,28 @@
       "weight": 1.0
     },
     {
+      "source": "fase0_app_src_components_enlace",
+      "target": "fase0_app_src_components_enlace_texto",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/components/Enlace.jsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_enlace",
+      "target": "fase0_app_src_components_enlace_enlace",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/components/Enlace.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "fase0_app_src_components_escenarioselector",
       "target": "fase0_app_src_components_escenarioselector_colores",
       "relation": "contains",
@@ -2788,7 +5309,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/components/Navbar.jsx",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2799,7 +5320,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/components/Plantillas.jsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2832,7 +5353,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/components/RecursosPanel.jsx",
-      "source_location": "L2",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2854,7 +5375,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/components/StepsExplorer.jsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2892,13 +5413,13 @@
     },
     {
       "source": "fase0_app_src_content_leeme_contenido_del_sitio",
-      "target": "fase0_app_src_content_leeme_reglas_para_editar",
+      "target": "fase0_app_src_content_leeme_c\u00f3mo_escribir_una_ficha",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/LEEME.md",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -2909,7 +5430,1327 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/LEEME.md",
-      "source_location": "L22",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_etapas",
+      "target": "fase0_app_src_content_md_etapas_etapas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/etapas.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_glosario",
+      "target": "fase0_app_src_content_md_glosario_glosario",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_glosario_glosario",
+      "target": "fase0_app_src_content_md_glosario_roles",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_glosario_glosario",
+      "target": "fase0_app_src_content_md_glosario_etiquetas_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/glosario.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_1_1_idea_formalizada",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_sin_t\u00edtulo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_entendimiento_de_la_necesidad",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_registro_de_la_necesidad",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_01_1_1_idea_formalizada_enviar_solicitud",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/01-1.1-idea-formalizada.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_1_2_idea_priorizada",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_sin_t\u00edtulo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_identifica_ideas_a_priorizar",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_filtro_de_viabilidad_y_alineaci\u00f3n",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_priorizaci\u00f3n_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_2_estimar_el_esfuerzo",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_seleccionar_estimaci\u00f3n_con_calculadora",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_captura_de_datos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_estimaci\u00f3n_preliminar",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome_103",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables_82",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_definir_inversi\u00f3n",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_definir_tiempo_e_inicio_de_ejecuci\u00f3n",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_3_capacidades_de_negocio",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_sin_t\u00edtulo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_an\u00e1lisis_de_brechas_gap_analysis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_capturar_capacidades_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_insumo_para_dise\u00f1o",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_4_construir_el_dise\u00f1o_de_soluci\u00f3n",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_consolidaci\u00f3n_de_capacidades_input",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_diagn\u00f3stico_de_la_arquitectura_as_is",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_definici\u00f3n_del_modelo_y_seguridad_de_la_soluci\u00f3n",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_validaci\u00f3n_con_arquitectura_de_procesos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_emisi\u00f3n_de_la_arquitectura_to_be_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_alineaci\u00f3n_de_impacto_en_procesos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_consolidaci\u00f3n_del_brief_ejecutivo_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_entregables_84",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_compilaci\u00f3n_de_experiencia_y_operaci\u00f3n_input",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_an\u00e1lisis_de_flujo_y_layouts_f\u00edsicos_digitales",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_a_dise\u00f1o_de_arquitectura_ti",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_escenario_b_dise\u00f1o_proyecto_ejecutivo_nuevo_concepto",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_5_autorizaci\u00f3n_formal",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_validaci\u00f3n_financiera_y_presupuestal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_presentaci\u00f3n_al_comit\u00e9_de_autorizaci\u00f3n",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_firma_del_project_charter",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_apertura_del_elemento_pep_y_entrega_a_ejecuci\u00f3n_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_criterios_de_salida",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_jugadores",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_raci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_escenarios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_pol\u00edticas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_templates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_pro_tips",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_6_arranque_oficial_de_proyecto",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_trampas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_escenarios",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_entregables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_asignaci\u00f3n_del_project_manager",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_habilitaci\u00f3n_y_activaci\u00f3n_del_elemento_pep",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_estructuraci\u00f3n_y_habilitaci\u00f3n_del_equipo_de_trabajo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_elaboraci\u00f3n_y_alineaci\u00f3n_del_kick_off",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_sin_t\u00edtulo",
+      "target": "fase0_app_src_content_md_jugadas_07_6_arranque_oficial_de_proyecto_ejecuci\u00f3n_del_kick_off",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_links",
+      "target": "fase0_app_src_content_md_links_enlaces",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L1",
       "weight": 1.0
     },
     {
@@ -3200,5 +7041,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8f37fe3ff161fa27ea779b3fdb95b42a7d6f34cd"
+  "built_at_commit": "e4a9d0754bba20071d85c0de9468fc4611e2eb1d"
 }
