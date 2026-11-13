@@ -26,6 +26,7 @@
 - **EP**: Especialista de Procesos
 - **SN**: Socios de Negocio
 - **BRM**: Business Relationship Manager
+- **EqC**: Equipo Core
 
 ## Etiquetas RACI
 

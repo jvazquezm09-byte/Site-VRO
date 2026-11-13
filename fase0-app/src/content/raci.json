@@ -94,6 +94,32 @@
         "PgM"
       ]
     },
+    "6": {
+      "R": [
+        "PM",
+        "FI"
+      ],
+      "A": [
+        "PfM",
+        "PM",
+        "DP"
+      ],
+      "C": [
+        "PfM",
+        "SE",
+        "LF",
+        "LT",
+        "BP/BA"
+      ],
+      "I": [
+        "SP",
+        "DP",
+        "LF",
+        "LT",
+        "BP/BA",
+        "SE"
+      ]
+    },
     "1-1": {
       "R": [
         "LF"
@@ -122,39 +148,6 @@
       "I": [
         "LF"
       ]
-    },
-    "5-1": {
-      "R": [],
-      "A": [],
-      "C": [],
-      "I": []
-    },
-    "5-2": {
-      "R": [
-        "PgM",
-        "LF",
-        "SE"
-      ],
-      "A": [
-        "CD",
-        "DP",
-        "LF"
-      ],
-      "C": [
-        "BP",
-        "SE",
-        "PgM",
-        "LF",
-        "FI"
-      ],
-      "I": [
-        "LF",
-        "PgM",
-        "P",
-        "BP",
-        "DP",
-        "SP"
-      ]
     }
   },
   "rolPorSigla": {
@@ -181,7 +174,8 @@
     "IP": "Ingeniería de Procesos",
     "EP": "Especialista de Procesos",
     "SN": "Socios de Negocio",
-    "BRM": "Business Relationship Manager"
+    "BRM": "Business Relationship Manager",
+    "EqC": "Equipo Core"
   },
   "etiquetas": {
     "R": "Responsible",

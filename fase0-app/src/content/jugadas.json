@@ -125,10 +125,10 @@
       "Gestión de la iniciativa (Monday)"
     ],
     "proTips": [
-      "Agilidad en el Canvas: no busques el nivel de detalle de un \"Caso de Negocio\" completo en esta etapa. El objetivo del Canvas es dar claridad suficiente para decidir si la idea merece ser priorizada, no resolver cómo se va a ejecutar."
+      "Agilidad en el Canvas: No busques el nivel de detalle de un \"Caso de Negocio\" completo en esta etapa. El objetivo del Canvas es dar claridad suficiente para decidir si la idea merece ser priorizada, no resolver cómo se va a ejecutar."
     ],
     "trampas": [
-      "Parálisis por análisis: involucrar a demasiados roles técnicos a profundidad. Arquitectura y SE solo deben dar un \"visto bueno\" conceptual; el diseño de solución real ocurre en la siguiente etapa de \"EDS y Estimación\"."
+      "Parálisis por análisis: Involucrar a demasiados roles técnicos a profundidad. Arquitectura y SE solo deben dar un \"visto bueno\" conceptual; el diseño de solución real ocurre en la siguiente etapa de \"EDS y Estimación\"."
     ]
   },
   {
@@ -250,11 +250,11 @@
       "Ideas priorizadas en Monday"
     ],
     "proTips": [
-      "Entendimiento y valor: nunca llegues a la sesión de priorización con Directores sin haber consultado y tener un contexto claro de la iniciativa; así la sesión pasa de una discusión de opiniones a una decisión estratégica basada en hechos y capacidad real.",
-      "Entendimiento y valor: si en la revisión no se identifica un impacto claro y medible a al menos un objetivo del Mapa Estratégico, como Portafolio Manager puedes emitir comentarios y rechazar la iniciativa antes de subirla a la Pirámide. La prioridad no se negocia por jerarquía, sino por alineación demostrada en la Ficha Canvas."
+      "Entendimiento y valor: Nunca llegues a la sesión de priorización con Directores sin haber consultado y tener un contexto claro de la iniciativa; así la sesión pasa de una discusión de opiniones a una decisión estratégica basada en hechos y capacidad real.",
+      "Entendimiento y valor: Si en la revisión no se identifica un impacto claro y medible a al menos un objetivo del Mapa Estratégico, como Portafolio Manager puedes emitir comentarios y rechazar la iniciativa antes de subirla a la Pirámide. La prioridad no se negocia por jerarquía, sino por alineación demostrada en la Ficha Canvas."
     ],
     "trampas": [
-      "El síndrome de \"Todo es urgente\": ceder a la presión de priorizar basándose únicamente en la urgencia del área solicitante. La priorización debe ser holística, considerando la capacidad real de ejecución y la alineación comprobada a las prioridades del negocio."
+      "El síndrome de \"Todo es urgente\": Ceder a la presión de priorizar basándose únicamente en la urgencia del área solicitante. La priorización debe ser holística, considerando la capacidad real de ejecución y la alineación comprobada a las prioridades del negocio."
     ]
   },
   {
@@ -497,12 +497,12 @@
       "Estimación preliminar"
     ],
     "proTips": [
-      "Tiempos de mercado realistas: considera dentro del cronograma de la Fase 0 los tiempos de respuesta legales y contractuales de Abastecimiento que no están considerados en las propuestas técnico-económicas; forzar fechas irreales genera riesgos y sobrecostos.",
-      "Capitaliza las lecciones aprendidas: al definir la complejidad (T-shirt sizing) y validar la estimación preliminar, aplica el historial de riesgos y lecciones aprendidas de implementaciones previas para retar los supuestos de la iniciativa. Una estimación realista hoy es el cimiento para una ejecución sin desviaciones mañana.",
-      "Estimación progresiva: las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinará la estimación definitiva antes de iniciar la construcción."
+      "Tiempos de mercado realistas: Considera dentro del cronograma de la Fase 0 los tiempos de respuesta legales y contractuales de Abastecimiento que no están considerados en las propuestas técnico-económicas; forzar fechas irreales genera riesgos y sobrecostos.",
+      "Capitaliza las lecciones aprendidas: Al definir la complejidad (T-shirt sizing) y validar la estimación preliminar, aplica el historial de riesgos y lecciones aprendidas de implementaciones previas para retar los supuestos de la iniciativa. Una estimación realista hoy es el cimiento para una ejecución sin desviaciones mañana.",
+      "Estimación progresiva: Las iniciativas con complejidad Alta o Muy Alta (tallas L y XL) pueden aprobarse preliminarmente con T-shirt sizing para validar el apetito de inversión del negocio. La aprobación en esta etapa autoriza el pase a la Fase de Planeación, donde Arquitectura y Negocio elaborarán el diseño de solución a detalle y refinará la estimación definitiva antes de iniciar la construcción."
     ],
     "trampas": [
-      "Compromisos informales sin SE: nunca acuerdes compromisos de contratación o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos."
+      "Compromisos informales sin SE: Nunca acuerdes compromisos de contratación o alcances directamente con proveedores sin la intermediación de Servicios Estratégicos. La falta de apego normativo anula el proceso y congela la asignación de recursos."
     ]
   },
   {
@@ -633,10 +633,10 @@
       "Plantilla Matriz de capacidades (Miro)"
     ],
     "proTips": [
-      "Enfoque en valor: mapea solo las capacidades esenciales para el Key Result (N1); evita la captura de capacidades a detalle (N2), ya que diluye la discusión técnica y hace que el negocio pierda visibilidad sobre el valor y el retorno real de la propuesta."
+      "Enfoque en valor: Mapea solo las capacidades esenciales para el Key Result (N1); evita la captura de capacidades a detalle (N2), ya que diluye la discusión técnica y hace que el negocio pierda visibilidad sobre el valor y el retorno real de la propuesta."
     ],
     "trampas": [
-      "Silos de trabajo: evita definir las capacidades de negocio como capacidades tecnológicas (solo desde la perspectiva de TI) sin la validación del Líder Funcional (Negocio) y de Ingeniería de Procesos."
+      "Silos de trabajo: Evita definir las capacidades de negocio como capacidades tecnológicas (solo desde la perspectiva de TI) sin la validación del Líder Funcional (Negocio) y de Ingeniería de Procesos."
     ]
   },
   {
@@ -916,15 +916,14 @@
       "Catálogo de Procesos Institucionales (CONOCE Liverpool)"
     ],
     "templates": [
-      "Template de Arquitectura de Solución (To-Be Architecture Blueprint)",
       "Template de Brief Ejecutivo para Despachos / Terceros",
       "Diseño (Monday)"
     ],
     "proTips": [
-      "Nivel de detalle balanceado: en Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. Evita retrasar el caso de negocio por detalles menores."
+      "Nivel de detalle balanceado: En Fase 0 se busca definir el orden de magnitud y la viabilidad del ecosistema, no escribir especificaciones funcionales al detalle de desarrollo. Evita retrasar el caso de negocio por detalles menores."
     ],
     "trampas": [
-      "Diseño aislado: evita emitir una arquitectura sin la retroalimentación de Infraestructura y QA / AMS; omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes."
+      "Diseño aislado: Evita emitir una arquitectura sin la retroalimentación de Infraestructura y QA / AMS; omitir la operación posterior encarece fuertemente las estimaciones en fases siguientes."
     ]
   },
   {
@@ -1085,92 +1084,89 @@
     ],
     "templates": [],
     "proTips": [
-      "Pre-aprobación financiera: realiza una revisión en SAP con el número del PEP para asegurar que el monto sea el que firmaron el Sponsor y los directivos que aprobaron el proyecto."
+      "Pre-aprobación financiera: Realiza una revisión en SAP con el número del PEP para asegurar que el monto sea el que firmaron el Sponsor y los directivos que aprobaron el proyecto."
     ],
     "trampas": [
-      "Iniciar antes del PEP: iniciar compromisos operativos con proveedores antes de contar con el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos."
+      "Iniciar antes del PEP: Iniciar compromisos operativos con proveedores antes de contar con el PEP liberado expone a la empresa a riesgos fiscales y bloqueos administrativos."
     ]
   },
   {
-    "id": "5-1",
-    "code": "5.1",
-    "titulo": "Autorización",
+    "id": "6",
+    "code": "6",
+    "titulo": "Arranque oficial de proyecto",
     "etapa": "autorizacion",
-    "objetivo": "Por definir.",
-    "kr": "Por definir.",
-    "reglaDeOro": "Por definir.",
-    "cuando": "Por definir.",
-    "jugadores": [],
-    "escenarios": [
-      {
-        "titulo": null,
-        "pasos": [
-          {
-            "titulo": "Por definir",
-            "detalle": [
-              "Contenido pendiente."
-            ]
-          }
-        ]
-      }
-    ],
-    "politicas": [],
-    "templates": [],
-    "proTips": [],
-    "trampas": []
-  },
-  {
-    "id": "5-2",
-    "code": "5.2",
-    "titulo": "Ejecutar en un momento posterior (Acuerdo Hold)",
-    "etapa": "autorizacion",
-    "objetivo": "Asegurar la correcta gestión y custodia de los recursos y prioridades del portafolio.",
-    "kr": "Suspender de manera controlada el 100% de las iniciativas viables no prioritarias, garantizando su trazabilidad para una reactivación oportuna.",
-    "reglaDeOro": "Ninguna iniciativa que sea pospuesta o pausada debe quedar en el limbo; debe contar con una justificación formalizada, criterios explícitos de reactivación y el resguardo de sus entregables para evitar reprocesos futuros.",
-    "cuando": "Se ejecuta en la Fase 0 (Formalización y Autorización) cuando una iniciativa resulta técnica y funcionalmente viable, pero por restricciones presupuestales, cambio en prioridades estratégicas, falta de capacidad operativa o dependencias con otros proyectos debe posponerse su arranque.",
+    "objetivo": "Estructurar y alinear todos los elementos técnicos, financieros y operativos necesarios para habilitar la ejecución formal del proyecto.",
+    "kr": "Asegurar que el 100% de las iniciativas en estatus de “aprobada” tengan un PEP asignado y un inicio oficial (Kickoff).",
+    "reglaDeOro": "Sin Project Charter firmado por el Sponsor, no existe proyecto; queda estrictamente prohibido comprometer gastos, emitir órdenes de compra o arrancar sprints de desarrollo formal.",
+    "cuando": "Se ejecuta una vez que se cuenta con el Project Charter firmado, al concluir la Jugada 5.",
     "criteriosSalida": [
       {
-        "titulo": "Acuerdo Hold emitido",
-        "detalle": "Con justificación formal de postergación."
+        "titulo": "Habilitación financiera",
+        "detalle": "Elemento PEP activo para registrar costos y compras."
       },
       {
-        "titulo": "Criterios de reactivación",
-        "detalle": "Explícitos y acordados."
+        "titulo": "Alineamiento integral",
+        "detalle": "Todo el equipo multidisciplinario comprende el alcance, los hitos clave y su rol específico."
       },
       {
-        "titulo": "Expediente resguardado",
-        "detalle": "Entregables de Fase 0 guardados."
+        "titulo": "Cadencia y canales claros",
+        "detalle": "Calendario de ceremonias definido, canales de comunicación establecidos y tablero de gestión operativo."
       },
       {
-        "titulo": "Registrado en portafolio",
-        "detalle": "Trazable para reactivación oportuna."
+        "titulo": "Prevención de riesgos",
+        "detalle": "Identificación temprana de posibles riesgos que afecten a los objetivos y creación de valor del proyecto."
       }
     ],
     "jugadores": [
       {
-        "sigla": "PfM",
-        "rol": "Portafolio Manager",
-        "responsabilidad": "Gestiona el catálogo de iniciativas en reserva (backlog estratégico) y propone la fecha de reevaluación."
+        "sigla": "SP",
+        "rol": "Sponsor",
+        "responsabilidad": "Respaldar institucionalmente el arranque, asistir al Kick Off y ratificar la prioridad del proyecto ante la organización."
       },
       {
-        "sigla": "PgM",
-        "rol": "Program Manager",
-        "responsabilidad": "Resguarda formalmente el expediente técnico y financiero desarrollado en Fase 0 para evitar su pérdida."
+        "sigla": "DP",
+        "rol": "Director de proyecto",
+        "responsabilidad": "Respaldar institucionalmente el arranque, asistir al Kick Off y ratificar la prioridad del proyecto ante la organización."
+      },
+      {
+        "sigla": "PM",
+        "rol": "Project manager",
+        "responsabilidad": "Solicitud de PEP, diseñar presentación, coordinar los trámites de arranque, articular al equipo y facilitar la sesión de Kick Off."
+      },
+      {
+        "sigla": "PfM",
+        "rol": "Portfolio Manager",
+        "responsabilidad": "Asignar project manager al proyecto."
       },
       {
         "sigla": "LF",
-        "rol": "Líder Funcional / Sponsor",
-        "responsabilidad": "Acepta la postergación temporal y define las condiciones operativas mínimas que detonarán su reactivación."
+        "rol": "Líder Funcional",
+        "responsabilidad": "Participa junto con el PM en la confirmación de la asignación de los integrantes del equipo de proyecto."
+      },
+      {
+        "sigla": "LT",
+        "rol": "Líder Técnico",
+        "responsabilidad": "Participa junto con el PM en la confirmación de la asignación de los integrantes del equipo de proyecto."
       },
       {
         "sigla": "FI",
-        "rol": "Finanzas SE TI",
-        "responsabilidad": "Libera el compromiso preventivo de presupuesto para que pueda reasignarse a iniciativas activas."
+        "rol": "Finanzas / Finanzas SE TI",
+        "responsabilidad": "Gestionar el alta, habilitación y liberación del elemento PEP en el sistema corporativo (SAP)."
       },
       {
         "sigla": "SE",
-        "rol": "Servicios Estratégicos (SE)",
-        "responsabilidad": "Notifica a los proveedores involucrados en cotizaciones sobre la suspensión temporal, sin incurrir en penalizaciones."
+        "rol": "Servicios estratégicos",
+        "responsabilidad": "Gestionar contratos, altas y emisión de órdenes de compra con proveedores vinculados al PEP activado."
+      },
+      {
+        "sigla": "EqC",
+        "rol": "Equipo Core",
+        "responsabilidad": "Conocer el alcance, adoptar los acuerdos de trabajo y clarificar dependencias durante el Kick Off."
+      },
+      {
+        "sigla": "BP/BA",
+        "rol": "Business Partner / Business Analyst",
+        "responsabilidad": "Comparte la necesidad del negocio en un contexto estructurado con el equipo de proyecto."
       }
     ],
     "escenarios": [
@@ -1178,130 +1174,142 @@
         "titulo": null,
         "pasos": [
           {
-            "titulo": "Identificación y solicitud de postergación (Input)",
+            "titulo": "Asignación del Project Manager",
             "detalle": [
-              "Responsable: Portafolio Manager.",
-              "Detecta en el balance del portafolio la restricción (capacidad, presupuesto o prelación) y notifica dentro de la página de Fase 0 al Líder Funcional la necesidad de pausar la iniciativa, o de modificar o agregar algún campo pendiente o idea no clara."
+              "PfM asigna un Project Manager al proyecto, notifica al Director de proyecto, Líder Funcional, Líder Técnico y BP/BA."
             ],
             "raci": {
               "R": [
-                "PgM"
+                "PM"
               ],
               "A": [
-                "CD"
+                "PfM"
               ],
-              "C": [
-                "BP",
-                "SE"
-              ],
+              "C": [],
               "I": [
-                "LF"
+                "SP",
+                "DP",
+                "LF",
+                "LT",
+                "BP/BA"
               ]
             }
           },
           {
-            "titulo": "Formalización de criterios de reactivación",
+            "titulo": "Habilitación y Activación del Elemento PEP",
             "detalle": [
-              "Responsable: Líder Funcional en acuerdo con el Portafolio Manager.",
-              "Documentan las condiciones exactas bajo las cuales el proyecto volverá a evaluación (p. ej. inicio del siguiente año fiscal, liberación de capacidad del equipo) dentro del campo \"Rechazadas\" en el apartado \"Mi portafolio\" de la página de Fase 0."
+              "PM solicita al equipo de Finanzas la asignación de un PEP, con base en el Project Charter firmado y el desglose de presupuesto autorizado (Capex/Opex).",
+              "Finanzas gestiona el alta y liberación del elemento PEP en el sistema corporativo (SAP), vinculándolo al centro de costos y bolsa de inversión aprobada.",
+              "Se notifica formalmente al PM, Director de proyecto, Líder Funcional y Servicios Estratégicos (SE) la disponibilidad del código PEP para imputación de gasto."
             ],
             "raci": {
               "R": [
-                "LF"
-              ],
-              "A": [
-                "DP"
-              ],
-              "C": [
-                "BP"
-              ],
-              "I": [
-                "PgM"
-              ]
-            }
-          },
-          {
-            "titulo": "Cierre temporal con proveedores y terceros",
-            "detalle": [
-              "Responsable: Servicios Estratégicos (SE / VMO).",
-              "Gestiona con los proveedores participantes el cierre de la vigencia de cotizaciones de manera ordenada, evitando compromisos comerciales vigentes."
-            ],
-            "raci": {
-              "R": [
-                "SE"
-              ],
-              "A": [
-                "LF"
-              ],
-              "C": [
-                "PgM"
-              ],
-              "I": [
-                "P"
-              ]
-            }
-          },
-          {
-            "titulo": "Resguardo del expediente de Fase 0",
-            "detalle": [
-              "Responsable: Program Manager.",
-              "Archiva la idea que abarca el Caso de Negocio, la Arquitectura To-Be y el Charter no firmado (estatus \"Hold\") dentro de la página de Fase 0."
-            ],
-            "raci": {
-              "R": [
-                "PgM"
-              ],
-              "A": [
-                "DP"
-              ],
-              "C": [
-                "LF"
-              ],
-              "I": [
-                "BP"
-              ]
-            }
-          },
-          {
-            "titulo": "Emisión del Acuerdo Hold y registro en portafolio (Outcome)",
-            "detalle": [
-              "Responsable: Portafolio Manager.",
-              "Genera la minuta ejecutiva del Acuerdo Hold, actualiza el estatus de la iniciativa en el tablero del portafolio y libera la reserva presupuestal en Finanzas."
-            ],
-            "raci": {
-              "R": [
-                "PgM"
-              ],
-              "A": [
-                "LF"
-              ],
-              "C": [
                 "FI"
               ],
+              "A": [
+                "PM"
+              ],
+              "C": [
+                "PfM"
+              ],
               "I": [
+                "SE",
+                "SP",
                 "DP",
-                "SP"
+                "LF",
+                "LT",
+                "BP/BA"
+              ]
+            }
+          },
+          {
+            "titulo": "Estructuración y Habilitación del Equipo de Trabajo",
+            "detalle": [
+              "El PM y el Líder funcional y/o director de proyecto confirman la asignación de los integrantes del equipo (equipo de proyecto). Matriz preliminar de interesados (Stakeholders) y equipo asignado",
+              "Servicios Estratégicos, Líder Funcional, Líder Técnico y PM inician la formalización de órdenes de compra para proveedores externos.",
+              "El PM define el Plan de comunicación en conjunto con el equipo de proyecto asignado (LF, LT, Dir Proyecto, SP)."
+            ],
+            "raci": {
+              "R": [
+                "PM"
+              ],
+              "A": [
+                "PM"
+              ],
+              "C": [
+                "SE",
+                "LF",
+                "LT",
+                "BP/BA"
+              ],
+              "I": [
+                "SP",
+                "DP"
+              ]
+            }
+          },
+          {
+            "titulo": "Elaboración y Alineación del Kick Off",
+            "detalle": [
+              "El PM estructura la presentación oficial de Kick Off incorporando: Proyecto (Objetivo, Contexto y Justificación, Alcance), OKRs y KPIs, Road Map, Estructura de gobernanza, Plan de comunicación, Recursos, Riesgos y Mitigación (Captura en monday) y Próximos Pasos.",
+              "Pre-alineación entre PM, Director de proyecto, LF, LT y BP/BA para validar mensajes clave y expectativas antes de la sesión abierta."
+            ],
+            "raci": {
+              "R": [
+                "PM"
+              ],
+              "A": [
+                "DP"
+              ],
+              "C": [
+                "SE",
+                "LF",
+                "LT",
+                "BP/BA"
+              ],
+              "I": [
+                "PfM"
+              ]
+            }
+          },
+          {
+            "titulo": "Ejecución del Kick Off",
+            "detalle": [
+              "Convocatoria a todo el equipo extendido (negocio, tecnología, operaciones, soporte, auditoría y proveedores).",
+              "PM emite y distribuye la minuta del Kick Off a los participantes de la sesión."
+            ],
+            "raci": {
+              "R": [
+                "PM"
+              ],
+              "A": [
+                "DP"
+              ],
+              "C": [],
+              "I": [
+                "SP",
+                "PfM"
               ]
             }
           }
         ],
         "entregables": {
-          "aceleradores": "Sesión de revisión trimestral de portafolio; proceso de gestión de backlog de PMO.",
-          "inputs": "Expediente de Fase 0 incompleto o pospuesto (apartado de Rechazados); dictamen de restricciones de portafolio.",
-          "outcomes": "Minuta de Acuerdo Hold (con fecha de revisión y gatillos de reactivación); tablero de portafolio actualizado."
+          "aceleradores": "Template Kick Off y Sponsor/ Director de proyecto con mensaje para ratificar la prioridad del proyecto con el equipo.",
+          "inputs": "Project Charter firmado.",
+          "outcomes": "Por definir."
         }
       }
     ],
-    "politicas": [
-      "Política de Gestión de Portafolio TI y Asignación de Capacidad",
-      "Procedimientos de Gobernanza PMO (CONOCE Liverpool)"
+    "politicas": [],
+    "templates": [
+      "Matriz preliminar de interesados (Stakeholders) y equipo asignado.",
+      "Presentación Kick Off"
     ],
-    "templates": [],
     "proTips": [
-      "Vigencia de cotizaciones: al poner una iniciativa en \"Hold\", registra claramente la vigencia de las cotizaciones técnicas. Si la pausa supera 6 meses, las cotizaciones y la arquitectura requerirán una actualización rápida antes de arrancar. Al rechazar una iniciativa, quedará registrada y guardada para evitar posibles duplicidades por parte de otros Líderes Funcionales."
+      "Participación activa: Asegura que el Sponsor o Director del proyecto tengan participación en el Kick Off para reiterar la trascendencia del proyecto; esto incrementa el compromiso del equipo."
     ],
     "trampas": [
-      "Iniciativas huérfanas: nunca dejes una iniciativa en pausa sin fecha de revisión o sin gatillo claro de reactivación; de lo contrario, consume tiempo de gestión recurrente en cada ciclo de planeación."
+      "Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto. Esto permite que la información se pueda permear hacia el resto."
     ]
   }
 ]
