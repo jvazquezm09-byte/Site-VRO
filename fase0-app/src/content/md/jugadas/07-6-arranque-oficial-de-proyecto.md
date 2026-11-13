@@ -2,7 +2,7 @@
 id: 6
 code: 6
 titulo: Arranque oficial de proyecto
-etapa: Inicio
+etapa: autorizacion
 objetivo: Estructurar y alinear todos los elementos técnicos, financieros y operativos necesarios para habilitar la ejecución formal del proyecto.
 kr: Asegurar que el 100% de las iniciativas en estatus de “aprobada” tengan un PEP asignado y un inicio oficial (Kickoff).
 reglaDeOro: Sin Project Charter firmado por el Sponsor, no existe proyecto; queda estrictamente prohibido comprometer gastos, emitir órdenes de compra o arrancar sprints de desarrollo formal.
@@ -20,23 +20,23 @@ cuando: Se ejecuta una vez que se cuenta con el Project Charter firmado, al conc
 
 ## Jugadores
 
-- **Spo** · Sponsor: Respaldar institucionalmente el arranque, asistir al Kick Off y ratificar la prioridad del proyecto ante la organización.
-- **DirP** · Director de proyecto: Respaldar institucionalmente el arranque, asistir al Kick Off y ratificar la prioridad del proyecto ante la organización.
-- **PM** · Project manager: Solicitud de PEP,  diseñar presentación, coordinar los trámites de arranque, articular al equipo y facilitar la sesión de Kick Off.
+- **SP** · Sponsor: Respaldar institucionalmente el arranque, asistir al Kick Off y ratificar la prioridad del proyecto ante la organización.
+- **DP** · Director de proyecto: Respaldar institucionalmente el arranque, asistir al Kick Off y ratificar la prioridad del proyecto ante la organización.
+- **PM** · Project manager: Solicitud de PEP, diseñar presentación, coordinar los trámites de arranque, articular al equipo y facilitar la sesión de Kick Off.
 - **PfM** · Portfolio Manager: Asignar project manager al proyecto.
 - **LF** · Líder Funcional: Participa junto con el PM en la confirmación de la asignación de los integrantes del equipo de proyecto.
 - **LT** · Líder Técnico: Participa junto con el PM en la confirmación de la asignación de los integrantes del equipo de proyecto.
 - **FI** · Finanzas / Finanzas SE TI: Gestionar el alta, habilitación y liberación del elemento PEP en el sistema corporativo (SAP).
-- **SE** · Servicios estratégicos: Gestionar contratos, altas y emisión de órdenes de compra con proveedores vinculados al PEP activado. 
+- **SE** · Servicios estratégicos: Gestionar contratos, altas y emisión de órdenes de compra con proveedores vinculados al PEP activado.
 - **EqC** · Equipo Core: Conocer el alcance, adoptar los acuerdos de trabajo y clarificar dependencias durante el Kick Off.
 - **BP/BA** · Business Partner / Business Analyst: Comparte la necesidad del negocio en un contexto estructurado con el equipo de proyecto.
 
 ## RACI
 
 - R: PM, FI
-- A: PfM, PM, DirP 
+- A: PfM, PM, DP
 - C: PfM, SE, LF, LT, BP/BA
-- I: Spo, DirP, LF, LT, BP/BA, SE
+- I: SP, DP, LF, LT, BP/BA, SE
 
 ## Escenarios
 
@@ -46,51 +46,43 @@ cuando: Se ejecuta una vez que se cuenta con el Project Charter firmado, al conc
 
 - **Aceleradores:** Template Kick Off y Sponsor/ Director de proyecto con mensaje para ratificar la prioridad del proyecto con el equipo.
 - **Inputs:** Project Charter firmado.
-- **Outcomes:**
+- **Outcomes:** Por definir.
 
 #### Asignación del Project Manager
 
-- PfM asigna un Project Manager al proyecto, notifica al Director de proyecto, Lider Funcional, Líder Técnico y BP/BA.
+- PfM asigna un Project Manager al proyecto, notifica al Director de proyecto, Líder Funcional, Líder Técnico y BP/BA.
 
-**RACI:** R: PM · A: PfM · C:  · I: Spo, DirP, LF, LT, BP/BA 
+**RACI:** R: PM · A: PfM · C:  · I: SP, DP, LF, LT, BP/BA
 
 #### Habilitación y Activación del Elemento PEP
 
-- PM solicita al equipo de Finanzas la asignación de un PEP,  con base en el Project Charter firmado y el desglose de presupuesto autorizado (Capex/Opex).
+- PM solicita al equipo de Finanzas la asignación de un PEP, con base en el Project Charter firmado y el desglose de presupuesto autorizado (Capex/Opex).
 - Finanzas gestiona el alta y liberación del elemento PEP en el sistema corporativo (SAP), vinculándolo al centro de costos y bolsa de inversión aprobada.
 - Se notifica formalmente al PM, Director de proyecto, Líder Funcional y Servicios Estratégicos (SE) la disponibilidad del código PEP para imputación de gasto.
 
-**RACI:** R: FI · A: PM · C: PfM · I: SE, Spo, DirP, LF, LT, BP/BA
+**RACI:** R: FI · A: PM · C: PfM · I: SE, SP, DP, LF, LT, BP/BA
 
 #### Estructuración y Habilitación del Equipo de Trabajo
 
 - El PM y el Líder funcional y/o director de proyecto confirman la asignación de los integrantes del equipo (equipo de proyecto). Matriz preliminar de interesados (Stakeholders) y equipo asignado
 - Servicios Estratégicos, Líder Funcional, Líder Técnico y PM inician la formalización de órdenes de compra para proveedores externos.
-- El PM define el Plan de comunicación en conjunto con el equipo de proyecto asignado (LF, LT, Dir Proyecto, Spo).
+- El PM define el Plan de comunicación en conjunto con el equipo de proyecto asignado (LF, LT, Dir Proyecto, SP).
 
-**RACI:** R: PM · A: PM · C: SE, LF, LT, BP/BA · I: Spo, DirP
+**RACI:** R: PM · A: PM · C: SE, LF, LT, BP/BA · I: SP, DP
 
 #### Elaboración y Alineación del Kick Off
 
-- El PM estructura la presentación oficial de Kick Off incorporando:
-  - Proyecto (Objetivo, Contexto y Justificación, Alcance)
-  - OKRs y KPIs
-  - Road Map
-  - Estructura de gobernanza
-  - Plan de comunicación
-  - Recursos
-  - Riesgos y Mitigación (Captura en monday)
-  - Próximos Pasos
+- El PM estructura la presentación oficial de Kick Off incorporando: Proyecto (Objetivo, Contexto y Justificación, Alcance), OKRs y KPIs, Road Map, Estructura de gobernanza, Plan de comunicación, Recursos, Riesgos y Mitigación (Captura en monday) y Próximos Pasos.
 - Pre-alineación entre PM, Director de proyecto, LF, LT y BP/BA para validar mensajes clave y expectativas antes de la sesión abierta.
 
-**RACI:** R: PM · A: DirP · C: SE, LF, LT, BP/BA · I: PfM
+**RACI:** R: PM · A: DP · C: SE, LF, LT, BP/BA · I: PfM
 
 #### Ejecución del Kick Off
 
 - Convocatoria a todo el equipo extendido (negocio, tecnología, operaciones, soporte, auditoría y proveedores).
 - PM emite y distribuye la minuta del Kick Off a los participantes de la sesión.
 
-**RACI:** R: PM · A: DirP · C:  · I: Spo, PfM
+**RACI:** R: PM · A: DP · C:  · I: SP, PfM
 
 ## Políticas
 
@@ -101,8 +93,8 @@ cuando: Se ejecuta una vez que se cuenta con el Project Charter firmado, al conc
 
 ## Pro-tips
 
-- Particiáción activa: Asegura que el Sponsor o Director del proyecto tengan participación en el Kick Off para reiterar la trascendencia del proyecto; esto incrementa el compromiso del equipo.
+- Participación activa: Asegura que el Sponsor o Director del proyecto tengan participación en el Kick Off para reiterar la trascendencia del proyecto; esto incrementa el compromiso del equipo.
 
 ## Trampas
 
-- Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto esto permite que la información se pueda permear hacia el resto.
+- Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto. Esto permite que la información se pueda permear hacia el resto.
