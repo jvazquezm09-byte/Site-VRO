@@ -113,13 +113,11 @@ Aplica a conceptos comerciales, remodelaciones, experiencia de cliente (CX) o ap
 
 ## Políticas
 
-- Política de Gobernanza de Arquitectura TI y Estándares de Tecnología
-- Procedimiento de Evaluación y Diseño de Soluciones (EDS)
-- Catálogo de Procesos Institucionales (CONOCE Liverpool)
+- Pol_Gestión de Portafolio TI_Publicado
+- POL_ Gestión de arquitecturas en portafolio_publicada
 
 ## Templates
 
-- Template de Brief Ejecutivo para Despachos / Terceros
 - Diseño (Monday)
 
 ## Pro-tips
