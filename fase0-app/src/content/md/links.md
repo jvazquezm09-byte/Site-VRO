@@ -17,3 +17,4 @@
 - [Procedimiento de Gobernanza del Portafolio de Proyectos](https://drive.google.com/a/liverpool.com.mx/open?id=1pX9gNIffOWfDeZZCGZaAmvnxVn1WK-Vo7pQoQcMZrJ0)
 - [Catálogo de Procesos Institucionales (CONOCE Liverpool)](https://www.appsheet.com/start/4b3d3832-db6f-4cc2-a44d-29bf17fa5dd9#appName=CONOCE-1308210&group=%5B%5D&page=detail&row=7d8e998e&sort=%5B%7B%22Column%22%3A%22Related+tbl_favoritos%22%2C%22Order%22%3A%22Descending%22%7D%5D&table=Pol%C3%ADticas&view=Pol%C3%ADticas_Detail)
 - [Matriz preliminar de interesados (Stakeholders)](https://docs.google.com/spreadsheets/d/145gRgK5tfy_TUh37R64crigaNqYVLCdF/edit?usp=drive_link&ouid=118035028968748665897&rtpof=true&sd=true)
+- [Kick Off](https://docs.google.com/presentation/d/1SmWTNBBAzuIj29CAwwuwuh92SKH0fl_w/edit?usp=sharing&ouid=100928488630276514632&rtpof=true&sd=true)
