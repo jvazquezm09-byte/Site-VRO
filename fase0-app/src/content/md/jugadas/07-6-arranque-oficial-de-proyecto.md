@@ -86,9 +86,11 @@ cuando: Se ejecuta una vez que se cuenta con el Project Charter firmado, al conc
 
 ## Políticas
 
+- Catálogo de Procesos Institucionales (CONOCE Liverpool)
+
 ## Templates
 
-- Matriz preliminar de interesados (Stakeholders) y equipo asignado.
+- Matriz preliminar de interesados (Stakeholders) y equipo asignado
 - Presentación Kick Off
 
 ## Pro-tips

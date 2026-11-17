@@ -911,12 +911,10 @@
       }
     ],
     "politicas": [
-      "Política de Gobernanza de Arquitectura TI y Estándares de Tecnología",
-      "Procedimiento de Evaluación y Diseño de Soluciones (EDS)",
-      "Catálogo de Procesos Institucionales (CONOCE Liverpool)"
+      "Pol_Gestión de Portafolio TI_Publicado",
+      "POL_ Gestión de arquitecturas en portafolio_publicada"
     ],
     "templates": [
-      "Template de Brief Ejecutivo para Despachos / Terceros",
       "Diseño (Monday)"
     ],
     "proTips": [
@@ -1300,9 +1298,11 @@
         }
       }
     ],
-    "politicas": [],
+    "politicas": [
+      "Catálogo de Procesos Institucionales (CONOCE Liverpool)"
+    ],
     "templates": [
-      "Matriz preliminar de interesados (Stakeholders) y equipo asignado.",
+      "Matriz preliminar de interesados (Stakeholders) y equipo asignado",
       "Presentación Kick Off"
     ],
     "proTips": [
