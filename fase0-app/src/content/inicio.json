@@ -26,6 +26,11 @@
         "label": "5. Autorización",
         "icon": "approval",
         "etapa": "autorizacion"
+      },
+      {
+        "label": "6. Arranque oficial",
+        "icon": "rocket_launch",
+        "etapa": "autorizacion"
       }
     ]
   },
