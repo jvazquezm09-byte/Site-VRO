@@ -20,3 +20,4 @@
 - [Presentación Kick Off](https://docs.google.com/presentation/d/1SmWTNBBAzuIj29CAwwuwuh92SKH0fl_w/edit?usp=sharing&ouid=100928488630276514632&rtpof=true&sd=true)
 - [Pol_Gestión de Portafolio TI_Publicado](https://drive.google.com/file/d/1LztqbNH4BCd0FreNL4m2UjnKei5OsVwu/view?usp=drive_link)
 - [POL_ Gestión de arquitecturas en portafolio_publicada](https://drive.google.com/file/d/1Jhq4NPzH94yFREhMOM5FX9emmd1f4h9v/view?usp=sharing)
+- [Ejemplo de un proyecto priorizado](https://drive.google.com/file/d/1uruvqHVSwX6bgxz99U9JTQf62TpZKQtk/view?usp=drive_link)
