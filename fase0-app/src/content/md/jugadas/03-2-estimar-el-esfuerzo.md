@@ -40,7 +40,7 @@ Se ejecuta cuando una iniciativa se estimará con base en la calculadora definid
 
 #### Entregables
 
-- **Aceleradores:** PfM: lecciones aprendidas como input para el T-shirt sizing y la aprobación de la estimación.
+- **Aceleradores:** PfM: Lecciones aprendidas como input para el T-shirt sizing y la aprobación de la estimación.
 - **Inputs:** Ficha Canvas; idea priorizada en Monday.
 - **Outcomes:** Estimación preliminar (aprobada o no aprobada).
 
