@@ -97,4 +97,4 @@ cuando: Se ejecuta una vez que se cuenta con el Project Charter firmado, al conc
 
 ## Trampas
 
-- Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto. Esto permite que la información se pueda permear hacia el resto.
+- Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto esto permite que la información se pueda permear hacia el resto.
