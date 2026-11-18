@@ -14,7 +14,7 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto / Estimación preliminar). Se aplic
 ## Criterios de salida
 
 - **Rango de Inversión y Esfuerzo Autorizado (Go / No-Go de Alto Nivel):** Estimación de costo, tiempo y recursos basada en rangos paramétricos (T-shirt sizing: S, M, L, XL).
-- **Visibilidad de impacto tecnológico:** Confirmación inicial de qué sistemas core de Liverpool se verán afectados por la iniciativa en caso de autorizarse.
+- **Visibilidad de impacto tecnológico (sistemas):** Confirmación inicial de qué sistemas core de Liverpool se verán afectados por la iniciativa en caso de autorizarse.
 - **Conocimiento de la PMO capitalizado:** Estimación preliminar retada por el Portfolio Manager con el historial de riesgos de proyectos pasados (evitando el sesgo de optimismo).
 
 ## Jugadores
