@@ -6,7 +6,7 @@
 - [Gestión de la iniciativa (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
 - [Pirámide de proyectos](https://docs.google.com/presentation/d/10Jn11gydm4Tki0NtK7CtdMdnfLBD7JvoJC2c14kP_yY/edit?usp=sharing)
 - [Ideas priorizadas en Monday](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
-- [Hoja de costos](https://docs.google.com/spreadsheets/d/1iBm7kEMjA209gs8DbjastWBDGsCli012/edit?gid=156261369#gid=156261369)
+- [Hoja de costos](https://drive.google.com/file/d/1f1ruzVJPT2ZBtK5-5A9xngXZJIOa6WRm/view?usp=sharing)
 - [Estimación preliminar](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
 - [EPL-FIN-P&C-Capacidades-V001](https://docs.google.com/presentation/d/1N--RTnTJrrjcIqUIPeNUDOVGXlc5E3_wThCv4zQWnSk/edit?usp=sharing)
 - [Capacidades de negocio (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
