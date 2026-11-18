@@ -113,6 +113,8 @@ Se establece el esfuerzo, duración y presupuesto base para la ejecución de la 
 
 ## Políticas
 
+- Pol_Gestión de Portafolio TI_Publicado
+
 ## Templates
 
 - Hoja de costos
