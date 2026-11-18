@@ -49,7 +49,7 @@ Aplica a iniciativas con impacto en software, integraciones, nube, microservicio
 
 #### Consolidación de capacidades (Input)
 
-- Las capacidades y BRDs se convierten en los insumos necesarios para realizar el diseño del área de Arquitectura. El arquitecto debe establecer en Monday la fecha compromiso y los porcentajes de avance conforme avance su proceso.
+- Las capacidades y BRDs se convierten en los insumos necesarios para realizar el diseño del área de arquitectura, dentro de sus actividades para este rubro el arquitecto tiene el deber de establecer en Monday  la fecha compromiso y los porcentajes de avance conforme su proceso avance.
 
 **RACI:** R: BP/BA · A: AR · C: LT, LF · I: PfM
 
@@ -67,13 +67,13 @@ Aplica a iniciativas con impacto en software, integraciones, nube, microservicio
 
 #### Validación con Arquitectura de Procesos
 
-- El equipo de Arquitectura asocia en su registro de Monday los posibles impactos visualizados a un responsable técnico, quien identifica si el impacto es real y provee una estimación a alto nivel en tiempo y costos.
+- El equipo de arquitectura asocia en su registro de Monday posibles impactos visualizados a un responsable técnico que pueda identificar si el impacto es real y con ello el responsable técnico provee una estimación a alto nivel en tiempo y costos.
 
 **RACI:** R: AR · A: AR, LT · C: SE · I: PfM
 
 #### Emisión de la Arquitectura To-Be (Outcome)
 
-- Como resultado de su diseño, el arquitecto genera el mapeo técnico en Mega Hopex y el documento de impactos en PDF; ambos archivos se cargan directamente en Monday.
+- Como resultado de su diseño el arquitecto genera el mapeo técnico en Mega Hopex y el documento de impactos en PDF ambos archivos se cargan directamente en Monday.
 
 **RACI:** R: AR · A: AR · C: LT · I: PfM
 
