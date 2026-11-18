@@ -14,7 +14,7 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto / Diseño). Se detona una vez que s
 ## Criterios de salida
 
 - **Viabilidad y sustento técnico / operativo:** Pasar de una necesidad de negocio abstracta o un Canvas general a un modelo estructurado (ya sea una Arquitectura To-Be para temas de TI o un Brief Ejecutivo para proyectos comerciales/inmobiliarios).
-- **El "cómo" definido:** Componentes tecnológicos, de infraestructura, de procesos o de experiencia de usuario (Customer Journey) necesarios para hacer realidad la iniciativa, sin entrar al detalle.
+- **Definir el "cómo" se va a resolver:** Componentes tecnológicos, de infraestructura, de procesos o de experiencia de usuario (Customer Journey) necesarios para hacer realidad la iniciativa, sin entrar al detalle.
 - **Base para estimación y contratación:** Insumos y alcances claros para cotizar y dimensionar con precisión esfuerzo, costos y tiempos antes de buscar la autorización formal.
 
 ## Jugadores
