@@ -83,7 +83,7 @@ Se establece el esfuerzo, duración y presupuesto base para la ejecución de la 
 
 #### Entregables
 
-- **Aceleradores:** PfM: lecciones aprendidas como input para la aprobación de la estimación.
+- **Aceleradores:** PfM: Lecciones aprendidas como input para la aprobación de la estimación.
 - **Inputs:** Ficha Canvas; idea priorizada en Monday.
 - **Outcomes:** Estimación preliminar (aprobada o no aprobada).
 
