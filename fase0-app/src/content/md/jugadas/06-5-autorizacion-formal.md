@@ -70,7 +70,6 @@ cuando: Se ejecuta al cierre de la Fase 0 (Autorización). Se detona una vez con
 ## Políticas
 
 - Política de Inversiones de Capital y Gestión Presupuestal (Liverpool / CONOCE)
-- Procedimiento de Gobernanza del Portafolio de Proyectos
 
 ## Templates
 
