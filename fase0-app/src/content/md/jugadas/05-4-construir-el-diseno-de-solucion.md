@@ -43,7 +43,7 @@ Aplica a iniciativas con impacto en software, integraciones, nube, microservicio
 
 #### Entregables
 
-- **Aceleradores:** Sesiones de revisión con Arquitectura de Proceso.
+- **Aceleradores:** Sesiones de revisión con Arquitectura.
 - **Inputs:** Capacidades funcionales, Arquitectura As-Is, Expediente EDS.
 - **Outcomes:** Arquitectura To-Be formalizada.
 
