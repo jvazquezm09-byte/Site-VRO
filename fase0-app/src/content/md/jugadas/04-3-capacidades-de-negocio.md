@@ -63,6 +63,7 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y ante
 
 ## Políticas
 
+- POL_ Gestión de arquitecturas en portafolio_publicada
 - EPL-FIN-P&C-Capacidades-V001
 
 ## Templates
