@@ -173,7 +173,7 @@
           {
             "titulo": "Identifica ideas a priorizar",
             "detalle": [
-              "Dentro de Monday, el Portafolio Manager visualiza las ideas pendientes por revisar (\"Backlog a priorizar\") para efectuar la priorización con el negocio."
+              "Dentro de Monday el Portafolio Manager visualiza las ideas pendientes a revisar y efectuar priorización con el negocio. (\"Backlog a priorizar\")"
             ],
             "raci": {
               "R": [
@@ -247,7 +247,8 @@
       "Proceso Fase 0"
     ],
     "templates": [
-      "Ideas priorizadas en Monday"
+      "Ideas priorizadas en Monday",
+      "Ejemplo de un proyecto priorizado"
     ],
     "proTips": [
       "Entendimiento y valor: Nunca llegues a la sesión de priorización con Directores sin haber consultado y tener un contexto claro de la iniciativa; así la sesión pasa de una discusión de opiniones a una decisión estratégica basada en hechos y capacidad real.",
@@ -268,11 +269,11 @@
     "cuando": "Se ejecuta en la Fase 0 (Preproyecto / Estimación preliminar). Se aplica para definir de manera preliminar (previo a las capacidades y diseño) los recursos necesarios para desarrollar la iniciativa (tiempo, costo, recursos y sistemas) a través de una estimación \"automática\" o una estimación manual.",
     "criteriosSalida": [
       {
-        "titulo": "Rango de inversión y esfuerzo (Go / No-Go)",
+        "titulo": "Rango de Inversión y Esfuerzo Autorizado (Go / No-Go de Alto Nivel)",
         "detalle": "Estimación de costo, tiempo y recursos basada en rangos paramétricos (T-shirt sizing: S, M, L, XL)."
       },
       {
-        "titulo": "Visibilidad de impacto tecnológico",
+        "titulo": "Visibilidad de impacto tecnológico (sistemas)",
         "detalle": "Confirmación inicial de qué sistemas core de Liverpool se verán afectados por la iniciativa en caso de autorizarse."
       },
       {
@@ -386,8 +387,9 @@
             "titulo": "Aceptación de la estimación (Outcome)",
             "detalle": [
               "Con apoyo del Portafolio Manager, el BP/BA y el equipo de Arquitectura deciden si la estimación generada es correcta.",
-              "Si se acepta la estimación preliminar, la iniciativa avanza automáticamente a la Jugada 5. Autorización.",
-              "Si no se acepta, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue la Jugada 3. Capacidades de negocio."
+              "Se le enviará la estimación al Coordinador de Servicios Estratégico, para la evaluación y calidad de la información.",
+              "En caso de seleccionar que aceptan la estimación preliminar manual, la iniciativa avanza automáticamente a la Jugada 5 y se notifica al coordinador de Servicios Estratégicos.",
+              "En caso de seleccionar que no se acepta la estimación, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue Jugada 3.1 Capacidades de negocio"
             ],
             "raci": {
               "R": [
@@ -405,7 +407,7 @@
           }
         ],
         "entregables": {
-          "aceleradores": "PfM: lecciones aprendidas como input para el T-shirt sizing y la aprobación de la estimación.",
+          "aceleradores": "PfM: Lecciones aprendidas como input para el T-shirt sizing y la aprobación de la estimación.",
           "inputs": "Ficha Canvas; idea priorizada en Monday.",
           "outcomes": "Estimación preliminar (aprobada o no aprobada)."
         },
@@ -465,8 +467,9 @@
             "titulo": "Aceptación de la estimación (Outcome)",
             "detalle": [
               "Con apoyo del Portafolio Manager, el BP/BA y el equipo de Arquitectura deciden si la estimación generada es correcta.",
-              "Si se acepta la estimación preliminar manual, la iniciativa avanza automáticamente a la Jugada 5. Autorización.",
-              "Si no se acepta, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue la Jugada 3. Capacidades de negocio."
+              "Se le enviará la estimación al Coordinador de Servicios Estratégico, para la evaluación y calidad de la información.",
+              "En caso de seleccionar que aceptan la estimación preliminar manual, la iniciativa avanza automáticamente a la Jugada 5 y se notifica al coordinador de Servicios Estratégicos.",
+              "En caso de seleccionar que no se acepta la estimación, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue Jugada 3.1 Capacidades de negocio."
             ],
             "raci": {
               "R": [
@@ -484,14 +487,16 @@
           }
         ],
         "entregables": {
-          "aceleradores": "PfM: lecciones aprendidas como input para la aprobación de la estimación.",
+          "aceleradores": "PfM: Lecciones aprendidas como input para la aprobación de la estimación.",
           "inputs": "Ficha Canvas; idea priorizada en Monday.",
           "outcomes": "Estimación preliminar (aprobada o no aprobada)."
         },
         "descripcion": "Se establece el esfuerzo, duración y presupuesto base para la ejecución de la iniciativa, asegurando que el dimensionamiento técnico y financiero cuente con respaldo formal antes de la autorización del proyecto."
       }
     ],
-    "politicas": [],
+    "politicas": [
+      "Pol_Gestión de Portafolio TI_Publicado"
+    ],
     "templates": [
       "Hoja de costos",
       "Estimación preliminar"
@@ -577,7 +582,8 @@
           {
             "titulo": "Capturar capacidades (Outcome)",
             "detalle": [
-              "BP/BA captura en el sistema las capacidades definidas por el LF."
+              "BP/BA captura en sistema monday las capacidades definidas por el Líder Funcional.",
+              "Ingeniero de proceso captura en sistema Mega Hopex  las capacidades definidas por el Líder Funcional."
             ],
             "raci": {
               "R": [
@@ -619,18 +625,18 @@
         ],
         "entregables": {
           "aceleradores": "Talleres de co-creación de capacidades con el equipo de Procesos.",
-          "inputs": "Ficha Canvas, priorización de la iniciativa.",
+          "inputs": "Ficha canvas, Priorización de la iniciativa Procesos, Líder funcional y BP/BA*.",
           "outcomes": "Matriz de Capacidades As-Is / To-Be nivel 1."
         }
       }
     ],
     "politicas": [
+      "POL_ Gestión de arquitecturas en portafolio_publicada",
       "EPL-FIN-P&C-Capacidades-V001"
     ],
     "templates": [
       "Capacidades de negocio (Monday)",
-      "Plantilla Matriz de Capacidades.xlsx",
-      "Plantilla Matriz de capacidades (Miro)"
+      "Plantilla Matriz de Capacidades.xlsx"
     ],
     "proTips": [
       "Enfoque en valor: Mapea solo las capacidades esenciales para el Key Result (N1); evita la captura de capacidades a detalle (N2), ya que diluye la discusión técnica y hace que el negocio pierda visibilidad sobre el valor y el retorno real de la propuesta."
@@ -651,15 +657,15 @@
     "criteriosSalida": [
       {
         "titulo": "Viabilidad y sustento técnico / operativo",
-        "detalle": "Pasar de una necesidad de negocio abstracta o un Canvas general a un modelo estructurado: Arquitectura To-Be para temas de TI o Brief Ejecutivo para proyectos comerciales / inmobiliarios."
+        "detalle": "Pasar de una necesidad de negocio abstracta o un Canvas general a un modelo estructurado (ya sea una Arquitectura To-Be para temas de TI o un Brief Ejecutivo para proyectos comerciales/inmobiliarios)."
       },
       {
-        "titulo": "El \"cómo\" definido",
-        "detalle": "Componentes tecnológicos, de infraestructura, de procesos o de experiencia de usuario (Customer Journey) necesarios para hacer realidad la iniciativa, sin entrar al detalle."
+        "titulo": "Definir el \"cómo\" se va a resolver",
+        "detalle": "Establecer los componentes tecnológicos, de infraestructura, de procesos o de experiencia de usuario (Customer Journey) necesarios para hacer realidad la iniciativa sin entrar al detalle."
       },
       {
         "titulo": "Base para estimación y contratación",
-        "detalle": "Insumos y alcances claros para cotizar y dimensionar con precisión esfuerzo, costos y tiempos antes de buscar la autorización formal."
+        "detalle": "Proveer los insumos y alcances claros requeridos para que el proyecto se pueda cotizar y dimensionar con precisión el esfuerzo, costos y tiempos antes de buscar la autorización formal."
       }
     ],
     "jugadores": [
@@ -711,7 +717,7 @@
           {
             "titulo": "Consolidación de capacidades (Input)",
             "detalle": [
-              "Las capacidades y BRDs se convierten en los insumos necesarios para realizar el diseño del área de Arquitectura. El arquitecto debe establecer en Monday la fecha compromiso y los porcentajes de avance conforme avance su proceso."
+              "Las capacidades y BRDs se convierten en los insumos necesarios para realizar el diseño del área de arquitectura, dentro de sus actividades para este rubro el arquitecto tiene el deber de establecer en Monday  la fecha compromiso y los porcentajes de avance conforme su proceso avance."
             ],
             "raci": {
               "R": [
@@ -774,7 +780,7 @@
           {
             "titulo": "Validación con Arquitectura de Procesos",
             "detalle": [
-              "El equipo de Arquitectura asocia en su registro de Monday los posibles impactos visualizados a un responsable técnico, quien identifica si el impacto es real y provee una estimación a alto nivel en tiempo y costos."
+              "El equipo de arquitectura asocia en su registro de Monday posibles impactos visualizados a un responsable técnico que pueda identificar si el impacto es real y con ello el responsable técnico provee una estimación a alto nivel en tiempo y costos."
             ],
             "raci": {
               "R": [
@@ -795,7 +801,7 @@
           {
             "titulo": "Emisión de la Arquitectura To-Be (Outcome)",
             "detalle": [
-              "Como resultado de su diseño, el arquitecto genera el mapeo técnico en Mega Hopex y el documento de impactos en PDF; ambos archivos se cargan directamente en Monday."
+              "Como resultado de su diseño el arquitecto genera el mapeo técnico en Mega Hopex y el documento de impactos en PDF ambos archivos se cargan directamente en Monday."
             ],
             "raci": {
               "R": [
@@ -814,7 +820,7 @@
           }
         ],
         "entregables": {
-          "aceleradores": "Sesiones de revisión con Arquitectura de Proceso.",
+          "aceleradores": "Sesiones de revisión con Arquitectura.",
           "inputs": "Capacidades funcionales, Arquitectura As-Is, Expediente EDS.",
           "outcomes": "Arquitectura To-Be formalizada."
         },
@@ -1077,8 +1083,7 @@
       }
     ],
     "politicas": [
-      "Política de Inversiones de Capital y Gestión Presupuestal (Liverpool / CONOCE)",
-      "Procedimiento de Gobernanza del Portafolio de Proyectos"
+      "Política de Inversiones de Capital y Gestión Presupuestal (Liverpool / CONOCE)"
     ],
     "templates": [],
     "proTips": [
@@ -1298,9 +1303,7 @@
         }
       }
     ],
-    "politicas": [
-      "Catálogo de Procesos Institucionales (CONOCE Liverpool)"
-    ],
+    "politicas": [],
     "templates": [
       "Matriz preliminar de interesados (Stakeholders) y equipo asignado",
       "Presentación Kick Off"
@@ -1309,7 +1312,7 @@
       "Participación activa: Asegura que el Sponsor o Director del proyecto tengan participación en el Kick Off para reiterar la trascendencia del proyecto; esto incrementa el compromiso del equipo."
     ],
     "trampas": [
-      "Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto. Esto permite que la información se pueda permear hacia el resto."
+      "Kick Off como monólogo: Garantiza la participación de al menos un miembro de cada equipo que participa en el proyecto esto permite que la información se pueda permear hacia el resto."
     ]
   }
 ]
