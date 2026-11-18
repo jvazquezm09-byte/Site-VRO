@@ -38,7 +38,7 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y ante
 #### Entregables
 
 - **Aceleradores:** Talleres de co-creación de capacidades con el equipo de Procesos.
-- **Inputs:** Ficha Canvas, priorización de la iniciativa.
+- **Inputs:** Ficha canvas, Priorización de la iniciativa Procesos, Líder funcional y BP/BA*.
 - **Outcomes:** Matriz de Capacidades As-Is / To-Be nivel 1.
 
 #### Análisis de brechas (Gap Analysis)
