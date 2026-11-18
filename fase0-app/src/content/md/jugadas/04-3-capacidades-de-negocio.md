@@ -49,7 +49,9 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y ante
 
 #### Capturar capacidades (Outcome)
 
-- BP/BA captura en el sistema las capacidades definidas por el LF.
+- BP/BA captura en sistema monday las capacidades definidas por el Líder Funcional.
+- Ingeniero de proceso captura en sistema Mega Hopex  las capacidades definidas por el Líder Funcional.
+
 
 **RACI:** R: BP/BA · A: BP/BA · C: LF · I: SE
 
