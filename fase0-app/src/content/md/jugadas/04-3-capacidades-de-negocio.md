@@ -70,7 +70,6 @@ cuando: Se ejecuta en la Fase 0 (Preproyecto), una vez priorizada la idea y ante
 
 - Capacidades de negocio (Monday)
 - Plantilla Matriz de Capacidades.xlsx
-- Plantilla Matriz de capacidades (Miro)
 
 ## Pro-tips
 
