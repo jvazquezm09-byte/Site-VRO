@@ -70,8 +70,10 @@ Se ejecuta cuando una iniciativa se estimará con base en la calculadora definid
 #### Aceptación de la estimación (Outcome)
 
 - Con apoyo del Portafolio Manager, el BP/BA y el equipo de Arquitectura deciden si la estimación generada es correcta.
-- Si se acepta la estimación preliminar, la iniciativa avanza automáticamente a la Jugada 5. Autorización.
-- Si no se acepta, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue la Jugada 3. Capacidades de negocio.
+- Se le enviará la estimación al Coordinador de Servicios Estratégico, para la evaluación y calidad de la información.
+- En caso de seleccionar que aceptan la estimación preliminar manual, la iniciativa avanza automáticamente a la Jugada 5 y se notifica al coordinador de Servicios Estratégicos.
+- En caso de seleccionar que no se acepta la estimación, es necesario detallar capacidades y diseño antes de solicitar autorización. Sigue Jugada 3.1 Capacidades de negocio
+
 
 **RACI:** R: BP/BA · A: LF · C: SE, PfM · I: 
 
