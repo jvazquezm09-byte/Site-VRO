@@ -1,7 +1,7 @@
 const links = [
   { label: 'Home', href: '#' },
   { label: 'Playbook', href: '#playbook', active: true },
-  { label: 'Plantillas', href: '#plantillas' },
+  { label: 'Plantillas', href: '#recursos' },
 ];
 
 export default function Navbar() {

@@ -1,16 +1,16 @@
 # Graph Report - Site-VRO  (2026-11-20)
 
 ## Corpus Check
-- 50 files · ~36,699 words
+- 52 files · ~37,519 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 273 nodes · 333 edges · 20 communities (16 shown, 3 thin omitted)
+- 282 nodes · 347 edges · 20 communities (17 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `40a93614`
+- Built from commit: `b78559b9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,10 +33,10 @@
 - 3 Capacidades de negocio
 - Glosario
 - etapas.md
-- links.md
+- Enlaces
 
 ## God Nodes (most connected - your core abstractions)
-1. `react` - 9 edges
+1. `react` - 10 edges
 2. `fail()` - 9 edges
 3. `1.1 Idea Formalizada` - 9 edges
 4. `1.2 Idea Priorizada` - 9 edges
@@ -62,7 +62,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (20 total, 3 thin omitted)
+## Communities (20 total, 2 thin omitted)
 
 ### Community 0 - "package.json"
 Cohesion: 0.09
@@ -85,8 +85,8 @@ Cohesion: 0.50
 Nodes (3): Antes de publicar, Contenido del sitio, Cómo escribir una ficha
 
 ### Community 7 - "App.jsx"
-Cohesion: 0.12
-Nodes (15): App(), BigPicture(), posiciones, Calificacion(), EtapaTabs(), Footer(), Hero(), JugadaChips() (+7 more)
+Cohesion: 0.10
+Nodes (19): App(), BigPicture(), posiciones, Calificacion(), EtapaTabs(), Footer(), Glosario(), normalizar() (+11 more)
 
 ### Community 8 - "4 Construir el Diseño de Solución"
 Cohesion: 0.09
@@ -128,18 +128,22 @@ Nodes (14): 3 Capacidades de negocio, Análisis de brechas (Gap Analysis), Captu
 Cohesion: 0.50
 Nodes (3): Etiquetas RACI, Glosario, Roles
 
+### Community 19 - "Enlaces"
+Cohesion: 0.33
+Nodes (5): Enlaces, Material de apoyo, Plantillas oficiales de autor, Políticas y procesos, Templates operativos
+
 ## Knowledge Gaps
-- **141 isolated node(s):** `name`, `private`, `version`, `type`, `content` (+136 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 159 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **145 isolated node(s):** `name`, `private`, `version`, `type`, `content` (+140 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 163 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `react` connect `App.jsx` to `package.json`, `JugadaCard.jsx`, `StepsExplorer.jsx`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _141 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _145 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `script.js` be split into smaller, more focused modules?**
@@ -147,6 +151,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `check-content.mjs` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `App.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.1164021164021164 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10227272727272728 - nodes in this community are weakly interconnected._
 - **Should `4 Construir el Diseño de Solución` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._

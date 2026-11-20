@@ -1147,7 +1147,7 @@
         "id": 6,
         "code": 6,
         "titulo": "Arranque oficial de proyecto",
-        "etapa": "autorizacion",
+        "etapa": "arranque",
         "objetivo": "Estructurar y alinear todos los elementos t\u00e9cnicos, financieros y operativos necesarios para habilitar la ejecuci\u00f3n formal del proyecto.",
         "kr": "Asegurar que el 100% de las iniciativas en estatus de \u201caprobada\u201d tengan un PEP asignado y un inicio oficial (Kickoff).",
         "reglaDeOro": "Sin Project Charter firmado por el Sponsor, no existe proyecto; queda estrictamente prohibido comprometer gastos, emitir \u00f3rdenes de compra o arrancar sprints de desarrollo formal.",
@@ -1490,7 +1490,7 @@
       "node_kind": "heading",
       "norm_label": "pro-tips",
       "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
-      "source_location": "L77"
+      "source_location": "L76"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_raci",
@@ -1526,7 +1526,7 @@
       "node_kind": "heading",
       "norm_label": "templates",
       "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
-      "source_location": "L75"
+      "source_location": "L74"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_trampas",
@@ -1538,7 +1538,7 @@
       "node_kind": "heading",
       "norm_label": "trampas",
       "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
-      "source_location": "L81"
+      "source_location": "L80"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_06_5_autorizacion_formal_validaci\u00f3n_financiera_y_presupuestal",
@@ -1882,7 +1882,7 @@
       "node_kind": "heading",
       "norm_label": "pro-tips",
       "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
-      "source_location": "L73"
+      "source_location": "L74"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_02_1_2_idea_priorizada_raci",
@@ -1930,7 +1930,7 @@
       "node_kind": "heading",
       "norm_label": "trampas",
       "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
-      "source_location": "L78"
+      "source_location": "L79"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio",
@@ -2036,7 +2036,7 @@
       "node_kind": "heading",
       "norm_label": "insumo para diseno",
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L56"
+      "source_location": "L58"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_jugadores",
@@ -2060,7 +2060,7 @@
       "node_kind": "heading",
       "norm_label": "politicas",
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L62"
+      "source_location": "L64"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_pro_tips",
@@ -2072,7 +2072,7 @@
       "node_kind": "heading",
       "norm_label": "pro-tips",
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L72"
+      "source_location": "L74"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_raci",
@@ -2108,7 +2108,7 @@
       "node_kind": "heading",
       "norm_label": "templates",
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L66"
+      "source_location": "L69"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_04_3_capacidades_de_negocio_trampas",
@@ -2120,7 +2120,7 @@
       "node_kind": "heading",
       "norm_label": "trampas",
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L76"
+      "source_location": "L78"
     },
     {
       "id": "fase0_app_src_content_md_glosario",
@@ -2954,7 +2954,7 @@
       "node_kind": "heading",
       "norm_label": "pro-tips",
       "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
-      "source_location": "L125"
+      "source_location": "L123"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_raci",
@@ -2978,7 +2978,7 @@
       "node_kind": "heading",
       "norm_label": "templates",
       "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
-      "source_location": "L120"
+      "source_location": "L119"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_trampas",
@@ -2990,7 +2990,7 @@
       "node_kind": "heading",
       "norm_label": "trampas",
       "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
-      "source_location": "L129"
+      "source_location": "L127"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_05_4_construir_el_diseno_de_solucion_validaci\u00f3n_con_arquitectura_de_procesos",
@@ -3051,7 +3051,7 @@
       "source_location": "L70"
     },
     {
-      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome_103",
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome_105",
       "label": "Aceptaci\u00f3n de la estimaci\u00f3n (Outcome)",
       "_origin": "ast",
       "community": 9,
@@ -3060,7 +3060,7 @@
       "node_kind": "heading",
       "norm_label": "aceptacion de la estimacion (outcome)",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L103"
+      "source_location": "L105"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_captura_de_datos",
@@ -3096,7 +3096,7 @@
       "node_kind": "heading",
       "norm_label": "definir inversion",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L88"
+      "source_location": "L90"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_definir_tiempo_e_inicio_de_ejecuci\u00f3n",
@@ -3108,7 +3108,7 @@
       "node_kind": "heading",
       "norm_label": "definir tiempo e inicio de ejecucion",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L96"
+      "source_location": "L98"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables",
@@ -3123,7 +3123,7 @@
       "source_location": "L41"
     },
     {
-      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables_82",
+      "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables_84",
       "label": "Entregables",
       "_origin": "ast",
       "community": 9,
@@ -3132,7 +3132,7 @@
       "node_kind": "heading",
       "norm_label": "entregables",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L82"
+      "source_location": "L84"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_a_estimaci\u00f3n_con_calculadora_de_proyecto_t_shirt_sizing",
@@ -3156,7 +3156,7 @@
       "node_kind": "heading",
       "norm_label": "escenario b: estimacion manual",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L78"
+      "source_location": "L80"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenarios",
@@ -3204,7 +3204,7 @@
       "node_kind": "heading",
       "norm_label": "politicas",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L111"
+      "source_location": "L114"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_pro_tips",
@@ -3216,7 +3216,7 @@
       "node_kind": "heading",
       "norm_label": "pro-tips",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L118"
+      "source_location": "L123"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_raci",
@@ -3252,7 +3252,7 @@
       "node_kind": "heading",
       "norm_label": "templates",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L113"
+      "source_location": "L118"
     },
     {
       "id": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_trampas",
@@ -3264,7 +3264,7 @@
       "node_kind": "heading",
       "norm_label": "trampas",
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L124"
+      "source_location": "L129"
     }
   ],
   "links": [
@@ -5716,7 +5716,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
-      "source_location": "L73",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -5727,7 +5727,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md",
-      "source_location": "L78",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -5804,7 +5804,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L111",
+      "source_location": "L114",
       "weight": 1.0
     },
     {
@@ -5815,7 +5815,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L113",
+      "source_location": "L118",
       "weight": 1.0
     },
     {
@@ -5826,7 +5826,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L118",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -5837,7 +5837,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L124",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -5941,24 +5941,24 @@
     },
     {
       "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
-      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome_103",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_aceptaci\u00f3n_de_la_estimaci\u00f3n_outcome_105",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L103",
+      "source_location": "L105",
       "weight": 1.0
     },
     {
       "source": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_escenario_b_estimaci\u00f3n_manual",
-      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables_82",
+      "target": "fase0_app_src_content_md_jugadas_03_2_estimar_el_esfuerzo_entregables_84",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L82",
+      "source_location": "L84",
       "weight": 1.0
     },
     {
@@ -5969,7 +5969,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L88",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
@@ -5980,7 +5980,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L96",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -6002,7 +6002,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md",
-      "source_location": "L78",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -6068,7 +6068,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L62",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -6079,7 +6079,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L66",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -6090,7 +6090,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L72",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -6101,7 +6101,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L76",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -6156,7 +6156,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md",
-      "source_location": "L56",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -6189,7 +6189,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
-      "source_location": "L120",
+      "source_location": "L119",
       "weight": 1.0
     },
     {
@@ -6200,7 +6200,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
-      "source_location": "L125",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -6211,7 +6211,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md",
-      "source_location": "L129",
+      "source_location": "L127",
       "weight": 1.0
     },
     {
@@ -6475,7 +6475,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
-      "source_location": "L75",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -6486,7 +6486,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
-      "source_location": "L77",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -6497,7 +6497,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md",
-      "source_location": "L81",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -7041,5 +7041,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e4a9d0754bba20071d85c0de9468fc4611e2eb1d"
+  "built_at_commit": "40a936144769f67a36b6f5e2492f6200bb7956ba"
 }

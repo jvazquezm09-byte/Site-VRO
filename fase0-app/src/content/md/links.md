@@ -1,23 +1,34 @@
 # Enlaces
 
-- [Pol_Gestión de Portafolio TI_Publicado](https://docs.google.com/document/d/1zo4G-HfPSRwkUvK-Oao_EtxBv0DcIFnlG77MPF5YPY0/edit?tab=t.0)
-- [Proceso Fase 0](https://miro.com/app/board/uXjVHRupv8A=/?share_link_id=919180840754)
-- [7. Manual de construcción de OKR's · RDV](https://docs.google.com/document/d/1kJJW3zxiWtThizoTa-JXg9N3DKnPM15Eo6xpfHeYqLo/edit?usp=drive_link)
-- [Gestión de la iniciativa (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
-- [Pirámide de proyectos](https://docs.google.com/presentation/d/10Jn11gydm4Tki0NtK7CtdMdnfLBD7JvoJC2c14kP_yY/edit?usp=sharing)
-- [Ideas priorizadas en Monday](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
+## Plantillas oficiales de autor
+
 - [Hoja de costos](https://drive.google.com/file/d/1f1ruzVJPT2ZBtK5-5A9xngXZJIOa6WRm/view?usp=sharing)
-- [Estimación preliminar](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
 - [EPL-FIN-P&C-Capacidades-V001](https://docs.google.com/presentation/d/1N--RTnTJrrjcIqUIPeNUDOVGXlc5E3_wThCv4zQWnSk/edit?usp=sharing)
-- [Capacidades de negocio (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
 - [Plantilla Matriz de Capacidades.xlsx](https://docs.google.com/spreadsheets/d/179b-EoX5SVMpeVji5O0icxIrl_xwQoyf/edit?gid=100447044#gid=100447044)
 - [Plantilla Matriz de capacidades (Miro)](https://miro.com/app/board/uXjVJCn8YRg=/?share_link_id=445145378551)
+- [Matriz preliminar de interesados (Stakeholders)](https://docs.google.com/spreadsheets/d/145gRgK5tfy_TUh37R64crigaNqYVLCdF/edit?usp=drive_link&ouid=118035028968748665897&rtpof=true&sd=true)
+- [Presentación Kick Off](https://docs.google.com/presentation/d/1SmWTNBBAzuIj29CAwwuwuh92SKH0fl_w/edit?usp=sharing&ouid=100928488630276514632&rtpof=true&sd=true)
+
+## Templates operativos
+
+- [Gestión de la iniciativa (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
+- [Ideas priorizadas en Monday](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
+- [Estimación preliminar](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
+- [Capacidades de negocio (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
 - [Diseño (Monday)](https://liverpool-mx.monday.com/misc/vibe/full-page-app/object/v/?object-id=18430707604&app-feature-id=124072348&app-params=)
+
+## Material de apoyo
+
+- [Proceso Fase 0](https://miro.com/app/board/uXjVHRupv8A=/?share_link_id=919180840754)
+- [7. Manual de construcción de OKR's · RDV](https://docs.google.com/document/d/1kJJW3zxiWtThizoTa-JXg9N3DKnPM15Eo6xpfHeYqLo/edit?usp=drive_link)
+- [Pirámide de proyectos](https://docs.google.com/presentation/d/10Jn11gydm4Tki0NtK7CtdMdnfLBD7JvoJC2c14kP_yY/edit?usp=sharing)
+- [Ejemplo de un proyecto priorizado](https://drive.google.com/file/d/1uruvqHVSwX6bgxz99U9JTQf62TpZKQtk/view?usp=drive_link)
+
+## Políticas y procesos
+
+- [Pol_Gestión de Portafolio TI_Publicado](https://docs.google.com/document/d/1zo4G-HfPSRwkUvK-Oao_EtxBv0DcIFnlG77MPF5YPY0/edit?tab=t.0)
+- [Pol_Gestión de Portafolio TI_Publicado](https://drive.google.com/file/d/1LztqbNH4BCd0FreNL4m2UjnKei5OsVwu/view?usp=drive_link)
+- [POL_ Gestión de arquitecturas en portafolio_publicada](https://drive.google.com/file/d/1Jhq4NPzH94yFREhMOM5FX9emmd1f4h9v/view?usp=sharing)
 - [Política de Inversiones de Capital y Gestión Presupuestal (Liverpool / CONOCE)](https://www.appsheet.com/Account/Login?appName=CONOCE&FullScope=False&provider=google&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2F4b3d3832-db6f-4cc2-a44d-29bf17fa5dd9#appName=CONOCE-1308210&group=%5B%5D&page=detail&row=7d8e998e&sort=%5B%7B%22Column%22%3A%22Related+tbl_favoritos%22%2C%22Order%22%3A%22Descending%22%7D%5D&table=Pol%C3%ADticas&view=Pol%C3%ADticas_Detail)
 - [Procedimiento de Gobernanza del Portafolio de Proyectos](https://drive.google.com/a/liverpool.com.mx/open?id=1pX9gNIffOWfDeZZCGZaAmvnxVn1WK-Vo7pQoQcMZrJ0)
 - [Catálogo de Procesos Institucionales (CONOCE Liverpool)](https://www.appsheet.com/start/4b3d3832-db6f-4cc2-a44d-29bf17fa5dd9#appName=CONOCE-1308210&group=%5B%5D&page=detail&row=7d8e998e&sort=%5B%7B%22Column%22%3A%22Related+tbl_favoritos%22%2C%22Order%22%3A%22Descending%22%7D%5D&table=Pol%C3%ADticas&view=Pol%C3%ADticas_Detail)
-- [Matriz preliminar de interesados (Stakeholders)](https://docs.google.com/spreadsheets/d/145gRgK5tfy_TUh37R64crigaNqYVLCdF/edit?usp=drive_link&ouid=118035028968748665897&rtpof=true&sd=true)
-- [Presentación Kick Off](https://docs.google.com/presentation/d/1SmWTNBBAzuIj29CAwwuwuh92SKH0fl_w/edit?usp=sharing&ouid=100928488630276514632&rtpof=true&sd=true)
-- [Pol_Gestión de Portafolio TI_Publicado](https://drive.google.com/file/d/1LztqbNH4BCd0FreNL4m2UjnKei5OsVwu/view?usp=drive_link)
-- [POL_ Gestión de arquitecturas en portafolio_publicada](https://drive.google.com/file/d/1Jhq4NPzH94yFREhMOM5FX9emmd1f4h9v/view?usp=sharing)
-- [Ejemplo de un proyecto priorizado](https://drive.google.com/file/d/1uruvqHVSwX6bgxz99U9JTQf62TpZKQtk/view?usp=drive_link)

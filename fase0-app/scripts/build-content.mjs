@@ -177,15 +177,22 @@ function parseEtapas(ruta) {
     });
 }
 
+// Cada enlace queda bajo un "## Categoría". Devuelve la lista (recursos.json) y el mapa nombre→URL (links.json).
 function parseLinks(ruta) {
-  const links = {};
+  const recursos = [];
+  let categoria = null;
   for (const l of leer(ruta)) {
+    if (l.t.startsWith('## ')) {
+      categoria = l.t.slice(3).trim();
+      continue;
+    }
     if (!l.t.startsWith('- ')) continue;
     const m = /^- \[(.+)\]\((https?:\/\/\S+)\)$/.exec(l.t);
     if (!m) fail(ruta, l.n, 'se esperaba "- [texto](https://...)"');
-    links[m[1]] = m[2];
+    if (!categoria) fail(ruta, l.n, 'el enlace debe ir bajo un encabezado "## Categoría"');
+    recursos.push({ categoria, titulo: m[1], url: m[2] });
   }
-  return links;
+  return { recursos, links: Object.fromEntries(recursos.map((r) => [r.titulo, r.url])) };
 }
 
 function build() {
@@ -200,11 +207,13 @@ function build() {
   }
   const { roles, etiquetas } = parseGlosario(path.join(MD, 'glosario.md'));
 
+  const enlaces = parseLinks(path.join(MD, 'links.md'));
   const salidas = {
     'jugadas.json': jugadas,
     'raci.json': { porJugada, rolPorSigla: roles, etiquetas },
     'etapas.json': parseEtapas(path.join(MD, 'etapas.md')),
-    'links.json': parseLinks(path.join(MD, 'links.md')),
+    'links.json': enlaces.links,
+    'recursos.json': enlaces.recursos,
   };
   for (const [nombre, datos] of Object.entries(salidas)) {
     writeFileSync(path.join(CONTENT, nombre), JSON.stringify(datos, null, 2) + '\n');

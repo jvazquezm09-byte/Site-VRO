@@ -8,6 +8,7 @@ import JugadaChips from './components/JugadaChips.jsx';
 import JugadaCard from './components/JugadaCard.jsx';
 import Calificacion from './components/Calificacion.jsx';
 import Plantillas from './components/Plantillas.jsx';
+import Glosario from './components/Glosario.jsx';
 import Footer from './components/Footer.jsx';
 
 export default function App() {
@@ -41,6 +42,7 @@ export default function App() {
           <Calificacion key={`cal-${selected.id}`} />
           <Plantillas key={`pl-${selected.id}`} jugada={selected} />
         </section>
+        <Glosario />
       </main>
       <Footer />
     </>
