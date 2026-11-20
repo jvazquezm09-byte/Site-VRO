@@ -501,3 +501,26 @@ a { color: inherit; text-decoration: none; }
 a.enlace { color: var(--plum); text-decoration: none; }
 a.enlace:hover { text-decoration: underline; }
 a.enlace .enlace-icon { font-size: 14px; vertical-align: middle; margin-left: 2px; }
+
+/* Glosario de recursos (components/Glosario.jsx) */
+.glos { margin-top: 56px; display: flex; flex-direction: column; gap: 28px; scroll-margin-top: 96px; }
+.glos-head { display: flex; flex-direction: column; gap: 8px; }
+.glos-head h2 { font-size: 30px; }
+.glos-filtros { display: flex; flex-direction: column; gap: 12px; padding: 16px; border-radius: 16px; background: var(--neutral); border: 1px solid var(--line); }
+.glos-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.glos-chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--text); font-size: 13px; font-weight: 600; cursor: pointer; }
+.glos-chip .material-symbols-outlined { font-size: 16px; }
+.glos-chip.active { background: var(--plum); border-color: var(--plum); color: #fff; }
+.glos-buscar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-radius: 12px; background: #fff; border: 1px solid var(--line); color: var(--muted); }
+.glos-buscar input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; color: var(--text); }
+.glos-estado { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 8px 12px; border-radius: 10px; background: rgba(241, 179, 215, 0.4); color: var(--plum); font-size: 12px; font-weight: 700; }
+.glos-vacio { text-align: center; padding: 24px 0; }
+.glos-seccion { display: flex; flex-direction: column; gap: 14px; }
+.glos-seccion-head { display: flex; align-items: flex-start; gap: 14px; }
+.glos-seccion-head h3 { font-size: 20px; color: var(--text); }
+.glos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.glos-card { display: flex; flex-direction: column; justify-content: space-between; gap: 16px; padding: 20px; border-radius: 20px; background: #fff; border: 1px solid var(--line); box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.glos-card h4 { font-size: 15px; line-height: 1.35; overflow-wrap: anywhere; }
+.glos-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 14px; border-radius: 10px; background: var(--blush); color: var(--plum); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; }
+.glos-btn:hover { background: var(--plum); color: #fff; }
+.glos-btn .material-symbols-outlined { font-size: 16px; }

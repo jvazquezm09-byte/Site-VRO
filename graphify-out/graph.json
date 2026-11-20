@@ -230,7 +230,7 @@
       "file_type": "code",
       "norm_label": "build()",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L191"
+      "source_location": "L198"
     },
     {
       "id": "fase0_app_scripts_build_content_fail",
@@ -326,7 +326,7 @@
       "file_type": "code",
       "norm_label": "parselinks()",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L180"
+      "source_location": "L181"
     },
     {
       "id": "fase0_app_scripts_build_content_secciones",
@@ -530,7 +530,7 @@
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L13"
+      "source_location": "L14"
     },
     {
       "id": "fase0_app_src_components_bigpicture_bigpicture",
@@ -591,6 +591,30 @@
       "norm_label": "footer()",
       "source_file": "fase0-app/src/components/Footer.jsx",
       "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_components_glosario_glosario",
+      "label": "Glosario()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "glosario()",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "fase0_app_src_components_glosario_normalizar",
+      "label": "normalizar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "normalizar()",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L13"
     },
     {
       "id": "fase0_app_src_components_hero_hero",
@@ -2199,7 +2223,7 @@
       "label": "links.md",
       "_origin": "ast",
       "community": 19,
-      "community_name": "links.md",
+      "community_name": "Enlaces",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "links.md",
@@ -2211,12 +2235,60 @@
       "label": "Enlaces",
       "_origin": "ast",
       "community": 19,
-      "community_name": "links.md",
+      "community_name": "Enlaces",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "enlaces",
       "source_file": "fase0-app/src/content/md/links.md",
       "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_content_md_links_material_de_apoyo",
+      "label": "Material de apoyo",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Enlaces",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "material de apoyo",
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "fase0_app_src_content_md_links_plantillas_oficiales_de_autor",
+      "label": "Plantillas oficiales de autor",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Enlaces",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "plantillas oficiales de autor",
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "fase0_app_src_content_md_links_pol\u00edticas_y_procesos",
+      "label": "Pol\u00edticas y procesos",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Enlaces",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "politicas y procesos",
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "fase0_app_src_content_md_links_templates_operativos",
+      "label": "Templates operativos",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Enlaces",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "templates operativos",
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L12"
     },
     {
       "id": "script",
@@ -2598,6 +2670,28 @@
       "source_location": "L1"
     },
     {
+      "id": "fase0_app_src_components_glosario",
+      "label": "Glosario.jsx",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "glosario.jsx",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "fase0_app_src_components_glosario_secciones",
+      "label": "secciones",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "secciones",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L5"
+    },
+    {
       "id": "fase0_app_src_components_hero",
       "label": "Hero.jsx",
       "_origin": "ast",
@@ -2661,7 +2755,7 @@
       "file_type": "code",
       "norm_label": "etapas",
       "source_file": "fase0-app/src/data/index.js",
-      "source_location": "L6"
+      "source_location": "L7"
     },
     {
       "id": "fase0_app_src_data_index_jugadas",
@@ -2672,7 +2766,18 @@
       "file_type": "code",
       "norm_label": "jugadas",
       "source_file": "fase0-app/src/data/index.js",
-      "source_location": "L5"
+      "source_location": "L6"
+    },
+    {
+      "id": "fase0_app_src_data_index_recursos",
+      "label": "recursos",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "recursos",
+      "source_file": "fase0-app/src/data/index.js",
+      "source_location": "L8"
     },
     {
       "id": "fase0_app_src_hooks_useselectedjugada",
@@ -3277,7 +3382,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L196",
+      "source_location": "L203",
       "weight": 1.0
     },
     {
@@ -3289,7 +3394,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L197",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
@@ -3301,19 +3406,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L201",
-      "weight": 1.0
-    },
-    {
-      "source": "fase0_app_scripts_build_content_build",
-      "target": "fase0_app_scripts_build_content_parseetapas",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L206",
+      "source_location": "L208",
       "weight": 1.0
     },
     {
@@ -3325,7 +3418,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L207",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_scripts_build_content_build",
+      "target": "fase0_app_scripts_build_content_parseetapas",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/scripts/build-content.mjs",
+      "source_location": "L214",
       "weight": 1.0
     },
     {
@@ -3529,7 +3634,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L182",
+      "source_location": "L184",
       "weight": 1.0
     },
     {
@@ -3541,7 +3646,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L185",
+      "source_location": "L191",
       "weight": 1.0
     },
     {
@@ -3553,7 +3658,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -3566,6 +3671,18 @@
       "context": "call",
       "source_file": "fase0-app/src/components/BigPicture.jsx",
       "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario_glosario",
+      "target": "fase0_app_src_components_glosario_normalizar",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -3810,7 +3927,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_footer_footer",
+      "target": "fase0_app_src_components_glosario_glosario",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3818,6 +3935,18 @@
       "context": "import",
       "source_file": "fase0-app/src/App.jsx",
       "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_app",
+      "target": "fase0_app_src_components_footer_footer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/App.jsx",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -3925,6 +4054,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "fase0-app/src/components/BigPicture.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario",
+      "target": "fase0_app_src_data_index_recursos",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
       "source_location": "L2",
       "weight": 1.0
     },
@@ -4146,7 +4287,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_footer",
+      "target": "fase0_app_src_components_glosario",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4154,6 +4295,18 @@
       "context": "import",
       "source_file": "fase0-app/src/App.jsx",
       "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_app",
+      "target": "fase0_app_src_components_footer",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/App.jsx",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -4274,6 +4427,30 @@
       "context": "import",
       "source_file": "fase0-app/src/components/Calificacion.jsx",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario",
+      "target": "fase0_app_src_data_index",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -4847,7 +5024,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L180",
+      "source_location": "L181",
       "weight": 1.0
     },
     {
@@ -4858,7 +5035,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/scripts/build-content.mjs",
-      "source_location": "L191",
+      "source_location": "L198",
       "weight": 1.0
     },
     {
@@ -5111,7 +5288,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -5255,6 +5432,39 @@
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/components/Footer.jsx",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario",
+      "target": "fase0_app_src_components_glosario_normalizar",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario",
+      "target": "fase0_app_src_components_glosario_glosario",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_components_glosario",
+      "target": "fase0_app_src_components_glosario_secciones",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/components/Glosario.jsx",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -6754,6 +6964,50 @@
       "weight": 1.0
     },
     {
+      "source": "fase0_app_src_content_md_links_enlaces",
+      "target": "fase0_app_src_content_md_links_templates_operativos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_links_enlaces",
+      "target": "fase0_app_src_content_md_links_material_de_apoyo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_links_enlaces",
+      "target": "fase0_app_src_content_md_links_pol\u00edticas_y_procesos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_content_md_links_enlaces",
+      "target": "fase0_app_src_content_md_links_plantillas_oficiales_de_autor",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/content/md/links.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "fase0_app_src_data_index",
       "target": "fase0_app_src_data_index_jugadas",
       "relation": "contains",
@@ -6761,7 +7015,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/data/index.js",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -6772,7 +7026,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/data/index.js",
-      "source_location": "L6",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_data_index",
+      "target": "fase0_app_src_data_index_recursos",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/data/index.js",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -7041,5 +7306,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "40a936144769f67a36b6f5e2492f6200bb7956ba"
+  "built_at_commit": "b78559b93ff23b7d6d69fa9bac5a5e1b432512c6"
 }
