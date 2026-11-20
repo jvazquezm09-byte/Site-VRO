@@ -1,6 +1,6 @@
 {
   "fase0": {
-    "titulo": "Fase 0. Preproyecto y Fase 1. Inicio",
+    "titulo": "Fase 0. Preproyecto",
     "pasos": [
       {
         "label": "1. Idea",
@@ -26,11 +26,16 @@
         "label": "5. Autorización",
         "icon": "approval",
         "etapa": "autorizacion"
-      },
+      }
+    ]
+  },
+  "fase1": {
+    "titulo": "Fase 1. Inicio",
+    "pasos": [
       {
         "label": "6. Arranque oficial",
         "icon": "rocket_launch",
-        "etapa": "autorizacion"
+        "etapa": "arranque"
       }
     ]
   },

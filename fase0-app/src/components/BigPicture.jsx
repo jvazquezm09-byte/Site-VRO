@@ -1,7 +1,7 @@
 import inicio from '../content/inicio.json';
 import { useSelectedNode } from '../hooks/useSelectedNode.js';
 
-const { fase0, fase5, nodos, captionDefault, changeManagement, valor, pilares } = inicio;
+const { fase0, fase1, fase5, nodos, captionDefault, changeManagement, valor, pilares } = inicio;
 
 // Centros de cada nodo sobre el anillo (coordenadas del SVG de Stitch).
 const posiciones = [
@@ -29,23 +29,27 @@ export default function BigPicture({ onSelectEtapa }) {
 
       <div className="bp-grid">
         <div className="bp-col">
-          <div className="bp-head bp-head-plum">{fase0.titulo}</div>
-          <div className="bp-steps">
-            {fase0.pasos.map((p) => (
-              <a
-                key={p.label}
-                className="bp-step"
-                href="#playbook"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onSelectEtapa(p.etapa);
-                }}
-              >
-                <span className="icon-box material-symbols-outlined">{p.icon}</span>
-                <span>{p.label}</span>
-              </a>
-            ))}
-          </div>
+          {[fase0, fase1].map((fase) => (
+            <div key={fase.titulo}>
+              <div className="bp-head bp-head-plum">{fase.titulo}</div>
+              <div className="bp-steps">
+                {fase.pasos.map((p) => (
+                  <a
+                    key={p.label}
+                    className="bp-step"
+                    href="#playbook"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      onSelectEtapa(p.etapa);
+                    }}
+                  >
+                    <span className="icon-box material-symbols-outlined">{p.icon}</span>
+                    <span>{p.label}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="bp-col">

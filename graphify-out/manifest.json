@@ -66,9 +66,9 @@
     "semantic_hash": ""
   },
   "fase0-app/src/components/BigPicture.jsx": {
-    "mtime": 1794402542.6899254,
-    "seen": 1794590617.7349582,
-    "ast_hash": "74e327ea8ff1be6322b03309f17d42f7",
+    "mtime": 1795179229.110213,
+    "seen": 1795179232.7421372,
+    "ast_hash": "c5b57daeef9749eb8dd75f57f5712138",
     "semantic_hash": ""
   },
   "fase0-app/src/components/Calificacion.jsx": {
@@ -186,26 +186,26 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/etapas.json": {
-    "mtime": 1794590577.5035908,
-    "seen": 1794590617.73497,
-    "ast_hash": "5532308b9b30db9a06da2d7b27760f1e",
+    "mtime": 1795179231.5986128,
+    "seen": 1795179232.742149,
+    "ast_hash": "bcaf440f86a88cd3aefaebe3488a40a3",
     "semantic_hash": ""
   },
   "fase0-app/src/content/inicio.json": {
-    "mtime": 1794402542.5482924,
-    "seen": 1794590617.73497,
-    "ast_hash": "b171eca9b3b3ca07be57774b4f42e7c6",
+    "mtime": 1795179229.0347922,
+    "seen": 1795179232.7421498,
+    "ast_hash": "ad3f41d05d7b19d63704c4c0dbdf0415",
     "semantic_hash": ""
   },
   "fase0-app/src/content/jugadas.json": {
-    "mtime": 1794590577.5027215,
-    "seen": 1794590617.7349708,
-    "ast_hash": "017e25299a7537f5fa9baddc271251f5",
+    "mtime": 1795179231.5984251,
+    "seen": 1795179232.7421498,
+    "ast_hash": "e1465a42e97c4e5e3d49a12036506fca",
     "semantic_hash": ""
   },
   "fase0-app/src/content/raci.json": {
-    "mtime": 1794590577.5034604,
-    "seen": 1794590617.734972,
+    "mtime": 1795179231.5985472,
+    "seen": 1795179232.742151,
     "ast_hash": "0040243f232c348e04a649e2c1f595be",
     "semantic_hash": ""
   },
@@ -246,15 +246,15 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/links.json": {
-    "mtime": 1794590577.5040357,
-    "seen": 1794590617.7349708,
-    "ast_hash": "6c38c1d594b6accd12891e1c2f1c2b1d",
+    "mtime": 1795179231.5986743,
+    "seen": 1795179232.742151,
+    "ast_hash": "ea224f171d5a7f4cd1391d47ac758d32",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/etapas.md": {
-    "mtime": 1794403610.868672,
-    "seen": 1794590617.7349792,
-    "ast_hash": "9ec726880727d3ad0a7974c5d164996b",
+    "mtime": 1795179092.7511008,
+    "seen": 1795179100.175931,
+    "ast_hash": "3368aeda61e318d0de328640d5c377ed",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/glosario.md": {
@@ -270,45 +270,45 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/jugadas/02-1.2-idea-priorizada.md": {
-    "mtime": 1794590380.0234547,
-    "seen": 1794590617.734981,
-    "ast_hash": "50d7b47b5711bf3637322e24b94016dd",
+    "mtime": 1795017797.3055897,
+    "seen": 1795179100.175933,
+    "ast_hash": "811f556d258359689da1e14fc848edbf",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/jugadas/03-2-estimar-el-esfuerzo.md": {
-    "mtime": 1794590380.0241034,
-    "seen": 1794590617.7349818,
-    "ast_hash": "9e7d1b9febb79a51769c73005a93004a",
+    "mtime": 1795017797.3058228,
+    "seen": 1795179100.1759338,
+    "ast_hash": "4062b19c0a8dfd6cab25783010cf3d7a",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/jugadas/04-3-capacidades-de-negocio.md": {
-    "mtime": 1794590380.0244436,
-    "seen": 1794590617.734983,
-    "ast_hash": "08960772ea194c5fac943504fd34b971",
+    "mtime": 1795017797.3059797,
+    "seen": 1795179100.1759338,
+    "ast_hash": "8bc10d5a78879ef143e85cd10953d9ee",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/jugadas/05-4-construir-el-diseno-de-solucion.md": {
-    "mtime": 1794590380.024728,
-    "seen": 1794590617.734983,
-    "ast_hash": "2fb86f3a844209d22da3468bfda479ae",
+    "mtime": 1795017797.3067777,
+    "seen": 1795179100.175935,
+    "ast_hash": "22eed9736ff0695907d70ce3a0be789a",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/jugadas/06-5-autorizacion-formal.md": {
-    "mtime": 1794590380.0250585,
-    "seen": 1794590617.734983,
-    "ast_hash": "e5027a4d8961fc163143c4c439adb85b",
+    "mtime": 1795017797.3071384,
+    "seen": 1795179100.175936,
+    "ast_hash": "3a01a794c13a96ceba5157279c735fe6",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/jugadas/07-6-arranque-oficial-de-proyecto.md": {
-    "mtime": 1794590576.951127,
-    "seen": 1794590617.734984,
-    "ast_hash": "b285d30e1c22efa1b7fda4e34c9cf24c",
+    "mtime": 1795179092.8018613,
+    "seen": 1795179100.175936,
+    "ast_hash": "41b0be9d52c0629c79b2f3999217707d",
     "semantic_hash": ""
   },
   "fase0-app/src/content/md/links.md": {
-    "mtime": 1794590380.026209,
-    "seen": 1794590617.734984,
-    "ast_hash": "3a6d4241f20671cf09aad7616a5061c9",
+    "mtime": 1795017797.307898,
+    "seen": 1795179100.175937,
+    "ast_hash": "b50356a2a2232355101ca4825d97f0a2",
     "semantic_hash": ""
   }
 }

@@ -2,7 +2,7 @@
 id: 6
 code: 6
 titulo: Arranque oficial de proyecto
-etapa: autorizacion
+etapa: arranque
 objetivo: Estructurar y alinear todos los elementos técnicos, financieros y operativos necesarios para habilitar la ejecución formal del proyecto.
 kr: Asegurar que el 100% de las iniciativas en estatus de “aprobada” tengan un PEP asignado y un inicio oficial (Kickoff).
 reglaDeOro: Sin Project Charter firmado por el Sponsor, no existe proyecto; queda estrictamente prohibido comprometer gastos, emitir órdenes de compra o arrancar sprints de desarrollo formal.

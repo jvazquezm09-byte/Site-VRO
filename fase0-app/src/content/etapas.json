@@ -23,5 +23,10 @@
     "id": "autorizacion",
     "label": "Etapa 5: Autorización",
     "icon": "approval"
+  },
+  {
+    "id": "arranque",
+    "label": "Etapa 6: Arranque",
+    "icon": "rocket_launch"
   }
 ]
