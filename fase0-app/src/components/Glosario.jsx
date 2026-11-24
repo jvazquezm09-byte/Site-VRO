@@ -3,10 +3,10 @@ import { recursos } from '../data';
 
 // Secciones del glosario, en el orden del diseño. La clave es el encabezado "## " de links.md.
 const secciones = [
-  { id: 'Plantillas oficiales de autor', titulo: '1. Plantillas Oficiales de Autor', icono: 'description', texto: 'Formatos editables y certificados (.docx, .xlsx, .pptx) para sustentación técnica, gobierno de proyectos y control de inversiones.' },
-  { id: 'Templates operativos', titulo: '2. Templates Operativos (Monday.com)', icono: 'dashboard', texto: 'Tableros y workflows interactivos preconfigurados con automatizaciones nativas, pipelines de aprobación y sincronización API.' },
-  { id: 'Material de apoyo', titulo: '3. Material de Apoyo', icono: 'school', texto: 'Guías didácticas de llenado, cheatsheets de estimación, video-cápsulas y manuales de aceleración para equipos ágiles.' },
-  { id: 'Políticas y procesos', titulo: '4. Políticas y Procesos', icono: 'gavel', texto: 'Arquitectura de cumplimiento normativo, lineamientos de gobernanza y flujogramas oficiales BPMN para consulta de aprobación.' },
+  { id: 'Plantillas oficiales de autor', titulo: '1. Plantillas Oficiales de Autor', icono: 'description', etiqueta: 'Plantilla oficial', texto: 'Formatos editables y certificados (.docx, .xlsx, .pptx) para sustentación técnica, gobierno de proyectos y control de inversiones.' },
+  { id: 'Templates operativos', titulo: '2. Templates Operativos (Monday.com)', icono: 'dashboard', etiqueta: 'Monday.com', texto: 'Tableros y workflows interactivos preconfigurados con automatizaciones nativas, pipelines de aprobación y sincronización API.' },
+  { id: 'Material de apoyo', titulo: '3. Material de Apoyo', icono: 'school', etiqueta: 'Material de apoyo', texto: 'Guías didácticas de llenado, cheatsheets de estimación, video-cápsulas y manuales de aceleración para equipos ágiles.' },
+  { id: 'Políticas y procesos', titulo: '4. Políticas y Procesos', icono: 'gavel', etiqueta: 'Política', texto: 'Arquitectura de cumplimiento normativo, lineamientos de gobernanza y flujogramas oficiales BPMN para consulta de aprobación.' },
 ];
 
 // Quita acentos y mayúsculas para que "politica" encuentre "Política".
@@ -31,7 +31,12 @@ export default function Glosario() {
       <div className="glos-head">
         <span className="eyebrow">Repositorio maestro</span>
         <h2>Glosario <span className="accent">VRO</span></h2>
-        <p className="muted">Catálogo homologado en 4 dimensiones estratégicas: plantillas descargables, tableros interactivos Monday.com, material de apoyo táctico y normativas institucionales.</p>
+        <p className="glos-lead">Catálogo homologado en 4 dimensiones estratégicas: plantillas descargables, tableros interactivos Monday.com, material de apoyo táctico y normativas institucionales.</p>
+        <div className="glos-badges">
+          <span><span className="material-symbols-outlined">verified</span> Artefactos Homologados</span>
+          <span><span className="material-symbols-outlined">sync</span> Sincronización Monday.com</span>
+          <span><span className="material-symbols-outlined">shield</span> Gobernanza</span>
+        </div>
       </div>
 
       <div className="glos-filtros">
@@ -75,9 +80,10 @@ export default function Glosario() {
                 .filter((r) => r.categoria === s.id)
                 .map((r) => (
                   <article key={`${r.titulo}-${r.url}`} className="glos-card">
+                    <span className="glos-badge">{s.etiqueta}</span>
                     <h4>{r.titulo}</h4>
                     <a className="glos-btn" href={r.url} target="_blank" rel="noopener noreferrer">
-                      <span className="material-symbols-outlined">open_in_new</span> Abrir enlace
+                      <span className="material-symbols-outlined">open_in_new</span> {r.url.includes('monday.com') ? 'Abrir en Monday.com' : 'Abrir enlace'}
                     </a>
                   </article>
                 ))}
