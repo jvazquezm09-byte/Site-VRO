@@ -1,16 +1,16 @@
-# Graph Report - Site-VRO  (2026-11-20)
+# Graph Report - Site-VRO  (2026-11-24)
 
 ## Corpus Check
-- 52 files · ~37,519 words
+- 51 files · ~37,517 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 282 nodes · 347 edges · 20 communities (17 shown, 2 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 281 nodes · 346 edges · 20 communities (17 shown, 2 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b78559b9`
+- Built from commit: `f98518d7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,8 +85,8 @@ Cohesion: 0.50
 Nodes (3): Antes de publicar, Contenido del sitio, Cómo escribir una ficha
 
 ### Community 7 - "App.jsx"
-Cohesion: 0.10
-Nodes (19): App(), BigPicture(), posiciones, Calificacion(), EtapaTabs(), Footer(), Glosario(), normalizar() (+11 more)
+Cohesion: 0.11
+Nodes (19): App(), rutaActual(), BigPicture(), posiciones, EtapaTabs(), Footer(), Glosario(), normalizar() (+11 more)
 
 ### Community 8 - "4 Construir el Diseño de Solución"
 Cohesion: 0.09
@@ -151,6 +151,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `check-content.mjs` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `App.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.10227272727272728 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10685483870967742 - nodes in this community are weakly interconnected._
 - **Should `4 Construir el Diseño de Solución` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._

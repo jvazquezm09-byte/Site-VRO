@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "fase0-app/src/App.jsx": {
-    "mtime": 1795179954.7528405,
-    "seen": 1795179987.211534,
-    "ast_hash": "71a6c188b109683ce272a2bcf970d2e8",
+    "mtime": 1795544441.9428957,
+    "seen": 1795544447.0251021,
+    "ast_hash": "a43c4ec646e0b0b695e07d8b01288ed4",
     "semantic_hash": ""
   },
   "fase0-app/src/data/index.js": {
@@ -71,12 +71,6 @@
     "ast_hash": "c5b57daeef9749eb8dd75f57f5712138",
     "semantic_hash": ""
   },
-  "fase0-app/src/components/Calificacion.jsx": {
-    "mtime": 1792173121.658953,
-    "seen": 1792173145.83494,
-    "ast_hash": "a763a1f45c2156b469f43611df7e3b63",
-    "semantic_hash": ""
-  },
   "fase0-app/src/components/EscenarioSelector.jsx": {
     "mtime": 1793105980.5077548,
     "seen": 1793121861.8889332,
@@ -114,9 +108,9 @@
     "semantic_hash": ""
   },
   "fase0-app/src/components/Navbar.jsx": {
-    "mtime": 1795179954.794297,
-    "seen": 1795179987.211543,
-    "ast_hash": "b42202b8b72d8a7f2ddcb37d968263e3",
+    "mtime": 1795544379.182044,
+    "seen": 1795544401.328106,
+    "ast_hash": "b2f4711972e88fb3293387d9c3de13ca",
     "semantic_hash": ""
   },
   "fase0-app/src/components/Plantillas.jsx": {
@@ -186,8 +180,8 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/etapas.json": {
-    "mtime": 1795179972.0170243,
-    "seen": 1795179987.211547,
+    "mtime": 1795544299.8435652,
+    "seen": 1795544401.32811,
     "ast_hash": "bcaf440f86a88cd3aefaebe3488a40a3",
     "semantic_hash": ""
   },
@@ -198,14 +192,14 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/jugadas.json": {
-    "mtime": 1795179972.0167923,
-    "seen": 1795179987.2115479,
+    "mtime": 1795544299.8433728,
+    "seen": 1795544401.3281112,
     "ast_hash": "e1465a42e97c4e5e3d49a12036506fca",
     "semantic_hash": ""
   },
   "fase0-app/src/content/raci.json": {
-    "mtime": 1795179972.0169516,
-    "seen": 1795179987.211549,
+    "mtime": 1795544299.843493,
+    "seen": 1795544401.3281128,
     "ast_hash": "0040243f232c348e04a649e2c1f595be",
     "semantic_hash": ""
   },
@@ -228,9 +222,9 @@
     "semantic_hash": ""
   },
   ".claude/launch.json": {
-    "mtime": 1795179971.7032244,
-    "seen": 1795179987.211526,
-    "ast_hash": "c23cca22dd438594679068cdacc51605",
+    "mtime": 1795179992.8658478,
+    "seen": 1795544297.0207648,
+    "ast_hash": "2c9247ab1033d66b226aa43a17cdec46",
     "semantic_hash": ""
   },
   "fase0-app/scripts/build-content.mjs": {
@@ -246,8 +240,8 @@
     "semantic_hash": ""
   },
   "fase0-app/src/content/links.json": {
-    "mtime": 1795179972.0170882,
-    "seen": 1795179987.2115479,
+    "mtime": 1795544299.843641,
+    "seen": 1795544401.3281121,
     "ast_hash": "bd9cb4287cefaa337e84fbece1f85e1f",
     "semantic_hash": ""
   },
@@ -312,14 +306,14 @@
     "semantic_hash": ""
   },
   "fase0-app/src/components/Glosario.jsx": {
-    "mtime": 1795179951.256612,
-    "seen": 1795179987.21154,
-    "ast_hash": "169915c03073cceaa6d727f4d8858031",
+    "mtime": 1795544280.634192,
+    "seen": 1795544297.020779,
+    "ast_hash": "24b713a0c75b069905f5cc4abcb86eae",
     "semantic_hash": ""
   },
   "fase0-app/src/content/recursos.json": {
-    "mtime": 1795179972.0171645,
-    "seen": 1795179987.211549,
+    "mtime": 1795544299.8439639,
+    "seen": 1795544401.3281128,
     "ast_hash": "482de21a7099998edee868052501b92a",
     "semantic_hash": ""
   }

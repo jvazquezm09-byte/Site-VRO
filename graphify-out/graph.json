@@ -530,7 +530,19 @@
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L14"
+      "source_location": "L17"
+    },
+    {
+      "id": "fase0_app_src_app_rutaactual",
+      "label": "rutaActual()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "rutaactual()",
+      "source_file": "fase0-app/src/App.jsx",
+      "source_location": "L15"
     },
     {
       "id": "fase0_app_src_components_bigpicture_bigpicture",
@@ -555,18 +567,6 @@
       "norm_label": "iraplaybook()",
       "source_file": "fase0-app/src/components/BigPicture.jsx",
       "source_location": "L15"
-    },
-    {
-      "id": "fase0_app_src_components_calificacion_calificacion",
-      "label": "Calificacion()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "App.jsx",
-      "file_type": "code",
-      "norm_label": "calificacion()",
-      "source_file": "fase0-app/src/components/Calificacion.jsx",
-      "source_location": "L4"
     },
     {
       "id": "fase0_app_src_components_etapatabs_etapatabs",
@@ -2637,17 +2637,6 @@
       "source_location": "L7"
     },
     {
-      "id": "fase0_app_src_components_calificacion",
-      "label": "Calificacion.jsx",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "App.jsx",
-      "file_type": "code",
-      "norm_label": "calificacion.jsx",
-      "source_file": "fase0-app/src/components/Calificacion.jsx",
-      "source_location": "L1"
-    },
-    {
       "id": "fase0_app_src_components_etapatabs",
       "label": "EtapaTabs.jsx",
       "_origin": "ast",
@@ -3658,7 +3647,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L15",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -3891,30 +3880,6 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_data_index_etapas",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "fase0_app_src_app",
-      "target": "fase0_app_src_data_index_jugadas",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "fase0_app_src_app",
       "target": "fase0_app_src_components_plantillas_plantillas",
       "relation": "imports",
       "_origin": "ast",
@@ -3951,7 +3916,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_hooks_useselectedjugada_useselectedjugada",
+      "target": "fase0_app_src_data_index_etapas",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3963,7 +3928,19 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_navbar_navbar",
+      "target": "fase0_app_src_data_index_jugadas",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fase0-app/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_app",
+      "target": "fase0_app_src_hooks_useselectedjugada_useselectedjugada",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3975,7 +3952,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_hero_hero",
+      "target": "fase0_app_src_components_navbar_navbar",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3987,7 +3964,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_bigpicture_bigpicture",
+      "target": "fase0_app_src_components_hero_hero",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3999,7 +3976,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_etapatabs_etapatabs",
+      "target": "fase0_app_src_components_bigpicture_bigpicture",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4011,7 +3988,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_jugadachips_jugadachips",
+      "target": "fase0_app_src_components_etapatabs_etapatabs",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4023,7 +4000,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_jugadacard_jugadacard",
+      "target": "fase0_app_src_components_jugadachips_jugadachips",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4035,7 +4012,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_calificacion_calificacion",
+      "target": "fase0_app_src_components_jugadacard_jugadacard",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4263,7 +4240,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_data_index",
+      "target": "ref_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4311,7 +4288,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_hooks_useselectedjugada",
+      "target": "fase0_app_src_data_index",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4323,7 +4300,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_navbar",
+      "target": "fase0_app_src_hooks_useselectedjugada",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4335,7 +4312,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_hero",
+      "target": "fase0_app_src_components_navbar",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4347,7 +4324,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_bigpicture",
+      "target": "fase0_app_src_components_hero",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4359,7 +4336,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_etapatabs",
+      "target": "fase0_app_src_components_bigpicture",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4371,7 +4348,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_jugadachips",
+      "target": "fase0_app_src_components_etapatabs",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4383,7 +4360,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_jugadacard",
+      "target": "fase0_app_src_components_jugadachips",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4395,7 +4372,7 @@
     },
     {
       "source": "fase0_app_src_app",
-      "target": "fase0_app_src_components_calificacion",
+      "target": "fase0_app_src_components_jugadacard",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4415,18 +4392,6 @@
       "context": "import",
       "source_file": "fase0-app/src/components/BigPicture.jsx",
       "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "fase0_app_src_components_calificacion",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "fase0-app/src/components/Calificacion.jsx",
-      "source_location": "L1",
       "weight": 1.0
     },
     {
@@ -5282,13 +5247,24 @@
     },
     {
       "source": "fase0_app_src_app",
+      "target": "fase0_app_src_app_rutaactual",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fase0-app/src/App.jsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_app",
       "target": "fase0_app_src_app_app",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/App.jsx",
-      "source_location": "L14",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -5322,17 +5298,6 @@
       "confidence_score": 1.0,
       "source_file": "fase0-app/src/components/BigPicture.jsx",
       "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "fase0_app_src_components_calificacion",
-      "target": "fase0_app_src_components_calificacion_calificacion",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "fase0-app/src/components/Calificacion.jsx",
-      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -7303,8 +7268,20 @@
       "source_file": "script.js",
       "source_location": "L80",
       "weight": 1.0
+    },
+    {
+      "source": "fase0_app_src_app_app",
+      "target": "fase0_app_src_app_rutaactual",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "fase0-app/src/App.jsx",
+      "source_location": "L18",
+      "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b78559b93ff23b7d6d69fa9bac5a5e1b432512c6"
+  "built_at_commit": "f98518d757a8e750c2bcef56b9b215d83c796e6f"
 }
