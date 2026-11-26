@@ -1,10 +1,10 @@
 const links = [
   { id: 'home', label: 'Home', href: '#' },
-  { id: 'playbook', label: 'Playbook', href: '#playbook' },
+  { id: 'playbook', label: 'Playbook', href: '#/playbook' },
   { id: 'plantillas', label: 'Plantillas', href: '#/plantillas' },
 ];
 
-export default function Navbar({ active = 'playbook' }) {
+export default function Navbar({ active = 'home' }) {
   return (
     <header className="navbar">
       <a className="nav-brand" href="#">
