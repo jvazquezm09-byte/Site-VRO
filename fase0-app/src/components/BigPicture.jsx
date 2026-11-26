@@ -14,7 +14,7 @@ const posiciones = [
 
 const irAPlaybook = (e) => {
   e.preventDefault();
-  document.getElementById('playbook')?.scrollIntoView({ behavior: 'smooth' });
+  location.hash = '#/playbook';
 };
 
 export default function BigPicture({ onSelectEtapa }) {
@@ -37,7 +37,7 @@ export default function BigPicture({ onSelectEtapa }) {
                   <a
                     key={p.label}
                     className="bp-step"
-                    href="#playbook"
+                    href="#/playbook"
                     onClick={(e) => {
                       e.preventDefault();
                       onSelectEtapa(p.etapa);
@@ -104,7 +104,7 @@ export default function BigPicture({ onSelectEtapa }) {
                 );
               })}
 
-              <a href="#playbook" onClick={irAPlaybook}>
+              <a href="#/playbook" onClick={irAPlaybook}>
                 <g className="pulse-subtle">
                   <circle cx="170" cy="170" r="52" fill="#ffffff" stroke="#f1b3d7" strokeWidth="3" />
                   <circle cx="170" cy="170" r="46" fill="url(#coreGlow)" stroke="#ffffff" strokeWidth="2" />
@@ -138,7 +138,7 @@ export default function BigPicture({ onSelectEtapa }) {
               {fase5.medicion.cierre}
             </p>
           </div>
-          <a className="btn-cta shimmer-active" href="#playbook" onClick={irAPlaybook}>
+          <a className="btn-cta shimmer-active" href="#/playbook" onClick={irAPlaybook}>
             <span className="material-symbols-outlined">check_circle</span> {fase5.cta}
           </a>
         </div>
